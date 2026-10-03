@@ -1,0 +1,89 @@
+{
+  "survey_id": "5eee6221-42bf-49af-a8d4-955c19ae5c7a",
+  "build": "fa26b03",
+  "exported_at": "2026-10-02_23-59-46",
+  "meta": {},
+  "answers": {
+    "Consent": {
+      "question": "Do you agree to participate?",
+      "answer": "Yes, and proceed"
+    },
+    "Introduction": {
+      "question": "Hallo. Thank you for making time for us today.\n\nI work with CIMMYT, an organization that conducts research to improve the production of maize, wheat, and other crops in different countries across Africa, Asia, and Latin America.\n\nWe are carrying out this study to learn about farmers’ experiences, challenges, and preferences when growing white maize. The information you share will help researchers better understand farmers’ needs and support the development of better maize varieties in the future.\n\nDuring the interview, we will use a mobile phone to help record and organize your responses. This will help us capture your answers accurately and make sure we do not miss any important information.\n\nYour participation is voluntary. You may choose not to answer any question or stop the interview at any time. The information you provide will be kept private and used only for research purposes. There are no right or wrong answers—we simply want to hear about your real experiences and views.\n\nThe interview will take about 45 minutes.\n\nThank you very much for taking part in this study.\n\nThe study is led by Dr. Mercy Mbugua. If you have any questions or concerns about the study, you can contact her on +254 724 740 197.\n\nIf you have any concerns or questions, you can reach her by mobile: +254 724 740 197.",
+      "answer": ""
+    },
+    "Q1": {
+      "question": "Which sub-county and ward do you live in?",
+      "answer": "Githunguri – Githunguri"
+    },
+    "Q10": {
+      "question": "If there were a new maize variety, what characteristics would it need to have for you to decide to plant it instead of your current variety?",
+      "answer": ""
+    },
+    "Q11": {
+      "question": "In a bad season, what is the lowest maize yield that would still make you continue planting this variety?",
+      "answer": ""
+    },
+    "Q12": {
+      "question": "At what stage of maize growth does drought cause the greatest losses?",
+      "answer": ""
+    },
+    "Q13": {
+      "question": "How do you decide how much maize to use for household food, livestock feed, sale, or other purposes?",
+      "answer": ""
+    },
+    "Q14": {
+      "question": "If you use white maize to feed livestock, which animals do you feed it to and how often?",
+      "answer": ""
+    },
+    "Q15": {
+      "question": "Where do you usually obtain the white maize seed that you plant, and why do you prefer getting it there?",
+      "answer": ""
+    },
+    "Q16": {
+      "question": "Where do you usually sell your maize after harvest, and why do you prefer selling there or to that buyer?",
+      "answer": ""
+    },
+    "Q2": {
+      "question": "Respondent Gender",
+      "answer": "Male"
+    },
+    "Q3": {
+      "question": "What is your age?",
+      "answer": "25"
+    },
+    "Q4": {
+      "question": "Which crops do you grow?",
+      "answer": ""
+    },
+    "Q5": {
+      "question": "Which animals do you keep?",
+      "answer": ""
+    },
+    "Q6": {
+      "question": "How many years have you been growing white maize?",
+      "answer": "5"
+    },
+    "Q7": {
+      "question": "Has fall armyworm ever affected your maize? If yes, what damage or losses did it cause?",
+      "answer": ""
+    },
+    "Q8": {
+      "question": "If you could harvest your maize 20 days earlier but this reduced your yield, how much yield would you be willing to lose to harvest earlier?",
+      "answer": ""
+    },
+    "Q9": {
+      "question": "What level of pest or disease damage would make you switch to a different maize variety?",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Start",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+  ]
+}
