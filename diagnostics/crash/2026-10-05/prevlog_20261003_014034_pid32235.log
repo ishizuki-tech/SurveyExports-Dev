@@ -1,0 +1,378 @@
+=== Previous Session Logcat ===
+captured_time_utc=20261003_014034
+captured_time_local=20261002_204034
+marker=2026-10-02 18:16:49.577
+preferred_prev_pid=-1
+note=best-effort; buffers may be overwritten before next start
+sdk=36
+device=samsung SM-S731U
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=112
+
+=== Logcat (since marker) ===
+--------- beginning of main
+10-02 18:17:18.096 13765 13765 I VRI[MainActivity]@91ffd65: ViewPostIme pointer 0
+10-02 18:17:18.120 13765 13765 I VRI[MainActivity]@91ffd65: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@91ffd65
+10-02 18:17:18.122 13765 13765 I VRI[MainActivity]@91ffd65: ViewPostIme pointer 1
+10-02 18:17:18.133 13765 13765 D MainActivity: Intro -> Start session. epoch=1, file=survey_config10.yaml
+10-02 18:17:18.176 13765 13765 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.View.draw:26477 
+10-02 18:17:18.179 13765 13901 D SurveyConfigLoader: fromStringStrictValidated -> format=YAML, reason=file extension .yml/.yaml, firstLine='ai_interaction:', leading='ai_interaction:\n  max_followups...' file='survey_config10.yaml'
+10-02 18:17:18.181 13765 13765 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:18.257 13765 13901 D SurveyConfigLoader: strict config loaded (survey_config10.yaml): legacy=10(one=0,inline2=10) splitEval=0 splitFollow=0 followMode=TEXT legacyIds=[Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14] evalIds=[-] followIds=[-]
+10-02 18:17:18.263 13765 13901 D SurveyConfigLoader: fromStringStrictValidated -> issues=0 (legacy=10(one=0,inline2=10) splitEval=0 splitFollow=0 followMode=TEXT legacyIds=[Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14] evalIds=[-] followIds=[-])
+10-02 18:17:18.263 13765 13765 D MainActivity: Config loaded. session=survey_config10.yaml@1
+10-02 18:17:18.275 13765 13765 D MainActivity: DownloadGate idle -> start download. session=survey_config10.yaml@1
+10-02 18:17:18.276 13765 13765 I AppViewModel: private model reused: name=gemma-3n-E4B-it-int4.litertlm bytes=4919541760
+10-02 18:17:18.283 13765 13765 I Dialog  : mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+10-02 18:17:18.286 13765 13765 I DecorView: setWindowBackground: isPopOver=false color=0 d=android.graphics.drawable.ColorDrawable@92eba40
+10-02 18:17:18.304 13765 13765 I WindowManager: WindowManagerGlobal#addView, ty=2, view=com.android.internal.policy.DecorView{24f58a5 V.E...... R.....I. 0,0-0,0}[MainActivity], caller=android.view.WindowManagerImpl.addView:167 android.app.Dialog.show:544 androidx.compose.ui.window.AndroidDialog_androidKt.Dialog$lambda$3$0:272 
+10-02 18:17:18.304 13765 13765 D ViewRootImpl: desktopMode is false
+10-02 18:17:18.304 13765 13765 I ViewRootImpl: dVRR is disabled
+10-02 18:17:18.305 13765 13870 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+10-02 18:17:18.313 13765 13765 D InputTransport: Input channel constructed: '769c07e', fd=136
+10-02 18:17:18.313 13765 13765 I InsetsController: onStateChanged: host=com.negi.survey.local/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 82 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 24 - 569, 82), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 M 0, 8.533333333333333 a 10.31111111111111,10.31111111111111 0 1,0 0,20.62222222222222 a 10.31111111111111,10.31111111111111 0 1,0 0,-20.62222222222222 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=113, center=Point(113, 113)}, RoundedCorner{position=TopRight, radius=113, center=Point(967, 113)}, RoundedCorner{position=BottomRight, radius=113, center=Point(967, 2227)}, RoundedCorner{position=BottomLeft, radius=113, center=Point(113, 2227)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 97) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {d29a0000 mType=statusBars mFrame=[0,0][1080,97] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {d29a0005 mType=mandatorySystemGestures mFrame=[0,0][1080,116] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {d29a0006 mType=tappableElement mFrame=[0,0][1080,97] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,82] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {4b5d0001 mType=navigationBars mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {4b5d0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0006 mType=tappableElement mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+10-02 18:17:18.314 13765 13765 I VRI[MainActivity]@d69347a: synced displayState. AttachInfo displayState=2
+10-02 18:17:18.314 13765 13765 I VRI[MainActivity]@d69347a: setView = com.android.internal.policy.DecorView@24f58a5 IsHRR=false mFlingFrameRateChange=0 TM=true
+10-02 18:17:18.314 13765 13765 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda4@2461e46
+10-02 18:17:18.315 13765 13765 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@5386807
+10-02 18:17:18.337 13765 13765 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey.local/com.negi.survey.MainActivity
+10-02 18:17:18.337 13765 13765 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey.local/com.negi.survey.MainActivity
+10-02 18:17:18.338 13765 13765 W libc    : Access denied finding property "vendor.perf.ems.egg"
+10-02 18:17:18.339 13765 13765 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@d69347a mNativeObject= 0xb400007c57f829b0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3603 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 android.view.Choreographer.doCallbacks:1423 android.view.Choreographer.doFrame:1348 android.view.Choreographer$FrameDisplayEventReceiver.run:1930 
+10-02 18:17:18.339 13765 13765 I BLASTBufferQueue_Java: update, w= 1170 h= 972 mName = VRI[MainActivity]@d69347a mNativeObject= 0xb400007c57f829b0 sc.mNativeObject= 0xb400007ba7ee0f90 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3608 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-02 18:17:18.339 13765 13765 W libc    : Access denied finding property "vendor.perf.ems.egg"
+10-02 18:17:18.340 13765 13765 I VRI[MainActivity]@d69347a: Relayout returned: old=(0,97,1080,2205) new=(90,800,990,1502) relayoutAsync=false req=(900,702)0 dur=3 res=0x3 s={true 0xb400007b97f26d40} ch=true seqId=0
+10-02 18:17:18.340 13765 13765 I VRI[MainActivity]@d69347a: performConfigurationChange setNightDimText nightDimLevel=0
+10-02 18:17:18.341 13765 13765 D VRI[MainActivity]@d69347a: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007b97f26d40} hwInitialized=true
+10-02 18:17:18.345 13765 13765 D VRI[MainActivity]@d69347a: reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 
+10-02 18:17:18.345 13765 13765 D VRI[MainActivity]@d69347a: Setup new sync=wmsSync-VRI[MainActivity]@d69347a#2
+10-02 18:17:18.345 13765 13765 I VRI[MainActivity]@d69347a: Creating new active sync group VRI[MainActivity]@d69347a#3
+10-02 18:17:18.345 13765 13765 D VRI[MainActivity]@d69347a: registerCallbacksForSync syncBuffer=false
+10-02 18:17:18.347 13765 13765 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{453a560 V.ED..... ......I. 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.View.draw:26477 
+10-02 18:17:18.350 13765 13886 D VRI[MainActivity]@d69347a: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-02 18:17:18.351 13765 13886 I VRI[MainActivity]@d69347a: mWNT: t=0xb400007b77f45180 mBlastBufferQueue=0xb400007c57f829b0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15561 android.view.ThreadedRenderer$1.onFrameDraw:751 <bottom of call stack> 
+10-02 18:17:18.351 13765 13886 I VRI[MainActivity]@d69347a: Setting up sync and frameCommitCallback
+10-02 18:17:18.351 13765 13870 I BLASTBufferQueue: [VRI[MainActivity]@d69347a#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-02 18:17:18.351 13765 13870 I VRI[MainActivity]@d69347a: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-02 18:17:18.352 13765 13870 D HWUI    : CFMS:: SetUp Pid : 13765    Tid : 13870
+10-02 18:17:18.352 13765 13765 D VRI[MainActivity]@d69347a: reportDrawFinished seqId=0
+10-02 18:17:18.353 13765 13870 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+10-02 18:17:18.354 13765 13765 I BLASTBufferQueue_Java: update, w= 1170 h= 972 mName = VRI[MainActivity]@d69347a mNativeObject= 0xb400007c57f829b0 sc.mNativeObject= 0xb400007ba7ee0f90 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3592 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-02 18:17:18.354 13765 13765 I VRI[MainActivity]@d69347a: Relayout returned: old=(90,800,990,1502) new=(90,800,990,1502) relayoutAsync=true req=(900,702)0 dur=0 res=0x0 s={true 0xb400007b97f26d40} ch=false seqId=0
+10-02 18:17:18.358 13765 13765 I VRI[MainActivity]@d69347a: registerCallbackForPendingTransactions
+10-02 18:17:18.359 13765 13765 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-02 18:17:18.360 13765 13765 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-02 18:17:18.360 13765 13885 I VRI[MainActivity]@d69347a: mWNT: t=0xb400007b77f4a960 mBlastBufferQueue=0xb400007c57f829b0 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6615 android.view.ViewRootImpl$4.onFrameDraw:2485 android.view.ThreadedRenderer$1.onFrameDraw:751 
+10-02 18:17:18.392 13765 13765 D VRI[MainActivity]@d69347a: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007b97f26d40}
+10-02 18:17:18.392 13765 13765 D InputMethodManagerUtils: startInputInner - Id : 0
+10-02 18:17:18.392 13765 13765 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+--------- beginning of system
+10-02 18:17:18.401 13765 13765 D InsetsController: hide(ime())
+10-02 18:17:18.401 13765 13765 I ImeTracker: com.negi.survey.local:b8e35b79: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-02 18:17:18.408 13765 13809 D InputTransport: Input channel constructed: 'ClientS', fd=173
+10-02 18:17:21.138 13765 13765 I VRI[MainActivity]@91ffd65: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@91ffd65
+10-02 18:17:21.288 13765 13765 D SLM     : buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+10-02 18:17:21.315 13765 13765 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.View.draw:26477 
+10-02 18:17:21.327 13765 13901 D LiteRtLM: Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441'
+10-02 18:17:21.327 13765 13901 D LiteRtLM: Capabilities: image=false audio=false
+10-02 18:17:21.327 13765 13901 D LiteRtLM: Backend=com.google.ai.edge.litertlm.Backend$GPU@290281c maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+10-02 18:17:21.327 13765 13901 D LiteRtLM: Model path='/data/user/0/com.negi.survey.local/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1790971030441
+10-02 18:17:21.327 13765 13901 D LiteRtLM: LiteRT-LM native benchmark policy: enabled=false emulator=false
+10-02 18:17:21.328 13765 13901 D LiteRtLM: LiteRT-LM native benchmark policy: enabled=false emulator=false
+10-02 18:17:21.328 13765 13901 D LiteRtLM: Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+10-02 18:17:21.330 13765 13901 D LiteRtLM: Engine cacheDir resolved: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' backend=com.google.ai.edge.litertlm.Backend$GPU@290281c path='/data/user/0/com.negi.survey.local/no_backup/litertlm_cache/463cfff93b82e65570866c363034861f0bb05344' filesBefore=2
+10-02 18:17:21.336 13765 13901 I litert  : [environment.cc:36] Creating LiteRT environment with options
+10-02 18:17:21.336 13765 13901 W litert  : [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorInvalidArgument.
+10-02 18:17:21.336 13765 13901 I litert  : [accelerator_registry.cc:54] RegisterAccelerator: ptr=0xb400007bc7efd0a0, name=LiteRT GPU
+10-02 18:17:21.336 13765 13901 I litert  : [gpu_registry.cc:109] Statically linked GPU accelerator registered.
+10-02 18:17:21.336 13765 13901 I litert  : [accelerator_registry.cc:54] RegisterAccelerator: ptr=0xb400007bc7ef8cd0, name=CpuAccelerator
+10-02 18:17:21.336 13765 13901 I litert  : [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+10-02 18:17:21.351 13765 13765 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:21.367 13765 13765 I WindowManager: WindowManagerGlobal#removeView, ty=2, view=com.android.internal.policy.DecorView{24f58a5 V.E...... R....... 0,0-900,702 aid=1073741826}[MainActivity], caller=android.view.WindowManagerGlobal.removeView:654 android.view.WindowManagerImpl.removeViewImmediate:254 android.app.Dialog.dismissDialog:854 
+10-02 18:17:21.368 13765 13765 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+10-02 18:17:21.376 13765 13765 I VRI[MainActivity]@d69347a: dispatchDetachedFromWindow
+10-02 18:17:21.381 13765 13765 D InputTransport: Input channel destroyed: '769c07e', fd=136
+10-02 18:17:21.397 13765 13765 I InsetsController: onStateChanged: host=com.negi.survey.local/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 82 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 24 - 569, 82), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 M 0, 8.533333333333333 a 10.31111111111111,10.31111111111111 0 1,0 0,20.62222222222222 a 10.31111111111111,10.31111111111111 0 1,0 0,-20.62222222222222 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=113, center=Point(113, 113)}, RoundedCorner{position=TopRight, radius=113, center=Point(967, 113)}, RoundedCorner{position=BottomRight, radius=113, center=Point(967, 2227)}, RoundedCorner{position=BottomLeft, radius=113, center=Point(113, 2227)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 97) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {d29a0000 mType=statusBars mFrame=[0,0][1080,97] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {d29a0005 mType=mandatorySystemGestures mFrame=[0,0][1080,116] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {d29a0006 mType=tappableElement mFrame=[0,0][1080,97] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,82] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {4b5d0001 mType=navigationBars mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {4b5d0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0006 mType=tappableElement mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+10-02 18:17:21.397 13765 13765 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey.local/com.negi.survey.MainActivity
+10-02 18:17:21.398 13765 13765 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey.local/com.negi.survey.MainActivity
+10-02 18:17:21.401 13765 13765 D VRI[MainActivity]@91ffd65: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007b97f090e0}
+10-02 18:17:21.401 13765 13765 D InputMethodManagerUtils: startInputInner - Id : 0
+10-02 18:17:21.402 13765 13765 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-02 18:17:21.404 13765 13765 D InsetsController: hide(ime())
+10-02 18:17:21.404 13765 13765 I ImeTracker: com.negi.survey.local:199b5a95: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-02 18:17:21.406 13765 13809 D InputTransport: Input channel constructed: 'ClientS', fd=139
+10-02 18:17:21.683 13765 13901 I litert  : [environment.cc:36] Creating LiteRT environment with options
+10-02 18:17:21.684 13765 13901 W litert  : [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorInvalidArgument.
+10-02 18:17:21.684 13765 13901 I litert  : [accelerator_registry.cc:54] RegisterAccelerator: ptr=0xb400007bc7ef6f10, name=LiteRT GPU
+10-02 18:17:21.684 13765 13901 I litert  : [gpu_registry.cc:109] Statically linked GPU accelerator registered.
+10-02 18:17:21.684 13765 13901 I litert  : [accelerator_registry.cc:54] RegisterAccelerator: ptr=0xb400007bc7eff090, name=CpuAccelerator
+10-02 18:17:21.684 13765 13901 I litert  : [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+10-02 18:17:21.684 13765 13901 W native  : W0000 00:00:1790983041.684065   13901 litert_lm_loader.cc:291] Section not found: 	
+10-02 18:17:21.684 13765 13901 W native  : W0000 00:00:1790983041.684233   13901 litert_lm_loader.cc:291] Section not found: 	
+10-02 18:17:21.684 13765 13901 I litert  : [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+10-02 18:17:21.685 13765 13901 I tflite  : Initialized TensorFlow Lite runtime.
+10-02 18:17:21.718 13765 13901 W libc    : Access denied finding property "ro.mediatek.platform"
+10-02 18:17:21.801 13765 13901 W libc    : Access denied finding property "vendor.socl.trace.events"
+10-02 18:17:21.801 13765 13901 W libc    : Access denied finding property "vendor.socl.pagefault.dump"
+10-02 18:17:21.802 13765 13901 V SOCL    : -------------------------------------------------------
+10-02 18:17:21.802 13765 13901 V SOCL    : OCL version revision number = 32a2eed9e0
+10-02 18:17:21.802 13765 13901 V SOCL    : -------------------------------------------------------
+10-02 18:17:21.890 13765 13901 I native  : I0000 00:00:1790983041.890919   13901 delegate_opencl.cc:603] options->hint_waiting_for_completion: false
+10-02 18:17:21.891 13765 13901 I native  : I0000 00:00:1790983041.891061   13901 delegate_opencl.cc:605] options->kernel_batch_size: -1
+10-02 18:17:21.898 13765 13901 V XGL     : ----------------------------------------------------------------------
+10-02 18:17:21.898 13765 13901 V XGL     : SUMD version compiled date     = 2026-01-09 09:57 - KST
+10-02 18:17:21.899 13765 13901 V XGL     : SUMD version revision number   = 1900168dcb
+10-02 18:17:21.899 13765 13901 V XGL     : SUMD version info              = Driver version: 24.0.534, git hash: 1900168dcb
+10-02 18:17:21.899 13765 13901 V XGL     : ----------------------------------------------------------------------
+10-02 18:17:21.899 13765 13901 V XGL     : Entering: Create
+10-02 18:17:21.902 13765 13901 V XGL     : Exiting: Create
+10-02 18:17:21.904 13765 13901 I vulkan  : CreateInfoWrapper::FilterExtension: already have 'VK_KHR_external_fence_fd'.
+10-02 18:17:21.909 13765 13901 I ANGLE   : Version (24.1.307 git hash: 86f99cfe6317), Renderer ((Samsung Xclipse 940) on Vulkan 1.3.279)
+10-02 18:17:21.912 13765 13901 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+10-02 18:17:21.914 13765 14404 W libEGL  : ANGLE Warn:DisplayVk.cpp:115 (LoadPipelineCacheDataFromDisk): Failed to load pipeline blob cache data from disk. Performance may degrade.
+10-02 18:17:21.936 13765 13901 I litert  : [environment.cc:47] Adding options to the existing LiteRT environment
+10-02 18:17:21.937 13765 13901 I tflite  : Loaded OpenCL library with dlopen.
+10-02 18:17:21.937 13765 13901 I litert  : [gpu_environment.cc:220] Created OpenCL device from provided device id and platform id.
+10-02 18:17:21.938 13765 13901 I litert  : [gpu_environment.cc:283] Reusing provided EGL environment.
+10-02 18:17:21.938 13765 13901 I litert  : [gpu_environment.h:155] Created LiteRT GpuEnvironment.
+10-02 18:17:21.938 13765 13901 I litert  : [environment.cc:47] Adding options to the existing LiteRT environment
+10-02 18:17:22.000 13765 13901 I tflite  : Replacing 3326 out of 3326 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 0 (decode).
+10-02 18:17:30.999 13765 13901 I native  : I0000 00:00:1790983050.994172   13901 delegate_kernel.cc:331] Total 81 external tensors are used for delegate inputs and outputs
+10-02 18:17:31.000 13765 13901 I native  : I0000 00:00:1790983051.000881   13901 delegate_kernel.cc:907] Initializing OpenCL-based API from serialized data.
+10-02 18:17:31.233 13765 13901 I native  : I0000 00:00:1790983051.233183   13901 delegate_kernel.cc:805] Initialized InferenceContext from serialized data.
+10-02 18:17:31.573 13765 13901 I tflite  : Replacing 2145 out of 2145 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 1 (prefill_16).
+10-02 18:17:31.625 13765 13901 I native  : I0000 00:00:1790983051.625031   13901 delegate_kernel.cc:331] Total 80 external tensors are used for delegate inputs and outputs
+10-02 18:17:31.625 13765 13901 I native  : I0000 00:00:1790983051.625097   13901 delegate_kernel.cc:907] Initializing OpenCL-based API from serialized data.
+10-02 18:17:31.723 13765 13901 I native  : I0000 00:00:1790983051.723174   13901 delegate_kernel.cc:805] Initialized InferenceContext from serialized data.
+10-02 18:17:31.764 13765 13901 I tflite  : Replacing 2145 out of 2145 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 2 (prefill_256).
+10-02 18:17:31.794 13765 13901 I native  : I0000 00:00:1790983051.794750   13901 delegate_kernel.cc:331] Total 80 external tensors are used for delegate inputs and outputs
+10-02 18:17:31.794 13765 13901 I native  : I0000 00:00:1790983051.794823   13901 delegate_kernel.cc:907] Initializing OpenCL-based API from serialized data.
+10-02 18:17:31.902 13765 13901 I native  : I0000 00:00:1790983051.902125   13901 delegate_kernel.cc:805] Initialized InferenceContext from serialized data.
+10-02 18:17:31.918 13765 13901 I litert  : [environment.cc:36] Creating LiteRT environment with options
+10-02 18:17:31.919 13765 13901 W litert  : [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorInvalidArgument.
+10-02 18:17:31.919 13765 13901 I litert  : [accelerator_registry.cc:54] RegisterAccelerator: ptr=0xb400007bc7f84800, name=LiteRT GPU
+10-02 18:17:31.919 13765 13901 I litert  : [gpu_registry.cc:109] Statically linked GPU accelerator registered.
+10-02 18:17:31.919 13765 13901 I litert  : [accelerator_registry.cc:54] RegisterAccelerator: ptr=0xb400007bc7f91920, name=CpuAccelerator
+10-02 18:17:31.919 13765 13901 I litert  : [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+10-02 18:17:32.010 13765 13794 D InputTransport: Input channel destroyed: 'ClientS', fd=173
+10-02 18:17:32.010 13765 13794 D InputTransport: Input channel destroyed: 'ClientS', fd=139
+10-02 18:17:32.148 13765 13901 W native  : W0000 00:00:1790983052.148577   13901 litert_lm_loader.cc:291] Section not found: 
+10-02 18:17:32.148 13765 13901 W native  : W0000 00:00:1790983052.148632   13901 litert_lm_loader.h:129] TFLite model for type: TF_LITE_END_OF_VISION not found. Skipping.
+10-02 18:17:32.151 13765 13901 I litert  : [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+10-02 18:17:32.160 13765 13901 W litert  : [compiled_model.cc:967] You should provide the `DispatchLibraryDir` option to use NPU.
+10-02 18:17:32.161 13765 13901 I tflite  : Created TensorFlow Lite XNNPACK delegate for CPU.
+10-02 18:17:32.161 13765 13901 I tflite  : Replacing 2 out of 10 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 2 partitions for subgraph 0 (main).
+10-02 18:17:32.164 13765 13901 I litert  : [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+10-02 18:17:32.164 13765 13901 W litert  : [compiled_model.cc:967] You should provide the `DispatchLibraryDir` option to use NPU.
+10-02 18:17:32.164 13765 13901 I litert  : [compiled_model.cc:1775] Tracked constant output tensor eoa_embedding with locked address
+10-02 18:17:32.204 13765 13901 I litert  : [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+10-02 18:17:32.388 13765 13901 W litert  : [compiled_model.cc:967] You should provide the `DispatchLibraryDir` option to use NPU.
+10-02 18:17:32.388 13765 13901 I tflite  : Replacing 1 out of 44 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 2 partitions for subgraph 0 (main).
+10-02 18:17:32.395 13765 13901 W LiteRtLM: Engine.initialize completed: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' backend=com.google.ai.edge.litertlm.Backend$GPU@290281c took=11060ms cacheFilesAfter=2
+10-02 18:17:32.397 13765 13901 W LiteRtLM: Engine.initialize completed: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' backend=com.google.ai.edge.litertlm.Backend$GPU@290281c took=11060ms cacheFilesAfter=2
+10-02 18:17:32.428 13765 13901 D LiteRtLM: createConversation completed: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' took=31ms
+10-02 18:17:32.430 13765 13901 D LiteRtLM: LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' engineMs=11060 conversationMs=31 totalMs=11103
+10-02 18:17:32.455 13765 13765 D AiTrace : Installed (enabled=true ringEnabled=true)
+10-02 18:17:32.475 13765 13765 D SurveyVM: init -> Start, session=0, uuid=41bae4ae-82cf-453e-b41c-53a43060bba8, navSize=1, graphSize=22
+10-02 18:17:32.485 13765 13765 D SurveyVM: config.validate -> issues=0
+10-02 18:17:32.486 13765 13765 D SurveyVM: promptSources -> legacy=10, eval=0, follow=0
+10-02 18:17:32.486 13765 13765 D SurveyVM: promptSources.preview -> legacy=[Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q7, Q8, Q9], eval=[], follow=[]
+10-02 18:17:32.486 13765 13765 D SurveyVM: hasTwoStepPrompt[Q10] -> true (eval=219, fu=244)
+10-02 18:17:32.486 13765 13765 D SurveyVM: hasTwoStepPrompt[Q11] -> true (eval=229, fu=254)
+10-02 18:17:32.487 13765 13765 D SurveyVM: hasTwoStepPrompt[Q12] -> true (eval=184, fu=209)
+10-02 18:17:32.487 13765 13765 D SurveyVM: hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+10-02 18:17:32.487 13765 13765 D SurveyVM: hasTwoStepPrompt[Q14] -> true (eval=160, fu=185)
+10-02 18:17:32.487 13765 13765 D SurveyVM: hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+10-02 18:17:32.487 13765 13765 D SurveyVM: hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+10-02 18:17:32.487 13765 13765 D SurveyVM: hasTwoStepPrompt[Q7] -> true (eval=248, fu=273)
+10-02 18:17:32.488 13765 13765 D SurveyVM: hasTwoStepPrompt[Q8] -> true (eval=190, fu=215)
+10-02 18:17:32.488 13765 13765 D SurveyVM: hasTwoStepPrompt[Q9] -> true (eval=195, fu=220)
+10-02 18:17:32.488 13765 13765 D SurveyVM: AI prompt coverage OK (aiCount=10)
+10-02 18:17:32.511 13765 13765 I TextToSpeech: Create TextToSpeech : caller process id[13765] / name[com.negi.survey.local] / target[null]
+10-02 18:17:32.886 13765 13765 I TextToSpeech: com.negi.survey.local is not allowed to bind to private engine.
+10-02 18:17:32.904 13765 13765 I TextToSpeech: getHighestRankedPublicEngineName = com.google.android.tts
+10-02 18:17:32.910 13765 13765 I TextToSpeech: Sucessfully bound to com.google.android.tts
+10-02 18:17:33.008 13765 13809 I TextToSpeech: Connected to TTS engine
+10-02 18:17:33.135 13765 13765 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.View.draw:26477 
+10-02 18:17:33.137 13765 13765 D MainActivity: SLM Engine warm-up started. session=survey_config10.yaml@1 model=Gemma3n4B
+10-02 18:17:33.138 13765 14609 D SLM     : initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+10-02 18:17:33.139 13765 13765 D WhisperSpeechController: updateContext: surveyId=41bae4ae-82cf-453e-b41c-53a43060bba8, questionId=Start
+10-02 18:17:33.139 13765 14609 D LiteRtLM: initializeIfNeeded: warm runtime already ready: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441'
+10-02 18:17:33.143 13765 13765 D LiteRtRepository: warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=6
+10-02 18:17:33.143 13765 13765 D LiteRtRepository: warmUp: Engine ready; representative inference disabled totalMs=6
+10-02 18:17:33.143 13765 13765 D MainActivity: SLM Engine warm-up finished. session=survey_config10.yaml@1 model=Gemma3n4B elapsedMs=6
+10-02 18:17:33.143 13765 13765 I Choreographer: Skipped 83 frames!  The application may be doing too much work on its main thread.
+10-02 18:17:33.145 13765 13765 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:33.190 13765 13809 I HWUI    : Davey! duration=726ms; Flags=0, FrameTimelineVsyncId=23263021, IntendedVsync=33236574766184, Vsync=33236574766184, InputEventId=0, HandleInputStart=33236575023280, AnimationStart=33236575024061, PerformTraversalsStart=33237189133670, DrawStart=33237259583162, FrameDeadline=33236599735666, FrameStartTime=33236575021014, FrameInterval=8335055, WorkloadTarget=8333333, SyncQueued=33237273250076, SyncStart=33237274255389, IssueDrawCommandsStart=33237274527576, SwapBuffers=33237300439491, FrameCompleted=33237301928592, DequeueBufferDuration=11015, QueueBufferDuration=263438, GpuCompleted=33237301928592, SwapBuffersCompleted=33237300794100, DisplayPresentTime=33235608140389, CommandSubmissionCompleted=33237300439491, 
+10-02 18:17:33.897 13765 13871 I TextToSpeech: Setting up the connection to TTS engine...
+10-02 18:17:33.950 13765 13765 D TtsController: TextToSpeech ready: locale=en_US rate=1.0 pitch=1.0
+10-02 18:17:56.838 13765 13765 I VRI[MainActivity]@91ffd65: ViewPostIme pointer 0
+10-02 18:17:56.844 13765 13765 I VRI[MainActivity]@91ffd65: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@91ffd65
+10-02 18:17:56.851 13765 13765 I VRI[MainActivity]@91ffd65: ViewPostIme pointer 1
+10-02 18:17:56.854 13765 13765 D WhisperSpeechController: stopRecording: not recording, ignoring
+10-02 18:17:56.897 13765 13765 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:56.898 13765 13765 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:56.900 13765 13765 D MainActivity: Home -> Start survey. session=survey_config10.yaml@1 freeTextDraftLen=0 (run-scoped)
+10-02 18:17:56.902 13765 13765 D SurveyVM: resetAudioRefs -> cleared
+10-02 18:17:56.903 13765 13765 D SurveyVM: resetNavToStart -> key=com.negi.survey.vm.FlowHome@a8f4b47, navSize=1
+10-02 18:17:56.903 13765 13765 D SurveyVM: resetToStart -> Start, session=1, uuid=b463d63c-42e2-4526-8276-2526a8cebc89, preserveDraft=true, draftLen=0
+10-02 18:17:56.903 13765 13765 D MainActivity: Home -> Start survey: runNoteLen=0 (restoredAfterReset)
+10-02 18:17:56.903 13765 13765 D SurveyVM: activateRunIfNeeded(advanceToNext:Introduction) -> runNoteLen=0, draftCleared=true, uuid=b463d63c-42e2-4526-8276-2526a8cebc89
+10-02 18:17:56.904 13765 13765 D SurveyVM: push -> Introduction, navSize=2, stackSize=2
+10-02 18:17:56.919 13765 13765 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@c63c33b
+10-02 18:17:56.927 13765 13765 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:56.928 13765 13765 D WhisperSpeechController: updateContext: surveyId=b463d63c-42e2-4526-8276-2526a8cebc89, questionId=Introduction
+10-02 18:17:56.992 13765 13765 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 18:17:59.858 13765 13765 I VRI[MainActivity]@91ffd65: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@91ffd65
+10-02 18:18:17.975 13765 13765 I VRI[MainActivity]@91ffd65: ViewPostIme pointer 0
+10-02 18:18:17.980 13765 13765 I VRI[MainActivity]@91ffd65: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@91ffd65
+10-02 18:18:17.982 13765 13765 I VRI[MainActivity]@91ffd65: ViewPostIme pointer 1
+10-02 18:18:20.989 13765 13765 I VRI[MainActivity]@91ffd65: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@91ffd65
+10-02 20:40:31.642 32235 32235 I Zygote  : Process 32235 created for com.negi.survey.local
+10-02 20:40:31.642 32235 32235 I gi.survey.local: Late-enabling -Xcheck:jni
+10-02 20:40:31.678 32235 32235 I gi.survey.local: Using CollectorTypeCMC GC.
+10-02 20:40:31.691 32235 32235 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-02 20:40:31.697 32235 32235 D ActivityThread: setConscryptValidator
+10-02 20:40:31.699 32235 32235 D ActivityThread: setConscryptValidator - put
+10-02 20:40:31.718 32235 32235 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-02 20:40:31.718 32235 32235 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-02 20:40:32.064 32235 32235 D nativeloader: Configuring clns-9 for other apk /data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk. target_sdk_version=36, uses_libraries=libOpenCL.so, library_path=/data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/lib/arm64:/data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.negi.survey.local
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment: Currently set values for:
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment: com.negi.survey.local is not listed in per-application setting
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-02 20:40:32.078 32235 32235 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-02 20:40:32.117 32235 32235 D nativeloader: Load /data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!/lib/arm64-v8a/liblitertlm_jni.so using class loader ns clns-9 (caller=/data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!classes11.dex): ok
+10-02 20:40:32.117 32235 32235 D SurveyApp: Loaded LiteRTLM JNI: litertlm_jni where=attachBaseContext
+10-02 20:40:32.142 32235 32235 D AppRingLogStore: installed: dir=/data/user/0/com.negi.survey.local/files/diagnostics/applog_ring idx=0
+10-02 20:40:32.142 32235 32235 D SurveyApp: attachBaseContext: pid=32235 process=com.negi.survey.local isMain=true sdk=36
+10-02 20:40:32.143 32235 32235 D SurveyApp: bootTiming: attachBaseContext total=45ms
+10-02 20:40:32.143 32235 32235 D SurveyApp: Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+10-02 20:40:32.145 32235 32235 D CrashCapture: install: ensured default handler. where=SurveyApp:attachBaseContext pid=32235 default=com.negi.survey.CrashCapture$CrashHandler@364116c
+10-02 20:40:32.145 32235 32235 D SurveyApp: CrashCapture installed: where=SurveyApp:attachBaseContext
+10-02 20:40:32.153 32235 32318 D RuntimeLogStore: openWriter: start -> /data/user/0/com.negi.survey.local/files/diagnostics/runtime_logs/rtlog_20261003_014032_123_pid32235_seq1.log (bytes=0 format=LEGACY)
+10-02 20:40:32.155 32235 32318 D RuntimeLogStore: retention: start files=6 kept=6 totalBytes=272820
+10-02 20:40:32.160 32235 32235 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/EchConfigMismatchException;->getRetryConfigList()Landroid/net/ssl/EchConfigList; (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 20:40:32.160 32235 32235 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/EchConfigList;->toBytes()[B (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 20:40:32.160 32235 32235 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/EchConfigList;->fromBytes([B)Landroid/net/ssl/EchConfigList; (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 20:40:32.160 32235 32235 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/SSLSockets;->setEchConfigList(Ljavax/net/ssl/SSLSocket;Landroid/net/ssl/EchConfigList;)V (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 20:40:32.167 32235 32235 D SurveyApp: LiteRTLM JNI already loaded; skip. where=onCreate(retry)
+10-02 20:40:32.168 32235 32235 D SurveyApp: bootTiming: RuntimeLogStore.start took=0ms
+10-02 20:40:32.168 32235 32235 D SurveyApp: bootTiming: AppRingLogStore.install took=0ms
+10-02 20:40:32.168 32235 32235 D SurveyApp: onCreate: pid=32235 process=com.negi.survey.local isMain=true sdk=36
+10-02 20:40:32.172 32235 32235 D CrashCapture: install: ensured default handler. where=SurveyApp:onCreate(rewrap) pid=32235 default=com.negi.survey.CrashCapture$CrashHandler@364116c
+10-02 20:40:32.172 32235 32235 D SurveyApp: CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+10-02 20:40:32.172 32235 32235 D CrashCapture: registerSelfHealing: ActivityLifecycleCallbacks registered. mode=onResumedOnly
+10-02 20:40:32.172 32235 32235 D SurveyApp: CrashCapture self-healing registered.
+10-02 20:40:32.172 32235 32235 W SurveyApp: Startup enqueues deferred: delay=2500ms (to reduce init contention)
+10-02 20:40:32.172 32235 32235 D SurveyApp: Startup survey recovery deferred: delay=2500ms
+10-02 20:40:32.172 32235 32235 D SurveyApp: bootTiming: onCreate total=6ms
+10-02 20:40:32.195 32235 32320 D UploadRescheduleRcvr: Skip GitHub reschedule: missing credentials.
+10-02 20:40:32.195 32235 32320 D UploadRescheduleRcvr: Skip runtime logs upload: missing GitHub credentials.
+10-02 20:40:32.377 32235 32235 D ActivityThread: com.negi.survey.local will use render engine as VK
+10-02 20:40:32.377 32235 32235 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+10-02 20:40:32.382 32235 32372 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+10-02 20:40:32.384 32235 32372 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+10-02 20:40:32.384 32235 32372 D vulkan  : searching for layers in '/data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/lib/arm64'
+10-02 20:40:32.385 32235 32372 D vulkan  : searching for layers in '/data/app/~~xFTy9bAvqqM1RUwQwSmLzg==/com.negi.survey.local-himyh8B9akRJ8Ao138PWTw==/base.apk!/lib/arm64-v8a'
+10-02 20:40:32.385 32235 32372 V XGL     : ----------------------------------------------------------------------
+10-02 20:40:32.385 32235 32372 V XGL     : SUMD version compiled date     = 2026-01-09 09:57 - KST
+10-02 20:40:32.385 32235 32372 V XGL     : SUMD version revision number   = 1900168dcb
+10-02 20:40:32.385 32235 32372 V XGL     : SUMD version info              = Driver version: 24.0.534, git hash: 1900168dcb
+10-02 20:40:32.385 32235 32372 V XGL     : ----------------------------------------------------------------------
+10-02 20:40:32.385 32235 32372 V XGL     : Entering: Create
+10-02 20:40:32.387 32235 32235 D DesktopExperienceFlags: Toggle override initialized to: false
+10-02 20:40:32.389 32235 32235 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+10-02 20:40:32.394 32235 32372 V XGL     : Exiting: Create
+10-02 20:40:32.404 32235 32235 D CompatChangeReporter: Compat change id reported: 377864165; UID 10052; state: ENABLED
+10-02 20:40:32.405 32235 32235 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+10-02 20:40:32.408 32235 32235 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@d6443f6
+10-02 20:40:32.410 32235 32235 D PhoneWindow: forceLight changed to false [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:663 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4435 androidx.activity.EdgeToEdgeApi35.setUp:353 androidx.activity.EdgeToEdge.enableEdgeToEdge$lambda$1:101 androidx.activity.EdgeToEdge$$ExternalSyntheticLambda0.run:0 
+10-02 20:40:32.426 32235 32235 D CrashCapture: install: ensured default handler. where=selfHeal:onActivityResumed pid=32235 default=com.negi.survey.CrashCapture$CrashHandler@364116c
+10-02 20:40:32.436 32235 32235 D ViewRootImpl: desktopMode is false
+10-02 20:40:32.437 32235 32235 I ViewRootImpl: dVRR is disabled
+10-02 20:40:32.437 32235 32235 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1080x2340 mLargest wxh=0x0
+10-02 20:40:32.437 32235 32235 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1080x2340)
+10-02 20:40:32.437 32235 32372 D HWUI    : setMaxSurfaceArea requested wxh=(1080,2340) requestedSurfaceArea(2527200) mMaxSurfaceArea(2073600)
+10-02 20:40:32.438 32235 32372 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+10-02 20:40:32.442 32235 32235 D InputTransport: Input channel constructed: 'f891d49', fd=114
+10-02 20:40:32.442 32235 32385 I gi.survey.local: [HIDL_FETCH_IMapper] android.hardware.graphics.mapper@4.0: Loaded Mapper successfully.
+10-02 20:40:32.443 32235 32235 I InsetsController: onStateChanged: host=com.negi.survey.local/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 82 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 24 - 569, 82), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 M 0, 8.533333333333333 a 10.31111111111111,10.31111111111111 0 1,0 0,20.62222222222222 a 10.31111111111111,10.31111111111111 0 1,0 0,-20.62222222222222 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=113, center=Point(113, 113)}, RoundedCorner{position=TopRight, radius=113, center=Point(967, 113)}, RoundedCorner{position=BottomRight, radius=113, center=Point(967, 2227)}, RoundedCorner{position=BottomLeft, radius=113, center=Point(113, 2227)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 97) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {d29a0000 mType=statusBars mFrame=[0,0][1080,97] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {d29a0005 mType=mandatorySystemGestures mFrame=[0,0][1080,116] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {d29a0006 mType=tappableElement mFrame=[0,0][1080,97] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,82] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {4b5d0001 mType=navigationBars mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {4b5d0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0006 mType=tappableElement mFrame=[0,2205][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {4b5d0024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+10-02 20:40:32.443 32235 32235 I VRI[MainActivity]@453c6eb: synced displayState. AttachInfo displayState=2
+10-02 20:40:32.444 32235 32235 I VRI[MainActivity]@453c6eb: setView = com.android.internal.policy.DecorView@5757692 IsHRR=false mFlingFrameRateChange=0 TM=true
+10-02 20:40:32.444 32235 32235 I IDS_TAG : Clearing training data of com.negi.survey.SurveyApp@82f237a
+10-02 20:40:32.445 32235 32235 I IDS_TAG : Starting IDS observe window
+10-02 20:40:32.445 32235 32235 I IDS_TAG : Getting Shared Preference for com.negi.survey.SurveyApp@82f237a uid = 10052
+10-02 20:40:32.445 32235 32235 I IDS_TAG : App com.negi.survey.SurveyApp@82f237a has not finished training
+10-02 20:40:32.446 32235 32372 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+10-02 20:40:32.446 32235 32235 I IDS_TAG : Closing IDS observe window
+10-02 20:40:32.446 32235 32235 I IDS_TAG : Getting Shared Preference for com.negi.survey.SurveyApp@82f237a uid = 10052
+10-02 20:40:32.447 32235 32235 I IDS_TAG : IDS count updated to 1 for com.negi.survey.SurveyApp@82f237a
+10-02 20:40:32.447 32235 32235 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@b6e3519
+10-02 20:40:32.550 32235 32235 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+10-02 20:40:32.550 32235 32235 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+10-02 20:40:32.552 32235 32400 D WM-ForceStopRunnable: Is default app process = true
+10-02 20:40:32.552 32235 32400 D WM-ForceStopRunnable: Performing cleanup operations.
+10-02 20:40:32.592 32235 32405 I gi.survey.local: hiddenapi: Accessing hidden method Landroid/database/sqlite/SQLiteDatabase;->getThreadSession()Landroid/database/sqlite/SQLiteSession; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/sqlite/db/framework/FrameworkSQLiteDatabase; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-02 20:40:32.592 32235 32405 I gi.survey.local: hiddenapi: Accessing hidden method Landroid/database/sqlite/SQLiteSession;->beginTransaction(ILandroid/database/sqlite/SQLiteTransactionListener;ILandroid/os/CancellationSignal;)V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/sqlite/db/framework/FrameworkSQLiteDatabase; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-02 20:40:32.605 32235 32406 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+10-02 20:40:32.611 32235 32235 D VRI[MainActivity]@453c6eb: WindowInsets changed: 1080x2340 statusBars:[0,97,0,0] navigationBars:[0,0,0,135] mandatorySystemGestures:[0,116,0,135] 
+10-02 20:40:32.622 32235 32235 I HWUI    : Using FreeType backend (prop=Auto)
+10-02 20:40:32.647 32235 32235 W libc    : Access denied finding property "vendor.perf.ems.egg"
+10-02 20:40:32.647 32235 32235 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@453c6eb mNativeObject= 0xb400007c57f5b740 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3603 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 android.view.Choreographer.doCallbacks:1423 android.view.Choreographer.doFrame:1348 android.view.Choreographer$FrameDisplayEventReceiver.run:1930 
+10-02 20:40:32.647 32235 32235 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@453c6eb mNativeObject= 0xb400007c57f5b740 sc.mNativeObject= 0xb400007ba7ee7950 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3608 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 
+10-02 20:40:32.648 32235 32235 W libc    : Access denied finding property "vendor.perf.ems.egg"
+10-02 20:40:32.648 32235 32235 I VRI[MainActivity]@453c6eb: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=4 res=0x3 s={true 0xb400007b97f09750} ch=true seqId=0
+10-02 20:40:32.648 32235 32235 I VRI[MainActivity]@453c6eb: performConfigurationChange setNightDimText nightDimLevel=0
+10-02 20:40:32.650 32235 32235 D VRI[MainActivity]@453c6eb: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007b97f09750} hwInitialized=true
+10-02 20:40:32.662 32235 32235 D VRI[MainActivity]@453c6eb: reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 
+10-02 20:40:32.662 32235 32235 D VRI[MainActivity]@453c6eb: Setup new sync=wmsSync-VRI[MainActivity]@453c6eb#0
+10-02 20:40:32.662 32235 32235 I VRI[MainActivity]@453c6eb: Creating new active sync group VRI[MainActivity]@453c6eb#1
+10-02 20:40:32.663 32235 32235 D VRI[MainActivity]@453c6eb: registerCallbacksForSync syncBuffer=false
+10-02 20:40:32.670 32235 32235 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ......I. 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.View.draw:26477 
+10-02 20:40:32.671 32235 32384 D VRI[MainActivity]@453c6eb: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-02 20:40:32.671 32235 32384 I VRI[MainActivity]@453c6eb: mWNT: t=0xb400007b77f17470 mBlastBufferQueue=0xb400007c57f5b740 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15561 android.view.ThreadedRenderer$1.onFrameDraw:751 <bottom of call stack> 
+10-02 20:40:32.671 32235 32384 I VRI[MainActivity]@453c6eb: Setting up sync and frameCommitCallback
+10-02 20:40:32.679 32235 32372 I BLASTBufferQueue: [VRI[MainActivity]@453c6eb#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-02 20:40:32.680 32235 32372 I VRI[MainActivity]@453c6eb: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-02 20:40:32.680 32235 32372 D HWUI    : CFMS:: SetUp Pid : 32235    Tid : 32372
+10-02 20:40:32.680 32235 32235 D VRI[MainActivity]@453c6eb: reportDrawFinished seqId=0
+10-02 20:40:32.681 32235 32235 I gi.survey.local: hiddenapi: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/compose/ui/platform/AndroidComposeView$Companion; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-02 20:40:32.692 32235 32235 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey.local/com.negi.survey.MainActivity
+10-02 20:40:32.692 32235 32235 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey.local/com.negi.survey.MainActivity
+10-02 20:40:32.699 32235 32235 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:32.704 32235 32235 D VRI[MainActivity]@453c6eb: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007b97f09750}
+10-02 20:40:32.705 32235 32235 D InputMethodManagerUtils: startInputInner - Id : 0
+10-02 20:40:32.705 32235 32235 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-02 20:40:32.721 32235 32235 D InsetsController: hide(ime())
+10-02 20:40:32.721 32235 32235 I ImeTracker: com.negi.survey.local:172ba294: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-02 20:40:32.723 32235 32414 D InputTransport: Input channel constructed: 'ClientS', fd=142
+10-02 20:40:32.805 32235 32252 I gi.survey.local: Compiler allocated 5214KB to compile void android.view.ViewRootImpl.performTraversals()
+10-02 20:40:33.062 32235 32235 D IntroScreen: Resolved config details: id=survey_config10.yaml in 376ms
+10-02 20:40:33.094 32235 32235 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.414 32235 32235 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.427 32235 32235 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.431 32235 32235 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.443 32235 32235 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.448 32235 32235 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.479 32235 32235 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.481 32235 32235 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.493 32235 32235 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:33.498 32235 32235 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{616aca6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:26758 android.view.View.updateDisplayListIfDirty:25577 android.view.ViewGroup.recreateChildDisplayList:4881 
+10-02 20:40:34.675 32235 32235 W SurveyApp: Deferred startup enqueues begin...
+10-02 20:40:34.675 32235 32235 D SurveyApp: WorkManager available. where=startupRtLogs(immediate) took=0ms
+10-02 20:40:34.686 32235 32235 D SurveyApp: Startup runtime logs: GitHub config not available (immediate).
+10-02 20:40:34.686 32235 32235 W SurveyApp: Startup runtime logs: scheduling one retry; reason=config
+10-02 20:40:34.686 32235 32235 D SurveyApp: WorkManager available. where=startupRingLogs(immediate) took=0ms
+10-02 20:40:34.689 32235 32235 D SurveyApp: Startup ring logs: GitHub config not available (immediate).
+10-02 20:40:34.689 32235 32235 W SurveyApp: Startup ring logs: scheduling one retry; reason=config
+10-02 20:40:34.689 32235 32235 D SurveyApp: WorkManager available. where=enqueuePending(immediate) took=0ms
+10-02 20:40:34.691 32235 32235 D SurveyApp: CrashCapture pending uploads requested (immediate).
+10-02 20:40:34.691 32235 32235 W SurveyApp: Deferred startup enqueues done: took=17ms
+10-02 20:40:34.692 32235 32461 D CrashCapture: enqueuePendingCrashUploadsIfPossible enter where=SurveyApp:enqueuePending(immediate):bg pid=32235 thread=CrashCapture-Enqueue
+10-02 20:40:34.693 32235 32320 D SurveyApp: Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+10-02 20:40:34.695 32235 32320 W SurveyApp: Startup survey recovery: GitHub config unavailable (initial).
+10-02 20:40:34.695 32235 32320 W SurveyApp: Startup survey recovery: scheduling one retry; reason=config delay=1600ms
