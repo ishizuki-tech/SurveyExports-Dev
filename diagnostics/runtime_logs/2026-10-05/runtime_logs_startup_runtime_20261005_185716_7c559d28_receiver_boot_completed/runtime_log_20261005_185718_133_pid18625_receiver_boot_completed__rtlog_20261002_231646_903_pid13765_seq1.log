@@ -1,0 +1,79 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-02T23:16:46.914Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=111
+debug=true
+device=samsung SM-S731U
+sdk=36
+pid=13765
+==============================
+2026-10-02T23:16:46.914Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-10-02T23:16:46.908Z D/SurveyApp [main] attachBaseContext: pid=13765 process=com.negi.survey.local isMain=true sdk=36
+2026-10-02T23:16:46.908Z D/SurveyApp [main] bootTiming: attachBaseContext total=29ms
+2026-10-02T23:16:46.908Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-10-02T23:16:46.910Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-10-02T23:16:46.921Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-10-02T23:16:46.922Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-10-02T23:16:46.922Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-10-02T23:16:46.922Z D/SurveyApp [main] onCreate: pid=13765 process=com.negi.survey.local isMain=true sdk=36
+2026-10-02T23:16:46.925Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-10-02T23:16:46.925Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-10-02T23:16:46.925Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-10-02T23:16:46.925Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-10-02T23:16:46.926Z D/SurveyApp [main] bootTiming: onCreate total=5ms
+2026-10-02T23:16:49.428Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-10-02T23:16:49.428Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-10-02T23:16:49.433Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (immediate).
+2026-10-02T23:16:49.433Z W/SurveyApp [main] Startup runtime logs: scheduling one retry; reason=config
+2026-10-02T23:16:49.433Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-10-02T23:16:49.436Z D/SurveyApp [main] Startup ring logs: GitHub config not available (immediate).
+2026-10-02T23:16:49.436Z W/SurveyApp [main] Startup ring logs: scheduling one retry; reason=config
+2026-10-02T23:16:49.436Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-10-02T23:16:49.436Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-10-02T23:16:49.436Z W/SurveyApp [main] Deferred startup enqueues done: took=8ms
+2026-10-02T23:16:49.437Z D/SurveyApp [DefaultDispatcher-worker-2] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-10-02T23:16:49.440Z W/SurveyApp [DefaultDispatcher-worker-2] Startup survey recovery: GitHub config unavailable (initial).
+2026-10-02T23:16:49.440Z W/SurveyApp [DefaultDispatcher-worker-2] Startup survey recovery: scheduling one retry; reason=config delay=1600ms
+2026-10-02T23:16:51.033Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(delayed) took=0ms
+2026-10-02T23:16:51.038Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (delayed).
+2026-10-02T23:16:51.038Z D/SurveyApp [main] Startup runtime logs: retry already scheduled; reason=config
+2026-10-02T23:16:51.043Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(delayed) took=0ms
+2026-10-02T23:16:51.046Z D/SurveyApp [main] Startup ring logs: GitHub config not available (delayed).
+2026-10-02T23:16:51.047Z D/SurveyApp [main] Startup ring logs: retry already scheduled; reason=config
+2026-10-02T23:16:51.047Z D/SurveyApp [DefaultDispatcher-worker-2] Survey recovery WorkManager available. where=startupSurveyUploads(delayed) took=0ms
+2026-10-02T23:16:51.050Z W/SurveyApp [DefaultDispatcher-worker-2] Startup survey recovery: GitHub config unavailable (delayed).
+2026-10-02T23:16:51.050Z W/SurveyApp [DefaultDispatcher-worker-2] Startup survey recovery: retry exhausted; reason=config
+2026-10-02T23:17:21.288Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-02T23:17:21.327Z D/LiteRtLM [DefaultDispatcher-worker-2] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441'
+2026-10-02T23:17:21.327Z D/LiteRtLM [DefaultDispatcher-worker-2] Capabilities: image=false audio=false
+2026-10-02T23:17:21.327Z D/LiteRtLM [DefaultDispatcher-worker-2] Backend=com.google.ai.edge.litertlm.Backend$GPU@290281c maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-02T23:17:21.327Z D/LiteRtLM [DefaultDispatcher-worker-2] Model path='/data/user/0/com.negi.survey.local/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1790971030441
+2026-10-02T23:17:21.327Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-02T23:17:21.328Z D/LiteRtLM [DefaultDispatcher-worker-2] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-02T23:17:21.330Z D/LiteRtLM [DefaultDispatcher-worker-2] Engine cacheDir resolved: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' backend=com.google.ai.edge.litertlm.Backend$GPU@290281c path='/data/user/0/com.negi.survey.local/no_backup/litertlm_cache/463cfff93b82e65570866c363034861f0bb05344' filesBefore=2
+2026-10-02T23:17:32.395Z W/LiteRtLM [DefaultDispatcher-worker-2] Engine.initialize completed: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' backend=com.google.ai.edge.litertlm.Backend$GPU@290281c took=11060ms cacheFilesAfter=2
+2026-10-02T23:17:32.428Z D/LiteRtLM [DefaultDispatcher-worker-2] createConversation completed: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' took=31ms
+2026-10-02T23:17:32.430Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441' engineMs=11060 conversationMs=31 totalMs=11103
+2026-10-02T23:17:32.455Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-10-02T23:17:32.475Z D/SurveyVM [main] init -> Start, session=0, uuid=41bae4ae-82cf-453e-b41c-53a43060bba8, navSize=1, graphSize=22
+2026-10-02T23:17:32.485Z D/SurveyVM [main] config.validate -> issues=0
+2026-10-02T23:17:32.486Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-10-02T23:17:32.486Z D/SurveyVM [main] promptSources.preview -> legacy=[Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q7, Q8, Q9], eval=[], follow=[]
+2026-10-02T23:17:32.486Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=219, fu=244)
+2026-10-02T23:17:32.487Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=229, fu=254)
+2026-10-02T23:17:32.487Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=184, fu=209)
+2026-10-02T23:17:32.487Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-02T23:17:32.487Z D/SurveyVM [main] hasTwoStepPrompt[Q14] -> true (eval=160, fu=185)
+2026-10-02T23:17:32.487Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-02T23:17:32.487Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-02T23:17:32.488Z D/SurveyVM [main] hasTwoStepPrompt[Q7] -> true (eval=248, fu=273)
+2026-10-02T23:17:32.488Z D/SurveyVM [main] hasTwoStepPrompt[Q8] -> true (eval=190, fu=215)
+2026-10-02T23:17:32.488Z D/SurveyVM [main] hasTwoStepPrompt[Q9] -> true (eval=195, fu=220)
+2026-10-02T23:17:32.488Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-10-02T23:17:33.138Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-02T23:17:33.139Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441'
+2026-10-02T23:17:33.143Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=6
+2026-10-02T23:17:33.143Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=6
+2026-10-02T23:17:56.902Z D/SurveyVM [main] resetAudioRefs -> cleared
