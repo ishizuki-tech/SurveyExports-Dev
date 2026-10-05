@@ -1,0 +1,66 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-03T04:59:33.639Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=36
+pid=12203
+==============================
+2026-10-03T04:59:33.640Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:receiver_my_package_repl) ---
+2026-10-03T04:59:33.671Z D/SurveyVM [main] push -> Q4, navSize=7, stackSize=7
+2026-10-03T04:59:34.544Z D/SurveyVM [main] push -> Q5, navSize=8, stackSize=8
+2026-10-03T04:59:35.270Z D/SurveyVM [main] push -> Q6, navSize=9, stackSize=9
+2026-10-03T04:59:38.723Z D/SurveyVM [main] push -> Q7, navSize=10, stackSize=10
+2026-10-03T04:59:38.766Z D/SurveyVM [main] hasTwoStepPrompt[Q7] -> true (eval=248, fu=273)
+2026-10-03T04:59:40.551Z D/SurveyVM [main] push -> Q8, navSize=11, stackSize=11
+2026-10-03T04:59:40.561Z D/SurveyVM [main] hasTwoStepPrompt[Q8] -> true (eval=190, fu=215)
+2026-10-03T04:59:40.910Z D/SurveyVM [main] push -> Q9, navSize=12, stackSize=12
+2026-10-03T04:59:40.917Z D/SurveyVM [main] hasTwoStepPrompt[Q9] -> true (eval=195, fu=220)
+2026-10-03T04:59:41.195Z D/SurveyVM [main] push -> Q10, navSize=13, stackSize=13
+2026-10-03T04:59:41.200Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=219, fu=244)
+2026-10-03T04:59:41.409Z D/SurveyVM [main] push -> Q11, navSize=14, stackSize=14
+2026-10-03T04:59:41.415Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=229, fu=254)
+2026-10-03T04:59:41.618Z D/SurveyVM [main] push -> Q12, navSize=15, stackSize=15
+2026-10-03T04:59:41.624Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=184, fu=209)
+2026-10-03T04:59:41.826Z D/SurveyVM [main] push -> Q13, navSize=16, stackSize=16
+2026-10-03T04:59:41.832Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-03T04:59:42.018Z D/SurveyVM [main] push -> Q14, navSize=17, stackSize=17
+2026-10-03T04:59:42.024Z D/SurveyVM [main] hasTwoStepPrompt[Q14] -> true (eval=160, fu=185)
+2026-10-03T04:59:42.218Z D/SurveyVM [main] push -> Q15, navSize=18, stackSize=18
+2026-10-03T04:59:42.224Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-03T04:59:42.427Z D/SurveyVM [main] push -> Q16, navSize=19, stackSize=19
+2026-10-03T04:59:42.434Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-03T04:59:42.627Z D/SurveyVM [main] push -> Review, navSize=20, stackSize=20
+2026-10-03T04:59:42.633Z D/SurveyVM [main] hasTwoStepPrompt[Review] -> false (eval=0, fu=0)
+2026-10-03T04:59:46.738Z D/SurveyVM [main] push -> Done, navSize=21, stackSize=21
+2026-10-03T04:59:52.999Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-03T04:59:53.000Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@d3dfb0c, navSize=1
+2026-10-03T04:59:53.003Z D/SurveyVM [main] resetToStart -> Start, session=2, uuid=988838c6-ccde-473f-845f-82c1b223fe8b, preserveDraft=false, draftLen=0
+2026-10-03T04:59:53.003Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-10-03T05:01:03.104Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-03T05:01:03.140Z D/LiteRtLM [DefaultDispatcher-worker-4] initializeIfNeeded: warm runtime already ready: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441'
+2026-10-03T05:01:03.165Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-10-03T05:01:03.174Z D/SurveyVM [main] init -> Start, session=0, uuid=fac54eec-1bff-47d4-b0ed-132d21d68a52, navSize=1, graphSize=22
+2026-10-03T05:01:03.185Z D/SurveyVM [main] config.validate -> issues=0
+2026-10-03T05:01:03.185Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-10-03T05:01:03.185Z D/SurveyVM [main] promptSources.preview -> legacy=[Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q7, Q8, Q9], eval=[], follow=[]
+2026-10-03T05:01:03.186Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=219, fu=244)
+2026-10-03T05:01:03.186Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=229, fu=254)
+2026-10-03T05:01:03.186Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=184, fu=209)
+2026-10-03T05:01:03.186Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-03T05:01:03.186Z D/SurveyVM [main] hasTwoStepPrompt[Q14] -> true (eval=160, fu=185)
+2026-10-03T05:01:03.187Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-03T05:01:03.187Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-03T05:01:03.187Z D/SurveyVM [main] hasTwoStepPrompt[Q7] -> true (eval=248, fu=273)
+2026-10-03T05:01:03.187Z D/SurveyVM [main] hasTwoStepPrompt[Q8] -> true (eval=190, fu=215)
+2026-10-03T05:01:03.187Z D/SurveyVM [main] hasTwoStepPrompt[Q9] -> true (eval=195, fu=220)
+2026-10-03T05:01:03.187Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-10-03T05:01:03.270Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-03T05:01:03.270Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65088|ino=45187|size=4919541760|mtime=1790971030441'
+2026-10-03T05:01:03.272Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=3
+2026-10-03T05:01:03.272Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=3
+2026-10-03T05:01:11.088Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-10-03T05:05:36.144Z I/RuntimeLogStore [DefaultDispatcher-worker-6] start repair: ctx/dir refreshed
