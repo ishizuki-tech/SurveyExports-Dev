@@ -1,0 +1,13 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-03T05:05:36.163Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=36
+pid=12203
+==============================
+2026-10-03T05:05:36.163Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:receiver_my_package_repl) ---
+2026-10-03T05:11:59.306Z I/RuntimeLogStore [DefaultDispatcher-worker-1] start repair: ctx/dir refreshed
