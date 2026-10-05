@@ -1,0 +1,78 @@
+=== Previous Session Logcat ===
+captured_time_utc=20261002_223024
+captured_time_local=20261002_173024
+marker=2026-10-02 15:45:27.073
+preferred_prev_pid=8685
+note=best-effort; buffers may be overwritten before next start
+sdk=36
+device=samsung SM-S731U
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+
+=== Logcat (since marker) ===
+--------- beginning of main
+10-02 17:30:21.212 21549 21549 I Zygote  : Process 21549 created for com.negi.survey.local
+10-02 17:30:21.213 21549 21549 I gi.survey.local: Late-enabling -Xcheck:jni
+10-02 17:30:21.271 21549 21549 I gi.survey.local: Using CollectorTypeCMC GC.
+10-02 17:30:21.288 21549 21549 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-02 17:30:21.298 21549 21549 D ActivityThread: setConscryptValidator
+10-02 17:30:21.299 21549 21549 D ActivityThread: setConscryptValidator - put
+10-02 17:30:21.343 21549 21549 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-02 17:30:21.343 21549 21549 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-02 17:30:21.714 21549 21549 D nativeloader: Configuring clns-9 for other apk /data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk. target_sdk_version=36, uses_libraries=libOpenCL.so, library_path=/data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/lib/arm64:/data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.negi.survey.local
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment: Currently set values for:
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment: com.negi.survey.local is not listed in per-application setting
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-02 17:30:21.724 21549 21549 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-02 17:30:21.776 21549 21549 D nativeloader: Load /data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!/lib/arm64-v8a/liblitertlm_jni.so using class loader ns clns-9 (caller=/data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!classes11.dex): ok
+10-02 17:30:21.776 21549 21549 D SurveyApp: Loaded LiteRTLM JNI: litertlm_jni where=attachBaseContext
+10-02 17:30:21.791 21549 21549 D AppRingLogStore: installed: dir=/data/user/0/com.negi.survey.local/files/diagnostics/applog_ring idx=0
+10-02 17:30:21.791 21549 21549 D SurveyApp: attachBaseContext: pid=21549 process=com.negi.survey.local isMain=true sdk=36
+10-02 17:30:21.791 21549 21549 D SurveyApp: bootTiming: attachBaseContext total=48ms
+10-02 17:30:21.792 21549 21549 D SurveyApp: Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+10-02 17:30:21.793 21549 21549 D CrashCapture: install: ensured default handler. where=SurveyApp:attachBaseContext pid=21549 default=com.negi.survey.CrashCapture$CrashHandler@364116c
+10-02 17:30:21.793 21549 21549 D SurveyApp: CrashCapture installed: where=SurveyApp:attachBaseContext
+10-02 17:30:21.798 21549 21549 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/EchConfigMismatchException;->getRetryConfigList()Landroid/net/ssl/EchConfigList; (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 17:30:21.798 21549 21549 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/EchConfigList;->toBytes()[B (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 17:30:21.798 21549 21549 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/EchConfigList;->fromBytes([B)Landroid/net/ssl/EchConfigList; (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 17:30:21.798 21549 21549 E gi.survey.local: hiddenapi: Accessing hidden method Landroid/net/ssl/SSLSockets;->setEchConfigList(Ljavax/net/ssl/SSLSocket;Landroid/net/ssl/EchConfigList;)V (runtime_flags=0, domain=core-platform, api=blocked) from /data/app/~~-HrgWN2xXhrh4fA1eq7VDw==/com.negi.survey.local-ZdEcjEt6T-i07vj7H_l78g==/base.apk!classes18.dex (domain=app, TargetSdkVersion=36) using linking: denied
+10-02 17:30:21.803 21549 21633 D RuntimeLogStore: openWriter: start -> /data/user/0/com.negi.survey.local/files/diagnostics/runtime_logs/rtlog_20261002_223021_787_pid21549_seq1.log (bytes=0 format=LEGACY)
+10-02 17:30:21.805 21549 21633 D RuntimeLogStore: retention: start files=4 kept=4 totalBytes=136007
+10-02 17:30:21.812 21549 21549 D SurveyApp: LiteRTLM JNI already loaded; skip. where=onCreate(retry)
+10-02 17:30:21.812 21549 21549 D SurveyApp: bootTiming: RuntimeLogStore.start took=1ms
+10-02 17:30:21.812 21549 21549 D SurveyApp: bootTiming: AppRingLogStore.install took=0ms
+10-02 17:30:21.812 21549 21549 D SurveyApp: onCreate: pid=21549 process=com.negi.survey.local isMain=true sdk=36
+10-02 17:30:21.816 21549 21549 D CrashCapture: install: ensured default handler. where=SurveyApp:onCreate(rewrap) pid=21549 default=com.negi.survey.CrashCapture$CrashHandler@364116c
+10-02 17:30:21.816 21549 21549 D SurveyApp: CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+10-02 17:30:21.816 21549 21549 D CrashCapture: registerSelfHealing: ActivityLifecycleCallbacks registered. mode=onResumedOnly
+10-02 17:30:21.816 21549 21549 D SurveyApp: CrashCapture self-healing registered.
+10-02 17:30:21.816 21549 21549 W SurveyApp: Startup enqueues deferred: delay=2500ms (to reduce init contention)
+10-02 17:30:21.817 21549 21549 D SurveyApp: Startup survey recovery deferred: delay=2500ms
+10-02 17:30:21.817 21549 21549 D SurveyApp: bootTiming: onCreate total=6ms
+10-02 17:30:21.861 21549 21637 D UploadRescheduleRcvr: Skip GitHub reschedule: missing credentials.
+10-02 17:30:21.861 21549 21637 D UploadRescheduleRcvr: Skip runtime logs upload: missing GitHub credentials.
+10-02 17:30:24.319 21549 21549 W SurveyApp: Deferred startup enqueues begin...
+10-02 17:30:24.412 21549 21549 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+10-02 17:30:24.413 21549 21549 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+10-02 17:30:24.421 21549 21718 D WM-ForceStopRunnable: Is default app process = true
+10-02 17:30:24.424 21549 21718 D WM-ForceStopRunnable: Performing cleanup operations.
+10-02 17:30:24.431 21549 21549 D SurveyApp: WorkManager available. where=startupRtLogs(immediate) took=109ms
+10-02 17:30:24.449 21549 21549 D SurveyApp: Startup runtime logs: GitHub config not available (immediate).
+10-02 17:30:24.450 21549 21549 W SurveyApp: Startup runtime logs: scheduling one retry; reason=config
+10-02 17:30:24.450 21549 21549 D SurveyApp: WorkManager available. where=startupRingLogs(immediate) took=0ms
+10-02 17:30:24.452 21549 21718 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+10-02 17:30:24.458 21549 21549 D SurveyApp: Startup ring logs: GitHub config not available (immediate).
+10-02 17:30:24.458 21549 21549 W SurveyApp: Startup ring logs: scheduling one retry; reason=config
+10-02 17:30:24.459 21549 21549 D SurveyApp: WorkManager available. where=enqueuePending(immediate) took=0ms
+10-02 17:30:24.459 21549 21549 D SurveyApp: CrashCapture pending uploads requested (immediate).
+10-02 17:30:24.460 21549 21549 W SurveyApp: Deferred startup enqueues done: took=141ms
+10-02 17:30:24.460 21549 21720 D CrashCapture: enqueuePendingCrashUploadsIfPossible enter where=SurveyApp:enqueuePending(immediate):bg pid=21549 thread=CrashCapture-Enqueue
+10-02 17:30:24.461 21549 21637 D SurveyApp: Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+10-02 17:30:24.469 21549 21637 W SurveyApp: Startup survey recovery: GitHub config unavailable (initial).
+10-02 17:30:24.469 21549 21637 W SurveyApp: Startup survey recovery: scheduling one retry; reason=config delay=1600ms
+10-02 17:30:24.481 21549 21720 D CrashCapture: Staged exit info: /data/user/0/com.negi.survey.local/files/diagnostics/crash/exit_20261002_214649_1790977609421_pid8685_r3.log bytes=387 reason=3 pid=8685
+10-02 17:30:24.544 21549 21726 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
