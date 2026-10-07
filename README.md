@@ -120,3 +120,16 @@ Each developer is responsible for managing their own GitHub credential.
 The default upload branch for this repository is:
 
 `main`
+# SurveyExports-Dev
+
+## SurveyViewer index
+
+`viewer-index/v1` is generated metadata for the separate SurveyViewer static application. It contains session-list metadata only; it never duplicates respondent answers, transcripts, follow-up text, AI text, or WAV content.
+
+Run locally with:
+
+```sh
+node scripts/generate-viewer-index.mjs --source development --repository ishizuki-tech/SurveyExports-Dev --commit-sha "$(git rev-parse HEAD)"
+```
+
+The workflow runs only when dated `exports/*.json` files change. It serializes runs per branch, refreshes from `origin/main` before each generation attempt, and retries a rejected push. Index-only commits do not trigger it, so generated commits cannot loop.

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "development",
+    "path": "2026-10-03/exports/2026-10-02_23-59-46_survey_SM-S731U_4BA1AB0C475C_5eee6221-42bf-49af-a8d4-955c19ae5c7a.json",
+    "github_blob_url": "https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/2026-10-03/exports/2026-10-02_23-59-46_survey_SM-S731U_4BA1AB0C475C_5eee6221-42bf-49af-a8d4-955c19ae5c7a.json",
+    "raw_json_url": "https://raw.githubusercontent.com/ishizuki-tech/SurveyExports-Dev/main/2026-10-03/exports/2026-10-02_23-59-46_survey_SM-S731U_4BA1AB0C475C_5eee6221-42bf-49af-a8d4-955c19ae5c7a.json",
+    "uploader_date": "2026-10-03",
+    "exported_at": "2026-10-02_23-59-46",
+    "survey_id": "5eee6221-42bf-49af-a8d4-955c19ae5c7a",
+    "device_tag": "SM-S731U_4BA1AB0C475C",
+    "build": "fa26b03",
+    "question_count": 19,
+    "followup_count": 0,
+    "audio_reference_count": 0,
+    "availability": {
+      "build": true,
+      "ai_outcomes": true,
+      "followups": true,
+      "audio_references": false
+    }
+  }
+]

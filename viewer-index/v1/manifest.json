@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-02T22:11:47-07:00",
+  "source": "development",
+  "repository": "ishizuki-tech/SurveyExports-Dev",
+  "commit_sha": "ce646ce169cf32ff30575ea3aeb66a677ab84ae0",
+  "malformed_export_count": 0,
+  "months": [
+    {
+      "month": "2026-10",
+      "file": "2026-10.json",
+      "count": 1
+    }
+  ]
+}

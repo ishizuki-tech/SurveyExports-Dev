@@ -1,0 +1,55 @@
+name: Generate SurveyViewer index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/exports/**/*.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: viewer-index-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Regenerate and safely publish index
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            export_commit="$(git log -1 --format=%H -- ':(glob)**/exports/*.json')"
+            export_timestamp="$(git show -s --format=%cI "$export_commit")"
+            node scripts/generate-viewer-index.mjs \
+              --source development \
+              --repository ishizuki-tech/SurveyExports-Dev \
+              --commit-sha "$export_commit" \
+              --generated-at "$export_timestamp"
+            if git diff --quiet -- viewer-index; then
+              echo "Index is already current."
+              exit 0
+            fi
+            git add viewer-index
+            git commit -m "chore: regenerate SurveyViewer index"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Could not publish index after retrying concurrent updates." >&2
+          exit 1
