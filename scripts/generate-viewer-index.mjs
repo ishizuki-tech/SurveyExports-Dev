@@ -69,6 +69,7 @@ function isDatedExportPath(path) {
 function buildEntry(value, path, sourceId, repo) {
   if (!isObject(value) || typeof value.survey_id !== "string" || value.survey_id.trim() === "") return null;
   const answers = isObject(value.answers) ? value.answers : {};
+  const answerCount = Object.values(answers).filter((answer) => isObject(answer) && hasMeaningfulAnswer(answer.answer)).length;
   const followups = isObject(value.followups) ? value.followups : {};
   const audioFiles = new Set();
   for (const answer of Object.values(answers)) {
@@ -89,6 +90,7 @@ function buildEntry(value, path, sourceId, repo) {
     device_tag: deviceTagFromFileName(fileName),
     build: optionalString(value.build),
     question_count: Object.keys(answers).length,
+    answer_count: answerCount,
     followup_count: Object.values(followups).reduce((count, entries) => count + (Array.isArray(entries) ? entries.length : 0), 0),
     audio_reference_count: audioFiles.size,
     availability: { build: typeof value.build === "string", ai_outcomes: value.ai_outcomes !== null && isObject(value.ai_outcomes), followups: isObject(value.followups), audio_references: audioFiles.size > 0 },
@@ -100,6 +102,7 @@ function deviceTagFromFileName(fileName) {
   return match?.[1];
 }
 function optionalString(value) { return typeof value === "string" ? value : undefined; }
+function hasMeaningfulAnswer(value) { return typeof value === "string" ? value.trim() !== "" : value !== undefined && value !== null; }
 function isObject(value) { return typeof value === "object" && value !== null && !Array.isArray(value); }
 function parseArgs(values) {
   const result = new Map();
