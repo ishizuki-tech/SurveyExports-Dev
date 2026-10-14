@@ -1,0 +1,99 @@
+20261014_163849 I/AppRingLogStore pid=13260 tid=13260 uptimeMs=151945004 msg=install: pid=13260 timeUtc=20261014_163849 uptimeMs=151945003
+20261014_163849 D/SurveyApp pid=13260 tid=13260 uptimeMs=151945004 msg=attachBaseContext: pid=13260 process=com.negi.survey isMain=true sdk=36
+20261014_163849 D/SurveyApp pid=13260 tid=13260 uptimeMs=151945014 msg=onCreate: pid=13260 process=com.negi.survey isMain=true sdk=36
+20261014_172958 D/AiTrace pid=13260 tid=13260 uptimeMs=155014334 msg=Installed (enabled=true ringEnabled=true)
+20261014_172958 D/LiteRtRepository pid=13260 tid=13260 uptimeMs=155014380 msg=warmUp init ok initMs=1 gateWaitMs=0
+20261014_172958 D/LiteRtRepository pid=13260 tid=13260 uptimeMs=155014380 msg=warmUp Engine ready representativeInference=false totalMs=1
+20261014_173731 I/AppRingLogStore pid=20819 tid=20819 uptimeMs=155467243 msg=install: pid=20819 timeUtc=20261014_173731 uptimeMs=155467242
+20261014_173731 D/SurveyApp pid=20819 tid=20819 uptimeMs=155467243 msg=attachBaseContext: pid=20819 process=com.negi.survey isMain=true sdk=36
+20261014_173731 D/SurveyApp pid=20819 tid=20819 uptimeMs=155467252 msg=onCreate: pid=20819 process=com.negi.survey isMain=true sdk=36
+20261014_173745 D/AiTrace pid=20819 tid=20819 uptimeMs=155481247 msg=Installed (enabled=true ringEnabled=true)
+20261014_173745 D/LiteRtRepository pid=20819 tid=20819 uptimeMs=155481356 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261014_173745 D/LiteRtRepository pid=20819 tid=20819 uptimeMs=155481356 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261014_174018 I/AppRingLogStore pid=21571 tid=21571 uptimeMs=155633489 msg=install: pid=21571 timeUtc=20261014_174018 uptimeMs=155633489
+20261014_174018 D/SurveyApp pid=21571 tid=21571 uptimeMs=155633490 msg=attachBaseContext: pid=21571 process=com.negi.survey isMain=true sdk=36
+20261014_174018 D/SurveyApp pid=21571 tid=21571 uptimeMs=155633499 msg=onCreate: pid=21571 process=com.negi.survey isMain=true sdk=36
+20261014_174031 D/AiTrace pid=21571 tid=21571 uptimeMs=155646565 msg=Installed (enabled=true ringEnabled=true)
+20261014_174031 D/LiteRtRepository pid=21571 tid=21571 uptimeMs=155646665 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_174031 D/LiteRtRepository pid=21571 tid=21571 uptimeMs=155646665 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_174040 I/AiViewModel pid=21571 tid=21571 uptimeMs=155656405 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261014_174057 D/AiTrace pid=21571 tid=21571 uptimeMs=155673000 msg=Installed (enabled=true ringEnabled=true)
+20261014_174057 D/LiteRtRepository pid=21571 tid=21571 uptimeMs=155673050 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_174057 D/LiteRtRepository pid=21571 tid=21571 uptimeMs=155673050 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_174251 I/AppRingLogStore pid=22203 tid=22203 uptimeMs=155787056 msg=install: pid=22203 timeUtc=20261014_174251 uptimeMs=155787055
+20261014_174251 D/SurveyApp pid=22203 tid=22203 uptimeMs=155787056 msg=attachBaseContext: pid=22203 process=com.negi.survey isMain=true sdk=36
+20261014_174251 D/SurveyApp pid=22203 tid=22203 uptimeMs=155787065 msg=onCreate: pid=22203 process=com.negi.survey isMain=true sdk=36
+20261014_174304 D/AiTrace pid=22203 tid=22203 uptimeMs=155800088 msg=Installed (enabled=true ringEnabled=true)
+20261014_174304 D/LiteRtRepository pid=22203 tid=22203 uptimeMs=155800205 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_174304 D/LiteRtRepository pid=22203 tid=22203 uptimeMs=155800205 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_174450 I/AppRingLogStore pid=22939 tid=22939 uptimeMs=155905999 msg=install: pid=22939 timeUtc=20261014_174450 uptimeMs=155905999
+20261014_174450 D/SurveyApp pid=22939 tid=22939 uptimeMs=155906000 msg=attachBaseContext: pid=22939 process=com.negi.survey isMain=true sdk=36
+20261014_174450 D/SurveyApp pid=22939 tid=22939 uptimeMs=155906008 msg=onCreate: pid=22939 process=com.negi.survey isMain=true sdk=36
+20261014_174534 D/AiTrace pid=22939 tid=22939 uptimeMs=155949746 msg=Installed (enabled=true ringEnabled=true)
+20261014_174534 D/LiteRtRepository pid=22939 tid=22939 uptimeMs=155949848 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_174534 D/LiteRtRepository pid=22939 tid=22939 uptimeMs=155949848 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_175020 I/AppRingLogStore pid=24406 tid=24406 uptimeMs=156236235 msg=install: pid=24406 timeUtc=20261014_175020 uptimeMs=156236234
+20261014_175020 D/SurveyApp pid=24406 tid=24406 uptimeMs=156236235 msg=attachBaseContext: pid=24406 process=com.negi.survey isMain=true sdk=36
+20261014_175020 D/SurveyApp pid=24406 tid=24406 uptimeMs=156236244 msg=onCreate: pid=24406 process=com.negi.survey isMain=true sdk=36
+20261014_175036 D/AiTrace pid=24406 tid=24406 uptimeMs=156251699 msg=Installed (enabled=true ringEnabled=true)
+20261014_175036 D/LiteRtRepository pid=24406 tid=24406 uptimeMs=156251815 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_175036 D/LiteRtRepository pid=24406 tid=24406 uptimeMs=156251815 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261014_175307 I/AiViewModel pid=24406 tid=24406 uptimeMs=156402767 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261014_175329 I/AppRingLogStore pid=25865 tid=25865 uptimeMs=156425259 msg=install: pid=25865 timeUtc=20261014_175329 uptimeMs=156425258
+20261014_175329 D/SurveyApp pid=25865 tid=25865 uptimeMs=156425259 msg=attachBaseContext: pid=25865 process=com.negi.survey isMain=true sdk=36
+20261014_175329 D/SurveyApp pid=25865 tid=25865 uptimeMs=156425268 msg=onCreate: pid=25865 process=com.negi.survey isMain=true sdk=36
+20261014_175349 D/AiTrace pid=25865 tid=25865 uptimeMs=156444574 msg=Installed (enabled=true ringEnabled=true)
+20261014_175349 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156444700 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_175349 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156444700 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261014_175429 D/AiViewModel pid=25865 tid=25885 uptimeMs=156485193 msg=run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=304, fullPrompt.len=2951, timeoutMs=120000
+20261014_175429 D/AiViewModel pid=25865 tid=25885 uptimeMs=156485195 msg=run[1]: sha(prompt)=7b198013227b695546c8470932914088c888ca8843af6248a5cc962e0a2bf31a sha(full)=b4ece7f2a66008b020bf85f51068fcc03b6e04c9df58af6a7e5b817909cd65a1
+20261014_175429 D/LiteRtRepository pid=25865 tid=25885 uptimeMs=156485198 msg=[1] start model='Gemma3n4B' prompt.len=2951 sha=b4ece7f2a66008b0 gateWaitMs=2
+20261014_175429 D/LiteRtRepository pid=25865 tid=25885 uptimeMs=156485199 msg=[1] init ok initMs=1
+20261014_175433 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156489386 msg=[1] logicalDone=true
+20261014_175433 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156489386 msg=[1] native cleanup safepoint
+20261014_175433 D/AiViewModel pid=25865 tid=25885 uptimeMs=156489386 msg=run[1] stats: chunks=26, chars=84, raw.len=84
+20261014_175433 D/AiViewModel pid=25865 tid=25885 uptimeMs=156489386 msg=run[1] sha(raw)=25965b1c10acf8912a88ae3df12815f2867fe2978217746c9343c1d761bbc7a0
+20261014_175433 D/LiteRtRepository pid=25865 tid=25945 uptimeMs=156489389 msg=[1] Conversation reset completed after safepoint
+20261014_175433 I/LiteRtRepository pid=25865 tid=25910 uptimeMs=156489389 msg=[1] finalize reason='native-terminated' totalMs=4191 inferenceMs=4190 firstTokenMs=2231 chunks=26 emittedChars=84 out.len=84 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=3 lastEventMsAgo=3
+20261014_175433 I/AiViewModel pid=25865 tid=25885 uptimeMs=156489393 msg=run[1] done: phase=EVAL mode=EVAL_JSON score=75 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261014_175433 D/AiViewModel pid=25865 tid=25885 uptimeMs=156489396 msg=run[2]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=400, fullPrompt.len=937, timeoutMs=120000
+20261014_175433 D/AiViewModel pid=25865 tid=25885 uptimeMs=156489396 msg=run[2]: sha(prompt)=b5bc46c3b928fcfd262f6e54a773db9a0055c19d8f440b38f85adcf298546526 sha(full)=04c144a9c2f5565f54d31b80104427c426f0a3dac9f3151b5de2f20c7f0efbc4
+20261014_175433 D/LiteRtRepository pid=25865 tid=25910 uptimeMs=156489397 msg=[2] start model='Gemma3n4B' prompt.len=937 sha=04c144a9c2f5565f gateWaitMs=0
+20261014_175433 D/LiteRtRepository pid=25865 tid=25910 uptimeMs=156489397 msg=[2] init ok initMs=0
+20261014_175435 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156491080 msg=[2] logicalDone=true
+20261014_175435 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156491080 msg=[2] native cleanup safepoint
+20261014_175435 D/AiViewModel pid=25865 tid=25885 uptimeMs=156491080 msg=run[2] stats: chunks=15, chars=73, raw.len=73
+20261014_175435 D/AiViewModel pid=25865 tid=25885 uptimeMs=156491080 msg=run[2] sha(raw)=ad25ea39ba4bb1a0408514f5df97f42e6208bcec08de149a37b9f8dd3bbe1e14
+20261014_175435 I/AiViewModel pid=25865 tid=25885 uptimeMs=156491082 msg=run[2] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=73 FU0.sha16=ad25ea39ba4bb1a0 commit=false err=<none>
+20261014_175435 D/LiteRtRepository pid=25865 tid=25948 uptimeMs=156491082 msg=[2] Conversation reset completed after safepoint
+20261014_175435 I/LiteRtRepository pid=25865 tid=25948 uptimeMs=156491082 msg=[2] finalize reason='native-terminated' totalMs=1686 inferenceMs=1685 firstTokenMs=584 chunks=15 emittedChars=73 out.len=73 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=3 lastEventMsAgo=2
+20261014_175528 I/AiViewModel pid=25865 tid=25865 uptimeMs=156543622 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261014_175546 D/AiTrace pid=25865 tid=25865 uptimeMs=156562329 msg=Installed (enabled=true ringEnabled=true)
+20261014_175546 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156562373 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_175546 D/LiteRtRepository pid=25865 tid=25865 uptimeMs=156562373 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_175723 I/AppRingLogStore pid=27481 tid=27481 uptimeMs=156658419 msg=install: pid=27481 timeUtc=20261014_175722 uptimeMs=156658418
+20261014_175723 D/SurveyApp pid=27481 tid=27481 uptimeMs=156658419 msg=attachBaseContext: pid=27481 process=com.negi.survey isMain=true sdk=36
+20261014_175723 D/SurveyApp pid=27481 tid=27481 uptimeMs=156658427 msg=onCreate: pid=27481 process=com.negi.survey isMain=true sdk=36
+20261014_175736 D/AiTrace pid=27481 tid=27481 uptimeMs=156671732 msg=Installed (enabled=true ringEnabled=true)
+20261014_175736 D/LiteRtRepository pid=27481 tid=27481 uptimeMs=156671837 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261014_175736 D/LiteRtRepository pid=27481 tid=27481 uptimeMs=156671837 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261014_175808 I/AppRingLogStore pid=27906 tid=27906 uptimeMs=156703850 msg=install: pid=27906 timeUtc=20261014_175808 uptimeMs=156703849
+20261014_175808 D/SurveyApp pid=27906 tid=27906 uptimeMs=156703850 msg=attachBaseContext: pid=27906 process=com.negi.survey isMain=true sdk=36
+20261014_175808 D/SurveyApp pid=27906 tid=27906 uptimeMs=156703860 msg=onCreate: pid=27906 process=com.negi.survey isMain=true sdk=36
+20261014_175820 D/AiTrace pid=27906 tid=27906 uptimeMs=156716113 msg=Installed (enabled=true ringEnabled=true)
+20261014_175820 D/LiteRtRepository pid=27906 tid=27906 uptimeMs=156716216 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_175820 D/LiteRtRepository pid=27906 tid=27906 uptimeMs=156716216 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_180329 I/AppRingLogStore pid=28834 tid=28834 uptimeMs=157024654 msg=install: pid=28834 timeUtc=20261014_180329 uptimeMs=157024653
+20261014_180329 D/SurveyApp pid=28834 tid=28834 uptimeMs=157024654 msg=attachBaseContext: pid=28834 process=com.negi.survey isMain=true sdk=36
+20261014_180329 D/SurveyApp pid=28834 tid=28834 uptimeMs=157024663 msg=onCreate: pid=28834 process=com.negi.survey isMain=true sdk=36
+20261014_180341 D/AiTrace pid=28834 tid=28834 uptimeMs=157037208 msg=Installed (enabled=true ringEnabled=true)
+20261014_180341 D/LiteRtRepository pid=28834 tid=28834 uptimeMs=157037311 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_180341 D/LiteRtRepository pid=28834 tid=28834 uptimeMs=157037312 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261014_180533 I/AiViewModel pid=28834 tid=28834 uptimeMs=157148605 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261014_180952 D/AiTrace pid=28834 tid=28834 uptimeMs=157407943 msg=Installed (enabled=true ringEnabled=true)
+20261014_180952 D/LiteRtRepository pid=28834 tid=28834 uptimeMs=157407992 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261014_180952 D/LiteRtRepository pid=28834 tid=28834 uptimeMs=157407992 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261014_181026 I/AppRingLogStore pid=30138 tid=30138 uptimeMs=157441615 msg=install: pid=30138 timeUtc=20261014_181026 uptimeMs=157441615
+20261014_181026 D/SurveyApp pid=30138 tid=30138 uptimeMs=157441616 msg=attachBaseContext: pid=30138 process=com.negi.survey isMain=true sdk=36
+20261014_181026 D/SurveyApp pid=30138 tid=30138 uptimeMs=157441624 msg=onCreate: pid=30138 process=com.negi.survey isMain=true sdk=36
+20261014_181031 E/CrashCapture pid=30138 tid=30138 uptimeMs=157446511 msg=uncaughtException thread=main ex=java.lang.RuntimeException: Debug crash button pressed 	at com.negi.survey.screens.IntroScreenKt.IntroScreen$lambda$3$0$0$0(IntroScreen.kt:217) 	at com.negi.survey.screens.IntroScreenKt.$r8$lambda$ZeAZBSUazsMQOWNMI51uEgAbKlc(IntroScreen.kt:0) 	at com.negi.survey.screens.IntroScreenKt$$ExternalSyntheticLambda24.invoke(D8$$SyntheticClass:0) 	at androidx.compose.foundation.AbstractClickableNode.performClick(Clickable.kt:1701) 	at androidx.compose.foundation.ClickableNode.handleUpEvent(Clickable.kt:950) 	at androidx.compose.foundation.ClickableNode.onPointerEvent-H0pRuoY(Clickable.kt:884) 	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:445) 	at androidx.compose.ui.input.pointer.Node.dispatchMainEventPass(HitPathTracker.kt:431) 	at androidx.compose.ui.input.pointer.NodeParent.dispatchMainEventPass(HitPathTracker.kt:285) 	at androidx.compose.ui.input.pointer.HitPathTracker.dispatchChanges(HitPathTracker.kt:182) 	at androidx.compose.ui.input.pointer.PointerInputEventProcessor.process-BIzXfog(PointerInputEventProcessor.kt:116) 	at androidx.compose.ui.platform.AndroidComposeView.sendMotionEvent-8iAsVTc(AndroidComposeView.android.kt:2869) 	at androidx.compose.ui.platform.AndroidComposeView.handleMotionEvent-8iAsVTc(AndroidComposeView.android.kt:2809) 	at androidx.compose.ui.platform.AndroidComposeView.dispatchTouchEvent(AndroidComposeView.android.kt:2630) 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3458) 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:3134) 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3458) 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:3134) 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3458) 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:3134) 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3458) 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:3134) 	at com.android.internal.policy.DecorView.superDispatchTouchEvent(DecorView.java:1209) 	at com.android.internal.policy.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:2278) 	at android.app.Activity.dispatchTouchEvent(Activity.java:4925) 	at com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:1147) 	at android.view.View.dispatchPointerEvent(View.java:17887) 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:9950) 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:9661) 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:8994) 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:9051) 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:9017) 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:9222) 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:9025) 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:9279) 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:8998) 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:9051) 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:9017) 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:9025) 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:8998) 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:12916) 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:12804) 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:12759) 	at android.view.ViewRootImpl.processRawInputEvent(ViewRootImpl.java:13274) 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:13052) 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:369) 	at android.os.MessageQueue.nativePollOnce(Native Method) 	at android.os.MessageQueue.nextLegacy(MessageQueue.java:985) 	at android.os.MessageQueue.next(MessageQueue.java:1094) 	at android.os.Looper.loopOnce(Looper.java:222) 	at android.os.Looper.loop(Looper.java:392) 	at android.app.ActivityThread.main(ActivityThread.java:10346) 	at java.lang.reflect.Method.invoke(Native Method) 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:638) 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972) 
