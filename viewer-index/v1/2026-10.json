@@ -19,5 +19,47 @@
       "followups": true,
       "audio_references": false
     }
+  },
+  {
+    "source": "development",
+    "path": "2026-10-14/exports/2026-10-14_11-04-52_survey_SM-S931U1_5F8C58FB249A_2718631a-2472-4f83-bbc9-7313fc7b1cd3.json",
+    "github_blob_url": "https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/2026-10-14/exports/2026-10-14_11-04-52_survey_SM-S931U1_5F8C58FB249A_2718631a-2472-4f83-bbc9-7313fc7b1cd3.json",
+    "raw_json_url": "https://raw.githubusercontent.com/ishizuki-tech/SurveyExports-Dev/main/2026-10-14/exports/2026-10-14_11-04-52_survey_SM-S931U1_5F8C58FB249A_2718631a-2472-4f83-bbc9-7313fc7b1cd3.json",
+    "uploader_date": "2026-10-14",
+    "exported_at": "2026-10-14_11-04-52",
+    "survey_id": "2718631a-2472-4f83-bbc9-7313fc7b1cd3",
+    "device_tag": "SM-S931U1_5F8C58FB249A",
+    "build": "0c68982",
+    "question_count": 19,
+    "answer_count": 7,
+    "followup_count": 0,
+    "audio_reference_count": 0,
+    "availability": {
+      "build": true,
+      "ai_outcomes": true,
+      "followups": true,
+      "audio_references": false
+    }
+  },
+  {
+    "source": "development",
+    "path": "2026-10-14/exports/2026-10-14_12-27-52_survey_SM-S931U1_5F8C58FB249A_393731bc-911d-4a53-959b-2198961bea9b.json",
+    "github_blob_url": "https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/2026-10-14/exports/2026-10-14_12-27-52_survey_SM-S931U1_5F8C58FB249A_393731bc-911d-4a53-959b-2198961bea9b.json",
+    "raw_json_url": "https://raw.githubusercontent.com/ishizuki-tech/SurveyExports-Dev/main/2026-10-14/exports/2026-10-14_12-27-52_survey_SM-S931U1_5F8C58FB249A_393731bc-911d-4a53-959b-2198961bea9b.json",
+    "uploader_date": "2026-10-14",
+    "exported_at": "2026-10-14_12-27-52",
+    "survey_id": "393731bc-911d-4a53-959b-2198961bea9b",
+    "device_tag": "SM-S931U1_5F8C58FB249A",
+    "build": "aaf6d54",
+    "question_count": 23,
+    "answer_count": 7,
+    "followup_count": 0,
+    "audio_reference_count": 0,
+    "availability": {
+      "build": true,
+      "ai_outcomes": true,
+      "followups": true,
+      "audio_references": false
+    }
   }
 ]
