@@ -1,0 +1,27 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-15T17:18:11.873Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=36
+pid=6299
+==============================
+2026-10-15T17:18:11.874Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-10-15T17:18:11.868Z D/SurveyApp [main] attachBaseContext: pid=6299 process=com.negi.survey isMain=true sdk=36
+2026-10-15T17:18:11.869Z D/SurveyApp [main] bootTiming: attachBaseContext total=12ms
+2026-10-15T17:18:11.869Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-10-15T17:18:11.870Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-10-15T17:18:11.877Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-10-15T17:18:11.877Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-10-15T17:18:11.877Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-10-15T17:18:11.877Z D/SurveyApp [main] onCreate: pid=6299 process=com.negi.survey isMain=true sdk=36
+2026-10-15T17:18:11.879Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-10-15T17:18:11.879Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-10-15T17:18:11.879Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-10-15T17:18:11.879Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-10-15T17:18:11.880Z D/SurveyApp [main] bootTiming: onCreate total=3ms
+2026-10-15T17:18:11.890Z I/RuntimeLogStore [DefaultDispatcher-worker-2] start repair: ctx/dir refreshed
+2026-10-15T17:18:13.574Z I/RuntimeLogStore [DefaultDispatcher-worker-3] start repair: ctx/dir refreshed
