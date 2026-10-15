@@ -1,0 +1,105 @@
+{
+  "survey_id": "01a1409a-5b27-7093-9296-07de9557a62d",
+  "build": "d2a5919",
+  "exported_at": "2026-10-15_10-27-38",
+  "meta": {},
+  "answers": {
+    "Pre1": {
+      "question": "Jina la Mwangalizi",
+      "answer": ""
+    },
+    "Pre2": {
+      "question": "Jina la Mhoji",
+      "answer": ""
+    },
+    "Pre3": {
+      "question": "Jina la Mhojiwa",
+      "answer": ""
+    },
+    "Pre4": {
+      "question": "Kitambulisho cha Mhojiwa",
+      "answer": ""
+    },
+    "Q00": {
+      "question": "Habari yako leo? Asante kwa kutupatia muda wako leo.\n\nMimi ninafanya kazi na CIMMYT. Ni shirika linalofanya utafiti wa kuboresha kilimo cha mahindi, ngano na mazao mengine katika nchi mbalimbali.\n\nLeo tunafanya utafiti kuhusu mahindi meupe. Tungependa kusikia kuhusu uzoefu wako wa kulima mahindi, changamoto unazokutana nazo, na aina ya mahindi unayopendelea.\n\nWakati wa mahojiano, tutatumia simu ya mkononi kusaidia kurekodi na kupanga majibu yako. Hii itatusaidia kuhakikisha kwamba tunapata taarifa zako vizuri na hakuna jambo muhimu tunalosahau.\n\nKushiriki ni kwa hiari. Unaweza kuamua kutokujibu swali lolote, au kusimamisha mahojiano wakati wowote. Taarifa utakazotupatia zitawekwa kwa siri na zitatumika kwa utafiti pekee.\n\nPia, hakuna jibu sahihi au lisilo sahihi. Tunataka tu kusikia maoni yako na uzoefu wako halisi.\n\nMahojiano yatachukua takribani dakika 45.\n\nAsante sana kwa kutenga muda wako na kushiriki nasi leo.\n\nUtafiti huu unaongozwa na Daktari Mercy Mbugua. Kama una swali lolote kuhusu utafiti huu, unaweza kumpigia simu kwa +254 724 740 197.\n\nJe, Kabla tuanze, uko tayari kuendelea na mahojiano?",
+      "answer": "Ndiyo, nakubali kushiriki"
+    },
+    "Q01": {
+      "question": "Unaishi sub-county na ward gani?",
+      "answer": "Gatundu South – Ndarugu"
+    },
+    "Q02": {
+      "question": "Jinsia ya Mhojiwa",
+      "answer": "Mwanaume"
+    },
+    "Q03": {
+      "question": "Una miaka mingapi?",
+      "answer": "56"
+    },
+    "Q04": {
+      "question": "Unalima mazao gani?",
+      "answer": ""
+    },
+    "Q05": {
+      "question": "Unafuga wanyama gani?",
+      "answer": ""
+    },
+    "Q06": {
+      "question": "Umekuwa ukilima mahindi meupe kwa miaka mingapi?",
+      "answer": "56"
+    },
+    "Q07": {
+      "question": "Mahindi yako yamewahi kushambuliwa na funza jeshi (Fall Armyworm)? Ikiwa ndiyo, yalipata hasara gani?",
+      "answer": ""
+    },
+    "Q08": {
+      "question": "Kama ungeweza kuvuna mahindi yako siku 20 mapema, lakini mavuno yangepungua, ungekubali kupoteza kiasi gani cha mavuno ili uvune mapema?",
+      "answer": ""
+    },
+    "Q09": {
+      "question": "Ni kiwango gani cha uharibifu wa mahindi unaosababishwa na wadudu au magonjwa ambacho kingekufanya ubadilishe aina ya mahindi unayopanda?",
+      "answer": ""
+    },
+    "Q10": {
+      "question": "Kama kungekuwa na aina mpya ya mahindi, ingehitaji kuwa na sifa gani ili uamue kuipanda badala ya aina unayopanda sasa?",
+      "answer": ""
+    },
+    "Q11": {
+      "question": "Msimu ukiwa mbaya, ni mavuno ya chini kiasi gani ambayo bado yangekufanya uendelee kupanda aina hii ya mahindi?",
+      "answer": ""
+    },
+    "Q12": {
+      "question": "Ukame huwa unasababisha hasara kubwa zaidi wakati gani katika ukuaji wa mahindi?",
+      "answer": ""
+    },
+    "Q13": {
+      "question": "Unaamua aje kiasi cha mahindi cha kuweka kwa matumizi ya nyumbani, kulisha mifugo, kuuza, au matumizi mengine?",
+      "answer": ""
+    },
+    "Q14": {
+      "question": "Kama unatumia mahindi meupe kulisha mifugo, unawalisha mifugo gani na mara ngapi?",
+      "answer": ""
+    },
+    "Q15": {
+      "question": "Kwa kawaida unapata wapi mbegu za mahindi meupe unazopanda, na kwa nini unapendelea kununua au kupata mbegu huko?",
+      "answer": ""
+    },
+    "Q16": {
+      "question": "Kwa kawaida baada ya kuvuna, unauza mahindi yako wapi, na kwa nini unapendelea kuuza huko au kwa mnunuzi huyo?",
+      "answer": ""
+    },
+    "Q17": {
+      "question": "Asante sana kwa kutenga muda wako na kujibu maswali haya.",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Andika maelezo yoyote ya jumla kisha bonyeza Anza.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+  ]
+}
