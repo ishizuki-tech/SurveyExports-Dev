@@ -1,0 +1,107 @@
+{
+  "survey_id": "01a140a5-2234-7371-85f6-77997a1a86f3",
+  "build": "d2a5919",
+  "exported_at": "2026-10-15_10-39-26",
+  "meta": {
+    "session_free_text": "ya"
+  },
+  "answers": {
+    "Pre1": {
+      "question": "Observer Name",
+      "answer": ""
+    },
+    "Pre2": {
+      "question": "Interviewer Name",
+      "answer": ""
+    },
+    "Pre3": {
+      "question": "Respondent Name",
+      "answer": ""
+    },
+    "Pre4": {
+      "question": "Respondent ID",
+      "answer": ""
+    },
+    "Q00": {
+      "question": "Hallo. Thank you for making time for us today.\n\nI work with CIMMYT, an organization that conducts research to improve the production of maize, wheat, and other crops in different countries across Africa, Asia, and Latin America.\n\nWe are carrying out this study to learn about farmers’ experiences, challenges, and preferences when growing white maize. The information you share will help researchers better understand farmers’ needs and support the development of better maize varieties in the future.\n\nDuring the interview, we will use a mobile phone to help record and organize your responses. This will help us capture your answers accurately and make sure we do not miss any important information.\n\nYour participation is voluntary. You may choose not to answer any question or stop the interview at any time. The information you provide will be kept private and used only for research purposes. There are no right or wrong answers—we simply want to hear about your real experiences and views.\n\nThe interview will take about 45 minutes.\n\nThank you very much for taking part in this study.\n\nThe study is led by Dr. Mercy Mbugua. If you have any questions or concerns about the study, you can contact her on +254 724 740 197.\n\nIf you have any concerns or questions, you can reach her by mobile: +254 724 740 197.\n\nDo you agree to participate?",
+      "answer": "Yes, and proceed"
+    },
+    "Q01": {
+      "question": "Which sub-county and ward do you live in?",
+      "answer": "Other / Nyingine: here"
+    },
+    "Q02": {
+      "question": "Respondent Gender",
+      "answer": "Male"
+    },
+    "Q03": {
+      "question": "What is your age?",
+      "answer": "58"
+    },
+    "Q04": {
+      "question": "Which crops do you grow?",
+      "answer": "ggg"
+    },
+    "Q05": {
+      "question": "Which animals do you keep?",
+      "answer": "uuu"
+    },
+    "Q06": {
+      "question": "How many years have you been growing white maize?",
+      "answer": "58"
+    },
+    "Q07": {
+      "question": "Has fall armyworm ever affected your maize? If yes, what damage or losses did it cause?",
+      "answer": ""
+    },
+    "Q08": {
+      "question": "If you could harvest your maize 20 days earlier but this reduced your yield, how much yield would you be willing to lose to harvest earlier?",
+      "answer": ""
+    },
+    "Q09": {
+      "question": "What level of pest or disease damage would make you switch to a different maize variety?",
+      "answer": ""
+    },
+    "Q10": {
+      "question": "If there were a new maize variety, what characteristics would it need to have for you to decide to plant it instead of your current variety?",
+      "answer": ""
+    },
+    "Q11": {
+      "question": "In a bad season, what is the lowest maize yield that would still make you continue planting this variety?",
+      "answer": ""
+    },
+    "Q12": {
+      "question": "At what stage of maize growth does drought cause the greatest losses?",
+      "answer": ""
+    },
+    "Q13": {
+      "question": "How do you decide how much maize to use for household food, livestock feed, sale, or other purposes?",
+      "answer": ""
+    },
+    "Q14": {
+      "question": "If you use white maize to feed livestock, which animals do you feed it to and how often?",
+      "answer": ""
+    },
+    "Q15": {
+      "question": "Where do you usually obtain the white maize seed that you plant, and why do you prefer getting it there?",
+      "answer": ""
+    },
+    "Q16": {
+      "question": "Where do you usually sell your maize after harvest, and why do you prefer selling there or to that buyer?",
+      "answer": ""
+    },
+    "Q17": {
+      "question": "Thank you very much for taking your time to answer these questions.",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Add any general notes and press Start.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+  ]
+}
