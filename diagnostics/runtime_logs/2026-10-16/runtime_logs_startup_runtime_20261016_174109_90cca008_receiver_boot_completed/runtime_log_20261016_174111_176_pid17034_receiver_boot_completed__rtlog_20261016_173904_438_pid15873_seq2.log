@@ -1,0 +1,65 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-16T17:39:04.439Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=36
+pid=15873
+==============================
+2026-10-16T17:39:04.439Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:app_start) ---
+2026-10-16T17:39:22.675Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-16T17:39:22.714Z D/LiteRtLM [DefaultDispatcher-worker-7] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65096|ino=54106|size=4919541760|mtime=1792172357213'
+2026-10-16T17:39:22.714Z D/LiteRtLM [DefaultDispatcher-worker-7] Capabilities: image=false audio=false
+2026-10-16T17:39:22.714Z D/LiteRtLM [DefaultDispatcher-worker-7] Backend=com.google.ai.edge.litertlm.Backend$GPU@7037549 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-16T17:39:22.714Z D/LiteRtLM [DefaultDispatcher-worker-7] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1792172357213
+2026-10-16T17:39:22.715Z D/LiteRtLM [DefaultDispatcher-worker-7] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-16T17:39:22.715Z D/LiteRtLM [DefaultDispatcher-worker-7] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-16T17:39:22.716Z D/LiteRtLM [DefaultDispatcher-worker-7] Engine cacheDir resolved: key='fs|dev=65096|ino=54106|size=4919541760|mtime=1792172357213' backend=com.google.ai.edge.litertlm.Backend$GPU@7037549 path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/0b9d81ae7ffec0abef68408efef92355cf3560ad' filesBefore=0
+2026-10-16T17:39:38.254Z W/LiteRtLM [DefaultDispatcher-worker-7] Engine.initialize completed: key='fs|dev=65096|ino=54106|size=4919541760|mtime=1792172357213' backend=com.google.ai.edge.litertlm.Backend$GPU@7037549 took=15538ms cacheFilesAfter=2
+2026-10-16T17:39:38.259Z D/LiteRtLM [DefaultDispatcher-worker-7] createConversation completed: key='fs|dev=65096|ino=54106|size=4919541760|mtime=1792172357213' took=5ms
+2026-10-16T17:39:38.259Z D/LiteRtLM [DefaultDispatcher-worker-7] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65096|ino=54106|size=4919541760|mtime=1792172357213' engineMs=15538 conversationMs=5 totalMs=15546
+2026-10-16T17:39:39.989Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-16T17:39:40.007Z D/LiteRtLM [DefaultDispatcher-worker-7] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697'
+2026-10-16T17:39:40.007Z D/LiteRtLM [DefaultDispatcher-worker-7] Capabilities: image=false audio=false
+2026-10-16T17:39:40.007Z D/LiteRtLM [DefaultDispatcher-worker-7] Backend=com.google.ai.edge.litertlm.Backend$GPU@24173d4 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-16T17:39:40.007Z D/LiteRtLM [DefaultDispatcher-worker-7] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1792172369697
+2026-10-16T17:39:40.007Z D/LiteRtLM [DefaultDispatcher-worker-7] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-16T17:39:40.007Z D/LiteRtLM [DefaultDispatcher-worker-7] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-16T17:39:40.009Z D/LiteRtLM [DefaultDispatcher-worker-7] Engine cacheDir resolved: key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697' backend=com.google.ai.edge.litertlm.Backend$GPU@24173d4 path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/d17d9f7e876e60aeb1b4b97c2601d8f369a863f2' filesBefore=0
+2026-10-16T17:39:52.397Z W/LiteRtLM [DefaultDispatcher-worker-7] Engine.initialize completed: key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697' backend=com.google.ai.edge.litertlm.Backend$GPU@24173d4 took=12387ms cacheFilesAfter=2
+2026-10-16T17:39:52.401Z D/LiteRtLM [DefaultDispatcher-worker-7] createConversation completed: key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697' took=3ms
+2026-10-16T17:39:52.401Z D/LiteRtLM [DefaultDispatcher-worker-7] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697' engineMs=12387 conversationMs=3 totalMs=12394
+2026-10-16T17:39:52.423Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-10-16T17:39:52.434Z D/SurveyVM [main] init -> Start, session=0, uuid=01a145cc-7feb-71d6-b567-7fb070482167, navSize=1, graphSize=26
+2026-10-16T17:39:52.441Z D/SurveyVM [main] config.validate -> issues=0
+2026-10-16T17:39:52.441Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-10-16T17:39:52.441Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14, Q15, Q16], eval=[], follow=[]
+2026-10-16T17:39:52.441Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-10-16T17:39:52.441Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=190, fu=215)
+2026-10-16T17:39:52.441Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=195, fu=220)
+2026-10-16T17:39:52.441Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=219, fu=244)
+2026-10-16T17:39:52.441Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=229, fu=254)
+2026-10-16T17:39:52.441Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=184, fu=209)
+2026-10-16T17:39:52.442Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-16T17:39:52.442Z D/SurveyVM [main] hasTwoStepPrompt[Q14] -> true (eval=160, fu=185)
+2026-10-16T17:39:52.442Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-16T17:39:52.442Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-16T17:39:52.442Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-10-16T17:39:52.497Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-16T17:39:52.497Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697'
+2026-10-16T17:39:52.498Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=2
+2026-10-16T17:39:52.498Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=2
+2026-10-16T17:39:57.684Z D/SLM [main] forceCleanUpAndWait: model='Gemma3n4B'
+2026-10-16T17:39:58.200Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-10-16T17:39:59.731Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697'
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] Capabilities: image=false audio=false
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] Backend=com.google.ai.edge.litertlm.Backend$GPU@72d9266 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1792172369697
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-16T17:39:59.741Z D/LiteRtLM [DefaultDispatcher-worker-1] Engine cacheDir resolved: key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697' backend=com.google.ai.edge.litertlm.Backend$GPU@72d9266 path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/d17d9f7e876e60aeb1b4b97c2601d8f369a863f2' filesBefore=2
+2026-10-16T17:40:08.454Z W/LiteRtLM [DefaultDispatcher-worker-1] Engine.initialize completed: key='fs|dev=65096|ino=151085|size=4919541760|mtime=1792172369697' backend=com.google.ai.edge.litertlm.Backend$GPU@72d9266 took=8711ms cacheFilesAfter=2
