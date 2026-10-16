@@ -1,0 +1,91 @@
+20261016_173900 I/AppRingLogStore pid=15873 tid=15873 uptimeMs=94816092 msg=install: pid=15873 timeUtc=20261016_173900 uptimeMs=94816091
+20261016_173900 D/SurveyApp pid=15873 tid=15873 uptimeMs=94816092 msg=attachBaseContext: pid=15873 process=com.negi.survey isMain=true sdk=36
+20261016_173900 D/SurveyApp pid=15873 tid=15873 uptimeMs=94816100 msg=onCreate: pid=15873 process=com.negi.survey isMain=true sdk=36
+20261016_173952 D/AiTrace pid=15873 tid=15873 uptimeMs=94867854 msg=Installed (enabled=true ringEnabled=true)
+20261016_173952 D/LiteRtRepository pid=15873 tid=15873 uptimeMs=94867928 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_173952 D/LiteRtRepository pid=15873 tid=15873 uptimeMs=94867929 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_173958 I/AiViewModel pid=15873 tid=15873 uptimeMs=94873630 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_174008 D/AiTrace pid=15873 tid=15873 uptimeMs=94883894 msg=Installed (enabled=true ringEnabled=true)
+20261016_174008 D/LiteRtRepository pid=15873 tid=15873 uptimeMs=94883988 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_174008 D/LiteRtRepository pid=15873 tid=15873 uptimeMs=94883988 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_174109 I/AppRingLogStore pid=17034 tid=17034 uptimeMs=94944944 msg=install: pid=17034 timeUtc=20261016_174109 uptimeMs=94944944
+20261016_174109 D/SurveyApp pid=17034 tid=17034 uptimeMs=94944945 msg=attachBaseContext: pid=17034 process=com.negi.survey isMain=true sdk=36
+20261016_174109 D/SurveyApp pid=17034 tid=17034 uptimeMs=94944953 msg=onCreate: pid=17034 process=com.negi.survey isMain=true sdk=36
+20261016_174123 D/AiTrace pid=17034 tid=17034 uptimeMs=94958756 msg=Installed (enabled=true ringEnabled=true)
+20261016_174123 D/LiteRtRepository pid=17034 tid=17034 uptimeMs=94958879 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_174123 D/LiteRtRepository pid=17034 tid=17034 uptimeMs=94958879 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_174139 I/AiViewModel pid=17034 tid=17034 uptimeMs=94975403 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_174156 D/AiTrace pid=17034 tid=17034 uptimeMs=94991719 msg=Installed (enabled=true ringEnabled=true)
+20261016_174156 D/LiteRtRepository pid=17034 tid=17034 uptimeMs=94991783 msg=warmUp init ok initMs=1 gateWaitMs=0
+20261016_174156 D/LiteRtRepository pid=17034 tid=17034 uptimeMs=94991783 msg=warmUp Engine ready representativeInference=false totalMs=1
+20261016_174326 I/AppRingLogStore pid=17698 tid=17698 uptimeMs=95081433 msg=install: pid=17698 timeUtc=20261016_174326 uptimeMs=95081432
+20261016_174326 D/SurveyApp pid=17698 tid=17698 uptimeMs=95081433 msg=attachBaseContext: pid=17698 process=com.negi.survey isMain=true sdk=36
+20261016_174326 D/SurveyApp pid=17698 tid=17698 uptimeMs=95081442 msg=onCreate: pid=17698 process=com.negi.survey isMain=true sdk=36
+20261016_174402 D/AiTrace pid=17698 tid=17698 uptimeMs=95117903 msg=Installed (enabled=true ringEnabled=true)
+20261016_174402 D/LiteRtRepository pid=17698 tid=17698 uptimeMs=95118001 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_174402 D/LiteRtRepository pid=17698 tid=17698 uptimeMs=95118001 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_175601 I/AiViewModel pid=17698 tid=17698 uptimeMs=95836881 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_175609 D/AiTrace pid=17698 tid=17698 uptimeMs=95845074 msg=Installed (enabled=true ringEnabled=true)
+20261016_175609 D/LiteRtRepository pid=17698 tid=17698 uptimeMs=95845135 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_175609 D/LiteRtRepository pid=17698 tid=17698 uptimeMs=95845135 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_175626 I/AppRingLogStore pid=19694 tid=19694 uptimeMs=95861890 msg=install: pid=19694 timeUtc=20261016_175626 uptimeMs=95861890
+20261016_175626 D/SurveyApp pid=19694 tid=19694 uptimeMs=95861891 msg=attachBaseContext: pid=19694 process=com.negi.survey isMain=true sdk=36
+20261016_175626 D/SurveyApp pid=19694 tid=19694 uptimeMs=95861899 msg=onCreate: pid=19694 process=com.negi.survey isMain=true sdk=36
+20261016_175635 D/AiTrace pid=19694 tid=19694 uptimeMs=95870656 msg=Installed (enabled=true ringEnabled=true)
+20261016_175635 D/LiteRtRepository pid=19694 tid=19694 uptimeMs=95870761 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_175635 D/LiteRtRepository pid=19694 tid=19694 uptimeMs=95870761 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_175713 I/AiViewModel pid=19694 tid=19694 uptimeMs=95908746 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_180048 I/AppRingLogStore pid=20464 tid=20464 uptimeMs=96123496 msg=install: pid=20464 timeUtc=20261016_180048 uptimeMs=96123495
+20261016_180048 D/SurveyApp pid=20464 tid=20464 uptimeMs=96123496 msg=attachBaseContext: pid=20464 process=com.negi.survey isMain=true sdk=36
+20261016_180048 D/SurveyApp pid=20464 tid=20464 uptimeMs=96123505 msg=onCreate: pid=20464 process=com.negi.survey isMain=true sdk=36
+20261016_180056 D/AiTrace pid=20464 tid=20464 uptimeMs=96131987 msg=Installed (enabled=true ringEnabled=true)
+20261016_180056 D/LiteRtRepository pid=20464 tid=20464 uptimeMs=96132089 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_180056 D/LiteRtRepository pid=20464 tid=20464 uptimeMs=96132089 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_180103 I/AiViewModel pid=20464 tid=20464 uptimeMs=96138871 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_180115 D/AiTrace pid=20464 tid=20464 uptimeMs=96151200 msg=Installed (enabled=true ringEnabled=true)
+20261016_180115 D/LiteRtRepository pid=20464 tid=20464 uptimeMs=96151258 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_180115 D/LiteRtRepository pid=20464 tid=20464 uptimeMs=96151258 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_180316 I/AiViewModel pid=20464 tid=20464 uptimeMs=96271980 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_180530 I/AppRingLogStore pid=21275 tid=21275 uptimeMs=96405680 msg=install: pid=21275 timeUtc=20261016_180530 uptimeMs=96405679
+20261016_180530 D/SurveyApp pid=21275 tid=21275 uptimeMs=96405680 msg=attachBaseContext: pid=21275 process=com.negi.survey isMain=true sdk=36
+20261016_180530 D/SurveyApp pid=21275 tid=21275 uptimeMs=96405689 msg=onCreate: pid=21275 process=com.negi.survey isMain=true sdk=36
+20261016_180543 D/AiTrace pid=21275 tid=21275 uptimeMs=96419010 msg=Installed (enabled=true ringEnabled=true)
+20261016_180543 D/LiteRtRepository pid=21275 tid=21275 uptimeMs=96419106 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_180543 D/LiteRtRepository pid=21275 tid=21275 uptimeMs=96419106 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_180709 I/AppRingLogStore pid=21744 tid=21744 uptimeMs=96505408 msg=install: pid=21744 timeUtc=20261016_180709 uptimeMs=96505407
+20261016_180709 D/SurveyApp pid=21744 tid=21744 uptimeMs=96505408 msg=attachBaseContext: pid=21744 process=com.negi.survey isMain=true sdk=36
+20261016_180709 D/SurveyApp pid=21744 tid=21744 uptimeMs=96505417 msg=onCreate: pid=21744 process=com.negi.survey isMain=true sdk=36
+20261016_180958 I/AppRingLogStore pid=22436 tid=22436 uptimeMs=96673604 msg=install: pid=22436 timeUtc=20261016_180958 uptimeMs=96673604
+20261016_180958 D/SurveyApp pid=22436 tid=22436 uptimeMs=96673605 msg=attachBaseContext: pid=22436 process=com.negi.survey isMain=true sdk=36
+20261016_180958 D/SurveyApp pid=22436 tid=22436 uptimeMs=96673614 msg=onCreate: pid=22436 process=com.negi.survey isMain=true sdk=36
+20261016_181052 D/AiTrace pid=22436 tid=22436 uptimeMs=96728357 msg=Installed (enabled=true ringEnabled=true)
+20261016_181053 D/LiteRtRepository pid=22436 tid=22436 uptimeMs=96728456 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_181053 D/LiteRtRepository pid=22436 tid=22436 uptimeMs=96728456 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_181148 I/AppRingLogStore pid=22947 tid=22947 uptimeMs=96784273 msg=install: pid=22947 timeUtc=20261016_181148 uptimeMs=96784272
+20261016_181148 D/SurveyApp pid=22947 tid=22947 uptimeMs=96784273 msg=attachBaseContext: pid=22947 process=com.negi.survey isMain=true sdk=36
+20261016_181148 D/SurveyApp pid=22947 tid=22947 uptimeMs=96784282 msg=onCreate: pid=22947 process=com.negi.survey isMain=true sdk=36
+20261016_181204 D/AiTrace pid=22947 tid=22947 uptimeMs=96799933 msg=Installed (enabled=true ringEnabled=true)
+20261016_181204 D/LiteRtRepository pid=22947 tid=22947 uptimeMs=96800042 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_181204 D/LiteRtRepository pid=22947 tid=22947 uptimeMs=96800042 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_181312 I/AppRingLogStore pid=23417 tid=23417 uptimeMs=96868185 msg=install: pid=23417 timeUtc=20261016_181312 uptimeMs=96868185
+20261016_181312 D/SurveyApp pid=23417 tid=23417 uptimeMs=96868186 msg=attachBaseContext: pid=23417 process=com.negi.survey isMain=true sdk=36
+20261016_181312 D/SurveyApp pid=23417 tid=23417 uptimeMs=96868194 msg=onCreate: pid=23417 process=com.negi.survey isMain=true sdk=36
+20261016_181327 D/AiTrace pid=23417 tid=23417 uptimeMs=96882729 msg=Installed (enabled=true ringEnabled=true)
+20261016_181327 D/LiteRtRepository pid=23417 tid=23417 uptimeMs=96882818 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261016_181327 D/LiteRtRepository pid=23417 tid=23417 uptimeMs=96882818 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261016_181341 I/AiViewModel pid=23417 tid=23417 uptimeMs=96897402 msg=onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+20261016_181406 I/AppRingLogStore pid=24061 tid=24061 uptimeMs=96922326 msg=install: pid=24061 timeUtc=20261016_181406 uptimeMs=96922325
+20261016_181406 D/SurveyApp pid=24061 tid=24061 uptimeMs=96922326 msg=attachBaseContext: pid=24061 process=com.negi.survey isMain=true sdk=36
+20261016_181406 D/SurveyApp pid=24061 tid=24061 uptimeMs=96922335 msg=onCreate: pid=24061 process=com.negi.survey isMain=true sdk=36
+20261016_181530 D/AiTrace pid=24061 tid=24061 uptimeMs=97005749 msg=Installed (enabled=true ringEnabled=true)
+20261016_181530 D/LiteRtRepository pid=24061 tid=24061 uptimeMs=97005853 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_181530 D/LiteRtRepository pid=24061 tid=24061 uptimeMs=97005853 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_181700 I/AppRingLogStore pid=26311 tid=26311 uptimeMs=97095933 msg=install: pid=26311 timeUtc=20261016_181700 uptimeMs=97095932
+20261016_181700 D/SurveyApp pid=26311 tid=26311 uptimeMs=97095933 msg=attachBaseContext: pid=26311 process=com.negi.survey isMain=true sdk=36
+20261016_181700 D/SurveyApp pid=26311 tid=26311 uptimeMs=97095942 msg=onCreate: pid=26311 process=com.negi.survey isMain=true sdk=36
+20261016_181719 D/AiTrace pid=26311 tid=26311 uptimeMs=97115161 msg=Installed (enabled=true ringEnabled=true)
+20261016_181719 D/LiteRtRepository pid=26311 tid=26311 uptimeMs=97115320 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261016_181719 D/LiteRtRepository pid=26311 tid=26311 uptimeMs=97115321 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261016_183554 I/AppRingLogStore pid=30436 tid=30436 uptimeMs=98230057 msg=install: pid=30436 timeUtc=20261016_183554 uptimeMs=98230057
+20261016_183554 D/SurveyApp pid=30436 tid=30436 uptimeMs=98230058 msg=attachBaseContext: pid=30436 process=com.negi.survey isMain=true sdk=36
+20261016_183554 D/SurveyApp pid=30436 tid=30436 uptimeMs=98230066 msg=onCreate: pid=30436 process=com.negi.survey isMain=true sdk=36
