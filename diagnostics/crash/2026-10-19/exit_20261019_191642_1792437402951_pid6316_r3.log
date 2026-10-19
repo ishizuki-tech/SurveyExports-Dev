@@ -1,0 +1,18 @@
+=== Previous Process Exit (API30+) ===
+captured_time_utc=20261019_191648
+captured_time_local=20261019_121648
+exit_timestamp_ms=1792437402951
+exit_reason=3
+exit_reason_name=LOW_MEMORY
+exit_status=0
+exit_pid=6316
+process_name=com.negi.survey
+importance=400
+pss_kb=0
+rss_kb=673264
+description=
+sdk=36
+device=samsung SM-S931U1
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
