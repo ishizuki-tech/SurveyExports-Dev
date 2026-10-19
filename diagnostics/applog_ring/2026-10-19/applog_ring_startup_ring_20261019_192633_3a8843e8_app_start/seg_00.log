@@ -1,0 +1,45 @@
+20261019_191431 I/AppRingLogStore pid=6316 tid=6316 uptimeMs=22237419 msg=install: pid=6316 timeUtc=20261019_191431 uptimeMs=22237418
+20261019_191431 D/SurveyApp pid=6316 tid=6316 uptimeMs=22237419 msg=attachBaseContext: pid=6316 process=com.negi.survey isMain=true sdk=36
+20261019_191431 D/SurveyApp pid=6316 tid=6316 uptimeMs=22237432 msg=onCreate: pid=6316 process=com.negi.survey isMain=true sdk=36
+20261019_191524 D/AiTrace pid=6316 tid=6316 uptimeMs=22289876 msg=Installed (enabled=true ringEnabled=true)
+20261019_191547 D/LiteRtRepository pid=6316 tid=6316 uptimeMs=22313385 msg=warmUp init ok initMs=23438 gateWaitMs=0
+20261019_191547 D/LiteRtRepository pid=6316 tid=6316 uptimeMs=22313385 msg=warmUp Engine ready representativeInference=false totalMs=23439
+20261019_191645 I/AppRingLogStore pid=9618 tid=9618 uptimeMs=22371315 msg=install: pid=9618 timeUtc=20261019_191645 uptimeMs=22371314
+20261019_191645 D/SurveyApp pid=9618 tid=9618 uptimeMs=22371315 msg=attachBaseContext: pid=9618 process=com.negi.survey isMain=true sdk=36
+20261019_191645 D/SurveyApp pid=9618 tid=9618 uptimeMs=22371329 msg=onCreate: pid=9618 process=com.negi.survey isMain=true sdk=36
+20261019_191659 D/AiTrace pid=9618 tid=9618 uptimeMs=22384937 msg=Installed (enabled=true ringEnabled=true)
+20261019_191659 D/LiteRtRepository pid=9618 tid=9618 uptimeMs=22385052 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261019_191659 D/LiteRtRepository pid=9618 tid=9618 uptimeMs=22385052 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261019_191733 I/AppRingLogStore pid=10251 tid=10251 uptimeMs=22419199 msg=install: pid=10251 timeUtc=20261019_191733 uptimeMs=22419198
+20261019_191733 D/SurveyApp pid=10251 tid=10251 uptimeMs=22419199 msg=attachBaseContext: pid=10251 process=com.negi.survey isMain=true sdk=36
+20261019_191733 D/SurveyApp pid=10251 tid=10251 uptimeMs=22419213 msg=onCreate: pid=10251 process=com.negi.survey isMain=true sdk=36
+20261019_191745 D/AiTrace pid=10251 tid=10251 uptimeMs=22430834 msg=Installed (enabled=true ringEnabled=true)
+20261019_191745 D/LiteRtRepository pid=10251 tid=10251 uptimeMs=22430934 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261019_191745 D/LiteRtRepository pid=10251 tid=10251 uptimeMs=22430934 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261019_191840 I/AppRingLogStore pid=10762 tid=10762 uptimeMs=22486541 msg=install: pid=10762 timeUtc=20261019_191840 uptimeMs=22486540
+20261019_191840 D/SurveyApp pid=10762 tid=10762 uptimeMs=22486541 msg=attachBaseContext: pid=10762 process=com.negi.survey isMain=true sdk=36
+20261019_191840 D/SurveyApp pid=10762 tid=10762 uptimeMs=22486556 msg=onCreate: pid=10762 process=com.negi.survey isMain=true sdk=36
+20261019_191851 D/AiTrace pid=10762 tid=10762 uptimeMs=22496961 msg=Installed (enabled=true ringEnabled=true)
+20261019_191851 D/LiteRtRepository pid=10762 tid=10762 uptimeMs=22497059 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261019_191851 D/LiteRtRepository pid=10762 tid=10762 uptimeMs=22497059 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261019_192220 I/AppRingLogStore pid=12749 tid=12749 uptimeMs=22706462 msg=install: pid=12749 timeUtc=20261019_192220 uptimeMs=22706461
+20261019_192220 D/SurveyApp pid=12749 tid=12749 uptimeMs=22706462 msg=attachBaseContext: pid=12749 process=com.negi.survey isMain=true sdk=36
+20261019_192220 D/SurveyApp pid=12749 tid=12749 uptimeMs=22706474 msg=onCreate: pid=12749 process=com.negi.survey isMain=true sdk=36
+20261019_192231 D/AiTrace pid=12749 tid=12749 uptimeMs=22716710 msg=Installed (enabled=true ringEnabled=true)
+20261019_192231 D/LiteRtRepository pid=12749 tid=12749 uptimeMs=22716808 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261019_192231 D/LiteRtRepository pid=12749 tid=12749 uptimeMs=22716808 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261019_192353 I/AppRingLogStore pid=13537 tid=13537 uptimeMs=22798819 msg=install: pid=13537 timeUtc=20261019_192353 uptimeMs=22798818
+20261019_192353 D/SurveyApp pid=13537 tid=13537 uptimeMs=22798819 msg=attachBaseContext: pid=13537 process=com.negi.survey isMain=true sdk=36
+20261019_192353 D/SurveyApp pid=13537 tid=13537 uptimeMs=22798827 msg=onCreate: pid=13537 process=com.negi.survey isMain=true sdk=36
+20261019_192402 D/AiTrace pid=13537 tid=13537 uptimeMs=22808378 msg=Installed (enabled=true ringEnabled=true)
+20261019_192402 D/LiteRtRepository pid=13537 tid=13537 uptimeMs=22808469 msg=warmUp init ok initMs=1 gateWaitMs=1
+20261019_192402 D/LiteRtRepository pid=13537 tid=13537 uptimeMs=22808469 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261019_192516 I/AppRingLogStore pid=14221 tid=14221 uptimeMs=22882545 msg=install: pid=14221 timeUtc=20261019_192516 uptimeMs=22882544
+20261019_192516 D/SurveyApp pid=14221 tid=14221 uptimeMs=22882545 msg=attachBaseContext: pid=14221 process=com.negi.survey isMain=true sdk=36
+20261019_192516 D/SurveyApp pid=14221 tid=14221 uptimeMs=22882554 msg=onCreate: pid=14221 process=com.negi.survey isMain=true sdk=36
+20261019_192526 D/AiTrace pid=14221 tid=14221 uptimeMs=22892539 msg=Installed (enabled=true ringEnabled=true)
+20261019_192526 D/LiteRtRepository pid=14221 tid=14221 uptimeMs=22892634 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261019_192526 D/LiteRtRepository pid=14221 tid=14221 uptimeMs=22892634 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261019_192631 I/AppRingLogStore pid=14757 tid=14757 uptimeMs=22956779 msg=install: pid=14757 timeUtc=20261019_192631 uptimeMs=22956778
+20261019_192631 D/SurveyApp pid=14757 tid=14757 uptimeMs=22956779 msg=attachBaseContext: pid=14757 process=com.negi.survey isMain=true sdk=36
+20261019_192631 D/SurveyApp pid=14757 tid=14757 uptimeMs=22956788 msg=onCreate: pid=14757 process=com.negi.survey isMain=true sdk=36
