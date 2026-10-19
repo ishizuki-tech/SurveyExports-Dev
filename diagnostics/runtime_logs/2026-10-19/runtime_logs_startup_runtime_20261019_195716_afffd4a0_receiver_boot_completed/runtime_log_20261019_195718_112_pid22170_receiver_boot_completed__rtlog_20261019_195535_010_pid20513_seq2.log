@@ -1,0 +1,27 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-19T19:55:35.011Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=36
+pid=20513
+==============================
+2026-10-19T19:55:35.011Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:receiver_boot_completed) ---
+2026-10-19T19:55:35.955Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-10-19T19:55:35.956Z I/SurveyApp [main] GitHub upload mode: production
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: available
+2026-10-19T19:55:35.956Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-10-19T19:55:35.956Z D/SurveyApp [main] Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+2026-10-19T19:55:35.957Z D/SurveyApp [main] Startup runtime logs: enqueue requested (immediate).
+2026-10-19T19:55:35.957Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-10-19T19:55:35.958Z D/SurveyApp [main] Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+2026-10-19T19:55:35.958Z D/SurveyApp [main] Startup ring logs: enqueue requested (immediate).
+2026-10-19T19:55:35.958Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-10-19T19:55:35.959Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-10-19T19:55:35.959Z W/SurveyApp [main] Deferred startup enqueues done: took=4ms
