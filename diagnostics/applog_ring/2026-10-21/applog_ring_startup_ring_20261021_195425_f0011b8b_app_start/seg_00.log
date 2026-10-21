@@ -1,0 +1,12 @@
+20261021_195336 I/AppRingLogStore pid=21253 tid=21253 uptimeMs=9157318 msg=install: pid=21253 timeUtc=20261021_195336 uptimeMs=9157317
+20261021_195336 D/SurveyApp pid=21253 tid=21253 uptimeMs=9157318 msg=attachBaseContext: pid=21253 process=com.negi.survey isMain=true sdk=37
+20261021_195336 D/SurveyApp pid=21253 tid=21253 uptimeMs=9157327 msg=onCreate: pid=21253 process=com.negi.survey isMain=true sdk=37
+20261021_195353 I/AppRingLogStore pid=21500 tid=21500 uptimeMs=9174037 msg=install: pid=21500 timeUtc=20261021_195353 uptimeMs=9174036
+20261021_195353 D/SurveyApp pid=21500 tid=21500 uptimeMs=9174037 msg=attachBaseContext: pid=21500 process=com.negi.survey isMain=true sdk=37
+20261021_195353 D/SurveyApp pid=21500 tid=21500 uptimeMs=9174049 msg=onCreate: pid=21500 process=com.negi.survey isMain=true sdk=37
+20261021_195406 I/AppRingLogStore pid=21685 tid=21685 uptimeMs=9186987 msg=install: pid=21685 timeUtc=20261021_195406 uptimeMs=9186986
+20261021_195406 D/SurveyApp pid=21685 tid=21685 uptimeMs=9186987 msg=attachBaseContext: pid=21685 process=com.negi.survey isMain=true sdk=37
+20261021_195406 D/SurveyApp pid=21685 tid=21685 uptimeMs=9186997 msg=onCreate: pid=21685 process=com.negi.survey isMain=true sdk=37
+20261021_195423 I/AppRingLogStore pid=21888 tid=21888 uptimeMs=9204089 msg=install: pid=21888 timeUtc=20261021_195423 uptimeMs=9204089
+20261021_195423 D/SurveyApp pid=21888 tid=21888 uptimeMs=9204090 msg=attachBaseContext: pid=21888 process=com.negi.survey isMain=true sdk=37
+20261021_195423 D/SurveyApp pid=21888 tid=21888 uptimeMs=9204099 msg=onCreate: pid=21888 process=com.negi.survey isMain=true sdk=37
