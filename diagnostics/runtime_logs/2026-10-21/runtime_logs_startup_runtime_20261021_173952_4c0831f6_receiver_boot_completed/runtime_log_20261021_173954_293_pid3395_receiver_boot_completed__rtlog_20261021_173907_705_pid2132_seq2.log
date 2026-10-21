@@ -1,0 +1,12 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-21T17:39:07.706Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=37
+pid=2132
+==============================
+2026-10-21T17:39:07.706Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:app_start) ---
