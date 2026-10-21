@@ -1,0 +1,1012 @@
+=== Previous Session Logcat ===
+captured_time_utc=20261021_202147
+captured_time_local=20261021_132147
+marker=2026-10-21 13:19:54.281
+preferred_prev_pid=-1
+note=best-effort; buffers may be overwritten before next start
+sdk=37
+device=samsung SM-S931U1
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+
+=== Logcat (since marker) ===
+--------- beginning of main
+10-21 13:19:54.281 32610 32691 D CrashCapture: Staged prev session logcat: /data/user/0/com.negi.survey/files/diagnostics/crash/prevlog_20261021_201954_pid32610.log bytes=140029 marker=2026-10-21 13:19:40.928 pid=-1
+10-21 13:19:54.282 32610 32691 D CrashCapture: Persisted logcat marker for next run: 2026-10-21 13:19:54.281
+10-21 13:19:54.283 32610 32691 D CrashCapture: GitHub hints: owner=ishizuki-tech repo=SurveyExports-Dev branch=main pathPrefix=diagnostics/crash
+10-21 13:19:54.283 32610 32691 D CrashCapture: Enqueuing GitHub crash uploads… (mirror-first) where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:19:54.283 32610 32691 D CrashCapture: GitHub enqueue(crash file): name=prevlog_20261021_201954_pid32610.log bytes=140029 remote=prevlog_20261021_201954_pid32610.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:19:54.285 32610 32691 D CrashCapture: GitHub enqueue(crash file): name=prevlog_20261021_201940_pid32375.log bytes=114752 remote=prevlog_20261021_201940_pid32375.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:19:54.286 32610 32691 D CrashCapture: GitHub enqueue(ring file): bytes=1232 remote=ring_store/20261021_201954_pid32610_u735069/seg_00.log src=seg_00.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:19:54.287 32610 32691 D CrashCapture: Ring store enqueue done. dir=/data/user/0/com.negi.survey/files/diagnostics/applog_ring files=1 bytes=1232 capFiles=300 capBytes=90000000 where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:19:54.293 32610 32651 D WM-SystemJobScheduler: Scheduling work ID 7a9b4764-c535-43de-bc5f-0ea9b41a5efdJob ID 8
+10-21 13:19:54.295 32610 32651 D WM-GreedyScheduler: Starting tracking for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd
+10-21 13:19:54.295 32610 32610 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0)
+10-21 13:19:54.305 32610 32651 D WM-SystemJobScheduler: Scheduling work ID 834b1027-695f-4954-bb8b-30494ae04802Job ID 9
+10-21 13:19:54.306 32610 32610 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0)
+10-21 13:19:54.306 32610 32651 D WM-GreedyScheduler: Starting tracking for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd,834b1027-695f-4954-bb8b-30494ae04802
+10-21 13:19:54.312 32610 32651 D WM-SystemJobScheduler: Scheduling work ID f18edfb6-3b48-4bc6-bd18-579151e9c27fJob ID 10
+10-21 13:19:54.312 32610 32610 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0)
+10-21 13:19:54.312 32610 32651 D WM-GreedyScheduler: Starting tracking for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd,834b1027-695f-4954-bb8b-30494ae04802,f18edfb6-3b48-4bc6-bd18-579151e9c27f
+10-21 13:19:54.314 32610 32651 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0)
+10-21 13:19:54.315 32610 32651 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0)
+10-21 13:19:54.317 32610 32651 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0)
+10-21 13:19:54.320 32610 32610 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:19:54.323 32610 32610 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:19:54.325 32610 32610 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:19:54.326 32610 32651 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:19:54.328 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.329 32610 32610 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:19:54.329 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.329 32610 32651 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:19:54.329 32610 32651 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+--------- beginning of system
+10-21 13:19:54.329 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.330 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.331 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.331 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.332 32610 32610 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:19:54.332 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.332 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.332 32610 32651 I WM-Processor: Moving WorkSpec (f18edfb6-3b48-4bc6-bd18-579151e9c27f) to the foreground
+10-21 13:19:54.332 32610 32644 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/prevlog_20261021_201954_pid32610.log size=140029 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:19:54.332 32610 32645 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/prevlog_20261021_201940_pid32375.log size=114752 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:19:54.333 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.333 32610 32650 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0)
+10-21 13:19:54.333 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.333 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 0, mode : file})
+10-21 13:19:54.333 32610 32610 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:19:54.333 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:54.333 32610 32610 I NotificationManager: com.negi.survey: notify(6583, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.334 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:54.334 32610 32610 I NotificationManager: com.negi.survey: notify(6583, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.334 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 0, mode : file})
+10-21 13:19:54.337 32610 32696 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/ring_store/20261021_201954_pid32610_u735069/seg_00.log size=1232 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:19:54.338 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.339 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.339 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.340 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.340 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.340 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.340 32610 32650 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0)
+10-21 13:19:54.340 32610 32650 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0)
+10-21 13:19:54.342 32610 32650 D WM-Processor: Work WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0) is already enqueued for processing
+10-21 13:19:54.343 32610 32650 D WM-WorkProgressUpdater: Updating progress for f18edfb6-3b48-4bc6-bd18-579151e9c27f (Data {pct : 0, mode : file})
+10-21 13:19:54.345 32610 32650 I WM-Processor: Moving WorkSpec (f18edfb6-3b48-4bc6-bd18-579151e9c27f) to the foreground
+10-21 13:19:54.345 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:54.345 32610 32610 I NotificationManager: com.negi.survey: notify(6583, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.346 32610 32650 D WM-Processor: Work WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0) is already enqueued for processing
+10-21 13:19:54.348 32610 32650 D WM-Processor: Work WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0) is already enqueued for processing
+10-21 13:19:54.349 32610 32650 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:19:54.350 32610 32650 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:19:54.351 32610 32650 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:19:54.630 32610 32647 D WM-WorkProgressUpdater: Updating progress for f18edfb6-3b48-4bc6-bd18-579151e9c27f (Data {pct : 10, mode : file})
+10-21 13:19:54.632 32610 32647 I WM-Processor: Moving WorkSpec (f18edfb6-3b48-4bc6-bd18-579151e9c27f) to the foreground
+10-21 13:19:54.633 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:54.634 32610 32610 I NotificationManager: com.negi.survey: notify(6583, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.634 32610 32647 D WM-WorkProgressUpdater: Updating progress for f18edfb6-3b48-4bc6-bd18-579151e9c27f (Data {pct : 90, mode : file})
+10-21 13:19:54.636 32610 32647 I WM-Processor: Moving WorkSpec (f18edfb6-3b48-4bc6-bd18-579151e9c27f) to the foreground
+10-21 13:19:54.637 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:54.637 32610 32610 I NotificationManager: com.negi.survey: notify(6583, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.668 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 10, mode : file})
+10-21 13:19:54.671 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.671 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 14, mode : file})
+10-21 13:19:54.672 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.672 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.674 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.675 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 19, mode : file})
+10-21 13:19:54.675 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.675 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.677 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.678 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 24, mode : file})
+10-21 13:19:54.678 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.678 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.680 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.680 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 28, mode : file})
+10-21 13:19:54.680 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.680 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.682 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.683 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 33, mode : file})
+10-21 13:19:54.683 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.683 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.685 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.685 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 38, mode : file})
+10-21 13:19:54.685 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.685 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.687 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.687 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 42, mode : file})
+10-21 13:19:54.687 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.687 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.689 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.690 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 47, mode : file})
+10-21 13:19:54.690 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.690 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.692 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.692 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 52, mode : file})
+10-21 13:19:54.692 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.692 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.694 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.694 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 56, mode : file})
+10-21 13:19:54.694 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.694 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.696 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.696 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 61, mode : file})
+10-21 13:19:54.696 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.696 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.698 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.699 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 66, mode : file})
+10-21 13:19:54.699 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.699 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.700 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.701 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 70, mode : file})
+10-21 13:19:54.701 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.701 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.703 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.703 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 75, mode : file})
+10-21 13:19:54.703 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.703 32610 32610 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=9927], rate limit (5.0) exceeded: input 7.345762, output would be 5.1477056
+10-21 13:19:54.705 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.705 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 80, mode : file})
+10-21 13:19:54.705 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.707 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.707 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 84, mode : file})
+10-21 13:19:54.707 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.709 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.710 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 89, mode : file})
+10-21 13:19:54.710 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.711 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.712 32610 32650 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 90, mode : file})
+10-21 13:19:54.712 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.714 32610 32650 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:54.714 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:54.814 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 10, mode : file})
+10-21 13:19:54.820 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.821 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 15, mode : file})
+10-21 13:19:54.821 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.821 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:54.825 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.826 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 21, mode : file})
+10-21 13:19:54.826 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.829 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.830 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 27, mode : file})
+10-21 13:19:54.830 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.832 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.833 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 32, mode : file})
+10-21 13:19:54.833 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.834 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.835 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 38, mode : file})
+10-21 13:19:54.835 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.836 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.837 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 44, mode : file})
+10-21 13:19:54.837 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.838 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.839 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.839 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 49, mode : file})
+10-21 13:19:54.841 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.841 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 55, mode : file})
+10-21 13:19:54.841 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.842 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.843 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 61, mode : file})
+10-21 13:19:54.843 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.844 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.844 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 67, mode : file})
+10-21 13:19:54.844 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.845 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.846 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 72, mode : file})
+10-21 13:19:54.846 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.847 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.847 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 78, mode : file})
+10-21 13:19:54.847 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.849 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.849 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 84, mode : file})
+10-21 13:19:54.849 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.852 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.852 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 89, mode : file})
+10-21 13:19:54.852 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.854 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.854 32610 32651 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 90, mode : file})
+10-21 13:19:54.854 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.855 32610 32651 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:54.856 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:54.884 32610 32699 D github_upload: doRingLogsUpload: remoteBaseDir=diagnostics/applog_ring/2026-10-21/applog_ring_startup_ring_20261021_201954_73847c71_app_start segs=1 bytes=1232 source=/data/user/0/com.negi.survey/files/diagnostics/applog_ring snapshot=/data/user/0/com.negi.survey/cache/diagnostics_ring_upload/startup_ring_20261021_201954_73847c71
+10-21 13:19:54.884 32610 32699 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/applog_ring/2026-10-21/applog_ring_startup_ring_20261021_201954_73847c71_app_start/seg_00.log size=1232 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:19:54.885 32610 32650 D WM-WorkProgressUpdater: Updating progress for 287608cb-ba00-4088-8751-aaf513e208a6 (Data {pct : 10, mode : startup_ring_logs})
+10-21 13:19:54.888 32610 32650 I WM-Processor: Moving WorkSpec (287608cb-ba00-4088-8751-aaf513e208a6) to the foreground
+10-21 13:19:54.889 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6085, workSpecId: 287608cb-ba00-4088-8751-aaf513e208a6, notificationType :1)
+10-21 13:19:54.986 32610 32610 I VRI[MainActivity]@5b235fc: ViewPostIme pointer 0
+10-21 13:19:54.987 32610 32610 I VRI[MainActivity]@5b235fc: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@5b235fc
+10-21 13:19:54.994 32610 32610 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{e1ddba2 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:19:55.046 32610 32630 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+10-21 13:19:55.046 32610 32630 I AdrenoVK-0: Pipeline create failed
+10-21 13:19:55.053 32610 32610 I VRI[MainActivity]@5b235fc: ViewPostIme pointer 1
+10-21 13:19:55.078 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:19:55.078 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:19:55.079 32610 32610 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:19:55.079 32610 32610 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:19:55.112 32610 32610 D InputTransport: Input channel destroyed: 'ClientS', fd=159
+10-21 13:19:55.192 32610 32647 D WM-WorkProgressUpdater: Updating progress for 287608cb-ba00-4088-8751-aaf513e208a6 (Data {pct : 19, mode : startup_ring_logs})
+10-21 13:19:55.195 32610 32647 I WM-Processor: Moving WorkSpec (287608cb-ba00-4088-8751-aaf513e208a6) to the foreground
+10-21 13:19:55.196 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6085, workSpecId: 287608cb-ba00-4088-8751-aaf513e208a6, notificationType :1)
+10-21 13:19:55.197 32610 32610 I NotificationManager: com.negi.survey: notify(6085, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:55.197 32610 32647 D WM-WorkProgressUpdater: Updating progress for 287608cb-ba00-4088-8751-aaf513e208a6 (Data {pct : 91, mode : startup_ring_logs})
+10-21 13:19:55.198 32610 32647 I WM-Processor: Moving WorkSpec (287608cb-ba00-4088-8751-aaf513e208a6) to the foreground
+10-21 13:19:55.199 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6085, workSpecId: 287608cb-ba00-4088-8751-aaf513e208a6, notificationType :1)
+10-21 13:19:55.379 32610 32627 D RuntimeLogStore: openWriter: rotate:plain_snapshot:app_start -> /data/user/0/com.negi.survey/files/diagnostics/runtime_logs/rtlog_20261021_201955_379_pid32610_seq2.log (bytes=0 format=LEGACY)
+10-21 13:19:55.379 32610 32627 D RuntimeLogStore: retention: rotate:plain_snapshot:app_start files=3 kept=3 totalBytes=12123
+10-21 13:19:55.381 32610 32646 D github_upload: doRuntimeLogsUpload: remoteBaseDir=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_201954_6de81940_app_start toUpload=2 bytes=11800 dedupe=true deleteSource=true deletedSourcePre=0 preview='runtime_log_20261021_201955_380_pid32610_app_start__rtlog_20261021_201951_601_pid32610_seq1.log|runtime_log_20261021_201955_380_pid32610_app_start__rtlog_20261021_201939_938_pid32375_seq2.log'
+10-21 13:19:55.381 32610 32646 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_201954_6de81940_app_start/runtime_log_20261021_201955_380_pid32610_app_start__rtlog_20261021_201951_601_pid32610_seq1.log size=3396 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:19:55.382 32610 32650 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 10, mode : startup_runtime_logs})
+10-21 13:19:55.383 32610 32650 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:55.385 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:55.385 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:55.436 32610 32647 D WM-WorkProgressUpdater: Updating progress for f18edfb6-3b48-4bc6-bd18-579151e9c27f (Data {pct : 95, mode : file})
+10-21 13:19:55.437 32610 32696 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/crash/2026-10-21/ring_store/20261021_201954_pid32610_u735069/seg_00.log sha=2ff722ca9a307304278b8393f6d63f1fa2e2f69c
+10-21 13:19:55.438 32610 32647 I WM-Processor: Moving WorkSpec (f18edfb6-3b48-4bc6-bd18-579151e9c27f) to the foreground
+10-21 13:19:55.439 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:55.439 32610 32647 I WM-Processor: Moving WorkSpec (f18edfb6-3b48-4bc6-bd18-579151e9c27f) to the foreground
+10-21 13:19:55.440 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6583, workSpecId: f18edfb6-3b48-4bc6-bd18-579151e9c27f, notificationType :1)
+10-21 13:19:55.440 32610 32610 I NotificationManager: com.negi.survey: notify(6583, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:55.441 32610 32647 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f18edfb6-3b48-4bc6-bd18-579151e9c27f, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:ring:diagnostics_crash_ring_store_20261021_201954_pid32610_u735069_seg_00.log_c7a5a5e7 } ]
+10-21 13:19:55.442 32610 32610 D WM-Processor: Processor f18edfb6-3b48-4bc6-bd18-579151e9c27f executed; reschedule = false
+10-21 13:19:55.442 32610 32610 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0)
+10-21 13:19:55.442 32610 32610 D WM-SystemJobService: f18edfb6-3b48-4bc6-bd18-579151e9c27f executed on JobScheduler
+10-21 13:19:55.442 32610 32610 D WM-SystemFgDispatcher: Removing Notification (id: 6583, workSpecId: WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0), notificationType: 1
+10-21 13:19:55.443 32610 32610 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=f18edfb6-3b48-4bc6-bd18-579151e9c27f, generation=0)
+10-21 13:19:55.443 32610 32647 D WM-GreedyScheduler: Cancelling work ID f18edfb6-3b48-4bc6-bd18-579151e9c27f
+10-21 13:19:55.561 32610 32610 I VRI[MainActivity]@5b235fc: handleAppVisibility oldVisibility=true newVisibility=false seqId=-1 mSeqId=1
+10-21 13:19:55.561 32610 32610 D VRI[MainActivity]@5b235fc: visibilityChanged oldVisibility=true newVisibility=false
+10-21 13:19:55.569 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)8 dur=1 res=0x0 s={false 0x0} ch=true seqId=1 syncSeqId=0
+10-21 13:19:55.569 32610 32610 D VRI[MainActivity]@5b235fc: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+10-21 13:19:55.569 32610 32610 I VRI[MainActivity]@eec15ab: handleAppVisibility oldVisibility=true newVisibility=false seqId=-1 mSeqId=1
+10-21 13:19:55.569 32610 32610 D VRI[MainActivity]@eec15ab: visibilityChanged oldVisibility=true newVisibility=false
+10-21 13:19:55.570 32610 32610 I VRI[MainActivity]@5b235fc: stopped(true) old = false
+10-21 13:19:55.570 32610 32610 D VRI[MainActivity]@5b235fc: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to true
+10-21 13:19:55.570 32610 32610 I VRI[MainActivity]@eec15ab: stopped(true) old = false
+10-21 13:19:55.570 32610 32610 D VRI[MainActivity]@eec15ab: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to true
+10-21 13:19:55.570 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:19:55.576 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:19:55.578 32610 32610 I VRI[MainActivity]@eec15ab: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)8 dur=0 res=0x0 s={false 0x0} ch=false seqId=1 syncSeqId=0
+10-21 13:19:55.578 32610 32610 D VRI[MainActivity]@eec15ab: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+10-21 13:19:55.580 32610 32610 D BBA2    : setIsFg isFg = false; delayValue 3999ms
+10-21 13:19:55.646 32610 32651 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 14, mode : startup_runtime_logs})
+10-21 13:19:55.648 32610 32651 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:55.649 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:55.649 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:55.649 32610 32651 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 50, mode : startup_runtime_logs})
+10-21 13:19:55.651 32610 32651 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:55.651 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:56.183 32610 32649 D WM-WorkProgressUpdater: Updating progress for 287608cb-ba00-4088-8751-aaf513e208a6 (Data {pct : 95, mode : startup_ring_logs})
+10-21 13:19:56.184 32610 32699 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/applog_ring/2026-10-21/applog_ring_startup_ring_20261021_201954_73847c71_app_start/seg_00.log sha=336fb04963bfc9fa7917e027a36ea9ed7ec9e07f
+10-21 13:19:56.187 32610 32649 I WM-Processor: Moving WorkSpec (287608cb-ba00-4088-8751-aaf513e208a6) to the foreground
+10-21 13:19:56.189 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6085, workSpecId: 287608cb-ba00-4088-8751-aaf513e208a6, notificationType :1)
+10-21 13:19:56.189 32610 32610 I NotificationManager: com.negi.survey: notify(6085, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:56.189 32610 32649 I WM-Processor: Moving WorkSpec (287608cb-ba00-4088-8751-aaf513e208a6) to the foreground
+10-21 13:19:56.191 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:6085, workSpecId: 287608cb-ba00-4088-8751-aaf513e208a6, notificationType :1)
+10-21 13:19:56.191 32610 32610 I NotificationManager: com.negi.survey: notify(6085, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:56.192 32610 32649 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=287608cb-ba00-4088-8751-aaf513e208a6, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:ring_logs } ]
+10-21 13:19:56.193 32610 32610 D WM-Processor: Processor 287608cb-ba00-4088-8751-aaf513e208a6 executed; reschedule = false
+10-21 13:19:56.193 32610 32610 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=287608cb-ba00-4088-8751-aaf513e208a6, generation=0)
+10-21 13:19:56.194 32610 32610 D WM-SystemJobService: 287608cb-ba00-4088-8751-aaf513e208a6 executed on JobScheduler
+10-21 13:19:56.194 32610 32610 D WM-SystemFgDispatcher: Removing Notification (id: 6085, workSpecId: WorkGenerationalId(workSpecId=287608cb-ba00-4088-8751-aaf513e208a6, generation=0), notificationType: 1
+10-21 13:19:56.195 32610 32610 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=287608cb-ba00-4088-8751-aaf513e208a6, generation=0)
+10-21 13:19:56.195 32610 32649 D WM-GreedyScheduler: Cancelling work ID 287608cb-ba00-4088-8751-aaf513e208a6
+10-21 13:19:56.597 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 14, mode : file})
+10-21 13:19:56.600 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.602 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 19, mode : file})
+10-21 13:19:56.602 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.602 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:56.603 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.604 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 24, mode : file})
+10-21 13:19:56.604 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.605 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:56.607 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.607 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 28, mode : file})
+10-21 13:19:56.607 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.608 32610 32610 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=9927], rate limit (5.0) exceeded: input 10.2674675, output would be 5.602998
+10-21 13:19:56.609 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.609 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 33, mode : file})
+10-21 13:19:56.609 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.611 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.611 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 38, mode : file})
+10-21 13:19:56.611 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.612 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.613 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 42, mode : file})
+10-21 13:19:56.613 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.614 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.615 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.615 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 47, mode : file})
+10-21 13:19:56.616 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.617 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 52, mode : file})
+10-21 13:19:56.617 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.618 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.618 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 56, mode : file})
+10-21 13:19:56.618 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.619 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.620 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 61, mode : file})
+10-21 13:19:56.620 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.621 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.621 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 66, mode : file})
+10-21 13:19:56.621 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.622 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.623 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 70, mode : file})
+10-21 13:19:56.623 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.624 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.624 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 75, mode : file})
+10-21 13:19:56.624 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.625 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.626 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.626 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 80, mode : file})
+10-21 13:19:56.627 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.627 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 84, mode : file})
+10-21 13:19:56.627 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.629 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.629 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 89, mode : file})
+10-21 13:19:56.629 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.630 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.630 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 90, mode : file})
+10-21 13:19:56.630 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:56.632 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:56.632 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:57.045 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 15, mode : file})
+10-21 13:19:57.049 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.050 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 21, mode : file})
+10-21 13:19:57.050 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.050 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:57.052 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.053 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 27, mode : file})
+10-21 13:19:57.053 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.053 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:57.055 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.056 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.056 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 32, mode : file})
+10-21 13:19:57.058 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.059 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 38, mode : file})
+10-21 13:19:57.059 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.060 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.060 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 44, mode : file})
+10-21 13:19:57.060 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.062 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.062 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 49, mode : file})
+10-21 13:19:57.062 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.063 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.064 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 55, mode : file})
+10-21 13:19:57.064 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.066 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.066 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 61, mode : file})
+10-21 13:19:57.066 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.068 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.068 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 67, mode : file})
+10-21 13:19:57.068 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.069 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.070 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.070 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 72, mode : file})
+10-21 13:19:57.071 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.072 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 78, mode : file})
+10-21 13:19:57.072 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.072 32610 32732 D ProfileInstaller: Installing profile for com.negi.survey
+10-21 13:19:57.073 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.074 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 84, mode : file})
+10-21 13:19:57.074 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.075 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.076 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 89, mode : file})
+10-21 13:19:57.076 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.077 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.077 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 90, mode : file})
+10-21 13:19:57.077 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.079 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:57.079 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:57.847 32610 32651 D WM-WorkProgressUpdater: Updating progress for 7a9b4764-c535-43de-bc5f-0ea9b41a5efd (Data {pct : 95, mode : file})
+10-21 13:19:57.848 32610 32645 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/crash/2026-10-21/prevlog_20261021_201954_pid32610.log sha=cb0f73d36250ac6bdce6dee89a48e191c1e19108
+10-21 13:19:57.849 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:57.853 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:57.853 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:57.853 32610 32651 I WM-Processor: Moving WorkSpec (7a9b4764-c535-43de-bc5f-0ea9b41a5efd) to the foreground
+10-21 13:19:57.854 32610 32651 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:crash:diagnostics_crash_prevlog_20261021_201954_pid32610.log_898da315 } ]
+10-21 13:19:57.855 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:9927, workSpecId: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd, notificationType :1)
+10-21 13:19:57.855 32610 32610 I NotificationManager: com.negi.survey: notify(9927, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:57.856 32610 32610 D WM-Processor: Processor 7a9b4764-c535-43de-bc5f-0ea9b41a5efd executed; reschedule = false
+10-21 13:19:57.856 32610 32610 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0)
+10-21 13:19:57.857 32610 32610 D WM-SystemJobService: 7a9b4764-c535-43de-bc5f-0ea9b41a5efd executed on JobScheduler
+10-21 13:19:57.857 32610 32610 D WM-SystemFgDispatcher: Removing Notification (id: 9927, workSpecId: WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0), notificationType: 1
+10-21 13:19:57.858 32610 32651 D WM-GreedyScheduler: Cancelling work ID 7a9b4764-c535-43de-bc5f-0ea9b41a5efd
+10-21 13:19:57.858 32610 32610 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=7a9b4764-c535-43de-bc5f-0ea9b41a5efd, generation=0)
+10-21 13:19:58.952 32610 32650 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 52, mode : startup_runtime_logs})
+10-21 13:19:58.952 32610 32644 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_201954_6de81940_app_start/runtime_log_20261021_201955_380_pid32610_app_start__rtlog_20261021_201951_601_pid32610_seq1.log sha=092ae5d053579e6661b26ca99edf66b2cb742d32
+10-21 13:19:58.954 32610 32650 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:58.956 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:58.956 32610 32644 D RuntimeLogStore: deleteRolledLogFiles: deleted=1 excludeActive=true active=rtlog_20261021_201955_379_pid32610_seq2.log
+10-21 13:19:58.956 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:58.956 32610 32644 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_201954_6de81940_app_start/runtime_log_20261021_201955_380_pid32610_app_start__rtlog_20261021_201939_938_pid32375_seq2.log size=8404 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:19:58.957 32610 32650 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 55, mode : startup_runtime_logs})
+10-21 13:19:58.958 32610 32650 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:58.959 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:58.959 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:59.086 32610 32649 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 59, mode : startup_runtime_logs})
+10-21 13:19:59.090 32610 32649 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:59.091 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:59.091 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:59.091 32610 32649 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 94, mode : startup_runtime_logs})
+10-21 13:19:59.093 32610 32649 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:59.094 32610 32649 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 95, mode : startup_runtime_logs})
+10-21 13:19:59.094 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:59.094 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:59.096 32610 32649 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:19:59.097 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:19:59.097 32610 32610 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=5063], rate limit (5.0) exceeded: input 10.188323, output would be 5.9968967
+10-21 13:19:59.770 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 15, mode : file})
+10-21 13:19:59.777 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.779 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 21, mode : file})
+10-21 13:19:59.779 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.779 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:59.782 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.782 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 27, mode : file})
+10-21 13:19:59.782 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.782 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:19:59.784 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.785 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 32, mode : file})
+10-21 13:19:59.785 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.787 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.787 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 38, mode : file})
+10-21 13:19:59.787 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.789 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.789 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.789 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 44, mode : file})
+10-21 13:19:59.791 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.792 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 49, mode : file})
+10-21 13:19:59.792 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.793 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.794 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 55, mode : file})
+10-21 13:19:59.794 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.795 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.795 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.796 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 61, mode : file})
+10-21 13:19:59.797 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.798 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 67, mode : file})
+10-21 13:19:59.798 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.799 32610 32647 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.799 32610 32647 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 72, mode : file})
+10-21 13:19:59.799 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.801 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.801 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 78, mode : file})
+10-21 13:19:59.801 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.803 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.803 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 84, mode : file})
+10-21 13:19:59.803 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.804 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.805 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 89, mode : file})
+10-21 13:19:59.805 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.806 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.807 32610 32650 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 90, mode : file})
+10-21 13:19:59.807 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:19:59.808 32610 32650 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:19:59.808 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:20:00.187 32610 32651 D WM-WorkProgressUpdater: Updating progress for 850194e4-4a41-466e-91c6-6fa5739e5862 (Data {pct : 97, mode : startup_runtime_logs})
+10-21 13:20:00.187 32610 32644 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_201954_6de81940_app_start/runtime_log_20261021_201955_380_pid32610_app_start__rtlog_20261021_201939_938_pid32375_seq2.log sha=f4479d63d392c4a0bbdd042c570189c659d14fac
+10-21 13:20:00.190 32610 32651 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:20:00.191 32610 32644 D RuntimeLogStore: deleteRolledLogFiles: deleted=1 excludeActive=true active=rtlog_20261021_201955_379_pid32610_seq2.log
+10-21 13:20:00.192 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:20:00.192 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:20:00.193 32610 32651 I WM-Processor: Moving WorkSpec (850194e4-4a41-466e-91c6-6fa5739e5862) to the foreground
+10-21 13:20:00.194 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:5063, workSpecId: 850194e4-4a41-466e-91c6-6fa5739e5862, notificationType :1)
+10-21 13:20:00.194 32610 32610 I NotificationManager: com.negi.survey: notify(5063, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:20:00.195 32610 32647 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=850194e4-4a41-466e-91c6-6fa5739e5862, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:startup_runtime_logs } ]
+10-21 13:20:00.197 32610 32610 D WM-Processor: Processor 850194e4-4a41-466e-91c6-6fa5739e5862 executed; reschedule = false
+10-21 13:20:00.197 32610 32610 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=850194e4-4a41-466e-91c6-6fa5739e5862, generation=0)
+10-21 13:20:00.197 32610 32610 D WM-SystemJobService: 850194e4-4a41-466e-91c6-6fa5739e5862 executed on JobScheduler
+10-21 13:20:00.198 32610 32610 D WM-SystemFgDispatcher: Removing Notification (id: 5063, workSpecId: WorkGenerationalId(workSpecId=850194e4-4a41-466e-91c6-6fa5739e5862, generation=0), notificationType: 1
+10-21 13:20:00.198 32610 32647 D WM-GreedyScheduler: Cancelling work ID 850194e4-4a41-466e-91c6-6fa5739e5862
+10-21 13:20:01.206 32610 32649 D WM-WorkProgressUpdater: Updating progress for 834b1027-695f-4954-bb8b-30494ae04802 (Data {pct : 95, mode : file})
+10-21 13:20:01.206 32610 32646 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/crash/2026-10-21/prevlog_20261021_201940_pid32375.log sha=d7bebcaeb316ab1b7ed486d1099f3a0c89be3994
+10-21 13:20:01.209 32610 32649 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:20:01.212 32610 32649 I WM-Processor: Moving WorkSpec (834b1027-695f-4954-bb8b-30494ae04802) to the foreground
+10-21 13:20:01.213 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:20:01.213 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:20:01.215 32610 32649 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=834b1027-695f-4954-bb8b-30494ae04802, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:crash:diagnostics_crash_prevlog_20261021_201940_pid32375.log_140be9d4 } ]
+10-21 13:20:01.216 32610 32610 D WM-SystemFgDispatcher: Notifying with (id:3951, workSpecId: 834b1027-695f-4954-bb8b-30494ae04802, notificationType :1)
+10-21 13:20:01.216 32610 32610 I NotificationManager: com.negi.survey: notify(3951, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:20:01.218 32610 32649 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver disabled
+10-21 13:20:01.218 32610 32610 D WM-Processor: Processor 834b1027-695f-4954-bb8b-30494ae04802 executed; reschedule = false
+10-21 13:20:01.218 32610 32610 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0)
+10-21 13:20:01.219 32610 32610 D WM-SystemJobService: 834b1027-695f-4954-bb8b-30494ae04802 executed on JobScheduler
+10-21 13:20:01.219 32610 32610 D WM-SystemFgDispatcher: Removing Notification (id: 3951, workSpecId: WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0), notificationType: 1
+10-21 13:20:01.219 32610 32610 I WM-SystemFgDispatcher: Stopping foreground service
+10-21 13:20:01.219 32610 32610 D WM-SystemFgService: Shutting down.
+10-21 13:20:01.219 32610 32647 D WM-GreedyScheduler: Cancelling work ID 834b1027-695f-4954-bb8b-30494ae04802
+10-21 13:20:01.221 32610 32610 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=834b1027-695f-4954-bb8b-30494ae04802, generation=0)
+10-21 13:20:01.224 32610 32647 D WM-WorkConstraintsTrack: NetworkRequestConstraintController unregister shared callback
+10-21 13:20:01.225 32610 32647 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5535)] [androidx.work.impl.constraints.SharedNetworkCallback.addCallback$lambda$9(WorkConstraintsTracker.kt:385)] [androidx.work.impl.constraints.SharedNetworkCallback$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invokeSuspend$lambda$1(WorkConstraintsTracker.kt:191)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)] [kotlinx.coroutines.channels.ProduceKt.awaitClose(Produce.kt:69)] [kotlinx.coroutines.channels.ProduceKt$awaitClose$1.invokeSuspend(Produce.kt:13)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)] [kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)] [androidx.work.impl.utils.SerialExecutorImpl$Task.run(SerialExecutorImpl.java:96)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)] [java.lang.Thread.run(Thread.java:1571)]
+10-21 13:20:01.225 32610 32610 D Choreographer: CoreRune.SYSPERF_ACTIVE_APP_BBA_ENABLE : stop animation in background states
+10-21 13:20:01.228 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:46.522 32610 32610 I VRI[MainActivity]@5b235fc: handleAppVisibility oldVisibility=false newVisibility=true seqId=-1 mSeqId=1
+10-21 13:20:46.522 32610 32610 D VRI[MainActivity]@5b235fc: visibilityChanged oldVisibility=false newVisibility=true
+10-21 13:20:46.523 32610 32610 I VRI[MainActivity]@eec15ab: handleAppVisibility oldVisibility=false newVisibility=true seqId=-1 mSeqId=1
+10-21 13:20:46.532 32610 32610 I Surface : Creating surface for consumer unnamed-32610-2 with slotExpansion=1 for 64 slots
+10-21 13:20:46.532 32610 32610 I BufferQueueProducer: [](id:7f6200000002,api:0,p:7274595,c:32610) setDequeueTimeout:2077252342
+10-21 13:20:46.532 32610 32610 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@5b235fc mNativeObject= 0xb400007a69569e20 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+10-21 13:20:46.532 32610 32610 I BLASTBufferQueue_Java: update, w= 1248 h= 1512 mName = VRI[MainActivity]@5b235fc mNativeObject= 0xb400007a69569e20 sc.mNativeObject= 0xb400007a89489c10 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:20:46.532 32610 32610 I Surface : Creating surface for consumer VRI[MainActivity]@5b235fc#2(BLAST Consumer)2 with slotExpansion=1 for 64 slots
+10-21 13:20:46.532 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)0 dur=1 res=0x3 s={true 0xb4000079f94f86e0} ch=true seqId=1 syncSeqId=0
+10-21 13:20:46.532 32610 32610 D VRI[MainActivity]@5b235fc: applyTransactionOnDraw applyImmediately
+10-21 13:20:46.533 32610 32610 D VRI[MainActivity]@5b235fc: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f94f86e0} hwInitialized=true
+10-21 13:20:46.533 32610 32610 D VRI[MainActivity]@5b235fc: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:20:46.533 32610 32610 D VRI[MainActivity]@5b235fc: Setup new sync=wmsSync-VRI[MainActivity]@5b235fc#4
+10-21 13:20:46.533 32610 32610 I VRI[MainActivity]@5b235fc: Creating new active sync group VRI[MainActivity]@5b235fc#5
+10-21 13:20:46.533 32610 32610 D VRI[MainActivity]@5b235fc: Start draw after previous draw not visible
+10-21 13:20:46.533 32610 32610 D VRI[MainActivity]@5b235fc: registerCallbacksForSync syncBuffer=false
+10-21 13:20:46.534 32610 32637 D VRI[MainActivity]@5b235fc: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-21 13:20:46.534 32610 32637 I VRI[MainActivity]@5b235fc: mWNT: t=0xb400007b294eb2d0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:20:46.534 32610 32637 I VRI[MainActivity]@5b235fc: Setting up sync and frameCommitCallback
+10-21 13:20:46.535 32610 32630 I BLASTBufferQueue: [VRI[MainActivity]@5b235fc#2](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-21 13:20:46.535 32610 32630 I SurfaceComposerClient: apply transaction with the first frame. layerId: 5909, bufferData(ID: 140058883522571, frameNumber: 1)
+10-21 13:20:46.536 32610 32630 I VRI[MainActivity]@5b235fc: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-21 13:20:46.536 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:46.537 32610 32610 D VRI[MainActivity]@5b235fc: reportDrawFinished seqId=1
+10-21 13:20:46.537 32610 32610 I VRI[MainActivity]@5b235fc: stopped(false) old = true
+10-21 13:20:46.537 32610 32610 D VRI[MainActivity]@5b235fc: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to false
+10-21 13:20:46.537 32610 32610 I VRI[MainActivity]@eec15ab: stopped(false) old = true
+10-21 13:20:46.537 32610 32610 D VRI[MainActivity]@eec15ab: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to false
+10-21 13:20:46.538 32610 32610 D BBA2    : setIsFg isFg = true
+10-21 13:20:46.538 32610 32610 D CrashCapture: install: ensured default handler. where=selfHeal:onActivityResumed pid=32610 default=com.negi.survey.CrashCapture$CrashHandler@4417a71
+10-21 13:20:46.539 32610 32610 I BLASTBufferQueue_Java: update, w= 1248 h= 1512 mName = VRI[MainActivity]@5b235fc mNativeObject= 0xb400007a69569e20 sc.mNativeObject= 0xb400007a89489c10 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:20:46.539 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)0 dur=0 res=0x1 s={true 0xb4000079f94f86e0} ch=false seqId=1 syncSeqId=0
+10-21 13:20:46.540 32610 32610 D VRI[MainActivity]@5b235fc: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:20:46.540 32610 32610 D VRI[MainActivity]@5b235fc: Setup new sync=wmsSync-VRI[MainActivity]@5b235fc#6
+10-21 13:20:46.540 32610 32610 I VRI[MainActivity]@5b235fc: Creating new active sync group VRI[MainActivity]@5b235fc#7
+10-21 13:20:46.540 32610 32610 D VRI[MainActivity]@5b235fc: registerCallbacksForSync syncBuffer=false
+10-21 13:20:46.540 32610 32637 D VRI[MainActivity]@5b235fc: Received frameDrawingCallback syncResult=0 frameNum=2.
+10-21 13:20:46.540 32610 32637 I VRI[MainActivity]@5b235fc: mWNT: t=0xb400007b294e7da0 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:20:46.540 32610 32637 I VRI[MainActivity]@5b235fc: Setting up sync and frameCommitCallback
+10-21 13:20:46.540 32610 32630 I VRI[MainActivity]@5b235fc: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false
+10-21 13:20:46.540 32610 32610 D VRI[MainActivity]@5b235fc: reportDrawFinished seqId=1
+10-21 13:20:46.540 32610 32610 I Surface : Creating surface for consumer unnamed-32610-3 with slotExpansion=1 for 64 slots
+10-21 13:20:46.540 32610 32610 I BufferQueueProducer: [](id:7f6200000003,api:0,p:1229729424,c:32610) setDequeueTimeout:2077252342
+10-21 13:20:46.540 32610 32610 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@eec15ab mNativeObject= 0xb400007a69567a00 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+10-21 13:20:46.540 32610 32610 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@eec15ab mNativeObject= 0xb400007a69567a00 sc.mNativeObject= 0xb400007a89488710 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:20:46.540 32610 32610 I Surface : Creating surface for consumer VRI[MainActivity]@eec15ab#3(BLAST Consumer)3 with slotExpansion=1 for 64 slots
+10-21 13:20:46.541 32610 32610 I VRI[MainActivity]@eec15ab: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x3 s={true 0xb4000079f94ba780} ch=true seqId=1 syncSeqId=0
+10-21 13:20:46.541 32610 32610 D VRI[MainActivity]@eec15ab: applyTransactionOnDraw applyImmediately
+10-21 13:20:46.541 32610 32610 D VRI[MainActivity]@eec15ab: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f94ba780} hwInitialized=true
+10-21 13:20:46.541 32610 32610 D VRI[MainActivity]@eec15ab: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:20:46.541 32610 32610 D VRI[MainActivity]@eec15ab: Setup new sync=wmsSync-VRI[MainActivity]@eec15ab#8
+10-21 13:20:46.541 32610 32610 I VRI[MainActivity]@eec15ab: Creating new active sync group VRI[MainActivity]@eec15ab#9
+10-21 13:20:46.541 32610 32610 D VRI[MainActivity]@eec15ab: Start draw after previous draw not visible
+10-21 13:20:46.541 32610 32610 D VRI[MainActivity]@eec15ab: registerCallbacksForSync syncBuffer=false
+10-21 13:20:46.541 32610 32636 D VRI[MainActivity]@eec15ab: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-21 13:20:46.541 32610 32636 I VRI[MainActivity]@eec15ab: mWNT: t=0xb400007b29499f30 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:20:46.541 32610 32636 I VRI[MainActivity]@eec15ab: Setting up sync and frameCommitCallback
+10-21 13:20:46.542 32610 32630 I BLASTBufferQueue: [VRI[MainActivity]@eec15ab#3](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-21 13:20:46.542 32610 32630 I SurfaceComposerClient: apply transaction with the first frame. layerId: 5912, bufferData(ID: 140058883522572, frameNumber: 1)
+10-21 13:20:46.542 32610 32630 I VRI[MainActivity]@eec15ab: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-21 13:20:46.542 32610 32610 D VRI[MainActivity]@eec15ab: reportDrawFinished seqId=1
+10-21 13:20:46.550 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:20:46.550 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:20:46.559 32610 32610 D VRI[MainActivity]@5b235fc: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000079f94f86e0}
+10-21 13:20:46.559 32610 32610 D InputMethodManager: setCurrentRootViewLocked: updateReceivingDispatcher
+10-21 13:20:46.560 32610 32610 D InputMethodManagerUtils: startInputInner - Id : 0
+10-21 13:20:46.560 32610 32610 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-21 13:20:46.560 32610 32610 D InsetsController: hide(ime())
+10-21 13:20:46.560 32610 32610 I ImeTracker: com.negi.survey:2d9a9e62: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-21 13:20:46.561 32610 32654 D InputTransport: Input channel constructed: 'ClientS', fd=172
+10-21 13:20:48.990 32610 32610 I VRI[MainActivity]@5b235fc: ViewPostIme pointer 0
+10-21 13:20:48.992 32610 32610 I VRI[MainActivity]@5b235fc: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@5b235fc
+10-21 13:20:49.064 32610 32610 I VRI[MainActivity]@5b235fc: ViewPostIme pointer 1
+10-21 13:20:49.088 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:20:49.089 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:20:49.090 32610 32610 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:20:49.090 32610 32610 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:20:49.133 32610 32610 D InputTransport: Input channel destroyed: 'ClientS', fd=172
+10-21 13:20:49.581 32610 32610 I VRI[MainActivity]@5b235fc: handleAppVisibility oldVisibility=true newVisibility=false seqId=-1 mSeqId=1
+10-21 13:20:49.581 32610 32610 D VRI[MainActivity]@5b235fc: visibilityChanged oldVisibility=true newVisibility=false
+10-21 13:20:49.591 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)8 dur=1 res=0x0 s={false 0x0} ch=true seqId=1 syncSeqId=0
+10-21 13:20:49.591 32610 32610 D VRI[MainActivity]@5b235fc: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+10-21 13:20:49.591 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:49.591 32610 32610 I VRI[MainActivity]@eec15ab: handleAppVisibility oldVisibility=true newVisibility=false seqId=-1 mSeqId=1
+10-21 13:20:49.591 32610 32610 D VRI[MainActivity]@eec15ab: visibilityChanged oldVisibility=true newVisibility=false
+10-21 13:20:49.592 32610 32610 I VRI[MainActivity]@5b235fc: stopped(true) old = false
+10-21 13:20:49.592 32610 32610 D VRI[MainActivity]@5b235fc: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to true
+10-21 13:20:49.592 32610 32610 I VRI[MainActivity]@eec15ab: stopped(true) old = false
+10-21 13:20:49.592 32610 32610 D VRI[MainActivity]@eec15ab: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to true
+10-21 13:20:49.592 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:49.596 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:49.597 32610 32610 I VRI[MainActivity]@eec15ab: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)8 dur=0 res=0x0 s={false 0x0} ch=false seqId=1 syncSeqId=0
+10-21 13:20:49.597 32610 32610 D VRI[MainActivity]@eec15ab: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+10-21 13:20:49.599 32610 32610 D BBA2    : setIsFg isFg = false; delayValue 3999ms
+10-21 13:20:51.385 32610 32610 I VRI[MainActivity]@eec15ab: handleAppVisibility oldVisibility=false newVisibility=true seqId=-1 mSeqId=1
+10-21 13:20:51.385 32610 32610 I VRI[MainActivity]@5b235fc: handleAppVisibility oldVisibility=false newVisibility=true seqId=-1 mSeqId=1
+10-21 13:20:51.385 32610 32610 D VRI[MainActivity]@5b235fc: visibilityChanged oldVisibility=false newVisibility=true
+10-21 13:20:51.388 32610 32610 I Surface : Creating surface for consumer unnamed-32610-4 with slotExpansion=1 for 64 slots
+10-21 13:20:51.388 32610 32610 I BufferQueueProducer: [](id:7f6200000004,api:0,p:-1,c:32610) setDequeueTimeout:2077252342
+10-21 13:20:51.388 32610 32610 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@5b235fc mNativeObject= 0xb400007a69569e20 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+10-21 13:20:51.388 32610 32610 I BLASTBufferQueue_Java: update, w= 1248 h= 1512 mName = VRI[MainActivity]@5b235fc mNativeObject= 0xb400007a69569e20 sc.mNativeObject= 0xb400007a8948fcd0 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:20:51.388 32610 32610 I Surface : Creating surface for consumer VRI[MainActivity]@5b235fc#4(BLAST Consumer)4 with slotExpansion=1 for 64 slots
+10-21 13:20:51.388 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)0 dur=0 res=0x3 s={true 0xb4000079f94f8070} ch=true seqId=1 syncSeqId=0
+10-21 13:20:51.388 32610 32610 D VRI[MainActivity]@5b235fc: applyTransactionOnDraw applyImmediately
+10-21 13:20:51.388 32610 32610 D VRI[MainActivity]@5b235fc: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f94f8070} hwInitialized=true
+10-21 13:20:51.388 32610 32610 D VRI[MainActivity]@5b235fc: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:20:51.389 32610 32610 D VRI[MainActivity]@5b235fc: Setup new sync=wmsSync-VRI[MainActivity]@5b235fc#10
+10-21 13:20:51.389 32610 32610 I VRI[MainActivity]@5b235fc: Creating new active sync group VRI[MainActivity]@5b235fc#11
+10-21 13:20:51.389 32610 32610 D VRI[MainActivity]@5b235fc: Start draw after previous draw not visible
+10-21 13:20:51.389 32610 32610 D VRI[MainActivity]@5b235fc: registerCallbacksForSync syncBuffer=false
+10-21 13:20:51.391 32610 32637 D VRI[MainActivity]@5b235fc: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-21 13:20:51.391 32610 32637 I VRI[MainActivity]@5b235fc: mWNT: t=0xb400007b294e76b0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:20:51.391 32610 32637 I VRI[MainActivity]@5b235fc: Setting up sync and frameCommitCallback
+10-21 13:20:51.392 32610 32630 I BLASTBufferQueue: [VRI[MainActivity]@5b235fc#4](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-21 13:20:51.392 32610 32630 I SurfaceComposerClient: apply transaction with the first frame. layerId: 5928, bufferData(ID: 140058883522579, frameNumber: 1)
+10-21 13:20:51.393 32610 32630 I VRI[MainActivity]@5b235fc: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-21 13:20:51.393 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:51.394 32610 32610 D VRI[MainActivity]@5b235fc: reportDrawFinished seqId=1
+10-21 13:20:51.394 32610 32610 I VRI[MainActivity]@5b235fc: stopped(false) old = true
+10-21 13:20:51.394 32610 32610 D VRI[MainActivity]@5b235fc: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to false
+10-21 13:20:51.394 32610 32610 I VRI[MainActivity]@eec15ab: stopped(false) old = true
+10-21 13:20:51.394 32610 32610 D VRI[MainActivity]@eec15ab: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to false
+10-21 13:20:51.394 32610 32610 D CrashCapture: install: ensured default handler. where=selfHeal:onActivityResumed pid=32610 default=com.negi.survey.CrashCapture$CrashHandler@4417a71
+10-21 13:20:51.395 32610 32610 I BLASTBufferQueue_Java: update, w= 1248 h= 1512 mName = VRI[MainActivity]@5b235fc mNativeObject= 0xb400007a69569e20 sc.mNativeObject= 0xb400007a8948fcd0 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:20:51.396 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)0 dur=0 res=0x1 s={true 0xb4000079f94f8070} ch=false seqId=1 syncSeqId=0
+10-21 13:20:51.396 32610 32610 D VRI[MainActivity]@5b235fc: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:20:51.396 32610 32610 D VRI[MainActivity]@5b235fc: Setup new sync=wmsSync-VRI[MainActivity]@5b235fc#12
+10-21 13:20:51.396 32610 32610 I VRI[MainActivity]@5b235fc: Creating new active sync group VRI[MainActivity]@5b235fc#13
+10-21 13:20:51.396 32610 32610 D VRI[MainActivity]@5b235fc: registerCallbacksForSync syncBuffer=false
+10-21 13:20:51.396 32610 32636 D VRI[MainActivity]@5b235fc: Received frameDrawingCallback syncResult=0 frameNum=2.
+10-21 13:20:51.396 32610 32636 I VRI[MainActivity]@5b235fc: mWNT: t=0xb400007b294ae2f0 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:20:51.396 32610 32636 I VRI[MainActivity]@5b235fc: Setting up sync and frameCommitCallback
+10-21 13:20:51.396 32610 32630 I VRI[MainActivity]@5b235fc: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false
+10-21 13:20:51.396 32610 32610 D VRI[MainActivity]@5b235fc: reportDrawFinished seqId=1
+10-21 13:20:51.396 32610 32610 I Surface : Creating surface for consumer unnamed-32610-5 with slotExpansion=1 for 64 slots
+10-21 13:20:51.396 32610 32610 I BufferQueueProducer: [](id:7f6200000005,api:0,p:1229729424,c:32610) setDequeueTimeout:2077252342
+10-21 13:20:51.397 32610 32610 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@eec15ab mNativeObject= 0xb400007a69548040 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+10-21 13:20:51.397 32610 32610 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@eec15ab mNativeObject= 0xb400007a69548040 sc.mNativeObject= 0xb400007a89490690 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:20:51.397 32610 32610 I Surface : Creating surface for consumer VRI[MainActivity]@eec15ab#5(BLAST Consumer)5 with slotExpansion=1 for 64 slots
+10-21 13:20:51.397 32610 32610 I VRI[MainActivity]@eec15ab: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x3 s={true 0xb4000079f949b160} ch=true seqId=1 syncSeqId=0
+10-21 13:20:51.397 32610 32610 D VRI[MainActivity]@eec15ab: applyTransactionOnDraw applyImmediately
+10-21 13:20:51.397 32610 32610 D VRI[MainActivity]@eec15ab: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f949b160} hwInitialized=true
+10-21 13:20:51.397 32610 32610 D VRI[MainActivity]@eec15ab: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:20:51.397 32610 32610 D VRI[MainActivity]@eec15ab: Setup new sync=wmsSync-VRI[MainActivity]@eec15ab#14
+10-21 13:20:51.397 32610 32610 I VRI[MainActivity]@eec15ab: Creating new active sync group VRI[MainActivity]@eec15ab#15
+10-21 13:20:51.397 32610 32610 D VRI[MainActivity]@eec15ab: Start draw after previous draw not visible
+10-21 13:20:51.397 32610 32610 D VRI[MainActivity]@eec15ab: registerCallbacksForSync syncBuffer=false
+10-21 13:20:51.398 32610 32637 D VRI[MainActivity]@eec15ab: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-21 13:20:51.398 32610 32637 I VRI[MainActivity]@eec15ab: mWNT: t=0xb400007b294efa80 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:20:51.398 32610 32637 I VRI[MainActivity]@eec15ab: Setting up sync and frameCommitCallback
+10-21 13:20:51.398 32610 32630 I BLASTBufferQueue: [VRI[MainActivity]@eec15ab#5](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-21 13:20:51.398 32610 32630 I SurfaceComposerClient: apply transaction with the first frame. layerId: 5931, bufferData(ID: 140058883522582, frameNumber: 1)
+10-21 13:20:51.398 32610 32630 I VRI[MainActivity]@eec15ab: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-21 13:20:51.399 32610 32610 D VRI[MainActivity]@eec15ab: reportDrawFinished seqId=1
+10-21 13:20:51.405 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:20:51.406 32610 32610 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:20:51.407 32610 32610 D VRI[MainActivity]@5b235fc: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000079f94f8070}
+10-21 13:20:51.407 32610 32610 D InputMethodManager: setCurrentRootViewLocked: updateReceivingDispatcher
+10-21 13:20:51.407 32610 32610 D InputMethodManagerUtils: startInputInner - Id : 0
+10-21 13:20:51.407 32610 32610 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-21 13:20:51.408 32610 32610 D InsetsController: hide(ime())
+10-21 13:20:51.408 32610 32610 I ImeTracker: com.negi.survey:56a209a9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-21 13:20:51.408 32610 32654 D InputTransport: Input channel constructed: 'ClientS', fd=173
+10-21 13:20:52.071 32610 32610 I VRI[MainActivity]@5b235fc: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@5b235fc
+10-21 13:20:53.729 32610 32610 I VRI[MainActivity]@5b235fc: ViewPostIme pointer 0
+10-21 13:20:53.731 32610 32610 I VRI[MainActivity]@5b235fc: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@5b235fc
+10-21 13:20:53.733 32610 32610 D Choreographer: BBA2 receive callback when in bg : 0
+10-21 13:20:53.796 32610 32610 I VRI[MainActivity]@5b235fc: ViewPostIme pointer 1
+10-21 13:20:53.822 32610 32610 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:20:53.822 32610 32610 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:20:53.847 32610 32610 D InputTransport: Input channel destroyed: 'ClientS', fd=173
+10-21 13:20:54.297 32610 32610 I VRI[MainActivity]@eec15ab: handleAppVisibility oldVisibility=true newVisibility=false seqId=-1 mSeqId=1
+10-21 13:20:54.297 32610 32610 D VRI[MainActivity]@eec15ab: visibilityChanged oldVisibility=true newVisibility=false
+10-21 13:20:54.297 32610 32610 I VRI[MainActivity]@5b235fc: handleAppVisibility oldVisibility=true newVisibility=false seqId=-1 mSeqId=1
+10-21 13:20:54.297 32610 32610 D VRI[MainActivity]@5b235fc: visibilityChanged oldVisibility=true newVisibility=false
+10-21 13:20:54.306 32610 32610 I VRI[MainActivity]@eec15ab: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)8 dur=1 res=0x0 s={false 0x0} ch=true seqId=1 syncSeqId=0
+10-21 13:20:54.306 32610 32610 D VRI[MainActivity]@eec15ab: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+10-21 13:20:54.307 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:54.308 32610 32610 I VRI[MainActivity]@5b235fc: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)8 dur=0 res=0x0 s={false 0x0} ch=true seqId=1 syncSeqId=0
+10-21 13:20:54.308 32610 32610 D VRI[MainActivity]@5b235fc: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+10-21 13:20:54.308 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:54.309 32610 32610 I VRI[MainActivity]@5b235fc: stopped(true) old = false
+10-21 13:20:54.309 32610 32610 D VRI[MainActivity]@5b235fc: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to true
+10-21 13:20:54.309 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:54.309 32610 32610 I VRI[MainActivity]@eec15ab: stopped(true) old = false
+10-21 13:20:54.309 32610 32610 D VRI[MainActivity]@eec15ab: WindowStopped on com.negi.survey/com.negi.survey.MainActivity set to true
+10-21 13:20:54.309 32610 32630 D HWUI    : CacheManager::trimMemory(20)
+10-21 13:20:54.313 32610 32610 D BBA2    : setIsFg isFg = false; delayValue 3999ms
+10-21 13:21:24.387 32352 32352 E studio.deploy: ERROR: Could not remove dir '/data/data/com.negi.survey/code_cache/.ll/': No such file or directory
+10-21 13:21:44.500 32352 32352 E studio.deploy: ERROR: Could not remove dir '/data/data/com.negi.survey/code_cache/.ll/': No such file or directory
+10-21 13:21:44.621   948   948 I Zygote  : Process 948 created for com.negi.survey
+10-21 13:21:44.621   948   948 I com.negi.survey: Late-enabling -Xcheck:jni
+10-21 13:21:44.631   948   948 I com.negi.survey: Using generational CollectorTypeCMC GC.
+10-21 13:21:44.635   948   948 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-21 13:21:44.641   948   948 D nativeloader: Load /data/user/0/com.negi.survey/code_cache/startup_agents/b0fe613d-agent.so using system ns (caller=<unknown>): ok
+10-21 13:21:44.641   948   948 V studio.deploy: Startup agent attached to VM
+10-21 13:21:44.641   948   948 V studio.deploy: No existing instrumentation found. Loading instrumentation from instruments-4d0b62be.jar
+10-21 13:21:44.643   948   948 W com.negi.survey: hiddenapi: DexFile /data/data/com.negi.survey/code_cache/.studio/instruments-4d0b62be.jar is in boot class path but is not in a known location
+10-21 13:21:44.644   948   948 V studio.deploy: Applying transforms with cached classes
+10-21 13:21:44.680   948   948 W com.negi.survey: Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+10-21 13:21:44.680   948   948 W com.negi.survey: Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+10-21 13:21:44.681   948   948 I studio.deploy: Registering DispatchJNI
+10-21 13:21:44.681   948   948 I studio.deploy: Found com/android/tools/deploy/interpreter/JNI
+10-21 13:21:44.685   948   948 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-21 13:21:44.685   948   948 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-21 13:21:44.997   948   948 D nativeloader: Configuring clns-9 for other apk /data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk. target_sdk_version=36, uses_libraries=libOpenCL.so, library_path=/data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/lib/arm64:/data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.negi.survey
+10-21 13:21:45.000   948   948 V GraphicsEnvironment: Currently set values for:
+10-21 13:21:45.000   948   948 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-21 13:21:45.000   948   948 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-21 13:21:45.000   948   948 V GraphicsEnvironment: com.negi.survey is not listed in per-application setting
+10-21 13:21:45.000   948   948 V GraphicsEnvironment: first_api_level (35) < 36; skipping config_angleAllowList for com.negi.survey
+10-21 13:21:45.000   948   948 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-21 13:21:45.000   948   948 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+10-21 13:21:45.020   948   948 D nativeloader: Load /data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk!/lib/arm64-v8a/liblitertlm_jni.so using class loader ns clns-9 (caller=/data/data/com.negi.survey/code_cache/.overlay/base.apk/classes11.dex): ok
+10-21 13:21:45.020   948   948 D SurveyApp: Loaded LiteRTLM JNI: litertlm_jni where=attachBaseContext
+10-21 13:21:45.025   948   948 D AppRingLogStore: installed: dir=/data/user/0/com.negi.survey/files/diagnostics/applog_ring idx=0
+10-21 13:21:45.025   948   948 D SurveyApp: attachBaseContext: pid=948 process=com.negi.survey isMain=true sdk=37
+10-21 13:21:45.026   948   948 D SurveyApp: bootTiming: attachBaseContext total=18ms
+10-21 13:21:45.026   948   948 D SurveyApp: Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+10-21 13:21:45.027   948   948 D CrashCapture: install: ensured default handler. where=SurveyApp:attachBaseContext pid=948 default=com.negi.survey.CrashCapture$CrashHandler@795c056
+10-21 13:21:45.027   948   948 D SurveyApp: CrashCapture installed: where=SurveyApp:attachBaseContext
+10-21 13:21:45.031   948   965 D RuntimeLogStore: openWriter: start -> /data/user/0/com.negi.survey/files/diagnostics/runtime_logs/rtlog_20261021_202145_024_pid948_seq1.log (bytes=0 format=LEGACY)
+10-21 13:21:45.031   948   965 D RuntimeLogStore: retention: start files=2 kept=2 totalBytes=640
+10-21 13:21:45.034   948   948 D SurveyApp: LiteRTLM JNI already loaded; skip. where=onCreate(retry)
+10-21 13:21:45.035   948   948 D SurveyApp: bootTiming: RuntimeLogStore.start took=0ms
+10-21 13:21:45.035   948   948 D SurveyApp: bootTiming: AppRingLogStore.install took=0ms
+10-21 13:21:45.035   948   948 D SurveyApp: onCreate: pid=948 process=com.negi.survey isMain=true sdk=37
+10-21 13:21:45.037   948   948 D CrashCapture: install: ensured default handler. where=SurveyApp:onCreate(rewrap) pid=948 default=com.negi.survey.CrashCapture$CrashHandler@795c056
+10-21 13:21:45.037   948   948 D SurveyApp: CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+10-21 13:21:45.037   948   948 D CrashCapture: registerSelfHealing: ActivityLifecycleCallbacks registered. mode=onResumedOnly
+10-21 13:21:45.037   948   948 D SurveyApp: CrashCapture self-healing registered.
+10-21 13:21:45.037   948   948 W SurveyApp: Startup enqueues deferred: delay=2500ms (to reduce init contention)
+10-21 13:21:45.037   948   948 D SurveyApp: Startup survey recovery deferred: delay=2500ms
+10-21 13:21:45.037   948   948 D SurveyApp: bootTiming: onCreate total=3ms
+10-21 13:21:45.040   948   948 D ActivityThread: com.negi.survey will use render engine as VK
+10-21 13:21:45.040   948   948 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+10-21 13:21:45.040   948   971 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+10-21 13:21:45.041   948   971 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+10-21 13:21:45.041   948   971 D vulkan  : searching for layers in '/data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/lib/arm64'
+10-21 13:21:45.041   948   971 D vulkan  : searching for layers in '/data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk!/lib/arm64-v8a'
+10-21 13:21:45.044   948   948 D DesktopExperienceFlags: Toggle override initialized to: false
+10-21 13:21:45.044   948   971 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+10-21 13:21:45.044   948   968 I UploadRescheduleRcvr: Survey recovery action=android.intent.action.BOOT_COMPLETED discovered=0 reconciled=0 duplicates=0 unclassified=0 operationalFailures=0 classifications={}
+10-21 13:21:45.044   948   971 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+10-21 13:21:45.044   948   971 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+10-21 13:21:45.045   948   968 D UploadRescheduleRcvr: No generic GitHub pending files for action=android.intent.action.BOOT_COMPLETED
+10-21 13:21:45.046   948   971 D qdgralloc: Fetching IMapper5 from QtiMapper5
+10-21 13:21:45.048   948   948 D CompatChangeReporter: Compat change id reported: 377864165; UID 10497; state: ENABLED
+10-21 13:21:45.049   948   948 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@1d60d89
+10-21 13:21:45.050   948   948 D PhoneWindow: forceLight changed to false [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:663 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4448 androidx.activity.EdgeToEdgeApi35.setUp:353 androidx.activity.EdgeToEdge.enableEdgeToEdge$lambda$1:101 androidx.activity.EdgeToEdge$$ExternalSyntheticLambda0.run:0 
+10-21 13:21:45.050   948   971 I SnapAlloc: Graphics lib is available
+10-21 13:21:45.053   948   968 D github_upload: enqueueStartupRuntimeLogsUpload: uniqueName=upload_runtime_logs_startup policy=KEEP session=startup_runtime_20261021_202145_9c8e0582
+10-21 13:21:45.053   948   971 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+10-21 13:21:45.055   948   971 I AdrenoVK-0: QUALCOMM build          : 0603ba43d2, Id52d3f334b
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Build Date              : 06/22/26
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Shader Compiler Version : E031.47.18.56
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Local Branch            : 
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.862
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Remote Branch           : NONE
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Driver Version          : 0800.64.8
+10-21 13:21:45.055   948   971 I AdrenoVK-0: PFP                     : 0x01500077
+10-21 13:21:45.055   948   971 I AdrenoVK-0: ME                      : 0x01500014
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Application Name    : android framework
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Process Name        : com.negi.survey
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Application Version : 0x00000000
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Engine Name         : android framework
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Engine Version      : 0x00000000
+10-21 13:21:45.055   948   971 I AdrenoVK-0: Api Version         : 0x00401000
+10-21 13:21:45.060   948   948 D CrashCapture: install: ensured default handler. where=selfHeal:onActivityResumed pid=948 default=com.negi.survey.CrashCapture$CrashHandler@795c056
+10-21 13:21:45.062   948   948 D ViewRootImpl: desktopMode is false
+10-21 13:21:45.063   948   948 I ViewRootImpl: dVRR is disabled
+10-21 13:21:45.063   948   948 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1080x2340 mLargest wxh=0x0
+10-21 13:21:45.063   948   948 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1080x2340)
+10-21 13:21:45.063   948   971 D HWUI    : setMaxSurfaceArea requested wxh=(1080,2340) requestedSurfaceArea(2527200) mMaxSurfaceArea(2073600)
+10-21 13:21:45.063   948   971 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+10-21 13:21:45.067   948   948 D InputTransport: Input channel constructed: '642ac92', fd=121
+10-21 13:21:45.068   948   948 I InsetsController: onStateChanged: host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 103 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 103), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 34.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 103) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1080, displayHeight=2340, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {a2870001 mType=navigationBars mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {a2870005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870006 mType=tappableElement mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260000 mType=statusBars mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260005 mType=mandatorySystemGestures mFrame=[0,0][1080,139] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260006 mType=tappableElement mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+10-21 13:21:45.068   948   948 I VRI[MainActivity]@49acc20: synced displayState. AttachInfo displayState=2
+10-21 13:21:45.068   948   948 I VRI[MainActivity]@49acc20: setView = com.android.internal.policy.DecorView@c98eb49 IsHRR=false mFlingFrameRateChange=0 TM=true
+10-21 13:21:45.069   948   948 I IDS_TAG : Starting IDS observe window
+10-21 13:21:45.069   948   948 I IDS_TAG : Getting Shared Preference for com.negi.survey.SurveyApp@da74f48 uid = 10497
+10-21 13:21:45.069   948   968 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+10-21 13:21:45.069   948   968 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+10-21 13:21:45.069   948   948 I IDS_TAG : App com.negi.survey.SurveyApp@da74f48 has not finished training
+10-21 13:21:45.070   948   948 I IDS_TAG : Closing IDS observe window
+10-21 13:21:45.070   948   948 I IDS_TAG : Getting Shared Preference for com.negi.survey.SurveyApp@da74f48 uid = 10497
+10-21 13:21:45.070   948   948 I IDS_TAG : IDS count updated to 4 for com.negi.survey.SurveyApp@da74f48
+10-21 13:21:45.070   948   948 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda1@e911e7c
+10-21 13:21:45.104   948   983 D WM-ForceStopRunnable: Is default app process = true
+10-21 13:21:45.105   948   983 D WM-ForceStopRunnable: Performing cleanup operations.
+10-21 13:21:45.108   948   968 D UploadRescheduleRcvr: Enqueued runtime logs upload for action=android.intent.action.BOOT_COMPLETED reason=receiver_boot_completed
+10-21 13:21:45.113   948   983 D WM-SystemJobScheduler: Reconciling jobs
+10-21 13:21:45.118   948   983 D WM-ForceStopRunnable: Application was force-stopped, rescheduling.
+10-21 13:21:45.147   948   986 D WM-SystemJobScheduler: Scheduling work ID 1dd8c6cc-75a4-4efb-a709-41261424f62fJob ID 11
+10-21 13:21:45.149   948   986 D WM-GreedyScheduler: Starting tracking for 1dd8c6cc-75a4-4efb-a709-41261424f62f
+10-21 13:21:45.155   948   988 I com.negi.survey: hiddenapi: Accessing hidden method Landroid/database/sqlite/SQLiteDatabase;->getThreadSession()Landroid/database/sqlite/SQLiteSession; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/sqlite/db/framework/FrameworkSQLiteDatabase; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-21 13:21:45.155   948   988 I com.negi.survey: hiddenapi: Accessing hidden method Landroid/database/sqlite/SQLiteSession;->beginTransaction(ILandroid/database/sqlite/SQLiteTransactionListener;ILandroid/os/CancellationSignal;)V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/sqlite/db/framework/FrameworkSQLiteDatabase; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-21 13:21:45.161   948   954 I com.negi.survey: Compiler allocated 5468KB to compile void android.view.ViewRootImpl.performTraversals(long)
+10-21 13:21:45.165   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController register shared callback
+10-21 13:21:45.165   948   988 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4698)] [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4867)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5427)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5395)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5369)] [androidx.work.impl.constraints.SharedNetworkCallback.addCallback(WorkConstraintsTracker.kt:362)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invokeSuspend(WorkConstraintsTracker.kt:179)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invoke(WorkConstraintsTracker.kt:8)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invoke(WorkConstraintsTracker.kt:4)] [kotlinx.coroutines.flow.ChannelFlowBuilder.collectTo$suspendImpl(Builders.kt:316)] [kotlinx.coroutines.flow.ChannelFlowBuilder.collectTo(Builders.kt:0)] [kotlinx.coroutines.flow.CallbackFlowBuilder.collectTo(Builders.kt:330)] [kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:56)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)] [kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)] [androidx.work.impl.utils.SerialExecutorImpl$Task.run(SerialExecutorImpl.java:96)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)] [java.lang.Thread.run(Thread.java:1571)]
+10-21 13:21:45.167   948   988 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver enabled
+10-21 13:21:45.168   948   989 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+10-21 13:21:45.168   948   989 D WM-WorkConstraintsTrack: Not dispatching constraint state yet: isBlocked=null, capabilitiesInitialized=true
+10-21 13:21:45.168   948   989 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onBlockedStatusChanged callback false
+10-21 13:21:45.168   948   983 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0)
+10-21 13:21:45.176   948   983 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0)
+10-21 13:21:45.415   948   948 D VRI[MainActivity]@49acc20: WindowInsets changed: 1080x2340 statusBars:[0,103,0,0] navigationBars:[0,0,0,144] mandatorySystemGestures:[0,139,0,144] 
+10-21 13:21:45.422   948   948 I HWUI    : Using FreeType backend (prop=Auto)
+10-21 13:21:45.436   948   948 E BufferQueueProducer: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+10-21 13:21:45.436   948   948 E com.negi.survey: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+10-21 13:21:45.436   948   948 I Surface : Creating surface for consumer unnamed-948-0 with slotExpansion=1 for 64 slots
+10-21 13:21:45.436   948   948 I BufferQueueProducer: [](id:3b400000000,api:0,p:1229599248,c:948) setDequeueTimeout:2077252342
+10-21 13:21:45.436   948   948 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@49acc20 mNativeObject= 0xb400007a69492430 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+10-21 13:21:45.436   948   948 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@49acc20 mNativeObject= 0xb400007a69492430 sc.mNativeObject= 0xb400007a8948eb90 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:21:45.436   948   948 I Surface : Creating surface for consumer VRI[MainActivity]@49acc20#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+10-21 13:21:45.436   948   948 I VRI[MainActivity]@49acc20: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=2 res=0x3 s={true 0xb4000079f94b7a70} ch=true seqId=1 syncSeqId=0
+10-21 13:21:45.436   948   948 D VRI[MainActivity]@49acc20: reportNextDraw android.view.ViewRootImpl.performTraversals:5295 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:21:45.436   948   948 D VRI[MainActivity]@49acc20: applyTransactionOnDraw applyImmediately
+10-21 13:21:45.437   948   948 I VRI[MainActivity]@49acc20: performConfigurationChange setNightDimText nightDimLevel=0
+10-21 13:21:45.437   948   948 D VRI[MainActivity]@49acc20: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f94b7a70} hwInitialized=true
+10-21 13:21:45.447   948   948 D VRI[MainActivity]@49acc20: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:21:45.447   948   948 D VRI[MainActivity]@49acc20: Setup new sync=wmsSync-VRI[MainActivity]@49acc20#0
+10-21 13:21:45.447   948   948 I VRI[MainActivity]@49acc20: Creating new active sync group VRI[MainActivity]@49acc20#1
+10-21 13:21:45.447   948   948 D VRI[MainActivity]@49acc20: registerCallbacksForSync syncBuffer=false
+10-21 13:21:45.452   948   948 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{7ad187f V.ED..... ......I. 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-21 13:21:45.453   948   948 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:45.453   948   978 D VRI[MainActivity]@49acc20: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-21 13:21:45.453   948   978 I VRI[MainActivity]@49acc20: mWNT: t=0xb400007b294b1f10 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:21:45.453   948   978 I VRI[MainActivity]@49acc20: Setting up sync and frameCommitCallback
+10-21 13:21:45.453   948   971 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+10-21 13:21:45.462   948   971 I BLASTBufferQueue: [VRI[MainActivity]@49acc20#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-21 13:21:45.462   948   971 I SurfaceComposerClient: apply transaction with the first frame. layerId: 6018, bufferData(ID: 4071628996611, frameNumber: 1)
+10-21 13:21:45.462   948   971 I VRI[MainActivity]@49acc20: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-21 13:21:45.463   948   971 D HWUI    : CFMS:: SetUp Pid : 948    Tid : 971
+10-21 13:21:45.463   948   948 D VRI[MainActivity]@49acc20: reportDrawFinished seqId=1
+10-21 13:21:45.463   948   948 I com.negi.survey: hiddenapi: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/compose/ui/platform/AndroidComposeView$Companion; (domain=app, TargetSdkVersion=36) using reflection: allowed
+10-21 13:21:45.463   948   971 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+10-21 13:21:45.463   948   948 I Choreographer: Skipped 45 frames!  The application may be doing too much work on its main thread.
+10-21 13:21:45.466   948   948 I Choreographer: Skipped 45 frames!  The application may be doing too much work on its main thread.
+10-21 13:21:45.467   948   948 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:21:45.468   948   948 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:21:45.468   948   948 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:21:45.471   948   948 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0)
+10-21 13:21:45.472   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:45.477   948   948 D VRI[MainActivity]@49acc20: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000079f94b7a70}
+10-21 13:21:45.477   948   948 D InputMethodManager: setCurrentRootViewLocked: updateReceivingDispatcher
+10-21 13:21:45.477   948   948 D InputMethodManagerUtils: startInputInner - Id : 0
+10-21 13:21:45.478   948   948 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-21 13:21:45.480   948   948 D InsetsController: hide(ime())
+10-21 13:21:45.480   948   948 I ImeTracker: com.negi.survey:81b22307: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-21 13:21:45.482   948   961 D InputTransport: Input channel constructed: 'ClientS', fd=161
+10-21 13:21:45.483   948   948 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:21:45.483   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:45.489   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:45.489   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:45.489   948   948 D NotificationManager: BOOTING pkg =com.negi.survey mBlockedChannelsForOverflowNoti=[]
+10-21 13:21:45.490   948   988 D WM-Processor: Work WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0) is already enqueued for processing
+10-21 13:21:45.491   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 3, mode : startup_runtime_logs})
+10-21 13:21:45.500   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:45.502   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:45.502   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:45.506   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:45.514   948   948 D IntroScreen: Resolved config details: id=survey_config10.yaml in 50ms
+10-21 13:21:46.694   948   965 D RuntimeLogStore: openWriter: rotate:plain_snapshot:receiver_boot_completed -> /data/user/0/com.negi.survey/files/diagnostics/runtime_logs/rtlog_20261021_202146_694_pid948_seq2.log (bytes=0 format=LEGACY)
+10-21 13:21:46.694   948   965 D RuntimeLogStore: retention: rotate:plain_snapshot:receiver_boot_completed files=3 kept=3 totalBytes=2435
+10-21 13:21:46.699   948   970 D github_upload: doRuntimeLogsUpload: remoteBaseDir=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202145_9c8e0582_receiver_boot_completed toUpload=2 bytes=2100 dedupe=true deleteSource=true deletedSourcePre=0 preview='runtime_log_20261021_202146_696_pid948_receiver_boot_completed__rtlog_20261021_202145_024_pid948_seq1.log|runtime_log_20261021_202146_696_pid948_receiver_boot_completed__rtlog_20261021_201955_379_pid32610_seq2.log'
+10-21 13:21:46.701   948   970 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202145_9c8e0582_receiver_boot_completed/runtime_log_20261021_202146_696_pid948_receiver_boot_completed__rtlog_20261021_202145_024_pid948_seq1.log size=1777 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:46.702   948   986 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 10, mode : startup_runtime_logs})
+10-21 13:21:46.707   948   986 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:46.712   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:46.712   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:46.726   948   948 I VRI[MainActivity]@49acc20: ViewPostIme pointer 0
+10-21 13:21:46.728   948   948 I VRI[MainActivity]@49acc20: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@49acc20
+10-21 13:21:46.777   948   948 I VRI[MainActivity]@49acc20: ViewPostIme pointer 1
+10-21 13:21:46.778   948   948 D MainActivity: Intro -> Start session. epoch=1, file=survey_config10.yaml
+10-21 13:21:46.801   948   948 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-21 13:21:46.803   948   968 D SurveyConfigLoader: fromStringStrictValidated -> format=YAML, reason=file extension .yml/.yaml, firstLine='title: Maize (English)', leading='title: Maize (English)\n\nai_int...' file='survey_config10.yaml'
+10-21 13:21:46.808   948   948 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:46.833   948   968 D SurveyConfigLoader: strict config loaded (survey_config10.yaml): legacy=10(one=0,inline2=10) splitEval=0 splitFollow=0 followMode=TEXT legacyIds=[Q07,Q08,Q09,Q10,Q11,Q12,Q13,Q14] evalIds=[-] followIds=[-]
+10-21 13:21:46.838   948   968 D SurveyConfigLoader: fromStringStrictValidated -> issues=0 (legacy=10(one=0,inline2=10) splitEval=0 splitFollow=0 followMode=TEXT legacyIds=[Q07,Q08,Q09,Q10,Q11,Q12,Q13,Q14] evalIds=[-] followIds=[-])
+10-21 13:21:46.838   948   948 D MainActivity: Config loaded. session=survey_config10.yaml@1
+10-21 13:21:46.846   948   948 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-21 13:21:46.847   948   948 I TextToSpeech: Create TextToSpeech : caller process id[948] / name[com.negi.survey] / target[com.google.android.tts]
+10-21 13:21:46.848   948   948 I TextToSpeech: Sucessfully bound to com.google.android.tts
+10-21 13:21:46.857   948   959 I TextToSpeech: Connected to TTS engine
+10-21 13:21:46.858   948   948 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:47.210   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 14, mode : startup_runtime_logs})
+10-21 13:21:47.213   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:47.215   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:47.215   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.215   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 50, mode : startup_runtime_logs})
+10-21 13:21:47.218   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:47.219   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:47.219   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.299   948  1037 I TextToSpeech: Setting up the connection to TTS engine...
+10-21 13:21:47.325   948   948 D TtsController: Offline voice check: engine=com.google.android.tts lang=en voices=633 offline=[en-gb-x-gba-local, en-us-x-tpf-local, en-gb-x-rjs-local, en-us-x-sfg-local, en-gb-x-gbg-local, en-us-x-iob-local, en-gb-x-gbd-local, en-gb-x-gbb-local, en-gb-x-gbc-local, en-GB-language, en-us-x-iom-local, en-US-language, en-us-x-tpd-local, en-us-x-iog-local, en-us-x-tpc-local, en-us-x-iol-local]
+10-21 13:21:47.326   948   948 D MainActivity: TTS gate: engine=com.google.android.tts lang=en result=OK session=survey_config10.yaml@1
+10-21 13:21:47.326   948   963 I TextToSpeech: Disconnected from TTS engine
+10-21 13:21:47.330   948   948 D MainActivity: DownloadGate idle -> start download. session=survey_config10.yaml@1
+10-21 13:21:47.346   948   948 I Dialog  : mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+10-21 13:21:47.348   948   948 I DecorView: setWindowBackground: isPopOver=false color=0 d=android.graphics.drawable.ColorDrawable@566328e
+10-21 13:21:47.354   948   948 I WindowManager: WindowManagerGlobal#addView, ty=2, view=com.android.internal.policy.DecorView{c4c4531 V.E...... R.....I. 0,0-0,0}[MainActivity], caller=android.view.WindowManagerImpl.addView:188 android.app.Dialog.show:545 androidx.compose.ui.window.AndroidDialog_androidKt.Dialog$lambda$3$0:272 
+10-21 13:21:47.354   948   948 D ViewRootImpl: desktopMode is false
+10-21 13:21:47.355   948   948 I ViewRootImpl: dVRR is disabled
+10-21 13:21:47.355   948   971 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+10-21 13:21:47.357   948   948 D InputTransport: Input channel constructed: '120a59d', fd=160
+10-21 13:21:47.357   948   948 I InsetsController: onStateChanged: host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 103 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 103), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 34.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 103) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1080, displayHeight=2340, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {a2870001 mType=navigationBars mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {a2870005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870006 mType=tappableElement mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260000 mType=statusBars mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260005 mType=mandatorySystemGestures mFrame=[0,0][1080,139] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260006 mType=tappableElement mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+10-21 13:21:47.358   948   948 I VRI[MainActivity]@e749416: synced displayState. AttachInfo displayState=2
+10-21 13:21:47.358   948   948 I VRI[MainActivity]@e749416: setView = com.android.internal.policy.DecorView@c4c4531 IsHRR=false mFlingFrameRateChange=0 TM=true
+10-21 13:21:47.358   948   948 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda5@e1ddba2
+10-21 13:21:47.359   948   948 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@cee1033
+10-21 13:21:47.371   948   948 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:21:47.371   948   948 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:21:47.371   948   948 I Surface : Creating surface for consumer unnamed-948-1 with slotExpansion=1 for 64 slots
+10-21 13:21:47.371   948   948 I BufferQueueProducer: [](id:3b400000001,api:0,p:1229739792,c:948) setDequeueTimeout:2077252342
+10-21 13:21:47.371   948   948 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@e749416 mNativeObject= 0xb400007a694cab50 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+10-21 13:21:47.371   948   948 I BLASTBufferQueue_Java: update, w= 1248 h= 1512 mName = VRI[MainActivity]@e749416 mNativeObject= 0xb400007a694cab50 sc.mNativeObject= 0xb400007a89494950 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:21:47.371   948   948 I Surface : Creating surface for consumer VRI[MainActivity]@e749416#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+10-21 13:21:47.371   948   948 I VRI[MainActivity]@e749416: Relayout returned: old=(0,103,1080,2196) new=(60,537,1020,1761) relayoutAsync=false req=(960,1224)0 dur=1 res=0x3 s={true 0xb4000079f94f0c90} ch=true seqId=1 syncSeqId=0
+10-21 13:21:47.371   948   948 D VRI[MainActivity]@e749416: reportNextDraw android.view.ViewRootImpl.performTraversals:5295 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:21:47.371   948   948 D VRI[MainActivity]@e749416: applyTransactionOnDraw applyImmediately
+10-21 13:21:47.371   948   948 I VRI[MainActivity]@e749416: performConfigurationChange setNightDimText nightDimLevel=0
+10-21 13:21:47.372   948   948 D VRI[MainActivity]@e749416: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f94f0c90} hwInitialized=true
+10-21 13:21:47.375   948   948 D VRI[MainActivity]@e749416: reportNextDraw android.view.ViewRootImpl.performTraversals:5940 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 
+10-21 13:21:47.375   948   948 D VRI[MainActivity]@e749416: Setup new sync=wmsSync-VRI[MainActivity]@e749416#2
+10-21 13:21:47.375   948   948 I VRI[MainActivity]@e749416: Creating new active sync group VRI[MainActivity]@e749416#3
+10-21 13:21:47.375   948   948 D VRI[MainActivity]@e749416: registerCallbacksForSync syncBuffer=false
+10-21 13:21:47.376   948   948 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{2a00c0c V.ED..... ......I. 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-21 13:21:47.376   948   978 D VRI[MainActivity]@e749416: Received frameDrawingCallback syncResult=0 frameNum=1.
+10-21 13:21:47.376   948   978 I VRI[MainActivity]@e749416: mWNT: t=0xb400007b294a98f0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+10-21 13:21:47.376   948   978 I VRI[MainActivity]@e749416: Setting up sync and frameCommitCallback
+10-21 13:21:47.377   948   971 I BLASTBufferQueue: [VRI[MainActivity]@e749416#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+10-21 13:21:47.377   948   971 I SurfaceComposerClient: apply transaction with the first frame. layerId: 6026, bufferData(ID: 4071628996615, frameNumber: 1)
+10-21 13:21:47.377   948   971 I VRI[MainActivity]@e749416: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+10-21 13:21:47.377   948   971 D HWUI    : CFMS:: SetUp Pid : 948    Tid : 971
+10-21 13:21:47.377   948   948 D VRI[MainActivity]@e749416: reportDrawFinished seqId=1
+10-21 13:21:47.378   948   971 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+10-21 13:21:47.378   948   948 I BLASTBufferQueue_Java: update, w= 1248 h= 1512 mName = VRI[MainActivity]@e749416 mNativeObject= 0xb400007a694cab50 sc.mNativeObject= 0xb400007a89494950 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-21 13:21:47.378   948   948 I VRI[MainActivity]@e749416: Relayout returned: old=(60,537,1020,1761) new=(60,537,1020,1761) relayoutAsync=true req=(960,1224)0 dur=0 res=0x0 s={true 0xb4000079f94f0c90} ch=false seqId=1 syncSeqId=0
+10-21 13:21:47.380   948   948 I VRI[MainActivity]@e749416: registerCallbackForPendingTransactions
+10-21 13:21:47.380   948   977 I VRI[MainActivity]@e749416: mWNT: t=0xb400007b294e0c50 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+10-21 13:21:47.384   948   948 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:21:47.384   948   948 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+10-21 13:21:47.401   948   948 D VRI[MainActivity]@e749416: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000079f94f0c90}
+10-21 13:21:47.402   948   948 D InputMethodManagerUtils: startInputInner - Id : 0
+10-21 13:21:47.402   948   948 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-21 13:21:47.403   948   948 D InsetsController: hide(ime())
+10-21 13:21:47.403   948   948 I ImeTracker: com.negi.survey:4ac5e12e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-21 13:21:47.403   948   961 D InputTransport: Input channel constructed: 'ClientS', fd=210
+10-21 13:21:47.403   948   948 D InputTransport: Input channel destroyed: 'ClientS', fd=210
+10-21 13:21:47.537   948   948 W SurveyApp: Deferred startup enqueues begin...
+10-21 13:21:47.538   948   948 I SurveyApp: GitHub upload mode: production
+10-21 13:21:47.538   948   948 I SurveyApp: GitHub upload target: ishizuki-tech/SurveyExports-Dev
+10-21 13:21:47.538   948   948 I SurveyApp: GitHub upload branch: main
+10-21 13:21:47.538   948   948 I SurveyApp: GitHub upload path prefix: (none)
+10-21 13:21:47.538   948   948 I SurveyApp: GitHub credentials: available
+10-21 13:21:47.538   948   948 D SurveyApp: WorkManager available. where=startupRtLogs(immediate) took=0ms
+10-21 13:21:47.539   948   948 D SurveyApp: Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+10-21 13:21:47.540   948   948 D github_upload: enqueueStartupRuntimeLogsUpload: uniqueName=upload_runtime_logs_startup policy=KEEP session=startup_runtime_20261021_202147_b98120ad
+10-21 13:21:47.540   948   948 D SurveyApp: Startup runtime logs: enqueue requested (immediate).
+10-21 13:21:47.540   948   948 D SurveyApp: WorkManager available. where=startupRingLogs(immediate) took=0ms
+10-21 13:21:47.541   948   948 D SurveyApp: Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+10-21 13:21:47.541   948   948 D github_upload: enqueueStartupRingLogsUpload: uniqueName=upload_ring_logs_startup policy=KEEP session=startup_ring_20261021_202147_788a6c07
+10-21 13:21:47.541   948   948 D SurveyApp: Startup ring logs: enqueue requested (immediate).
+10-21 13:21:47.541   948   948 D SurveyApp: WorkManager available. where=enqueuePending(immediate) took=0ms
+10-21 13:21:47.542   948   948 D SurveyApp: CrashCapture pending uploads requested (immediate).
+10-21 13:21:47.542   948   948 W SurveyApp: Deferred startup enqueues done: took=5ms
+10-21 13:21:47.542   948   968 D SurveyApp: Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+10-21 13:21:47.543   948  1067 D CrashCapture: enqueuePendingCrashUploadsIfPossible enter where=SurveyApp:enqueuePending(immediate):bg pid=948 thread=CrashCapture-Enqueue
+10-21 13:21:47.543   948   968 D SurveyApp: Startup survey recovery complete: discovered=0 attempted=0 submitted=0 active=0 trackerUnconfirmed=0 uploaded=0 deferred=0 invalid=0 operationalFailures=0 duplicates=0 unclassified=0
+10-21 13:21:47.552   948   983 D WM-SystemJobScheduler: Scheduling work ID 5e16ed18-16ec-419e-8532-dacb70a7c54fJob ID 12
+10-21 13:21:47.554   948   948 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=5e16ed18-16ec-419e-8532-dacb70a7c54f, generation=0)
+10-21 13:21:47.560   948   983 D WM-GreedyScheduler: Starting tracking for 5e16ed18-16ec-419e-8532-dacb70a7c54f
+10-21 13:21:47.562   948   983 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=5e16ed18-16ec-419e-8532-dacb70a7c54f, generation=0)
+10-21 13:21:47.567   948   948 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:21:47.568   948   985 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.571   948   985 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:47.572   948   948 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:21:47.572   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:47.572   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.573   948   985 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=5e16ed18-16ec-419e-8532-dacb70a7c54f, generation=0)
+10-21 13:21:47.573   948   985 D WM-WorkProgressUpdater: Updating progress for 5e16ed18-16ec-419e-8532-dacb70a7c54f (Data {pct : 3, mode : startup_ring_logs})
+10-21 13:21:47.573   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:47.573   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.576   948   985 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:47.577   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:47.577   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.578   948   985 D WM-Processor: Work WorkGenerationalId(workSpecId=5e16ed18-16ec-419e-8532-dacb70a7c54f, generation=0) is already enqueued for processing
+10-21 13:21:47.580   948   985 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
