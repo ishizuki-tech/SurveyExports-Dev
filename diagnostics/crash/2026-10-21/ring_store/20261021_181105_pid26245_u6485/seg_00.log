@@ -1,0 +1,31 @@
+20261021_180237 I/AppRingLogStore pid=23422 tid=23422 uptimeMs=2497957 msg=install: pid=23422 timeUtc=20261021_180237 uptimeMs=2497956
+20261021_180237 D/SurveyApp pid=23422 tid=23422 uptimeMs=2497957 msg=attachBaseContext: pid=23422 process=com.negi.survey isMain=true sdk=37
+20261021_180237 D/SurveyApp pid=23422 tid=23422 uptimeMs=2497966 msg=onCreate: pid=23422 process=com.negi.survey isMain=true sdk=37
+20261021_180308 D/AiTrace pid=23422 tid=23422 uptimeMs=2529640 msg=Installed (enabled=true ringEnabled=true)
+20261021_180308 D/LiteRtRepository pid=23422 tid=23422 uptimeMs=2529702 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261021_180308 D/LiteRtRepository pid=23422 tid=23422 uptimeMs=2529702 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261021_180855 D/AiViewModel pid=23422 tid=23477 uptimeMs=2876506 msg=run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=304, fullPrompt.len=2951, timeoutMs=120000
+20261021_180855 D/AiViewModel pid=23422 tid=23477 uptimeMs=2876507 msg=run[1]: sha(prompt)=7b198013227b695546c8470932914088c888ca8843af6248a5cc962e0a2bf31a sha(full)=b4ece7f2a66008b020bf85f51068fcc03b6e04c9df58af6a7e5b817909cd65a1
+20261021_180855 D/LiteRtRepository pid=23422 tid=23477 uptimeMs=2876511 msg=[1] start model='Gemma3n4B' prompt.len=2951 sha=b4ece7f2a66008b0 gateWaitMs=3
+20261021_180855 D/LiteRtRepository pid=23422 tid=23477 uptimeMs=2876514 msg=[1] init ok initMs=3
+20261021_180859 D/LiteRtRepository pid=23422 tid=23422 uptimeMs=2880661 msg=[1] logicalDone=true
+20261021_180859 D/LiteRtRepository pid=23422 tid=23422 uptimeMs=2880661 msg=[1] native cleanup safepoint
+20261021_180859 D/AiViewModel pid=23422 tid=23477 uptimeMs=2880661 msg=run[1] stats: chunks=26, chars=84, raw.len=84
+20261021_180859 D/AiViewModel pid=23422 tid=23477 uptimeMs=2880661 msg=run[1] sha(raw)=25965b1c10acf8912a88ae3df12815f2867fe2978217746c9343c1d761bbc7a0
+20261021_180859 D/LiteRtRepository pid=23422 tid=25915 uptimeMs=2880664 msg=[1] Conversation reset completed after safepoint
+20261021_180859 I/LiteRtRepository pid=23422 tid=23472 uptimeMs=2880664 msg=[1] finalize reason='native-terminated' totalMs=4154 inferenceMs=4149 firstTokenMs=2195 chunks=26 emittedChars=84 out.len=84 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=3
+20261021_180859 I/AiViewModel pid=23422 tid=23477 uptimeMs=2880666 msg=run[1] done: phase=EVAL mode=EVAL_JSON score=75 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261021_180859 D/AiViewModel pid=23422 tid=23477 uptimeMs=2880669 msg=run[2]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=400, fullPrompt.len=937, timeoutMs=120000
+20261021_180859 D/AiViewModel pid=23422 tid=23477 uptimeMs=2880670 msg=run[2]: sha(prompt)=b5bc46c3b928fcfd262f6e54a773db9a0055c19d8f440b38f85adcf298546526 sha(full)=04c144a9c2f5565f54d31b80104427c426f0a3dac9f3151b5de2f20c7f0efbc4
+20261021_180859 D/LiteRtRepository pid=23422 tid=23472 uptimeMs=2880670 msg=[2] start model='Gemma3n4B' prompt.len=937 sha=04c144a9c2f5565f gateWaitMs=0
+20261021_180859 D/LiteRtRepository pid=23422 tid=23472 uptimeMs=2880671 msg=[2] init ok initMs=1
+20261021_180901 D/LiteRtRepository pid=23422 tid=23422 uptimeMs=2882364 msg=[2] logicalDone=true
+20261021_180901 D/LiteRtRepository pid=23422 tid=23422 uptimeMs=2882365 msg=[2] native cleanup safepoint
+20261021_180901 D/AiViewModel pid=23422 tid=23476 uptimeMs=2882366 msg=run[2] stats: chunks=15, chars=73, raw.len=73
+20261021_180901 D/AiViewModel pid=23422 tid=23476 uptimeMs=2882367 msg=run[2] sha(raw)=ad25ea39ba4bb1a0408514f5df97f42e6208bcec08de149a37b9f8dd3bbe1e14
+20261021_180901 I/AiViewModel pid=23422 tid=23476 uptimeMs=2882368 msg=run[2] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=73 FU0.sha16=ad25ea39ba4bb1a0 commit=false err=<none>
+20261021_180901 D/LiteRtRepository pid=23422 tid=25915 uptimeMs=2882368 msg=[2] Conversation reset completed after safepoint
+20261021_180901 I/LiteRtRepository pid=23422 tid=25915 uptimeMs=2882369 msg=[2] finalize reason='native-terminated' totalMs=1699 inferenceMs=1698 firstTokenMs=590 chunks=15 emittedChars=73 out.len=73 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=5 lastEventMsAgo=5
+20261021_181103 I/AppRingLogStore pid=26245 tid=26245 uptimeMs=3003818 msg=install: pid=26245 timeUtc=20261021_181103 uptimeMs=3003817
+20261021_181103 D/SurveyApp pid=26245 tid=26245 uptimeMs=3003818 msg=attachBaseContext: pid=26245 process=com.negi.survey isMain=true sdk=37
+20261021_181103 D/SurveyApp pid=26245 tid=26245 uptimeMs=3003827 msg=onCreate: pid=26245 process=com.negi.survey isMain=true sdk=37
