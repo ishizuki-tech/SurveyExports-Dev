@@ -1,0 +1,38 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-21T20:24:30.544Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=37
+pid=3030
+==============================
+2026-10-21T20:24:30.544Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:receiver_boot_completed) ---
+2026-10-21T20:24:30.876Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-21T20:24:30.894Z D/LiteRtLM [DefaultDispatcher-worker-1] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65121|ino=158115|size=4919541760|mtime=1792614149021'
+2026-10-21T20:24:30.894Z D/LiteRtLM [DefaultDispatcher-worker-1] Capabilities: image=false audio=false
+2026-10-21T20:24:30.894Z D/LiteRtLM [DefaultDispatcher-worker-1] Backend=com.google.ai.edge.litertlm.Backend$GPU@a8a92cb maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-21T20:24:30.894Z D/LiteRtLM [DefaultDispatcher-worker-1] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1792614149021
+2026-10-21T20:24:30.894Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-21T20:24:30.895Z D/LiteRtLM [DefaultDispatcher-worker-1] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-21T20:24:30.896Z D/LiteRtLM [DefaultDispatcher-worker-1] Engine cacheDir resolved: key='fs|dev=65121|ino=158115|size=4919541760|mtime=1792614149021' backend=com.google.ai.edge.litertlm.Backend$GPU@a8a92cb path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/61f23340d000b94d90487beba60aad0301920de4' filesBefore=2
+2026-10-21T20:24:31.382Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-10-21T20:24:31.383Z I/SurveyApp [main] GitHub upload mode: production
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: available
+2026-10-21T20:24:31.383Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-10-21T20:24:31.384Z D/SurveyApp [main] Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+2026-10-21T20:24:31.385Z D/SurveyApp [main] Startup runtime logs: enqueue requested (immediate).
+2026-10-21T20:24:31.385Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-10-21T20:24:31.386Z D/SurveyApp [main] Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+2026-10-21T20:24:31.386Z D/SurveyApp [main] Startup ring logs: enqueue requested (immediate).
+2026-10-21T20:24:31.386Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-10-21T20:24:31.387Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-10-21T20:24:31.387Z W/SurveyApp [main] Deferred startup enqueues done: took=5ms
+2026-10-21T20:24:31.387Z D/SurveyApp [DefaultDispatcher-worker-4] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-10-21T20:24:31.388Z D/SurveyApp [DefaultDispatcher-worker-4] Startup survey recovery complete: discovered=0 attempted=0 submitted=0 active=0 trackerUnconfirmed=0 uploaded=0 deferred=0 invalid=0 operationalFailures=0 duplicates=0 unclassified=0
+2026-10-21T20:24:38.822Z W/LiteRtLM [DefaultDispatcher-worker-1] Engine.initialize completed: key='fs|dev=65121|ino=158115|size=4919541760|mtime=1792614149021' backend=com.google.ai.edge.litertlm.Backend$GPU@a8a92cb took=7926ms cacheFilesAfter=2
