@@ -1,0 +1,1208 @@
+=== Previous Session Logcat ===
+captured_time_utc=20261021_202203
+captured_time_local=20261021_132203
+marker=2026-10-21 13:21:47.687
+preferred_prev_pid=-1
+note=best-effort; buffers may be overwritten before next start
+sdk=37
+device=samsung SM-S931U1
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+
+=== Logcat (since marker) ===
+--------- beginning of main
+10-21 13:21:47.687   948  1067 D CrashCapture: Staged prev session logcat: /data/user/0/com.negi.survey/files/diagnostics/crash/prevlog_20261021_202147_pid948.log bytes=168985 marker=2026-10-21 13:19:54.281 pid=-1
+10-21 13:21:47.689   948  1067 D CrashCapture: Persisted logcat marker for next run: 2026-10-21 13:21:47.687
+10-21 13:21:47.689   948  1067 D CrashCapture: GitHub hints: owner=ishizuki-tech repo=SurveyExports-Dev branch=main pathPrefix=diagnostics/crash
+10-21 13:21:47.689   948  1067 D CrashCapture: Enqueuing GitHub crash uploads… (mirror-first) where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:21:47.689   948  1067 D CrashCapture: GitHub enqueue(crash file): name=prevlog_20261021_202147_pid948.log bytes=168985 remote=prevlog_20261021_202147_pid948.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:21:47.691   948  1067 D CrashCapture: GitHub enqueue(crash file): name=prevlog_20261021_201954_pid32610.log bytes=140029 remote=prevlog_20261021_201954_pid32610.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:21:47.691   948  1067 D CrashCapture: GitHub enqueue(crash file): name=prevlog_20261021_201940_pid32375.log bytes=114752 remote=prevlog_20261021_201940_pid32375.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:21:47.692   948  1067 D CrashCapture: GitHub enqueue(ring file): bytes=1626 remote=ring_store/20261021_202147_pid948_u848475/seg_00.log src=seg_00.log where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:21:47.693   948  1067 D CrashCapture: Ring store enqueue done. dir=/data/user/0/com.negi.survey/files/diagnostics/applog_ring files=1 bytes=1626 capFiles=300 capBytes=90000000 where=SurveyApp:enqueuePending(immediate):bg
+10-21 13:21:47.698   948   983 D WM-SystemJobScheduler: Scheduling work ID 14e26063-abda-4134-9067-fe7276d3a9a5Job ID 13
+10-21 13:21:47.699   948   983 D WM-GreedyScheduler: Starting tracking for 14e26063-abda-4134-9067-fe7276d3a9a5
+10-21 13:21:47.700   948   948 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=14e26063-abda-4134-9067-fe7276d3a9a5, generation=0)
+10-21 13:21:47.706   948   983 D WM-SystemJobScheduler: Scheduling work ID 79d4ca3c-f290-435d-b9e1-46834aac34c3Job ID 14
+10-21 13:21:47.707   948   983 D WM-GreedyScheduler: Starting tracking for 79d4ca3c-f290-435d-b9e1-46834aac34c3,14e26063-abda-4134-9067-fe7276d3a9a5
+10-21 13:21:47.707   948   948 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0)
+10-21 13:21:47.714   948   983 D WM-SystemJobScheduler: Scheduling work ID cbc12c43-4253-4d5e-8740-0b2974185b1bJob ID 15
+10-21 13:21:47.715   948   948 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0)
+10-21 13:21:47.715   948   983 D WM-GreedyScheduler: Starting tracking for 79d4ca3c-f290-435d-b9e1-46834aac34c3,14e26063-abda-4134-9067-fe7276d3a9a5,cbc12c43-4253-4d5e-8740-0b2974185b1b
+10-21 13:21:47.721   948   983 D WM-SystemJobScheduler: Scheduling work ID b13951dd-4650-4163-a34b-791897673642Job ID 16
+10-21 13:21:47.722   948   948 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0)
+10-21 13:21:47.722   948   983 D WM-GreedyScheduler: Starting tracking for b13951dd-4650-4163-a34b-791897673642,79d4ca3c-f290-435d-b9e1-46834aac34c3,14e26063-abda-4134-9067-fe7276d3a9a5,cbc12c43-4253-4d5e-8740-0b2974185b1b
+10-21 13:21:47.724   948   983 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=14e26063-abda-4134-9067-fe7276d3a9a5, generation=0)
+10-21 13:21:47.726   948   988 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0)
+10-21 13:21:47.727   948   988 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0)
+10-21 13:21:47.728   948   988 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0)
+10-21 13:21:47.732   948   948 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:21:47.734   948   948 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:21:47.736   948   948 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:21:47.738   948   948 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:21:47.738   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.740   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.740   948   948 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:21:47.741   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+--------- beginning of system
+10-21 13:21:47.741   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.741   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.742   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.742   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.742   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:47.742   948   968 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/prevlog_20261021_202147_pid948.log size=168985 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:47.743   948   948 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:21:47.743   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:47.743   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.744   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:47.744   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.744   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.745   948   969 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/prevlog_20261021_201954_pid32610.log size=140029 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:47.745   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:47.746   948   948 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:21:47.746   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:47.746   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.746   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.747   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:47.747   948  1076 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/prevlog_20261021_201940_pid32375.log size=114752 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:47.747   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.747   948   988 I WM-Processor: Moving WorkSpec (b13951dd-4650-4163-a34b-791897673642) to the foreground
+10-21 13:21:47.748   948   948 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.negi.survey/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-21 13:21:47.748   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:47.748   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.748   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:47.749   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.749   948  1083 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/crash/2026-10-21/ring_store/20261021_202147_pid948_u848475/seg_00.log size=1626 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:47.750   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 0, mode : file})
+10-21 13:21:47.752   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.752   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.752   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.752   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 0, mode : file})
+10-21 13:21:47.754   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:47.755   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:47.755   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.755   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 0, mode : file})
+10-21 13:21:47.757   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:47.758   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:47.758   948   988 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=14e26063-abda-4134-9067-fe7276d3a9a5, generation=0)
+10-21 13:21:47.758   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.758   948   988 D WM-WorkProgressUpdater: Updating progress for b13951dd-4650-4163-a34b-791897673642 (Data {pct : 0, mode : file})
+10-21 13:21:47.760   948   988 I WM-Processor: Moving WorkSpec (b13951dd-4650-4163-a34b-791897673642) to the foreground
+10-21 13:21:47.761   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:47.761   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.761   948   988 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0)
+10-21 13:21:47.761   948   988 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0)
+10-21 13:21:47.762   948   988 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0)
+10-21 13:21:47.763   948   988 D WM-Processor: Work WorkGenerationalId(workSpecId=14e26063-abda-4134-9067-fe7276d3a9a5, generation=0) is already enqueued for processing
+10-21 13:21:47.765   948   988 D WM-Processor: Work WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0) is already enqueued for processing
+10-21 13:21:47.766   948   988 D WM-Processor: Work WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0) is already enqueued for processing
+10-21 13:21:47.768   948   988 D WM-Processor: Work WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0) is already enqueued for processing
+10-21 13:21:47.769   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.769   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.769   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.769   948   988 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:21:47.944   948   988 D WM-WorkProgressUpdater: Updating progress for b13951dd-4650-4163-a34b-791897673642 (Data {pct : 10, mode : file})
+10-21 13:21:47.946   948   988 I WM-Processor: Moving WorkSpec (b13951dd-4650-4163-a34b-791897673642) to the foreground
+10-21 13:21:47.948   948   988 D WM-WorkProgressUpdater: Updating progress for b13951dd-4650-4163-a34b-791897673642 (Data {pct : 90, mode : file})
+10-21 13:21:47.948   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:47.948   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.950   948   988 I WM-Processor: Moving WorkSpec (b13951dd-4650-4163-a34b-791897673642) to the foreground
+10-21 13:21:47.950   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:47.950   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.965   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 10, mode : file})
+10-21 13:21:47.970   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.971   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 13, mode : file})
+10-21 13:21:47.971   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.971   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.975   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.976   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 17, mode : file})
+10-21 13:21:47.976   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.976   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.980   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.980   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 21, mode : file})
+10-21 13:21:47.980   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.981   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.984   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.984   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 25, mode : file})
+10-21 13:21:47.984   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.984   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.987   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.987   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.987   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.988   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 29, mode : file})
+10-21 13:21:47.990   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.991   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 33, mode : file})
+10-21 13:21:47.991   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.991   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.995   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.995   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 37, mode : file})
+10-21 13:21:47.995   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.995   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:47.998   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:47.998   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 41, mode : file})
+10-21 13:21:47.998   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:47.998   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:48.000   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.000   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 44, mode : file})
+10-21 13:21:48.000   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.001   948   948 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=8351], rate limit (5.0) exceeded: input 7.2416644, output would be 5.0746775
+10-21 13:21:48.002   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.003   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 48, mode : file})
+10-21 13:21:48.003   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.005   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.005   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 52, mode : file})
+10-21 13:21:48.005   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.007   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.007   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 56, mode : file})
+10-21 13:21:48.007   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.009   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.009   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 60, mode : file})
+10-21 13:21:48.009   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.011   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.011   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 64, mode : file})
+10-21 13:21:48.011   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.011   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:48.013   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.013   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 68, mode : file})
+10-21 13:21:48.013   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.014   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.014   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 72, mode : file})
+10-21 13:21:48.014   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.016   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.016   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 75, mode : file})
+10-21 13:21:48.016   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.017   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.017   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 79, mode : file})
+10-21 13:21:48.017   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.019   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.019   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 83, mode : file})
+10-21 13:21:48.019   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.020   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.020   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 87, mode : file})
+10-21 13:21:48.020   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.022   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.022   948   985 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 90, mode : file})
+10-21 13:21:48.022   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.023   948   985 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:48.023   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:48.072   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 10, mode : file})
+10-21 13:21:48.075   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.076   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.077   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 15, mode : file})
+10-21 13:21:48.078   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.079   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 21, mode : file})
+10-21 13:21:48.079   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.080   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.081   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 27, mode : file})
+10-21 13:21:48.081   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.082   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.082   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 32, mode : file})
+10-21 13:21:48.082   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.084   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.084   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 38, mode : file})
+10-21 13:21:48.084   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.085   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.086   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 44, mode : file})
+10-21 13:21:48.086   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.087   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.088   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 49, mode : file})
+10-21 13:21:48.088   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.089   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.089   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 55, mode : file})
+10-21 13:21:48.089   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.090   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.091   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.092   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 61, mode : file})
+10-21 13:21:48.093   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.094   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 67, mode : file})
+10-21 13:21:48.094   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.095   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.095   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.095   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 72, mode : file})
+10-21 13:21:48.096   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.097   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 78, mode : file})
+10-21 13:21:48.097   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.098   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.098   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.098   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 84, mode : file})
+10-21 13:21:48.099   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.100   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.100   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 89, mode : file})
+10-21 13:21:48.101   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.102   948   983 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 90, mode : file})
+10-21 13:21:48.102   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.103   948   983 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:48.103   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 10, mode : file})
+10-21 13:21:48.103   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:48.104   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.105   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 14, mode : file})
+10-21 13:21:48.105   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.106   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.106   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.106   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 19, mode : file})
+10-21 13:21:48.107   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.108   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.108   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 24, mode : file})
+10-21 13:21:48.109   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.109   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 28, mode : file})
+10-21 13:21:48.109   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.110   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.111   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 33, mode : file})
+10-21 13:21:48.111   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.112   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.112   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 38, mode : file})
+10-21 13:21:48.112   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.113   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.114   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 42, mode : file})
+10-21 13:21:48.114   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.115   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.115   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 47, mode : file})
+10-21 13:21:48.115   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.116   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.117   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 52, mode : file})
+10-21 13:21:48.117   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.118   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.118   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 56, mode : file})
+10-21 13:21:48.118   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.119   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.119   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 61, mode : file})
+10-21 13:21:48.119   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.120   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.121   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 66, mode : file})
+10-21 13:21:48.121   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.122   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.122   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 70, mode : file})
+10-21 13:21:48.122   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.123   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.124   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 75, mode : file})
+10-21 13:21:48.124   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.125   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.125   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 80, mode : file})
+10-21 13:21:48.125   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.126   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.127   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 84, mode : file})
+10-21 13:21:48.127   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.128   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.128   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 89, mode : file})
+10-21 13:21:48.128   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.129   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.129   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 90, mode : file})
+10-21 13:21:48.129   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.132   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:48.133   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:48.190   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 52, mode : startup_runtime_logs})
+10-21 13:21:48.190   948   970 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202145_9c8e0582_receiver_boot_completed/runtime_log_20261021_202146_696_pid948_receiver_boot_completed__rtlog_20261021_202145_024_pid948_seq1.log sha=2e50327e1828b00121d54a8f90cfaa4adbfe8d55
+10-21 13:21:48.194   948   970 D RuntimeLogStore: deleteRolledLogFiles: deleted=1 excludeActive=true active=rtlog_20261021_202146_694_pid948_seq2.log
+10-21 13:21:48.194   948   970 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202145_9c8e0582_receiver_boot_completed/runtime_log_20261021_202146_696_pid948_receiver_boot_completed__rtlog_20261021_201955_379_pid32610_seq2.log size=323 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:48.194   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:48.196   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:48.196   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 55, mode : startup_runtime_logs})
+10-21 13:21:48.198   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:48.199   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:48.281   948  1084 D github_upload: doRingLogsUpload: remoteBaseDir=diagnostics/applog_ring/2026-10-21/applog_ring_startup_ring_20261021_202147_788a6c07_app_start segs=1 bytes=1626 source=/data/user/0/com.negi.survey/files/diagnostics/applog_ring snapshot=/data/user/0/com.negi.survey/cache/diagnostics_ring_upload/startup_ring_20261021_202147_788a6c07
+10-21 13:21:48.281   948  1084 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/applog_ring/2026-10-21/applog_ring_startup_ring_20261021_202147_788a6c07_app_start/seg_00.log size=1626 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:21:48.281   948   985 D WM-WorkProgressUpdater: Updating progress for 5e16ed18-16ec-419e-8532-dacb70a7c54f (Data {pct : 10, mode : startup_ring_logs})
+10-21 13:21:48.284   948   985 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:48.286   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:48.286   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:48.326   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 59, mode : startup_runtime_logs})
+10-21 13:21:48.329   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:48.330   948   988 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 95, mode : startup_runtime_logs})
+10-21 13:21:48.331   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:48.333   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:48.335   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:48.615   948   986 D WM-WorkProgressUpdater: Updating progress for 5e16ed18-16ec-419e-8532-dacb70a7c54f (Data {pct : 19, mode : startup_ring_logs})
+10-21 13:21:48.618   948   986 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:48.620   948   986 D WM-WorkProgressUpdater: Updating progress for 5e16ed18-16ec-419e-8532-dacb70a7c54f (Data {pct : 91, mode : startup_ring_logs})
+10-21 13:21:48.620   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:48.620   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:48.623   948   986 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:48.624   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:49.027   948   986 D WM-WorkProgressUpdater: Updating progress for b13951dd-4650-4163-a34b-791897673642 (Data {pct : 95, mode : file})
+10-21 13:21:49.028   948  1083 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/crash/2026-10-21/ring_store/20261021_202147_pid948_u848475/seg_00.log sha=ff638f6060ad0b95d635e956430bb6487b07e346
+10-21 13:21:49.031   948   986 I WM-Processor: Moving WorkSpec (b13951dd-4650-4163-a34b-791897673642) to the foreground
+10-21 13:21:49.033   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:49.033   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:49.033   948   986 I WM-Processor: Moving WorkSpec (b13951dd-4650-4163-a34b-791897673642) to the foreground
+10-21 13:21:49.035   948   948 D WM-SystemFgDispatcher: Notifying with (id:7859, workSpecId: b13951dd-4650-4163-a34b-791897673642, notificationType :1)
+10-21 13:21:49.035   948   986 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b13951dd-4650-4163-a34b-791897673642, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:ring:diagnostics_crash_ring_store_20261021_202147_pid948_u848475_seg_00.log_4d8ca03f } ]
+10-21 13:21:49.035   948   948 I NotificationManager: com.negi.survey: notify(7859, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:49.037   948   948 D WM-Processor: Processor b13951dd-4650-4163-a34b-791897673642 executed; reschedule = false
+10-21 13:21:49.037   948   948 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0)
+10-21 13:21:49.037   948   948 D WM-SystemJobService: b13951dd-4650-4163-a34b-791897673642 executed on JobScheduler
+10-21 13:21:49.037   948   948 D WM-SystemFgDispatcher: Removing Notification (id: 7859, workSpecId: WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0), notificationType: 1
+10-21 13:21:49.038   948   948 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=b13951dd-4650-4163-a34b-791897673642, generation=0)
+10-21 13:21:49.039   948   986 D WM-GreedyScheduler: Cancelling work ID b13951dd-4650-4163-a34b-791897673642
+10-21 13:21:49.780   948   948 I VRI[MainActivity]@49acc20: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@49acc20
+10-21 13:21:50.083   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 15, mode : file})
+10-21 13:21:50.089   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.091   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 21, mode : file})
+10-21 13:21:50.091   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.091   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:50.094   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.095   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 27, mode : file})
+10-21 13:21:50.095   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.095   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:50.097   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.098   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 32, mode : file})
+10-21 13:21:50.098   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.098   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:50.100   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.101   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 38, mode : file})
+10-21 13:21:50.101   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.101   948   948 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=5725], rate limit (5.0) exceeded: input 9.320102, output would be 5.4422894
+10-21 13:21:50.103   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.103   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 44, mode : file})
+10-21 13:21:50.103   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.105   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.106   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 49, mode : file})
+10-21 13:21:50.106   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.107   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.108   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 55, mode : file})
+10-21 13:21:50.108   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.110   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.110   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 61, mode : file})
+10-21 13:21:50.110   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.112   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.112   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 67, mode : file})
+10-21 13:21:50.112   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.113   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.114   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.114   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 72, mode : file})
+10-21 13:21:50.115   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.116   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.116   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 78, mode : file})
+10-21 13:21:50.117   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.117   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 84, mode : file})
+10-21 13:21:50.117   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.119   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.119   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.119   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 89, mode : file})
+10-21 13:21:50.120   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.121   948   988 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 90, mode : file})
+10-21 13:21:50.121   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.122   948   988 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:50.123   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:50.139   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 14, mode : file})
+10-21 13:21:50.145   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.146   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.146   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 19, mode : file})
+10-21 13:21:50.149   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.150   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 24, mode : file})
+10-21 13:21:50.150   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.153   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.153   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 28, mode : file})
+10-21 13:21:50.153   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.155   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.156   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 33, mode : file})
+10-21 13:21:50.156   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.156   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:50.158   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.159   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 38, mode : file})
+10-21 13:21:50.159   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.160   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.161   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 42, mode : file})
+10-21 13:21:50.161   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.162   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.163   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.163   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 47, mode : file})
+10-21 13:21:50.165   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.165   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 52, mode : file})
+10-21 13:21:50.165   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.166   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.167   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.167   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 56, mode : file})
+10-21 13:21:50.168   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.169   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 61, mode : file})
+10-21 13:21:50.169   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.170   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.171   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 66, mode : file})
+10-21 13:21:50.171   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.172   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.172   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.172   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 70, mode : file})
+10-21 13:21:50.174   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.174   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.174   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 75, mode : file})
+10-21 13:21:50.175   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.176   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.176   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 80, mode : file})
+10-21 13:21:50.177   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.178   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.178   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 84, mode : file})
+10-21 13:21:50.179   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.179   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 89, mode : file})
+10-21 13:21:50.179   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.181   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.181   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 90, mode : file})
+10-21 13:21:50.181   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.182   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:50.184   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:50.447   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 13, mode : file})
+10-21 13:21:50.455   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.457   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 17, mode : file})
+10-21 13:21:50.457   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.457   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:50.459   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.460   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 21, mode : file})
+10-21 13:21:50.460   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.462   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.463   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.463   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 25, mode : file})
+10-21 13:21:50.465   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.465   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 29, mode : file})
+10-21 13:21:50.465   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.467   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.467   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 33, mode : file})
+10-21 13:21:50.467   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.468   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.469   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 37, mode : file})
+10-21 13:21:50.469   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.472   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.473   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.473   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 41, mode : file})
+10-21 13:21:50.475   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.476   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 44, mode : file})
+10-21 13:21:50.476   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.477   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.477   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 48, mode : file})
+10-21 13:21:50.477   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.478   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.479   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 52, mode : file})
+10-21 13:21:50.479   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.480   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.481   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.481   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 56, mode : file})
+10-21 13:21:50.482   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.483   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.483   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 60, mode : file})
+10-21 13:21:50.484   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.485   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 64, mode : file})
+10-21 13:21:50.485   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.486   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.487   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 68, mode : file})
+10-21 13:21:50.487   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.488   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.488   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 72, mode : file})
+10-21 13:21:50.489   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.490   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.490   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 75, mode : file})
+10-21 13:21:50.490   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.491   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.492   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 79, mode : file})
+10-21 13:21:50.492   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.493   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.493   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 83, mode : file})
+10-21 13:21:50.493   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.495   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.495   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 87, mode : file})
+10-21 13:21:50.495   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.496   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.497   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 90, mode : file})
+10-21 13:21:50.497   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.498   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:50.499   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:50.576   948  1099 D ProfileInstaller: Installing profile for com.negi.survey
+10-21 13:21:51.181   948   985 D WM-WorkProgressUpdater: Updating progress for cbc12c43-4253-4d5e-8740-0b2974185b1b (Data {pct : 95, mode : file})
+10-21 13:21:51.182   948  1084 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/crash/2026-10-21/prevlog_20261021_201940_pid32375.log sha=1ecae4d414cd5d60a24ad9a5eaf92f80a6c84ccb
+10-21 13:21:51.186   948   985 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:51.188   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:51.188   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:51.189   948   985 I WM-Processor: Moving WorkSpec (cbc12c43-4253-4d5e-8740-0b2974185b1b) to the foreground
+10-21 13:21:51.190   948   948 D WM-SystemFgDispatcher: Notifying with (id:5725, workSpecId: cbc12c43-4253-4d5e-8740-0b2974185b1b, notificationType :1)
+10-21 13:21:51.190   948   948 I NotificationManager: com.negi.survey: notify(5725, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:51.191   948   985 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=cbc12c43-4253-4d5e-8740-0b2974185b1b, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:crash:diagnostics_crash_prevlog_20261021_201940_pid32375.log_140be9d4 } ]
+10-21 13:21:51.193   948   948 D WM-Processor: Processor cbc12c43-4253-4d5e-8740-0b2974185b1b executed; reschedule = false
+10-21 13:21:51.193   948   948 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0)
+10-21 13:21:51.193   948   948 D WM-SystemJobService: cbc12c43-4253-4d5e-8740-0b2974185b1b executed on JobScheduler
+10-21 13:21:51.193   948   948 D WM-SystemFgDispatcher: Removing Notification (id: 5725, workSpecId: WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0), notificationType: 1
+10-21 13:21:51.194   948   948 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=cbc12c43-4253-4d5e-8740-0b2974185b1b, generation=0)
+10-21 13:21:51.194   948   985 D WM-GreedyScheduler: Cancelling work ID cbc12c43-4253-4d5e-8740-0b2974185b1b
+10-21 13:21:53.263   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 14, mode : file})
+10-21 13:21:53.271   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.273   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 19, mode : file})
+10-21 13:21:53.273   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.273   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.276   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.276   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 24, mode : file})
+10-21 13:21:53.277   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.277   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.279   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.280   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 28, mode : file})
+10-21 13:21:53.280   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.280   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.282   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.282   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 33, mode : file})
+10-21 13:21:53.282   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.283   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.284   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.285   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 38, mode : file})
+10-21 13:21:53.285   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.285   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.287   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.287   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 42, mode : file})
+10-21 13:21:53.287   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.287   948   948 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=4577], rate limit (5.0) exceeded: input 10.80844, output would be 6.567893
+10-21 13:21:53.289   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.289   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.290   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 47, mode : file})
+10-21 13:21:53.291   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.292   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 52, mode : file})
+10-21 13:21:53.292   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.293   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.294   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 56, mode : file})
+10-21 13:21:53.294   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.295   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.295   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 61, mode : file})
+10-21 13:21:53.295   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.297   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.297   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 66, mode : file})
+10-21 13:21:53.297   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.298   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.299   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 70, mode : file})
+10-21 13:21:53.299   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.300   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.300   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 75, mode : file})
+10-21 13:21:53.300   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.301   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.302   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 80, mode : file})
+10-21 13:21:53.302   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.303   948   983 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.303   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.303   948   983 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 84, mode : file})
+10-21 13:21:53.305   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.305   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 89, mode : file})
+10-21 13:21:53.305   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.307   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.307   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 90, mode : file})
+10-21 13:21:53.307   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.310   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:53.311   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:53.505   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 13, mode : file})
+10-21 13:21:53.512   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.513   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 17, mode : file})
+10-21 13:21:53.513   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.514   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.516   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.517   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 21, mode : file})
+10-21 13:21:53.517   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.518   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.519   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 25, mode : file})
+10-21 13:21:53.519   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.520   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.521   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 29, mode : file})
+10-21 13:21:53.521   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.522   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.522   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 33, mode : file})
+10-21 13:21:53.522   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.523   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.524   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 37, mode : file})
+10-21 13:21:53.524   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.525   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.525   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.526   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 41, mode : file})
+10-21 13:21:53.527   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.527   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 44, mode : file})
+10-21 13:21:53.527   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.529   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.529   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 48, mode : file})
+10-21 13:21:53.529   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.530   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.531   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.531   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 52, mode : file})
+10-21 13:21:53.532   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.532   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 56, mode : file})
+10-21 13:21:53.532   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.533   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.534   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 60, mode : file})
+10-21 13:21:53.534   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.535   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.535   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 64, mode : file})
+10-21 13:21:53.535   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.536   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.537   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 68, mode : file})
+10-21 13:21:53.537   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.540   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.541   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 72, mode : file})
+10-21 13:21:53.541   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.542   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.542   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 75, mode : file})
+10-21 13:21:53.542   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.543   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.544   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 79, mode : file})
+10-21 13:21:53.544   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.545   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.545   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 83, mode : file})
+10-21 13:21:53.546   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.547   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.547   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 87, mode : file})
+10-21 13:21:53.547   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.548   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.549   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 90, mode : file})
+10-21 13:21:53.549   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.550   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:53.550   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:53.807   948   948 I VRI[MainActivity]@e749416: ViewPostIme pointer 0
+10-21 13:21:53.812   948   948 I VRI[MainActivity]@e749416: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@e749416
+10-21 13:21:53.817   948   948 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{2a00c0c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:53.841   948   986 D WM-WorkProgressUpdater: Updating progress for 1dd8c6cc-75a4-4efb-a709-41261424f62f (Data {pct : 97, mode : startup_runtime_logs})
+10-21 13:21:53.841   948  1076 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202145_9c8e0582_receiver_boot_completed/runtime_log_20261021_202146_696_pid948_receiver_boot_completed__rtlog_20261021_201955_379_pid32610_seq2.log sha=2657d1cb367dbaf38762ee379ace1de5d20d9b68
+10-21 13:21:53.843   948   986 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:53.844   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:53.844   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.844   948  1076 D RuntimeLogStore: deleteRolledLogFiles: deleted=1 excludeActive=true active=rtlog_20261021_202146_694_pid948_seq2.log
+10-21 13:21:53.845   948   988 I WM-Processor: Moving WorkSpec (1dd8c6cc-75a4-4efb-a709-41261424f62f) to the foreground
+10-21 13:21:53.847   948   948 D WM-SystemFgDispatcher: Notifying with (id:4089, workSpecId: 1dd8c6cc-75a4-4efb-a709-41261424f62f, notificationType :1)
+10-21 13:21:53.847   948   948 I NotificationManager: com.negi.survey: notify(4089, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:53.849   948   988 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1dd8c6cc-75a4-4efb-a709-41261424f62f, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:startup_runtime_logs } ]
+10-21 13:21:53.850   948   948 D WM-Processor: Processor 1dd8c6cc-75a4-4efb-a709-41261424f62f executed; reschedule = false
+10-21 13:21:53.850   948   948 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0)
+10-21 13:21:53.850   948   948 D WM-SystemJobService: 1dd8c6cc-75a4-4efb-a709-41261424f62f executed on JobScheduler
+10-21 13:21:53.851   948   948 D WM-SystemFgDispatcher: Removing Notification (id: 4089, workSpecId: WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0), notificationType: 1
+10-21 13:21:53.852   948   986 D WM-GreedyScheduler: Cancelling work ID 1dd8c6cc-75a4-4efb-a709-41261424f62f
+10-21 13:21:53.852   948   948 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=1dd8c6cc-75a4-4efb-a709-41261424f62f, generation=0)
+10-21 13:21:53.872   948   948 I VRI[MainActivity]@e749416: ViewPostIme pointer 1
+10-21 13:21:53.873   948   948 D MainActivity: DownloadGate manual selection skipped -> downloading. session=survey_config10.yaml@1
+10-21 13:21:53.876   948   968 I HeavyInitializer: phase=download-start file=gemma-3n-E4B-it-int4.litertlm forceFresh=false
+10-21 13:21:53.885   948   948 I WindowManager: WindowManagerGlobal#removeView, ty=2, view=com.android.internal.policy.DecorView{c4c4531 V.E...... R......D 0,0-960,1224 aid=1073741827}[MainActivity], caller=android.view.WindowManagerGlobal.removeView:686 android.view.WindowManagerImpl.removeViewImmediate:275 android.app.Dialog.dismissDialog:855 
+10-21 13:21:53.886   948   948 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+10-21 13:21:53.891   948   971 D HWUI    : endAllActiveAnimators on 0xb4000079f94aa600 (UnprojectedRipple) with handle 0xb400007a595155a0
+10-21 13:21:53.891   948   948 I VRI[MainActivity]@e749416: dispatchDetachedFromWindow
+10-21 13:21:53.894   948   948 D InputTransport: Input channel destroyed: '120a59d', fd=160
+10-21 13:21:53.901   948   948 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-21 13:21:53.905   948   948 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:53.906   948   948 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:21:53.907   948   948 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-21 13:21:53.907   948   948 D VRI[MainActivity]@49acc20: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000079f94b7a70}
+10-21 13:21:53.907   948   948 D InputMethodManager: setCurrentRootViewLocked: updateReceivingDispatcher
+10-21 13:21:53.907   948   948 D InputMethodManagerUtils: startInputInner - Id : 0
+10-21 13:21:53.907   948   948 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-21 13:21:53.908   948   948 D InsetsController: hide(ime())
+10-21 13:21:53.908   948   948 I ImeTracker: com.negi.survey:c9275ab2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-21 13:21:53.909   948   963 D InputTransport: Input channel constructed: 'ClientS', fd=162
+10-21 13:21:53.909   948   948 D InputTransport: Input channel destroyed: 'ClientS', fd=162
+10-21 13:21:54.232   948   969 W GitHubUploader: uploadStream: 409 Conflict; refreshing SHA and retrying once.
+10-21 13:21:54.357   948   970 W GitHubUploader: uploadStream: 409 Conflict; refreshing SHA and retrying once.
+10-21 13:21:54.428   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 14, mode : file})
+10-21 13:21:54.430   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.431   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 19, mode : file})
+10-21 13:21:54.431   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.431   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:54.432   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.433   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 24, mode : file})
+10-21 13:21:54.433   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.433   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:54.434   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.434   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 28, mode : file})
+10-21 13:21:54.434   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.434   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:54.435   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.435   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 33, mode : file})
+10-21 13:21:54.435   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.435   948   948 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=4577], rate limit (5.0) exceeded: input 12.082292, output would be 5.741009
+10-21 13:21:54.436   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.437   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 38, mode : file})
+10-21 13:21:54.437   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.439   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.439   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 42, mode : file})
+10-21 13:21:54.439   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.440   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.441   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 47, mode : file})
+10-21 13:21:54.441   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.442   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.442   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 52, mode : file})
+10-21 13:21:54.442   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.443   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.443   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 56, mode : file})
+10-21 13:21:54.443   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.444   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.445   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.445   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 61, mode : file})
+10-21 13:21:54.446   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.446   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 66, mode : file})
+10-21 13:21:54.447   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.447   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.448   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 70, mode : file})
+10-21 13:21:54.448   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.449   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.449   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 75, mode : file})
+10-21 13:21:54.449   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.450   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.451   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 80, mode : file})
+10-21 13:21:54.451   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.451   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.452   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 84, mode : file})
+10-21 13:21:54.452   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.453   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.453   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 89, mode : file})
+10-21 13:21:54.453   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.454   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.454   948   985 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 90, mode : file})
+10-21 13:21:54.455   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.455   948   985 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:54.456   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:54.500   948  1084 W GitHubUploader: uploadStream: 409 Conflict; refreshing SHA and retrying once.
+10-21 13:21:54.502   948   968 D HttpUrlFileDl: Starting parallel download: 4 chunks, 4691 MiB total
+10-21 13:21:54.511   948   948 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:54.663   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 13, mode : file})
+10-21 13:21:54.666   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.668   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 17, mode : file})
+10-21 13:21:54.668   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.668   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:54.669   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.670   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 21, mode : file})
+10-21 13:21:54.670   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.671   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.672   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 25, mode : file})
+10-21 13:21:54.672   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.673   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.673   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 29, mode : file})
+10-21 13:21:54.673   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.674   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.674   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 33, mode : file})
+10-21 13:21:54.674   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.675   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.676   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 37, mode : file})
+10-21 13:21:54.676   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.676   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.677   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 41, mode : file})
+10-21 13:21:54.677   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.678   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.678   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.678   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 44, mode : file})
+10-21 13:21:54.679   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.680   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 48, mode : file})
+10-21 13:21:54.680   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.680   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.681   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 52, mode : file})
+10-21 13:21:54.681   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.682   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.682   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 56, mode : file})
+10-21 13:21:54.682   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.683   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.683   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 60, mode : file})
+10-21 13:21:54.683   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.684   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.684   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 64, mode : file})
+10-21 13:21:54.684   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.685   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.685   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 68, mode : file})
+10-21 13:21:54.686   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.686   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.687   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 72, mode : file})
+10-21 13:21:54.687   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.688   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.688   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 75, mode : file})
+10-21 13:21:54.688   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.689   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.689   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 79, mode : file})
+10-21 13:21:54.689   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.690   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.690   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 83, mode : file})
+10-21 13:21:54.690   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.691   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.691   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 87, mode : file})
+10-21 13:21:54.691   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.692   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.692   948   988 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 90, mode : file})
+10-21 13:21:54.693   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:54.693   948   988 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:54.694   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:55.273   948   948 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{7ad187f V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-21 13:21:55.466   948   983 D WM-WorkProgressUpdater: Updating progress for 5e16ed18-16ec-419e-8532-dacb70a7c54f (Data {pct : 95, mode : startup_ring_logs})
+10-21 13:21:55.467   948   970 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/applog_ring/2026-10-21/applog_ring_startup_ring_20261021_202147_788a6c07_app_start/seg_00.log sha=735250a7f8034ed87522d528c03b0ee7ba950b25
+10-21 13:21:55.471   948   983 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:55.472   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:55.473   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:55.473   948   983 I WM-Processor: Moving WorkSpec (5e16ed18-16ec-419e-8532-dacb70a7c54f) to the foreground
+10-21 13:21:55.475   948   948 D WM-SystemFgDispatcher: Notifying with (id:4208, workSpecId: 5e16ed18-16ec-419e-8532-dacb70a7c54f, notificationType :1)
+10-21 13:21:55.475   948   948 I NotificationManager: com.negi.survey: notify(4208, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:55.475   948   983 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=5e16ed18-16ec-419e-8532-dacb70a7c54f, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:ring_logs } ]
+10-21 13:21:55.477   948   948 D WM-Processor: Processor 5e16ed18-16ec-419e-8532-dacb70a7c54f executed; reschedule = false
+10-21 13:21:55.477   948   948 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=5e16ed18-16ec-419e-8532-dacb70a7c54f, generation=0)
+10-21 13:21:55.478   948   948 D WM-SystemJobService: 5e16ed18-16ec-419e-8532-dacb70a7c54f executed on JobScheduler
+10-21 13:21:55.478   948   948 D WM-SystemFgDispatcher: Removing Notification (id: 4208, workSpecId: WorkGenerationalId(workSpecId=5e16ed18-16ec-419e-8532-dacb70a7c54f, generation=0), notificationType: 1
+10-21 13:21:55.479   948   983 D WM-GreedyScheduler: Cancelling work ID 5e16ed18-16ec-419e-8532-dacb70a7c54f
+10-21 13:21:56.062   948   954 I com.negi.survey: Compiler allocated 4379KB to compile void com.negi.survey.MainActivityKt.AppNav(androidx.compose.runtime.Composer, int)
+10-21 13:21:56.500   948   948 I VRI[MainActivity]@49acc20: updatePointerIcon : PointerIcon{type=NOT_SPECIFIED, hotspotX=0.0, hotspotY=0.0}
+10-21 13:21:56.500   948   948 I VRI[MainActivity]@49acc20: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@49acc20
+10-21 13:21:56.503   948   999 D HttpUrlFileDl: Parallel progress: 0.7%, 17.4 MiB/s, 34/4691 MiB
+10-21 13:21:56.769   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 14, mode : file})
+10-21 13:21:56.771   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.772   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 19, mode : file})
+10-21 13:21:56.772   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.772   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:56.773   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.774   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 24, mode : file})
+10-21 13:21:56.774   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.774   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:56.775   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.775   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 28, mode : file})
+10-21 13:21:56.775   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.776   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:56.777   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.777   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.777   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 33, mode : file})
+10-21 13:21:56.777   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:56.778   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.779   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 38, mode : file})
+10-21 13:21:56.779   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.779   948   948 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=4577], rate limit (5.0) exceeded: input 10.620345, output would be 6.0921082
+10-21 13:21:56.780   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.780   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.780   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 42, mode : file})
+10-21 13:21:56.782   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.782   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.783   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 47, mode : file})
+10-21 13:21:56.784   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.784   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.784   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 52, mode : file})
+10-21 13:21:56.785   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.786   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 56, mode : file})
+10-21 13:21:56.786   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.787   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.787   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 61, mode : file})
+10-21 13:21:56.787   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.789   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.789   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 66, mode : file})
+10-21 13:21:56.789   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.790   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.790   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.790   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 70, mode : file})
+10-21 13:21:56.792   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.792   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 75, mode : file})
+10-21 13:21:56.792   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.793   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.793   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.793   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 80, mode : file})
+10-21 13:21:56.795   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.795   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 84, mode : file})
+10-21 13:21:56.795   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.796   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.796   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 89, mode : file})
+10-21 13:21:56.796   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.798   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.798   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 90, mode : file})
+10-21 13:21:56.798   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.799   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:56.800   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:56.910   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 13, mode : file})
+10-21 13:21:56.913   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.914   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 17, mode : file})
+10-21 13:21:56.916   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.916   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 21, mode : file})
+10-21 13:21:56.918   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.919   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.919   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 25, mode : file})
+10-21 13:21:56.919   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:56.921   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.922   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.922   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 29, mode : file})
+10-21 13:21:56.922   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.922   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.923   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.924   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 33, mode : file})
+10-21 13:21:56.924   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.925   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.925   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 37, mode : file})
+10-21 13:21:56.925   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.926   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.927   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 41, mode : file})
+10-21 13:21:56.927   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.928   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.928   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.929   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 44, mode : file})
+10-21 13:21:56.931   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.931   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 48, mode : file})
+10-21 13:21:56.931   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.932   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.933   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 52, mode : file})
+10-21 13:21:56.933   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.934   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.935   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 56, mode : file})
+10-21 13:21:56.935   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.936   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.936   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 60, mode : file})
+10-21 13:21:56.936   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.937   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.937   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 64, mode : file})
+10-21 13:21:56.937   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.938   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.939   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 68, mode : file})
+10-21 13:21:56.939   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.940   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.940   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 72, mode : file})
+10-21 13:21:56.940   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.941   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.941   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 75, mode : file})
+10-21 13:21:56.941   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.942   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.942   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 79, mode : file})
+10-21 13:21:56.943   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.943   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.944   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 83, mode : file})
+10-21 13:21:56.944   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.945   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.946   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.946   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 87, mode : file})
+10-21 13:21:56.947   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.947   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:56.947   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 90, mode : file})
+10-21 13:21:56.949   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:56.949   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:58.215   948   988 D WM-WorkProgressUpdater: Updating progress for 79d4ca3c-f290-435d-b9e1-46834aac34c3 (Data {pct : 95, mode : file})
+10-21 13:21:58.215   948  1084 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/crash/2026-10-21/prevlog_20261021_201954_pid32610.log sha=71e9d1e6a838984496aeed597fe8e1a65996c1b7
+10-21 13:21:58.218   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:58.221   948   988 I WM-Processor: Moving WorkSpec (79d4ca3c-f290-435d-b9e1-46834aac34c3) to the foreground
+10-21 13:21:58.222   948   988 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=79d4ca3c-f290-435d-b9e1-46834aac34c3, tags={ com.negi.survey.net.GitHubUploadWorker,github_upload,github_upload:crash:diagnostics_crash_prevlog_20261021_201954_pid32610.log_898da315 } ]
+10-21 13:21:58.225   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:58.226   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:58.227   948   948 D WM-SystemFgDispatcher: Notifying with (id:4577, workSpecId: 79d4ca3c-f290-435d-b9e1-46834aac34c3, notificationType :1)
+10-21 13:21:58.227   948   948 I NotificationManager: com.negi.survey: notify(4577, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:58.228   948   948 D WM-Processor: Processor 79d4ca3c-f290-435d-b9e1-46834aac34c3 executed; reschedule = false
+10-21 13:21:58.228   948   948 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0)
+10-21 13:21:58.229   948   948 D WM-SystemJobService: 79d4ca3c-f290-435d-b9e1-46834aac34c3 executed on JobScheduler
+10-21 13:21:58.230   948   948 D WM-SystemFgDispatcher: Removing Notification (id: 4577, workSpecId: WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0), notificationType: 1
+10-21 13:21:58.231   948   983 D WM-GreedyScheduler: Cancelling work ID 79d4ca3c-f290-435d-b9e1-46834aac34c3
+10-21 13:21:58.233   948   948 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=79d4ca3c-f290-435d-b9e1-46834aac34c3, generation=0)
+10-21 13:21:58.270   948   948 W JobService: onNetworkChanged() not implemented in androidx.work.impl.background.systemjob.SystemJobService. Must override in a subclass.
+10-21 13:21:58.276   948   989 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+10-21 13:21:58.503   948   999 D HttpUrlFileDl: Parallel progress: 2.2%, 33.7 MiB/s, 102/4691 MiB
+10-21 13:21:59.957   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 13, mode : file})
+10-21 13:21:59.959   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.961   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 17, mode : file})
+10-21 13:21:59.961   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.961   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:59.963   948   983 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.964   948   983 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 21, mode : file})
+10-21 13:21:59.964   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.964   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:59.965   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.966   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 25, mode : file})
+10-21 13:21:59.966   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.966   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:59.967   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.968   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 29, mode : file})
+10-21 13:21:59.968   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.968   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:59.971   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.972   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 33, mode : file})
+10-21 13:21:59.972   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.972   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:59.973   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.974   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 37, mode : file})
+10-21 13:21:59.974   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.974   948   948 I NotificationManager: com.negi.survey: notify(8351, null, Notification(channel=uploads shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=progress vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+10-21 13:21:59.975   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.975   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 41, mode : file})
+10-21 13:21:59.975   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.975   948   948 W NotificationManager: Shedding notify (update) of NotificationKey[user=UserHandle{0}, pkg=com.negi.survey, tag=null, id=8351], rate limit (5.0) exceeded: input 10.605695, output would be 6.561817
+10-21 13:21:59.976   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.977   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.977   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 44, mode : file})
+10-21 13:21:59.978   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.979   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 48, mode : file})
+10-21 13:21:59.980   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.980   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 52, mode : file})
+10-21 13:21:59.981   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.982   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 56, mode : file})
+10-21 13:21:59.982   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.983   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.983   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.983   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.983   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 60, mode : file})
+10-21 13:21:59.983   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.984   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.985   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 64, mode : file})
+10-21 13:21:59.985   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.986   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.986   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 68, mode : file})
+10-21 13:21:59.986   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.987   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.988   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 72, mode : file})
+10-21 13:21:59.988   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.989   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.989   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 75, mode : file})
+10-21 13:21:59.989   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.990   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.991   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 79, mode : file})
+10-21 13:21:59.991   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.992   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.992   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 83, mode : file})
+10-21 13:21:59.992   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.993   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.993   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 87, mode : file})
+10-21 13:21:59.993   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.994   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.994   948   986 D WM-WorkProgressUpdater: Updating progress for 14e26063-abda-4134-9067-fe7276d3a9a5 (Data {pct : 90, mode : file})
+10-21 13:21:59.994   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:21:59.995   948   986 I WM-Processor: Moving WorkSpec (14e26063-abda-4134-9067-fe7276d3a9a5) to the foreground
+10-21 13:21:59.996   948   948 D WM-SystemFgDispatcher: Notifying with (id:8351, workSpecId: 14e26063-abda-4134-9067-fe7276d3a9a5, notificationType :1)
+10-21 13:22:00.504   948  1085 D HttpUrlFileDl: Parallel progress: 3.6%, 34.2 MiB/s, 170/4691 MiB
+10-21 13:22:00.947  1391  1391 I Zygote  : Process 1391 created for com.negi.survey
+10-21 13:22:00.947  1391  1391 I com.negi.survey: Late-enabling -Xcheck:jni
+10-21 13:22:00.962  1391  1391 I com.negi.survey: Using generational CollectorTypeCMC GC.
+10-21 13:22:00.966  1391  1391 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-21 13:22:00.976  1391  1391 D nativeloader: Load /data/user/0/com.negi.survey/code_cache/startup_agents/b0fe613d-agent.so using system ns (caller=<unknown>): ok
+10-21 13:22:00.976  1391  1391 V studio.deploy: Startup agent attached to VM
+10-21 13:22:00.976  1391  1391 V studio.deploy: No existing instrumentation found. Loading instrumentation from instruments-4d0b62be.jar
+10-21 13:22:00.979  1391  1391 W com.negi.survey: hiddenapi: DexFile /data/data/com.negi.survey/code_cache/.studio/instruments-4d0b62be.jar is in boot class path but is not in a known location
+10-21 13:22:00.979  1391  1391 V studio.deploy: Applying transforms with cached classes
+10-21 13:22:01.013  1391  1391 W com.negi.survey: Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+10-21 13:22:01.013  1391  1391 W com.negi.survey: Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+10-21 13:22:01.015  1391  1391 I studio.deploy: Registering DispatchJNI
+10-21 13:22:01.015  1391  1391 I studio.deploy: Found com/android/tools/deploy/interpreter/JNI
+10-21 13:22:01.023  1391  1391 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-21 13:22:01.023  1391  1391 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-21 13:22:01.349  1391  1391 D nativeloader: Configuring clns-9 for other apk /data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk. target_sdk_version=36, uses_libraries=libOpenCL.so, library_path=/data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/lib/arm64:/data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.negi.survey
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment: Currently set values for:
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment: com.negi.survey is not listed in per-application setting
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment: first_api_level (35) < 36; skipping config_angleAllowList for com.negi.survey
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-21 13:22:01.352  1391  1391 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+10-21 13:22:01.374  1391  1391 D nativeloader: Load /data/app/~~ug_WoGUFjHvoKBzYIRr92g==/com.negi.survey-WwY208K_kuNVdXaT3AJN1w==/base.apk!/lib/arm64-v8a/liblitertlm_jni.so using class loader ns clns-9 (caller=/data/data/com.negi.survey/code_cache/.overlay/base.apk/classes11.dex): ok
+10-21 13:22:01.374  1391  1391 D SurveyApp: Loaded LiteRTLM JNI: litertlm_jni where=attachBaseContext
+10-21 13:22:01.379  1391  1391 D AppRingLogStore: installed: dir=/data/user/0/com.negi.survey/files/diagnostics/applog_ring idx=0
+10-21 13:22:01.379  1391  1391 D SurveyApp: attachBaseContext: pid=1391 process=com.negi.survey isMain=true sdk=37
+10-21 13:22:01.379  1391  1391 D SurveyApp: bootTiming: attachBaseContext total=19ms
+10-21 13:22:01.380  1391  1391 D SurveyApp: Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+10-21 13:22:01.381  1391  1391 D CrashCapture: install: ensured default handler. where=SurveyApp:attachBaseContext pid=1391 default=com.negi.survey.CrashCapture$CrashHandler@795c056
+10-21 13:22:01.381  1391  1391 D SurveyApp: CrashCapture installed: where=SurveyApp:attachBaseContext
+10-21 13:22:01.384  1391  1552 D RuntimeLogStore: openWriter: start -> /data/user/0/com.negi.survey/files/diagnostics/runtime_logs/rtlog_20261021_202201_377_pid1391_seq1.log (bytes=0 format=LEGACY)
+10-21 13:22:01.385  1391  1552 D RuntimeLogStore: retention: start files=2 kept=2 totalBytes=1970
+10-21 13:22:01.388  1391  1391 D SurveyApp: LiteRTLM JNI already loaded; skip. where=onCreate(retry)
+10-21 13:22:01.388  1391  1391 D SurveyApp: bootTiming: RuntimeLogStore.start took=0ms
+10-21 13:22:01.388  1391  1391 D SurveyApp: bootTiming: AppRingLogStore.install took=0ms
+10-21 13:22:01.388  1391  1391 D SurveyApp: onCreate: pid=1391 process=com.negi.survey isMain=true sdk=37
+10-21 13:22:01.390  1391  1391 D CrashCapture: install: ensured default handler. where=SurveyApp:onCreate(rewrap) pid=1391 default=com.negi.survey.CrashCapture$CrashHandler@795c056
+10-21 13:22:01.390  1391  1391 D SurveyApp: CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+10-21 13:22:01.391  1391  1391 D CrashCapture: registerSelfHealing: ActivityLifecycleCallbacks registered. mode=onResumedOnly
+10-21 13:22:01.391  1391  1391 D SurveyApp: CrashCapture self-healing registered.
+10-21 13:22:01.391  1391  1391 W SurveyApp: Startup enqueues deferred: delay=2500ms (to reduce init contention)
+10-21 13:22:01.391  1391  1391 D SurveyApp: Startup survey recovery deferred: delay=2500ms
+10-21 13:22:01.391  1391  1391 D SurveyApp: bootTiming: onCreate total=3ms
+10-21 13:22:01.397  1391  1556 I UploadRescheduleRcvr: Survey recovery action=android.intent.action.BOOT_COMPLETED discovered=0 reconciled=0 duplicates=0 unclassified=0 operationalFailures=0 classifications={}
+10-21 13:22:01.398  1391  1556 D UploadRescheduleRcvr: No generic GitHub pending files for action=android.intent.action.BOOT_COMPLETED
+10-21 13:22:01.405  1391  1556 D github_upload: enqueueStartupRuntimeLogsUpload: uniqueName=upload_runtime_logs_startup policy=KEEP session=startup_runtime_20261021_202201_e3299284
+10-21 13:22:01.410  1391  1391 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+10-21 13:22:01.410  1391  1391 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+10-21 13:22:01.411  1391  1567 D WM-ForceStopRunnable: Is default app process = true
+10-21 13:22:01.412  1391  1567 D WM-ForceStopRunnable: Performing cleanup operations.
+10-21 13:22:01.415  1391  1556 D UploadRescheduleRcvr: Enqueued runtime logs upload for action=android.intent.action.BOOT_COMPLETED reason=receiver_boot_completed
+10-21 13:22:01.416  1391  1391 D WM-RescheduleReceiver: Received intent Intent { act=android.intent.action.BOOT_COMPLETED flg=0x9000030 pkg=com.negi.survey cmp=com.negi.survey/androidx.work.impl.background.systemalarm.RescheduleReceiver (has extras) }
+10-21 13:22:01.420  1391  1567 D WM-SystemJobScheduler: Reconciling jobs
+10-21 13:22:01.426  1391  1567 D WM-ForceStopRunnable: Application was force-stopped, rescheduling.
+10-21 13:22:01.434  1391  1567 D WM-SystemJobScheduler: Scheduling work ID 14e26063-abda-4134-9067-fe7276d3a9a5Job ID 13
+10-21 13:22:01.449  1391  1570 D WM-SystemJobScheduler: Scheduling work ID 12cf2f41-77c1-4590-9dc3-745e7d38109aJob ID 17
+10-21 13:22:01.451  1391  1570 D WM-GreedyScheduler: Starting tracking for 12cf2f41-77c1-4590-9dc3-745e7d38109a
+10-21 13:22:01.453  1391  1391 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=12cf2f41-77c1-4590-9dc3-745e7d38109a, generation=0)
+10-21 13:22:01.457  1391  1571 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=12cf2f41-77c1-4590-9dc3-745e7d38109a, generation=0)
+10-21 13:22:01.462  1391  1391 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:22:01.463  1391  1571 D WM-WorkConstraintsTrack: NetworkRequestConstraintController register shared callback
+10-21 13:22:01.463  1391  1571 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4698)] [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4867)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5427)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5395)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5369)] [androidx.work.impl.constraints.SharedNetworkCallback.addCallback(WorkConstraintsTracker.kt:362)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invokeSuspend(WorkConstraintsTracker.kt:179)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invoke(WorkConstraintsTracker.kt:8)] [androidx.work.impl.constraints.NetworkRequestConstraintController$track$1.invoke(WorkConstraintsTracker.kt:4)] [kotlinx.coroutines.flow.ChannelFlowBuilder.collectTo$suspendImpl(Builders.kt:316)] [kotlinx.coroutines.flow.ChannelFlowBuilder.collectTo(Builders.kt:0)] [kotlinx.coroutines.flow.CallbackFlowBuilder.collectTo(Builders.kt:330)] [kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:56)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)] [kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)] [androidx.work.impl.utils.SerialExecutorImpl$Task.run(SerialExecutorImpl.java:96)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)] [java.lang.Thread.run(Thread.java:1571)]
+10-21 13:22:01.465  1391  1571 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+10-21 13:22:01.465  1391  1573 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+10-21 13:22:01.465  1391  1573 D WM-WorkConstraintsTrack: Not dispatching constraint state yet: isBlocked=null, capabilitiesInitialized=true
+10-21 13:22:01.465  1391  1573 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onBlockedStatusChanged callback false
+10-21 13:22:01.467  1391  1571 I WM-Processor: Moving WorkSpec (12cf2f41-77c1-4590-9dc3-745e7d38109a) to the foreground
+10-21 13:22:01.471  1391  1571 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=12cf2f41-77c1-4590-9dc3-745e7d38109a, generation=0)
+10-21 13:22:01.471  1391  1556 W github_upload: doWork: setForeground failed; continuing best-effort. err=startForegroundService() not allowed: service com.negi.survey/androidx.work.impl.foreground.SystemForegroundService
+10-21 13:22:01.471  1391  1556 W github_upload: android.app.ForegroundServiceStartNotAllowedException: startForegroundService() not allowed: service com.negi.survey/androidx.work.impl.foreground.SystemForegroundService
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:54)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:50)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.os.Parcel.readParcelableInternal(Parcel.java:5296)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.os.Parcel.readParcelable(Parcel.java:5277)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3402)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.os.Parcel.createException(Parcel.java:3391)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.os.Parcel.readException(Parcel.java:3374)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.os.Parcel.readException(Parcel.java:3316)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.app.IActivityManager$Stub$Proxy.startService(IActivityManager.java:6894)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:2191)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.app.ContextImpl.startForegroundService(ContextImpl.java:2156)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at android.content.ContextWrapper.startForegroundService(ContextWrapper.java:903)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.core.content.ContextCompat$Api26Impl.startForegroundService(ContextCompat.java:871)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.core.content.ContextCompat.startForegroundService(ContextCompat.java:563)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.work.impl.Processor.startForeground(Processor.java:205)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.work.impl.utils.WorkForegroundUpdater.lambda$setForegroundAsync$0$androidx-work-impl-utils-WorkForegroundUpdater(WorkForegroundUpdater.java:93)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.work.impl.utils.WorkForegroundUpdater$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.work.ListenableFutureKt.executeAsync$lambda$4$lambda$3(ListenableFuture.kt:59)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.work.ListenableFutureKt$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at androidx.work.impl.utils.SerialExecutorImpl$Task.run(SerialExecutorImpl.java:96)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+10-21 13:22:01.471  1391  1556 W github_upload: 	at java.lang.Thread.run(Thread.java:1571)
+10-21 13:22:01.474  1391  1571 D WM-Processor: Work WorkGenerationalId(workSpecId=12cf2f41-77c1-4590-9dc3-745e7d38109a, generation=0) is already enqueued for processing
+10-21 13:22:01.474  1391  1571 D WM-WorkProgressUpdater: Updating progress for 12cf2f41-77c1-4590-9dc3-745e7d38109a (Data {pct : 3, mode : startup_runtime_logs})
+10-21 13:22:01.477  1391  1571 I WM-Processor: Moving WorkSpec (12cf2f41-77c1-4590-9dc3-745e7d38109a) to the foreground
+10-21 13:22:02.679  1391  1552 D RuntimeLogStore: openWriter: rotate:plain_snapshot:receiver_boot_completed -> /data/user/0/com.negi.survey/files/diagnostics/runtime_logs/rtlog_20261021_202202_678_pid1391_seq2.log (bytes=0 format=LEGACY)
+10-21 13:22:02.679  1391  1552 D RuntimeLogStore: retention: rotate:plain_snapshot:receiver_boot_completed files=3 kept=3 totalBytes=3768
+10-21 13:22:02.688  1391  1556 D github_upload: doRuntimeLogsUpload: remoteBaseDir=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202201_e3299284_receiver_boot_completed toUpload=2 bytes=3432 dedupe=true deleteSource=true deletedSourcePre=0 preview='runtime_log_20261021_202202_682_pid1391_receiver_boot_completed__rtlog_20261021_202201_377_pid1391_seq1.log|runtime_log_20261021_202202_682_pid1391_receiver_boot_completed__rtlog_20261021_202146_694_pid948_seq2.log'
+10-21 13:22:02.690  1391  1556 D GitHubUploader: uploadStream: owner=ishizuki-tech repo=SurveyExports-Dev branch=main path=diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202201_e3299284_receiver_boot_completed/runtime_log_20261021_202202_682_pid1391_receiver_boot_completed__rtlog_20261021_202201_377_pid1391_seq1.log size=1780 maxRawBytesHint=1000000 maxRequestBytesHint=2800000
+10-21 13:22:02.691  1391  1567 D WM-WorkProgressUpdater: Updating progress for 12cf2f41-77c1-4590-9dc3-745e7d38109a (Data {pct : 10, mode : startup_runtime_logs})
+10-21 13:22:02.697  1391  1567 I WM-Processor: Moving WorkSpec (12cf2f41-77c1-4590-9dc3-745e7d38109a) to the foreground
+10-21 13:22:02.951  1391  1571 D WM-WorkProgressUpdater: Updating progress for 12cf2f41-77c1-4590-9dc3-745e7d38109a (Data {pct : 14, mode : startup_runtime_logs})
+10-21 13:22:02.957  1391  1571 I WM-Processor: Moving WorkSpec (12cf2f41-77c1-4590-9dc3-745e7d38109a) to the foreground
+10-21 13:22:02.958  1391  1571 D WM-WorkProgressUpdater: Updating progress for 12cf2f41-77c1-4590-9dc3-745e7d38109a (Data {pct : 50, mode : startup_runtime_logs})
+10-21 13:22:02.963  1391  1571 I WM-Processor: Moving WorkSpec (12cf2f41-77c1-4590-9dc3-745e7d38109a) to the foreground
+10-21 13:22:03.893  1391  1391 W SurveyApp: Deferred startup enqueues begin...
+10-21 13:22:03.895  1391  1391 I SurveyApp: GitHub upload mode: production
+10-21 13:22:03.895  1391  1391 I SurveyApp: GitHub upload target: ishizuki-tech/SurveyExports-Dev
+10-21 13:22:03.895  1391  1391 I SurveyApp: GitHub upload branch: main
+10-21 13:22:03.895  1391  1391 I SurveyApp: GitHub upload path prefix: (none)
+10-21 13:22:03.895  1391  1391 I SurveyApp: GitHub credentials: available
+10-21 13:22:03.895  1391  1391 D SurveyApp: WorkManager available. where=startupRtLogs(immediate) took=0ms
+10-21 13:22:03.897  1391  1391 D SurveyApp: Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+10-21 13:22:03.898  1391  1391 D github_upload: enqueueStartupRuntimeLogsUpload: uniqueName=upload_runtime_logs_startup policy=KEEP session=startup_runtime_20261021_202203_99deca93
+10-21 13:22:03.898  1391  1391 D SurveyApp: Startup runtime logs: enqueue requested (immediate).
+10-21 13:22:03.898  1391  1391 D SurveyApp: WorkManager available. where=startupRingLogs(immediate) took=0ms
+10-21 13:22:03.900  1391  1391 D SurveyApp: Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+10-21 13:22:03.901  1391  1391 D github_upload: enqueueStartupRingLogsUpload: uniqueName=upload_ring_logs_startup policy=KEEP session=startup_ring_20261021_202203_b125d623
+10-21 13:22:03.901  1391  1391 D SurveyApp: Startup ring logs: enqueue requested (immediate).
+10-21 13:22:03.901  1391  1391 D SurveyApp: WorkManager available. where=enqueuePending(immediate) took=0ms
+10-21 13:22:03.901  1391  1391 D SurveyApp: CrashCapture pending uploads requested (immediate).
+10-21 13:22:03.901  1391  1391 W SurveyApp: Deferred startup enqueues done: took=9ms
+10-21 13:22:03.902  1391  1581 D CrashCapture: enqueuePendingCrashUploadsIfPossible enter where=SurveyApp:enqueuePending(immediate):bg pid=1391 thread=CrashCapture-Enqueue
+10-21 13:22:03.902  1391  1557 D SurveyApp: Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+10-21 13:22:03.904  1391  1557 D SurveyApp: Startup survey recovery complete: discovered=0 attempted=0 submitted=0 active=0 trackerUnconfirmed=0 uploaded=0 deferred=0 invalid=0 operationalFailures=0 duplicates=0 unclassified=0
+10-21 13:22:03.918  1391  1569 D WM-SystemJobScheduler: Scheduling work ID 3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52Job ID 18
+10-21 13:22:03.920  1391  1569 D WM-GreedyScheduler: Starting tracking for 3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52
+10-21 13:22:03.921  1391  1391 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52, generation=0)
+10-21 13:22:03.924  1391  1569 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52, generation=0)
+10-21 13:22:03.930  1391  1391 D WM-WorkerWrapper: Starting work for com.negi.survey.net.GitHubUploadWorker
+10-21 13:22:03.931  1391  1569 D WM-WorkConstraintsTrack: NetworkRequestConstraintController send initial capabilities
+10-21 13:22:03.935  1391  1569 I WM-Processor: Moving WorkSpec (3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52) to the foreground
+10-21 13:22:03.936  1391  1557 W github_upload: doWork: setForeground failed; continuing best-effort. err=startForegroundService() not allowed: service com.negi.survey/androidx.work.impl.foreground.SystemForegroundService
+10-21 13:22:03.936  1391  1557 W github_upload: android.app.ForegroundServiceStartNotAllowedException: startForegroundService() not allowed: service com.negi.survey/androidx.work.impl.foreground.SystemForegroundService
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:54)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:50)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.os.Parcel.readParcelableInternal(Parcel.java:5296)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.os.Parcel.readParcelable(Parcel.java:5277)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3402)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.os.Parcel.createException(Parcel.java:3391)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.os.Parcel.readException(Parcel.java:3374)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.os.Parcel.readException(Parcel.java:3316)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.app.IActivityManager$Stub$Proxy.startService(IActivityManager.java:6894)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:2191)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.app.ContextImpl.startForegroundService(ContextImpl.java:2156)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at android.content.ContextWrapper.startForegroundService(ContextWrapper.java:903)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.core.content.ContextCompat$Api26Impl.startForegroundService(ContextCompat.java:871)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.core.content.ContextCompat.startForegroundService(ContextCompat.java:563)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.work.impl.Processor.startForeground(Processor.java:205)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.work.impl.utils.WorkForegroundUpdater.lambda$setForegroundAsync$0$androidx-work-impl-utils-WorkForegroundUpdater(WorkForegroundUpdater.java:93)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.work.impl.utils.WorkForegroundUpdater$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.work.ListenableFutureKt.executeAsync$lambda$4$lambda$3(ListenableFuture.kt:59)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.work.ListenableFutureKt$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at androidx.work.impl.utils.SerialExecutorImpl$Task.run(SerialExecutorImpl.java:96)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+10-21 13:22:03.936  1391  1557 W github_upload: 	at java.lang.Thread.run(Thread.java:1571)
+10-21 13:22:03.936  1391  1569 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52, generation=0)
+10-21 13:22:03.941  1391  1569 D WM-Processor: Work WorkGenerationalId(workSpecId=3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52, generation=0) is already enqueued for processing
+10-21 13:22:03.941  1391  1569 D WM-WorkProgressUpdater: Updating progress for 3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52 (Data {pct : 3, mode : startup_ring_logs})
+10-21 13:22:03.945  1391  1569 I WM-Processor: Moving WorkSpec (3ac94ff4-3c33-43f0-bdee-51fdb2d9ca52) to the foreground
+10-21 13:22:03.983  1391  1570 D WM-WorkProgressUpdater: Updating progress for 12cf2f41-77c1-4590-9dc3-745e7d38109a (Data {pct : 52, mode : startup_runtime_logs})
+10-21 13:22:03.983  1391  1556 D GitHubUploader: uploadStream: done url=https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/diagnostics/runtime_logs/2026-10-21/runtime_logs_startup_runtime_20261021_202201_e3299284_receiver_boot_completed/runtime_log_20261021_202202_682_pid1391_receiver_boot_completed__rtlog_20261021_202201_377_pid1391_seq1.log sha=2c11c7dfe0af6e975456dfe1fa71246f0d3e484c
+10-21 13:22:03.989  1391  1570 I WM-Processor: Moving WorkSpec (12cf2f41-77c1-4590-9dc3-745e7d38109a) to the foreground
