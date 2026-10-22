@@ -1,0 +1,18 @@
+=== Previous Process Exit (API30+) ===
+captured_time_utc=20261022_180733
+captured_time_local=20261022_110733
+exit_timestamp_ms=1792692449773
+exit_reason=2
+exit_reason_name=SIGNALED
+exit_status=9
+exit_pid=28774
+process_name=com.negi.survey
+importance=125
+pss_kb=0
+rss_kb=3455452
+description=
+sdk=37
+device=samsung SM-S931U1
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
