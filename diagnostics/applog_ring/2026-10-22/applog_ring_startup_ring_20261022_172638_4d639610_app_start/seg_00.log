@@ -1,0 +1,3 @@
+20261022_172635 I/AppRingLogStore pid=27288 tid=27288 uptimeMs=86736376 msg=install: pid=27288 timeUtc=20261022_172635 uptimeMs=86736375
+20261022_172635 D/SurveyApp pid=27288 tid=27288 uptimeMs=86736376 msg=attachBaseContext: pid=27288 process=com.negi.survey isMain=true sdk=37
+20261022_172635 D/SurveyApp pid=27288 tid=27288 uptimeMs=86736389 msg=onCreate: pid=27288 process=com.negi.survey isMain=true sdk=37
