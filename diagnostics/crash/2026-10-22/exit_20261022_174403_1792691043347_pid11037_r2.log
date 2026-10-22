@@ -1,6 +1,6 @@
 === Previous Process Exit (API30+) ===
-captured_time_utc=20261022_174427
-captured_time_local=20261022_104427
+captured_time_utc=20261022_174441
+captured_time_local=20261022_104441
 exit_timestamp_ms=1792691043347
 exit_reason=2
 exit_reason_name=SIGNALED
