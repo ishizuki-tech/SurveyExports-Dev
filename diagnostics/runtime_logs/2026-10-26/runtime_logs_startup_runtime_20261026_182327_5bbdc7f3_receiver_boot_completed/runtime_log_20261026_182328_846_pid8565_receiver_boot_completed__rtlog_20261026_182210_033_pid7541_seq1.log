@@ -1,0 +1,52 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-26T18:22:10.055Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=37
+pid=7541
+==============================
+2026-10-26T18:22:10.055Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-10-26T18:22:10.036Z D/SurveyApp [main] attachBaseContext: pid=7541 process=com.negi.survey isMain=true sdk=37
+2026-10-26T18:22:10.036Z D/SurveyApp [main] bootTiming: attachBaseContext total=22ms
+2026-10-26T18:22:10.036Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-10-26T18:22:10.038Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-10-26T18:22:10.050Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-10-26T18:22:10.050Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-10-26T18:22:10.050Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-10-26T18:22:10.050Z D/SurveyApp [main] onCreate: pid=7541 process=com.negi.survey isMain=true sdk=37
+2026-10-26T18:22:10.054Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-10-26T18:22:10.054Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-10-26T18:22:10.054Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-10-26T18:22:10.054Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-10-26T18:22:10.055Z D/SurveyApp [main] bootTiming: onCreate total=5ms
+2026-10-26T18:22:12.555Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-10-26T18:22:12.562Z I/SurveyApp [main] GitHub upload mode: production
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: unavailable
+2026-10-26T18:22:12.590Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=27ms
+2026-10-26T18:22:12.593Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (immediate).
+2026-10-26T18:22:12.593Z W/SurveyApp [main] Startup runtime logs: scheduling one retry; reason=config
+2026-10-26T18:22:12.593Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-10-26T18:22:12.595Z D/SurveyApp [main] Startup ring logs: GitHub config not available (immediate).
+2026-10-26T18:22:12.595Z W/SurveyApp [main] Startup ring logs: scheduling one retry; reason=config
+2026-10-26T18:22:12.595Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-10-26T18:22:12.595Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-10-26T18:22:12.595Z W/SurveyApp [main] Deferred startup enqueues done: took=41ms
+2026-10-26T18:22:12.596Z D/SurveyApp [DefaultDispatcher-worker-1] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-10-26T18:22:12.598Z W/SurveyApp [DefaultDispatcher-worker-1] Startup survey recovery: GitHub config unavailable (initial).
+2026-10-26T18:22:12.598Z W/SurveyApp [DefaultDispatcher-worker-1] Startup survey recovery: scheduling one retry; reason=config delay=1600ms
+2026-10-26T18:22:14.193Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(delayed) took=0ms
+2026-10-26T18:22:14.195Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (delayed).
+2026-10-26T18:22:14.196Z D/SurveyApp [main] Startup runtime logs: retry already scheduled; reason=config
+2026-10-26T18:22:14.196Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(delayed) took=0ms
+2026-10-26T18:22:14.197Z D/SurveyApp [main] Startup ring logs: GitHub config not available (delayed).
+2026-10-26T18:22:14.197Z D/SurveyApp [main] Startup ring logs: retry already scheduled; reason=config
+2026-10-26T18:22:14.199Z D/SurveyApp [DefaultDispatcher-worker-3] Survey recovery WorkManager available. where=startupSurveyUploads(delayed) took=0ms
+2026-10-26T18:22:14.200Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: GitHub config unavailable (delayed).
+2026-10-26T18:22:14.200Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: retry exhausted; reason=config
