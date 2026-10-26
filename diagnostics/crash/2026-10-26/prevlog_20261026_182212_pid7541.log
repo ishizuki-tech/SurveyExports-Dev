@@ -1,0 +1,490 @@
+=== Previous Session Logcat ===
+captured_time_utc=20261026_182212
+captured_time_local=20261026_112212
+marker=2026-10-26 11:15:42.003
+preferred_prev_pid=-1
+note=best-effort; buffers may be overwritten before next start
+sdk=37
+device=samsung SM-S931U1
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+
+=== Logcat (since marker) ===
+--------- beginning of main
+10-26 11:19:52.644  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme pointer 0
+10-26 11:19:52.645  1017  1017 I VRI[MainActivity]@3107e25: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@3107e25
+10-26 11:19:52.646  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme pointer 1
+10-26 11:19:52.675  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:52.679  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:52.710  1017  1017 D InputMethodManagerUtils: startInputInner - Id : 0
+10-26 11:19:52.710  1017  1017 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+--------- beginning of system
+10-26 11:19:52.710  1017  1017 D InsetsController: show(ime())
+10-26 11:19:52.710  1017  1017 I ImeTracker: com.negi.survey:a6388ab4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT_BY_INSETS_API fromUser false userId 0 displayId 0
+10-26 11:19:52.710  1017  1017 D InsetsController: Setting requestedVisibleTypes to 511 (was 503)
+10-26 11:19:52.710  1017  1017 I InsetsController: setRequestedVisibleTypes: visible=true, mask=ime, host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1712 android.view.InsetsController.applyAnimation:2359 android.view.InsetsController.applyAnimation:2284 android.view.InsetsController.show:1561 android.view.InsetsController.show:1481 androidx.core.view.SoftwareKeyboardControllerCompat$Impl30.show:189 androidx.core.view.SoftwareKeyboardControllerCompat.show:70 androidx.compose.ui.text.input.InputMethodManagerImpl.showSoftInput:81 androidx.compose.ui.text.input.TextInputServiceAndroid.setKeyboardVisibleImmediately:468 androidx.compose.ui.text.input.TextInputServiceAndroid.processInputCommands:352 
+10-26 11:19:52.716  1017  4189 D InputTransport: Input channel constructed: 'ClientS', fd=166
+10-26 11:19:52.719  1017  1017 I AssistStructure: Flattened final assist data: 516 bytes, containing 1 windows, 3 views
+10-26 11:19:52.720  1017  1017 I InputMethodManager_LC: showSoftInput(View,I)
+10-26 11:19:52.720  1017  1017 I ImeTracker: com.negi.survey:ac29e61f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+10-26 11:19:52.720  1017  1017 I InputMethodManager_LC: ssi(): flags=0 view=com.negi.survey reason=SHOW_SOFT_INPUT
+10-26 11:19:52.720  1017  1017 I InputMethodManager_LC: ssi() view is not EditText
+10-26 11:19:52.720  1017  1017 D InsetsController: show(ime())
+10-26 11:19:52.720  1017  1017 I ImeTracker: com.negi.survey:ac29e61f: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+10-26 11:19:52.721  1017  1017 I VRI[MainActivity]@3107e25: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+10-26 11:19:52.721  1017  1017 I VRI[MainActivity]@3107e25: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+10-26 11:19:52.723  1017  1017 D InputTransport: Input channel destroyed: 'ClientS', fd=166
+10-26 11:19:52.738  1017  1017 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): ImeOnBackInvokedCallback@141515443 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@c332429
+10-26 11:19:52.754  1017  1017 I InsetsController: onStateChanged: host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 103 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 103), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 34.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 103) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1080, displayHeight=2340, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {a2870001 mType=navigationBars mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {a2870005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870006 mType=tappableElement mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260000 mType=statusBars mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260005 mType=mandatorySystemGestures mFrame=[0,0][1080,139] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260006 mType=tappableElement mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+10-26 11:19:52.755  1017  1017 I VRI[MainActivity]@3107e25: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+10-26 11:19:52.755  1017  1017 I VRI[MainActivity]@3107e25: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+10-26 11:19:52.761  1017  1017 I InsetsController: onStateChanged: host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 103 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 103), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 34.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 103) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1080, displayHeight=2340, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {a2870001 mType=navigationBars mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {a2870005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870006 mType=tappableElement mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260000 mType=statusBars mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260005 mType=mandatorySystemGestures mFrame=[0,0][1080,139] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260006 mType=tappableElement mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+10-26 11:19:52.766  1017  1017 D VRI[MainActivity]@3107e25: WindowInsets changed: ime:[0,0,0,1026] 
+10-26 11:19:52.767  1017  1017 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3107e25 mNativeObject= 0xb400007a69494850 sc.mNativeObject= 0xb400007a8948ed10 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-26 11:19:52.767  1017  1017 I VRI[MainActivity]@3107e25: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000079f94b46f0} ch=false seqId=1 syncSeqId=0
+10-26 11:19:52.768  1017  1017 I VRI[MainActivity]@3107e25: registerCallbackForPendingTransactions
+10-26 11:19:52.769  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294df9d0 fn= 4707 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.769  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294cdb10 fn= 4707 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+10-26 11:19:52.776  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d9b00 fn= 4708 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.788  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-26 11:19:52.788  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d0df0 fn= 4709 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.796  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d83e0 fn= 4710 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.805  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bece0 fn= 4711 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.814  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bb560 fn= 4712 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.825  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294cd1d0 fn= 4713 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.830  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294cbd00 fn= 4714 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.836  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294ce8f0 fn= 4715 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.844  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c69c0 fn= 4716 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.857  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d32f0 fn= 4717 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.867  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294db220 fn= 4718 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.872  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b29497a30 fn= 4719 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.879  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c2b50 fn= 4720 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.887  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294db6c0 fn= 4721 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.898  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d47c0 fn= 4722 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.906  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294ccd30 fn= 4723 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.910  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d5350 fn= 4724 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.919  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c0d40 fn= 4725 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.931  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294da8e0 fn= 4726 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.939  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c9360 fn= 4727 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.947  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b29498370 fn= 4728 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.952  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bced0 fn= 4729 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.964  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d9fa0 fn= 4730 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.972  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294ca5e0 fn= 4731 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.977  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d8190 fn= 4732 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.989  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c5e30 fn= 4733 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:52.997  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294a5830 fn= 4734 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.005  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d0700 fn= 4735 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.013  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d2760 fn= 4736 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.022  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294b5690 fn= 4737 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.030  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c4bb0 fn= 4738 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.038  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bba00 fn= 4739 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.047  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bd370 fn= 4740 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.055  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d04b0 fn= 4741 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.063  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c9ca0 fn= 4742 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.071  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d6f10 fn= 4743 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.080  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294dc250 fn= 4744 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.088  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d0260 fn= 4745 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.096  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bf620 fn= 4746 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.105  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d9b00 fn= 4747 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.108  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:53.109  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c8a20 fn= 4748 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.121  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.View.draw:26752 
+10-26 11:19:53.122  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c6c10 fn= 4749 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.125  1017  1017 I ImeTracker: com.negi.survey:a6388ab4: onShown
+10-26 11:19:53.130  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294ab010 fn= 4750 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:19:53.133  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.202  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.203  1017  1017 I VRI[MainActivity]@3107e25: setInTouchMode(false), android.view.ViewRootImpl.checkForLeavingTouchModeAndConsume:11624 android.view.ViewRootImpl.-$$Nest$mcheckForLeavingTouchModeAndConsume:0 android.view.ViewRootImpl$EarlyPostImeInputStage.processKeyEvent:10079 android.view.ViewRootImpl$EarlyPostImeInputStage.onProcess:10063 android.view.ViewRootImpl$InputStage.deliver:9527 android.view.ViewRootImpl$InputStage.onDeliverToNext:9584 android.view.ViewRootImpl$InputStage.forward:9550 android.view.ViewRootImpl$AsyncInputStage.forward:9788 android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent:10048 android.view.inputmethod.InputMethodManager$PendingEvent.run:5690 
+10-26 11:19:54.203  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.205  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.205  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.206  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.217  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.217  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.221  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.226  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.227  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.228  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.228  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.229  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.230  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.230  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.230  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.258  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.271  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.272  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.272  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.284  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.295  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.296  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.297  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.297  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.310  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.311  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.311  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.312  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.312  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.313  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.313  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.314  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.319  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.325  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.329  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.330  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.336  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.342  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.353  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.355  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.355  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.361  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.370  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.380  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.386  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.392  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.397  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.404  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.405  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.405  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.406  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.414  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.417  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.419  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.420  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.421  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.421  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.422  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.422  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.422  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.443  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.444  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.445  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.445  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.446  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.446  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.446  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.447  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.453  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.463  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.463  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.470  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.477  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.484  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.488  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.489  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.502  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.503  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.504  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.504  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.504  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.505  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.505  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.511  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.519  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.529  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.530  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.535  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.548  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.548  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.553  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.559  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.560  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.560  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.561  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.561  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.562  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.562  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.563  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.563  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.563  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.564  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.576  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.577  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.578  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.578  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.579  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.579  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.580  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.580  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.580  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.586  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.594  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.595  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.595  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.596  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.596  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.597  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.597  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.612  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.613  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.614  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.625  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.626  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.627  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.627  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.628  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.628  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.629  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.629  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.629  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.630  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.630  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.651  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.652  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.653  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.653  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.654  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.654  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.655  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.655  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.655  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.664  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.665  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.669  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.676  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.677  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.678  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.680  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.694  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.695  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.695  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.696  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.696  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.697  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.703  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.713  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.726  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.727  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.728  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.728  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.729  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.729  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.730  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.730  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.736  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.751  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.759  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.760  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.760  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.761  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.761  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.762  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.762  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.763  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.763  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:54.764  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:19:54.773  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:54.777  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:19:55.647  1017  1017 I VRI[MainActivity]@3107e25: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@3107e25
+10-26 11:19:55.819  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 0
+10-26 11:19:55.821  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme key 1
+10-26 11:20:12.139  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme pointer 0
+10-26 11:20:12.140  1017  1017 I VRI[MainActivity]@3107e25: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@3107e25
+10-26 11:20:12.141  1017  1017 I VRI[MainActivity]@3107e25: ViewPostIme pointer 1
+10-26 11:20:12.142  1017  1017 D InsetsController: hide(ime())
+10-26 11:20:12.142  1017  1017 I ImeTracker: com.negi.survey:59ed1d6e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_BY_INSETS_API fromUser false userId 0 displayId 0
+10-26 11:20:12.142  1017  1017 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@3b7466c
+10-26 11:20:12.143  1017  1017 D InsetsController: Setting requestedVisibleTypes to 503 (was 511)
+10-26 11:20:12.143  1017  1017 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1712 android.view.InsetsController.applyAnimation:2359 android.view.InsetsController.applyAnimation:2284 android.view.InsetsController.hide:1645 android.view.InsetsController.hide:1584 androidx.core.view.SoftwareKeyboardControllerCompat$Impl30.hide:222 androidx.core.view.SoftwareKeyboardControllerCompat.hide:80 androidx.compose.ui.text.input.InputMethodManagerImpl.hideSoftInput:85 androidx.compose.ui.text.input.TextInputServiceAndroid.setKeyboardVisibleImmediately:470 androidx.compose.ui.text.input.TextInputServiceAndroid.processInputCommands:352 
+10-26 11:20:12.143  1017  1017 D InputMethodManagerUtils: startInputInner - Id : 0
+10-26 11:20:12.143  1017  1017 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+10-26 11:20:12.144  1017  1017 D SurveyVM: getEvalPrompt[Q07] -> len=372
+10-26 11:20:12.145  1017  1071 D AiViewModel: run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=371, fullPrompt.len=3018, timeoutMs=120000
+10-26 11:20:12.146  1017  1071 D AiViewModel: run[1]: sha(prompt)=0832863c3990fa97b07bdc5d2a16f4fbbcf5bdc80be632e8a160bb93411c035f sha(full)=b06d39e138ca566d563f4c001ed94eeb8618d8ee577461e0c7268c5960529f19
+10-26 11:20:12.146  1017  1071 I FullPromptReview: [part=000] run[1]: phase=EVAL FullPrompt
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Evaluate only the original survey target using all supplied answers.
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Keep missing_points concise.
+10-26 11:20:12.146  1017  1071 I FullPromptReview: One JSON object only; no markdown or generated question.
+10-26 11:20:12.146  1017  1071 I FullPromptReview: INPUT:
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Expected answer target: Whether FAW affected the crop and, if yes, at least one concrete description of its effect, such as yield loss or a type of crop damage.
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Question: Has fall armyworm ever attacked your maize? If yes, what loss did you get?
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Original answer: Yes fall armyworm attacked my maize last season and I lost about half of my harvest
+10-26 11:20:12.146  1017  1071 I FullPromptReview: Answered followup pairs:
+10-26 11:20:12.149  1017  1059 D InputTransport: Input channel constructed: 'ClientS', fd=165
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: [1] request start model='Gemma3n4B' prompt.len=3018 sha=b06d39e138ca566d gateWaitMs=4
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: [part=000] [1] PROMPT (FULL) sha=b06d39e138ca566d
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Evaluate only the original survey target using all supplied answers.
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Keep missing_points concise.
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: One JSON object only; no markdown or generated question.
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: INPUT:
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Expected answer target: Whether FAW affected the crop and, if yes, at least one concrete description of its effect, such as yield loss or a type of crop damage.
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Question: Has fall armyworm ever attacked your maize? If yes, what loss did you get?
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Original answer: Yes fall armyworm attacked my maize last season and I lost about half of my harvest
+10-26 11:20:12.151  1017  1114 D LiteRtRepository: Answered followup pairs:
+10-26 11:20:12.151  1017  1623 D SLM     : initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+10-26 11:20:12.152  1017  1623 D LiteRtLM: initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667'
+10-26 11:20:12.152  1017  1114 D LiteRtRepository: [1] initializeIfNeeded ok initMs=1
+10-26 11:20:12.153  1017  1623 D SLM     : runInference: model='Gemma3n4B' textLen=3018 images=0 audio=0
+10-26 11:20:12.153  1017  1017 D VRI[MainActivity]@3107e25: WindowInsets changed: ime:null 
+10-26 11:20:12.154  1017  1017 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3107e25 mNativeObject= 0xb400007a69494850 sc.mNativeObject= 0xb400007a8948ed10 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+10-26 11:20:12.154  1017  1017 I VRI[MainActivity]@3107e25: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000079f94b46f0} ch=false seqId=1 syncSeqId=0
+10-26 11:20:12.154  1017  1114 D LiteRtLM: state[run:start] key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=435552951 lastTermAt=0
+10-26 11:20:12.154  1017  1114 D LiteRtLM: runInference start: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 hasText=true originalTextLen=3018 effectiveTextLen=3018 images=0 audioClips=0
+10-26 11:20:12.154  1017  1114 D LiteRtLM: LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 len=3018 maxOutputTokens=64
+10-26 11:20:12.154  1017  1017 I VRI[MainActivity]@3107e25: registerCallbackForPendingTransactions
+10-26 11:20:12.159  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:20:12.159  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294da440 fn= 7033 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.159  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d9d50 fn= 7033 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+10-26 11:20:12.160  1017  1017 I InsetsController: onStateChanged: host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 103 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 103), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 34.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 103) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1080, displayHeight=2340, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {a2870001 mType=navigationBars mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {a2870005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870006 mType=tappableElement mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mAttachedInsets=null mVisible=false mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260000 mType=statusBars mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260005 mType=mandatorySystemGestures mFrame=[0,0][1080,139] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260006 mType=tappableElement mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+10-26 11:20:12.160  1017  1017 I VRI[MainActivity]@3107e25: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+10-26 11:20:12.160  1017  1017 I VRI[MainActivity]@3107e25: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+10-26 11:20:12.160  1017  1017 D InputTransport: Input channel destroyed: 'ClientS', fd=165
+10-26 11:20:12.161  1017  1114 D LiteRtLM: sendMessageAsync accepted: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 dispatchMs=7
+10-26 11:20:12.165  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d0ba0 fn= 7034 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.165  1017  1017 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.negi.survey/com.negi.survey.MainActivity
+10-26 11:20:12.165  1017  1017 I ImeTracker: system_server:52363f7f: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+10-26 11:20:12.171  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294b3880 fn= 7035 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.179  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c9110 fn= 7036 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.182  1017  1072 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+10-26 11:20:12.182  1017  1072 I AdrenoVK-0: Pipeline create failed
+10-26 11:20:12.254  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b29497340 fn= 7037 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.265  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294b1f10 fn= 7038 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.272  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294e35f0 fn= 7039 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.276  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c8ec0 fn= 7040 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.280  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bf870 fn= 7041 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.292  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294de2b0 fn= 7042 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.300  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294b1a70 fn= 7043 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.305  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294b15d0 fn= 7044 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.317  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294e2f00 fn= 7045 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.324  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294a4a50 fn= 7046 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.329  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294de750 fn= 7047 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.339  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c3dd0 fn= 7048 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.348  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c5e30 fn= 7049 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.356  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294db6c0 fn= 7050 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.364  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bc7e0 fn= 7051 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.372  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294ce450 fn= 7052 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.382  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294df9d0 fn= 7053 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.389  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c0650 fn= 7054 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.397  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294bc340 fn= 7055 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.405  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294dc940 fn= 7056 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.414  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294cefe0 fn= 7057 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.422  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294c36e0 fn= 7058 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.430  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294ccd30 fn= 7059 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.438  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d4320 fn= 7060 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.447  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d7600 fn= 7061 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.455  1017  1085 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294dd4d0 fn= 7062 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.463  1017  1086 I VRI[MainActivity]@3107e25: mWNT: t=0xb400007b294d0700 fn= 7063 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:102 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:75 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+10-26 11:20:12.663  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:20:12.981  1017  1017 I InsetsController: onStateChanged: host=com.negi.survey/com.negi.survey.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 103 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 103), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 34.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 103) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1080, displayHeight=2340, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {a2870001 mType=navigationBars mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870004 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {a2870005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870006 mType=tappableElement mFrame=[0,2196][1080,2340] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {a2870024 mType=systemGestures mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260000 mType=statusBars mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260005 mType=mandatorySystemGestures mFrame=[0,0][1080,139] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {c260006 mType=tappableElement mFrame=[0,0][1080,103] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+10-26 11:20:12.981  1017  1017 I VRI[MainActivity]@3107e25: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+10-26 11:20:12.982  1017  1017 I VRI[MainActivity]@3107e25: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+10-26 11:20:14.127  1017  6894 W native  : W0000 00:00:1793038814.127242    6894 sampler_factory.cc:408] OpenCL sampler not available, falling back to statically linked C API.
+10-26 11:20:14.520  1017  6894 W LiteRtLM: Inference first output: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 ttftMs=2366 dispatchMs=7 postDispatchTtftMs=2359 requestToFirstOutputMs=2367
+10-26 11:20:14.520  1017  6894 W LiteRtLM: Inference first output: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 ttftMs=2366 dispatchMs=7 postDispatchTtftMs=2359 requestToFirstOutputMs=2367
+10-26 11:20:14.520  1017  6894 D LiteRtLM: stream[key=fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667 runId=1] msg#1 rawChunkLen=2 deltaLen=2 emittedChars=2
+10-26 11:20:14.520  1017  1017 D LiteRtRepository: stream[rid=1 msg#1] done=false deltaLen=2 outLen=2 outPreview='{"' deltaPreview='{"'
+10-26 11:20:14.520  1017  1114 D AiViewModel: run[1] chunk[1].preview='{"'
+10-26 11:20:14.604  1017  1114 D AiViewModel: run[1] chunk[2].preview='score'
+10-26 11:20:14.687  1017  1114 D AiViewModel: run[1] chunk[3].preview='":'
+10-26 11:20:14.770  1017  1114 D AiViewModel: run[1] chunk[4].preview='9'
+10-26 11:20:14.853  1017  1114 D AiViewModel: run[1] chunk[5].preview='5'
+10-26 11:20:14.937  1017  1114 D AiViewModel: run[1] chunk[6].preview=',"'
+10-26 11:20:15.020  1017  1114 D AiViewModel: run[1] chunk[7].preview='missing'
+10-26 11:20:15.103  1017  1017 D LiteRtRepository: stream[rid=1 msg#8] done=false deltaLen=1 outLen=21 outPreview='{"score":95,"missing_' deltaPreview='_'
+10-26 11:20:15.103  1017  1114 D AiViewModel: run[1] chunk[8].preview='_'
+10-26 11:20:15.142  1017  1017 I VRI[MainActivity]@3107e25: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@3107e25
+10-26 11:20:15.187  1017  1114 D AiViewModel: run[1] chunk[9].preview='points'
+10-26 11:20:15.273  1017  1114 D AiViewModel: run[1] chunk[10].preview='":[],'
+10-26 11:20:15.358  1017  1114 D AiViewModel: run[1] chunk[11].preview='"'
+10-26 11:20:15.443  1017  1114 D AiViewModel: run[1] chunk[12].preview='follow'
+10-26 11:20:15.527  1017  1114 D AiViewModel: run[1] chunk[13].preview='up'
+10-26 11:20:15.610  1017  1069 D AiViewModel: run[1] chunk[14].preview='_'
+10-26 11:20:15.694  1017  1069 D AiViewModel: run[1] chunk[15].preview='needed'
+10-26 11:20:15.777  1017  6894 D LiteRtLM: stream[key=fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667 runId=1] msg#16 rawChunkLen=2 deltaLen=2 emittedChars=50
+10-26 11:20:15.777  1017  1017 D LiteRtRepository: stream[rid=1 msg#16] done=false deltaLen=2 outLen=50 outPreview='{"score":95,"missing_points":[],"followup_needed":' deltaPreview='":'
+10-26 11:20:15.777  1017  1114 D AiViewModel: run[1] chunk[16].preview='":'
+10-26 11:20:15.860  1017  1114 D AiViewModel: run[1] chunk[17].preview='false'
+10-26 11:20:15.944  1017  6985 D LiteRtLM: state[logicalDone] key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=435556740 lastTermAt=435556741
+10-26 11:20:15.944  1017  1069 D AiViewModel: run[1] chunk[18].preview='}'
+10-26 11:20:15.944  1017  6985 D LiteRtLM: state[nativeDone:beforeRelease] key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=435556740 lastTermAt=435556741
+10-26 11:20:15.944  1017  6985 W LiteRtLM: Inference timing: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 ttftMs=2366 dispatchMs=7 postDispatchTtftMs=2359 totalMs=3790 callbacks=18 outputChars=56 cancelled=false error=false requestTotalMs=3791
+10-26 11:20:15.944  1017  6985 W LiteRtLM: Inference timing: key='fs|dev=65121|ino=135130|size=4919541760|mtime=1793037566667' runId=1 ttftMs=2366 dispatchMs=7 postDispatchTtftMs=2359 totalMs=3790 callbacks=18 outputChars=56 cancelled=false error=false requestTotalMs=3791
+10-26 11:20:15.944  1017  6985 I LiteRtLM: LiteRT completion: runId=1 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=56 callbacks=18
+10-26 11:20:15.944  1017  6985 I LiteRtLM: LiteRT completion: runId=1 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=56 callbacks=18
+10-26 11:20:15.944  1017  1017 D LiteRtRepository: [1] logical done=true; responseClosed=true; waiting native cleanup
+10-26 11:20:15.944  1017  1017 D LiteRtRepository: [1] native cleanup safepoint
+10-26 11:20:15.945  1017  1069 D AiViewModel: run[1] stats: chunks=18, chars=56, raw.len=56
+10-26 11:20:15.945  1017  1623 D SLM     : resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+10-26 11:20:15.945  1017  1069 D AiViewModel: run[1] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+10-26 11:20:15.945  1017  1069 D AiViewModel: run[1] rawVisible='{"score":95,"missing_points":[],"followup_needed":false}'
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: [1] Conversation reset completed after safepoint
+10-26 11:20:15.949  1017  1069 D AiViewModel: run[1]: EVAL_JSON parsed score=95 followups=0 fu0=''
+10-26 11:20:15.949  1017  1069 D AiViewModel: stepHistory+ runId=1 phase=EVAL mode=EVAL_JSON raw.len=56 score=95 FU=0 FU0='<none>' timeout=false err=null
+10-26 11:20:15.949  1017  1069 I AiViewModel: run[1] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+10-26 11:20:15.949  1017  1069 I FullTextOut: [part=000] run[1]: RawTextOut
+10-26 11:20:15.949  1017  1069 I FullTextOut: {"score":95,"missing_points":[],"followup_needed":false}
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: [part=000] [1] FINALIZE: native-terminated
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: === AI TRACE STATS (LiteRtRepository) ===
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: rid=1 model='Gemma3n4B' reason=native-terminated
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: totalMs=3799 inferenceMs=3797 firstTokenMs=2368
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: logicalDone=true logicalDoneAt=435556741
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: nativeTerminated=true cancelTag='null'
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: lastDeltaMsAgo=5 lastEventMsAgo=4
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: chunks=18 emittedChars=56 capturedAll=true out.len=56
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: === OUTPUT (FULL) ===
+10-26 11:20:15.949  1017  7016 D LiteRtRepository: {"score":95,"missing_points":[],"followup_needed":false}
+10-26 11:20:15.952  1017  1069 D AiViewModel: chain2: step2 skipped (score=95, followups=0, timedOut=false, rawPreview='{"score":95,"missing_points":[],"followup_needed":false}')
+10-26 11:20:15.974  1017  1017 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:20:15.976  1017  1017 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{218a81c V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:4047 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:2282 android.view.View.draw:27033 android.view.View.updateDisplayListIfDirty:25845 android.view.ViewGroup.recreateChildDisplayList:5031 
+10-26 11:22:09.227  7541  7541 I Zygote  : Process 7541 created for com.negi.survey
+10-26 11:22:09.227  7541  7541 I com.negi.survey: Late-enabling -Xcheck:jni
+10-26 11:22:09.253  7541  7541 I com.negi.survey: Using generational CollectorTypeCMC GC.
+10-26 11:22:09.268  7541  7541 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-26 11:22:09.311  7541  7541 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 11:22:09.311  7541  7541 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 11:22:09.996  7541  7541 D nativeloader: Configuring clns-9 for other apk /data/app/~~3xYx-IO42Qn34YfKWHpvFA==/com.negi.survey-sEST5McK-eZtYG8jBbnKVQ==/base.apk. target_sdk_version=36, uses_libraries=libOpenCL.so, library_path=/data/app/~~3xYx-IO42Qn34YfKWHpvFA==/com.negi.survey-sEST5McK-eZtYG8jBbnKVQ==/lib/arm64:/data/app/~~3xYx-IO42Qn34YfKWHpvFA==/com.negi.survey-sEST5McK-eZtYG8jBbnKVQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.negi.survey
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment: Currently set values for:
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment: com.negi.survey is not listed in per-application setting
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment: first_api_level (35) < 36; skipping config_angleAllowList for com.negi.survey
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-26 11:22:10.002  7541  7541 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+10-26 11:22:10.028  7541  7541 D nativeloader: Load /data/app/~~3xYx-IO42Qn34YfKWHpvFA==/com.negi.survey-sEST5McK-eZtYG8jBbnKVQ==/base.apk!/lib/arm64-v8a/liblitertlm_jni.so using class loader ns clns-9 (caller=/data/app/~~3xYx-IO42Qn34YfKWHpvFA==/com.negi.survey-sEST5McK-eZtYG8jBbnKVQ==/base.apk!classes11.dex): ok
+10-26 11:22:10.028  7541  7541 D SurveyApp: Loaded LiteRTLM JNI: litertlm_jni where=attachBaseContext
+10-26 11:22:10.036  7541  7541 D AppRingLogStore: installed: dir=/data/user/0/com.negi.survey/files/diagnostics/applog_ring idx=0
+10-26 11:22:10.036  7541  7541 D SurveyApp: attachBaseContext: pid=7541 process=com.negi.survey isMain=true sdk=37
+10-26 11:22:10.036  7541  7541 D SurveyApp: bootTiming: attachBaseContext total=22ms
+10-26 11:22:10.036  7541  7541 D SurveyApp: Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+10-26 11:22:10.038  7541  7541 D CrashCapture: install: ensured default handler. where=SurveyApp:attachBaseContext pid=7541 default=com.negi.survey.CrashCapture$CrashHandler@4d6ed2c
+10-26 11:22:10.038  7541  7541 D SurveyApp: CrashCapture installed: where=SurveyApp:attachBaseContext
+10-26 11:22:10.050  7541  7541 D SurveyApp: LiteRTLM JNI already loaded; skip. where=onCreate(retry)
+10-26 11:22:10.050  7541  7541 D SurveyApp: bootTiming: RuntimeLogStore.start took=0ms
+10-26 11:22:10.050  7541  7541 D SurveyApp: bootTiming: AppRingLogStore.install took=0ms
+10-26 11:22:10.050  7541  7541 D SurveyApp: onCreate: pid=7541 process=com.negi.survey isMain=true sdk=37
+10-26 11:22:10.054  7541  7541 D CrashCapture: install: ensured default handler. where=SurveyApp:onCreate(rewrap) pid=7541 default=com.negi.survey.CrashCapture$CrashHandler@4d6ed2c
+10-26 11:22:10.054  7541  7541 D SurveyApp: CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+10-26 11:22:10.054  7541  7541 D CrashCapture: registerSelfHealing: ActivityLifecycleCallbacks registered. mode=onResumedOnly
+10-26 11:22:10.054  7541  7541 D SurveyApp: CrashCapture self-healing registered.
+10-26 11:22:10.054  7541  7541 W SurveyApp: Startup enqueues deferred: delay=2500ms (to reduce init contention)
+10-26 11:22:10.054  7541  7541 D SurveyApp: Startup survey recovery deferred: delay=2500ms
+10-26 11:22:10.055  7541  7541 D SurveyApp: bootTiming: onCreate total=5ms
+10-26 11:22:10.055  7541  8148 D RuntimeLogStore: openWriter: start -> /data/user/0/com.negi.survey/files/diagnostics/runtime_logs/rtlog_20261026_182210_033_pid7541_seq1.log (bytes=0 format=LEGACY)
+10-26 11:22:10.056  7541  8148 D RuntimeLogStore: retention: start files=6 kept=6 totalBytes=107098
+10-26 11:22:10.059  7541  7541 D BBA2    : setIsFg isFg = false; delayValue 3999ms
+10-26 11:22:12.555  7541  7541 W SurveyApp: Deferred startup enqueues begin...
+10-26 11:22:12.562  7541  7541 I SurveyApp: GitHub upload mode: production
+10-26 11:22:12.562  7541  7541 I SurveyApp: GitHub upload target: ishizuki-tech/SurveyExports-Dev
+10-26 11:22:12.562  7541  7541 I SurveyApp: GitHub upload branch: main
+10-26 11:22:12.562  7541  7541 I SurveyApp: GitHub upload path prefix: (none)
+10-26 11:22:12.562  7541  7541 I SurveyApp: GitHub credentials: unavailable
+10-26 11:22:12.586  7541  7541 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+10-26 11:22:12.586  7541  7541 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+10-26 11:22:12.588  7541  8160 D WM-ForceStopRunnable: Is default app process = true
+10-26 11:22:12.588  7541  8160 D WM-ForceStopRunnable: Performing cleanup operations.
+10-26 11:22:12.590  7541  7541 D SurveyApp: WorkManager available. where=startupRtLogs(immediate) took=27ms
+10-26 11:22:12.593  7541  7541 D SurveyApp: Startup runtime logs: GitHub config not available (immediate).
+10-26 11:22:12.593  7541  7541 W SurveyApp: Startup runtime logs: scheduling one retry; reason=config
+10-26 11:22:12.593  7541  7541 D SurveyApp: WorkManager available. where=startupRingLogs(immediate) took=0ms
+10-26 11:22:12.595  7541  7541 D SurveyApp: Startup ring logs: GitHub config not available (immediate).
+10-26 11:22:12.595  7541  7541 W SurveyApp: Startup ring logs: scheduling one retry; reason=config
+10-26 11:22:12.595  7541  7541 D SurveyApp: WorkManager available. where=enqueuePending(immediate) took=0ms
+10-26 11:22:12.595  7541  7541 D SurveyApp: CrashCapture pending uploads requested (immediate).
+10-26 11:22:12.595  7541  7541 W SurveyApp: Deferred startup enqueues done: took=41ms
+10-26 11:22:12.595  7541  8161 D CrashCapture: enqueuePendingCrashUploadsIfPossible enter where=SurveyApp:enqueuePending(immediate):bg pid=7541 thread=CrashCapture-Enqueue
+10-26 11:22:12.596  7541  8162 D SurveyApp: Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+10-26 11:22:12.598  7541  8162 W SurveyApp: Startup survey recovery: GitHub config unavailable (initial).
+10-26 11:22:12.598  7541  8162 W SurveyApp: Startup survey recovery: scheduling one retry; reason=config delay=1600ms
+10-26 11:22:12.609  7541  8170 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
