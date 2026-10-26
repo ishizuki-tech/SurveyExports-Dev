@@ -1,0 +1,189 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-26T16:09:08.453Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=37
+pid=10531
+==============================
+2026-10-26T16:09:08.453Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:app_start) ---
+2026-10-26T16:09:21.297Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-26T16:09:21.315Z D/LiteRtLM [DefaultDispatcher-worker-1] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65121|ino=168812|size=4919541760|mtime=1793030957968'
+2026-10-26T16:09:21.316Z D/LiteRtLM [DefaultDispatcher-worker-1] Capabilities: image=false audio=false
+2026-10-26T16:09:21.316Z D/LiteRtLM [DefaultDispatcher-worker-1] Backend=com.google.ai.edge.litertlm.Backend$GPU@47f46f9 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-26T16:09:21.316Z D/LiteRtLM [DefaultDispatcher-worker-1] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1793030957968
+2026-10-26T16:09:21.316Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-26T16:09:21.316Z D/LiteRtLM [DefaultDispatcher-worker-1] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-26T16:09:21.316Z D/LiteRtLM [DefaultDispatcher-worker-1] Engine cacheDir resolved: key='fs|dev=65121|ino=168812|size=4919541760|mtime=1793030957968' backend=com.google.ai.edge.litertlm.Backend$GPU@47f46f9 path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/98f08a35070c611b394cae18c00435298b02e468' filesBefore=0
+2026-10-26T16:09:34.426Z W/LiteRtLM [DefaultDispatcher-worker-1] Engine.initialize completed: key='fs|dev=65121|ino=168812|size=4919541760|mtime=1793030957968' backend=com.google.ai.edge.litertlm.Backend$GPU@47f46f9 took=13108ms cacheFilesAfter=2
+2026-10-26T16:09:34.435Z D/LiteRtLM [DefaultDispatcher-worker-1] createConversation completed: key='fs|dev=65121|ino=168812|size=4919541760|mtime=1793030957968' took=8ms
+2026-10-26T16:09:34.435Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65121|ino=168812|size=4919541760|mtime=1793030957968' engineMs=13108 conversationMs=8 totalMs=13120
+2026-10-26T16:09:34.448Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-10-26T16:09:34.463Z D/SurveyVM [main] init -> Start, session=0, uuid=01a178f9-6bf8-77a5-beb3-393bf7948ccc, navSize=1, graphSize=28
+2026-10-26T16:09:34.469Z D/SurveyVM [main] config.validate -> issues=0
+2026-10-26T16:09:34.470Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-10-26T16:09:34.470Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14b, Q15, Q16], eval=[], follow=[]
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-26T16:09:34.470Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-10-26T16:09:34.471Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-26T16:09:34.471Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-26T16:09:34.471Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-10-26T16:09:34.511Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-26T16:09:34.512Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=168812|size=4919541760|mtime=1793030957968'
+2026-10-26T16:09:34.512Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=1
+2026-10-26T16:09:34.512Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=1
+2026-10-26T16:09:40.474Z D/SurveyVM [main] setRunFreeText(draft) -> len=1
+2026-10-26T16:09:40.786Z D/SurveyVM [main] setRunFreeText(draft) -> len=2
+2026-10-26T16:09:41.042Z D/SurveyVM [main] setRunFreeText(draft) -> len=3
+2026-10-26T16:09:41.475Z D/SurveyVM [main] setRunFreeText(draft) -> len=4
+2026-10-26T16:09:41.644Z D/SurveyVM [main] setRunFreeText(draft) -> len=5
+2026-10-26T16:09:41.865Z D/SurveyVM [main] setRunFreeText(draft) -> len=6
+2026-10-26T16:09:42.300Z D/SurveyVM [main] setRunFreeText(draft) -> len=7
+2026-10-26T16:09:42.483Z D/SurveyVM [main] setRunFreeText(draft) -> len=8
+2026-10-26T16:09:42.658Z D/SurveyVM [main] setRunFreeText(draft) -> len=9
+2026-10-26T16:09:42.833Z D/SurveyVM [main] setRunFreeText(draft) -> len=10
+2026-10-26T16:09:43.092Z D/SurveyVM [main] setRunFreeText(draft) -> len=11
+2026-10-26T16:09:43.308Z D/SurveyVM [main] setRunFreeText(draft) -> len=12
+2026-10-26T16:09:43.500Z D/SurveyVM [main] setRunFreeText(draft) -> len=13
+2026-10-26T16:09:43.692Z D/SurveyVM [main] setRunFreeText(draft) -> len=14
+2026-10-26T16:09:44.108Z D/SurveyVM [main] setRunFreeText(draft) -> len=15
+2026-10-26T16:09:44.276Z D/SurveyVM [main] setRunFreeText(draft) -> len=16
+2026-10-26T16:09:44.507Z D/SurveyVM [main] setRunFreeText(draft) -> len=17
+2026-10-26T16:09:44.741Z D/SurveyVM [main] setRunFreeText(draft) -> len=18
+2026-10-26T16:09:44.949Z D/SurveyVM [main] setRunFreeText(draft) -> len=19
+2026-10-26T16:09:45.133Z D/SurveyVM [main] setRunFreeText(draft) -> len=20
+2026-10-26T16:09:45.328Z D/SurveyVM [main] setRunFreeText(draft) -> len=21
+2026-10-26T16:09:45.616Z D/SurveyVM [main] setRunFreeText(draft) -> len=22
+2026-10-26T16:09:45.799Z D/SurveyVM [main] setRunFreeText(draft) -> len=23
+2026-10-26T16:09:45.983Z D/SurveyVM [main] setRunFreeText(draft) -> len=24
+2026-10-26T16:09:46.183Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:09:47.686Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:09:47.686Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:09:47.686Z D/SurveyVM [main] resetToStart -> Start, session=1, uuid=01a178f9-9fa5-78ac-9e0c-d0265e5bea76, preserveDraft=true, draftLen=25
+2026-10-26T16:09:47.686Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:09:47.687Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178f9-9fa5-78ac-9e0c-d0265e5bea76
+2026-10-26T16:09:47.687Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:09:50.766Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-26T16:09:53.455Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-10-26T16:09:57.555Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:10:00.012Z D/SurveyVM [main] push -> Pre5, navSize=6, stackSize=6
+2026-10-26T16:10:02.235Z D/SurveyVM [main] push -> Q00, navSize=7, stackSize=7
+2026-10-26T16:10:05.036Z D/SurveyVM [main] push -> Q01, navSize=8, stackSize=8
+2026-10-26T16:10:12.998Z D/SurveyVM [main] push -> Q02, navSize=9, stackSize=9
+2026-10-26T16:10:15.057Z D/SurveyVM [main] push -> Q03, navSize=10, stackSize=10
+2026-10-26T16:10:18.172Z D/SurveyVM [main] push -> Q04, navSize=11, stackSize=11
+2026-10-26T16:10:19.290Z D/SurveyVM [main] backToPrevious -> Q03 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:20.230Z D/SurveyVM [main] backToPrevious -> Q02 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:21.904Z D/SurveyVM [main] backToPrevious -> Q01 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:23.747Z D/SurveyVM [main] backToPrevious -> Q00 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:25.937Z D/SurveyVM [main] backToPrevious -> Pre5 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:27.310Z D/SurveyVM [main] backToPrevious -> Pre4 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:28.668Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:29.642Z D/SurveyVM [main] backToPrevious -> Pre2 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:30.460Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:31.551Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:33.503Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:10:33.503Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:10:33.503Z D/SurveyVM [main] resetToStart -> Start, session=2, uuid=01a178fa-529e-7508-93ee-5172963b991d, preserveDraft=true, draftLen=25
+2026-10-26T16:10:33.503Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:10:33.503Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178fa-529e-7508-93ee-5172963b991d
+2026-10-26T16:10:33.503Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:10:34.451Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-26T16:10:35.700Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:36.457Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:38.182Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:10:38.182Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:10:38.182Z D/SurveyVM [main] resetToStart -> Start, session=3, uuid=01a178fa-64e5-727f-a550-1d7a4999dde3, preserveDraft=true, draftLen=25
+2026-10-26T16:10:38.182Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:10:38.183Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178fa-64e5-727f-a550-1d7a4999dde3
+2026-10-26T16:10:38.183Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:10:45.703Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-26T16:10:47.311Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-10-26T16:10:47.770Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:10:48.228Z D/SurveyVM [main] push -> Pre5, navSize=6, stackSize=6
+2026-10-26T16:10:50.326Z D/SurveyVM [main] push -> Q00, navSize=7, stackSize=7
+2026-10-26T16:10:52.660Z D/SurveyVM [main] push -> Q01, navSize=8, stackSize=8
+2026-10-26T16:10:55.191Z D/SurveyVM [main] backToPrevious -> Q00 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:58.224Z D/SurveyVM [main] backToPrevious -> Pre5 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:10:58.974Z D/SurveyVM [main] backToPrevious -> Pre4 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:00.308Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:02.872Z D/SurveyVM [main] backToPrevious -> Pre2 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:03.798Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:04.014Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:04.205Z D/SurveyVM [main] backToPrevious: at root (no-op)
+2026-10-26T16:11:04.380Z D/SurveyVM [main] backToPrevious: at root (no-op)
+2026-10-26T16:11:04.530Z D/SurveyVM [main] backToPrevious: at root (no-op)
+2026-10-26T16:11:07.705Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:11:07.705Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:11:07.705Z D/SurveyVM [main] resetToStart -> Start, session=4, uuid=01a178fa-d838-7dd8-81d2-051f43c3e72c, preserveDraft=true, draftLen=25
+2026-10-26T16:11:07.705Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:11:07.705Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178fa-d838-7dd8-81d2-051f43c3e72c
+2026-10-26T16:11:07.706Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:11:10.412Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:12.311Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:11:12.312Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:11:12.312Z D/SurveyVM [main] resetToStart -> Start, session=5, uuid=01a178fa-ea36-751b-8fac-6a1430f81885, preserveDraft=true, draftLen=25
+2026-10-26T16:11:12.312Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:11:12.312Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178fa-ea36-751b-8fac-6a1430f81885
+2026-10-26T16:11:12.312Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:11:16.760Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-26T16:11:17.283Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-10-26T16:11:18.183Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:11:19.491Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:19.924Z D/SurveyVM [main] backToPrevious -> Pre2 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:23.781Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-10-26T16:11:27.039Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:11:29.573Z D/SurveyVM [main] push -> Pre5, navSize=6, stackSize=6
+2026-10-26T16:11:31.895Z D/SurveyVM [main] push -> Q00, navSize=7, stackSize=7
+2026-10-26T16:11:35.021Z D/SurveyVM [main] backToPrevious -> Pre5 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:36.269Z D/SurveyVM [main] backToPrevious -> Pre4 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:37.845Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:38.702Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:11:39.877Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:40.418Z D/SurveyVM [main] backToPrevious -> Pre2 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:41.243Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-10-26T16:11:41.735Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:11:42.968Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:43.409Z D/SurveyVM [main] backToPrevious -> Pre2 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:43.893Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:45.084Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:11:46.791Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:11:46.791Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:11:46.791Z D/SurveyVM [main] resetToStart -> Start, session=6, uuid=01a178fb-70e6-77dd-8f52-6316fadad313, preserveDraft=true, draftLen=25
+2026-10-26T16:11:46.791Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:11:46.791Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178fb-70e6-77dd-8f52-6316fadad313
+2026-10-26T16:11:46.791Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:11:47.917Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-26T16:12:05.926Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:12:06.551Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:12:55.133Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-26T16:12:55.133Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@97bb30f, navSize=1
+2026-10-26T16:12:55.134Z D/SurveyVM [main] resetToStart -> Start, session=7, uuid=01a178fc-7bdc-7cff-9622-0d28d1b9382a, preserveDraft=true, draftLen=25
+2026-10-26T16:12:55.134Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-26T16:12:55.134Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=25, draftCleared=true, uuid=01a178fc-7bdc-7cff-9622-0d28d1b9382a
+2026-10-26T16:12:55.134Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-26T16:12:55.942Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-26T16:12:56.517Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-10-26T16:12:57.009Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-10-26T16:12:57.484Z D/SurveyVM [main] push -> Pre5, navSize=6, stackSize=6
+2026-10-26T16:12:59.733Z D/SurveyVM [main] push -> Q00, navSize=7, stackSize=7
+2026-10-26T16:13:15.311Z D/SurveyVM [main] push -> Q01, navSize=8, stackSize=8
+2026-10-26T16:13:17.919Z D/SurveyVM [main] push -> Q02, navSize=9, stackSize=9
+2026-10-26T16:14:33.801Z D/SurveyVM [main] backToPrevious -> Q01 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:34.607Z D/SurveyVM [main] backToPrevious -> Q00 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:36.239Z D/SurveyVM [main] backToPrevious -> Pre5 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:37.297Z D/SurveyVM [main] backToPrevious -> Pre4 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:38.190Z D/SurveyVM [main] backToPrevious -> Pre3 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:38.939Z D/SurveyVM [main] backToPrevious -> Pre2 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:39.722Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:40.496Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=25, runLen=25, draftLen=0)
+2026-10-26T16:14:47.600Z D/SLM [main] forceCleanUpAndWait: model='Gemma3n4B'
