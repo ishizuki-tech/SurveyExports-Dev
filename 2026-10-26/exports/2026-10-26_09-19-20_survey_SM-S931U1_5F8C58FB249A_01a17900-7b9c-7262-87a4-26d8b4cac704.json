@@ -1,0 +1,114 @@
+{
+  "survey_id": "01a17900-7b9c-7262-87a4-26d8b4cac704",
+  "build": "e53c1cf",
+  "exported_at": "2026-10-26_09-19-20",
+  "meta": {
+    "session_free_text": "9:16 start. should save everything"
+  },
+  "answers": {
+    "Pre1": {
+      "question": "Observer Name",
+      "answer": "frank"
+    },
+    "Pre2": {
+      "question": "Interviewer Name",
+      "answer": "Maggie "
+    },
+    "Pre3": {
+      "question": "Respondent Name",
+      "answer": "Evan "
+    },
+    "Pre4": {
+      "question": "Respondent ID",
+      "answer": "110"
+    },
+    "Pre5": {
+      "question": "Please select your phone",
+      "answer": "Phone 1"
+    },
+    "Q00": {
+      "question": "Hallo. Thank you for making time for us today.\n\nI work with CIMMYT, an organization that conducts research to improve the production of maize, wheat, and other crops in different countries across Africa, Asia, and Latin America.\n\nWe are carrying out this study to learn about farmers’ experiences, challenges, and preferences when growing white maize. The information you share will help researchers better understand farmers’ needs and support the development of better maize varieties in the future.\n\nDuring the interview, we will use a mobile phone to help record and organize your responses. This will help us capture your answers accurately and make sure we do not miss any important information.\n\nYour participation is voluntary. You may choose not to answer any question or stop the interview at any time. The information you provide will be kept private and used only for research purposes. There are no right or wrong answers—we simply want to hear about your real experiences and views.\n\nThe interview will take about 45 minutes.\n\nThank you very much for taking part in this study.\n\nThe study is led by Dr. Mercy Mbugua. If you have any questions or concerns about the study, you can contact her on +254 724 740 197.\n\nDo you agree to participate?",
+      "answer": "Yes, and proceed"
+    },
+    "Q01": {
+      "question": "Which sub-county and ward do you live in?",
+      "answer": "Other / Nyingine: seattle 9:17"
+    },
+    "Q02": {
+      "question": "Respondent Gender",
+      "answer": "Male"
+    },
+    "Q03": {
+      "question": "What is your age?",
+      "answer": "62"
+    },
+    "Q04": {
+      "question": "Which crops do you grow?",
+      "answer": "corn"
+    },
+    "Q05": {
+      "question": "Which livestock do you keep?",
+      "answer": "goats"
+    },
+    "Q06": {
+      "question": "How many years have you been growing white maize?",
+      "answer": "62"
+    },
+    "Q07": {
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "I lost it all"
+    },
+    "Q08": {
+      "question": "Please listen to this example: if you could harvest your maize 20 days early, but your harvest would be smaller, how many bags of harvest would you accept to lose?",
+      "answer": ""
+    },
+    "Q09": {
+      "question": "If pests or diseases damage your maize, how many bags would you need to lose before deciding to change your seed?",
+      "answer": ""
+    },
+    "Q10": {
+      "question": "If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?",
+      "answer": ""
+    },
+    "Q11": {
+      "question": "If you and other farmers in your area harvested very little maize, below how many bags would you decide to change your seed?",
+      "answer": ""
+    },
+    "Q12": {
+      "question": "When does drought damage your maize the most: when the plants are young, when they are flowering, when they have started producing cobs, or at what other time?",
+      "answer": ""
+    },
+    "Q13": {
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": ""
+    },
+    "Q14a": {
+      "question": "Do you use white maize to feed animals?",
+      "answer": ""
+    },
+    "Q15": {
+      "question": "Where do you usually get your white maize seed, and why do you like getting it from there?",
+      "answer": ""
+    },
+    "Q16": {
+      "question": "Where do you usually sell your maize after harvesting, and why do you choose to sell there?",
+      "answer": ""
+    },
+    "Q17": {
+      "question": "Thank you very much for taking your time to answer these questions.",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Add any general notes and press Start.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+    "Q07": [
+      { "question": "Can you specify the type of crop damagefall armyworm caused?", "answer": "" }
+    ]
+  },
+  "voice_files": [
+  ]
+}
