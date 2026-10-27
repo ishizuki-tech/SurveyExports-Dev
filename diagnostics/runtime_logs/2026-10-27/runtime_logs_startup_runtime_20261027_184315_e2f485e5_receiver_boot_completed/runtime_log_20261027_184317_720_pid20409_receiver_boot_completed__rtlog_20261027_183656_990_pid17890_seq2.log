@@ -1,0 +1,722 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-27T18:36:56.991Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=37
+pid=17890
+==============================
+2026-10-27T18:36:56.991Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:receiver_boot_completed) ---
+2026-10-27T18:36:57.595Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-10-27T18:36:57.597Z I/SurveyApp [main] GitHub upload mode: production
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: available
+2026-10-27T18:36:57.597Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-10-27T18:36:57.598Z D/SurveyApp [main] Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+2026-10-27T18:36:57.599Z D/SurveyApp [main] Startup runtime logs: enqueue requested (immediate).
+2026-10-27T18:36:57.599Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-10-27T18:36:57.600Z D/SurveyApp [main] Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+2026-10-27T18:36:57.601Z D/SurveyApp [main] Startup ring logs: enqueue requested (immediate).
+2026-10-27T18:36:57.601Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-10-27T18:36:57.601Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-10-27T18:36:57.601Z W/SurveyApp [main] Deferred startup enqueues done: took=6ms
+2026-10-27T18:36:57.605Z D/SurveyApp [DefaultDispatcher-worker-4] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-10-27T18:36:57.608Z D/SurveyApp [DefaultDispatcher-worker-4] Startup survey recovery complete: discovered=0 attempted=0 submitted=0 active=0 trackerUnconfirmed=0 uploaded=0 deferred=0 invalid=0 operationalFailures=0 duplicates=0 unclassified=0
+2026-10-27T18:36:59.537Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-27T18:36:59.554Z D/LiteRtLM [DefaultDispatcher-worker-4] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:36:59.555Z D/LiteRtLM [DefaultDispatcher-worker-4] Capabilities: image=false audio=false
+2026-10-27T18:36:59.555Z D/LiteRtLM [DefaultDispatcher-worker-4] Backend=com.google.ai.edge.litertlm.Backend$GPU@c097fa maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-27T18:36:59.555Z D/LiteRtLM [DefaultDispatcher-worker-4] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1793121706897
+2026-10-27T18:36:59.555Z D/LiteRtLM [DefaultDispatcher-worker-4] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-27T18:36:59.556Z D/LiteRtLM [DefaultDispatcher-worker-4] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-27T18:36:59.557Z D/LiteRtLM [DefaultDispatcher-worker-4] Engine cacheDir resolved: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' backend=com.google.ai.edge.litertlm.Backend$GPU@c097fa path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/490d81aac26dc400b9046b7330f325e9a7fd8ce7' filesBefore=2
+2026-10-27T18:37:07.893Z W/LiteRtLM [DefaultDispatcher-worker-4] Engine.initialize completed: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' backend=com.google.ai.edge.litertlm.Backend$GPU@c097fa took=8336ms cacheFilesAfter=2
+2026-10-27T18:37:07.901Z D/LiteRtLM [DefaultDispatcher-worker-4] createConversation completed: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' took=7ms
+2026-10-27T18:37:07.901Z D/LiteRtLM [DefaultDispatcher-worker-4] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' engineMs=8336 conversationMs=7 totalMs=8347
+2026-10-27T18:37:07.914Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-10-27T18:37:07.923Z D/SurveyVM [main] init -> Start, session=0, uuid=01a17ea6-dfce-7276-81d1-b61d63610912, navSize=1, graphSize=28
+2026-10-27T18:37:07.932Z D/SurveyVM [main] config.validate -> issues=0
+2026-10-27T18:37:07.932Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-10-27T18:37:07.932Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14b, Q15, Q16], eval=[], follow=[]
+2026-10-27T18:37:07.932Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-10-27T18:37:07.932Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-10-27T18:37:07.933Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-10-27T18:37:07.933Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-10-27T18:37:07.933Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-10-27T18:37:07.933Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-10-27T18:37:07.933Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-27T18:37:07.934Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-10-27T18:37:07.934Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-27T18:37:07.938Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-27T18:37:07.939Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-10-27T18:37:08.078Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:37:08.079Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:37:08.081Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=7
+2026-10-27T18:37:08.081Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=7
+2026-10-27T18:37:14.034Z D/SurveyVM [main] setRunFreeText(draft) -> len=7
+2026-10-27T18:37:15.046Z D/SurveyVM [main] setRunFreeText(draft) -> len=11
+2026-10-27T18:37:17.685Z D/SurveyVM [main] setRunFreeText(draft) -> len=16
+2026-10-27T18:37:21.236Z D/SurveyVM [main] setRunFreeText(draft) -> len=24
+2026-10-27T18:37:23.359Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-27T18:37:23.359Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@694d727, navSize=1
+2026-10-27T18:37:23.359Z D/SurveyVM [main] resetToStart -> Start, session=1, uuid=01a17ea7-1c1d-7214-b406-5a9437a3236e, preserveDraft=true, draftLen=24
+2026-10-27T18:37:23.359Z D/SurveyVM [main] setRunFreeText(draft) -> len=24
+2026-10-27T18:37:23.359Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Q07) -> runNoteLen=24, draftCleared=true, uuid=01a17ea7-1c1d-7214-b406-5a9437a3236e
+2026-10-27T18:37:23.359Z D/SurveyVM [main] push -> Q07, navSize=2, stackSize=2
+2026-10-27T18:37:23.397Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-10-27T18:37:29.925Z D/AiScreen [main] Speech started (node=Q07 role=MAIN)
+2026-10-27T18:37:36.704Z D/AiScreen [main] Speech finished with empty/no-change (node=Q07 role=MAIN)
+2026-10-27T18:37:36.841Z D/SurveyVM [DefaultDispatcher-worker-4] addAudioRef -> q=Q07, file=2026-10-27_18-37-36_voice_SM-S931U1_5F8C58FB249A_01a17ea7-1c1d-7214-b406-5a9437a3236e_Q07.wav, sid=01a17ea7-1c1d-7214-b406-5a9437a3236e
+2026-10-27T18:37:36.841Z D/SurveyVM [DefaultDispatcher-worker-4] onVoiceExported -> q=Q07, file=2026-10-27_18-37-36_voice_SM-S931U1_5F8C58FB249A_01a17ea7-1c1d-7214-b406-5a9437a3236e_Q07.wav, replace=false
+2026-10-27T18:37:36.869Z D/AiScreen [main] Speech started (node=Q07 role=MAIN)
+2026-10-27T18:37:44.428Z D/AiScreen [main] Speech committed (node=Q07 role=MAIN len=73)
+2026-10-27T18:37:50.111Z D/SurveyVM [main] getEvalPrompt[Q07] -> len=362
+2026-10-27T18:37:50.113Z D/AiViewModel [DefaultDispatcher-worker-4] run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=361, fullPrompt.len=3008, timeoutMs=120000
+2026-10-27T18:37:50.114Z D/AiViewModel [DefaultDispatcher-worker-4] run[1]: sha(prompt)=3b1aef68680ebc7289a6be2ca9c4e6ad7bf5e6e92a00146b1e10b460cd3204c0 sha(full)=962eef40510102d0714386b6334da3e19c2299a163940b9da592af177cca1810
+2026-10-27T18:37:50.114Z I/FullPromptReview [DefaultDispatcher-worker-4] [part=000] run[1]: phase=EVAL FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Whether FAW affected the crop and, if yes, at least one concrete description of its effect, such as yield loss or a type of crop damage.
+Question: Has fall armyworm ever attacked your maize? If yes, what loss did you get?
+Original answer: I lost 50% of my crop because of fall armyworm over the last three years.
+Answered followup pairs:
+2026-10-27T18:37:50.120Z D/LiteRtRepository [DefaultDispatcher-worker-1] [1] request start model='Gemma3n4B' prompt.len=3008 sha=962eef40510102d0 gateWaitMs=4
+2026-10-27T18:37:50.120Z D/LiteRtRepository [DefaultDispatcher-worker-1] [part=000] [1] PROMPT (FULL) sha=962eef40510102d0
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Whether FAW affected the crop and, if yes, at least one concrete description of its effect, such as yield loss or a type of crop damage.
+Question: Has fall armyworm ever attacked your maize? If yes, what loss did you get?
+Original answer: I lost 50% of my crop because of fall armyworm over the last three years.
+Answered followup pairs:
+2026-10-27T18:37:50.121Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:37:50.122Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:37:50.122Z D/LiteRtRepository [DefaultDispatcher-worker-1] [1] initializeIfNeeded ok initMs=1
+2026-10-27T18:37:50.123Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=3008 images=0 audio=0
+2026-10-27T18:37:50.125Z D/LiteRtLM [DefaultDispatcher-worker-1] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523010923 lastTermAt=0
+2026-10-27T18:37:50.126Z D/LiteRtLM [DefaultDispatcher-worker-1] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 hasText=true originalTextLen=3008 effectiveTextLen=3008 images=0 audioClips=0
+2026-10-27T18:37:50.126Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 len=3008 maxOutputTokens=64
+2026-10-27T18:37:50.147Z D/LiteRtLM [DefaultDispatcher-worker-1] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 dispatchMs=21
+2026-10-27T18:37:53.372Z W/LiteRtLM [Thread-9] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 ttftMs=3246 dispatchMs=21 postDispatchTtftMs=3225 requestToFirstOutputMs=3248
+2026-10-27T18:37:53.372Z D/LiteRtLM [Thread-9] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=1] msg#1 rawChunkLen=2 deltaLen=2 emittedChars=2
+2026-10-27T18:37:53.373Z D/LiteRtRepository [main] stream[rid=1 msg#1] done=false deltaLen=2 outLen=2 outPreview='{"' deltaPreview='{"'
+2026-10-27T18:37:53.373Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[1].preview='{"'
+2026-10-27T18:37:53.466Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[2].preview='score'
+2026-10-27T18:37:53.560Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[3].preview='":'
+2026-10-27T18:37:53.656Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[4].preview='9'
+2026-10-27T18:37:53.752Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[5].preview='5'
+2026-10-27T18:37:53.852Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[6].preview=',"'
+2026-10-27T18:37:53.949Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[7].preview='missing'
+2026-10-27T18:37:54.044Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[8].preview='_'
+2026-10-27T18:37:54.043Z D/LiteRtRepository [main] stream[rid=1 msg#8] done=false deltaLen=1 outLen=21 outPreview='{"score":95,"missing_' deltaPreview='_'
+2026-10-27T18:37:54.140Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[9].preview='points'
+2026-10-27T18:37:54.233Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[10].preview='":[],'
+2026-10-27T18:37:54.325Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[11].preview='"'
+2026-10-27T18:37:54.415Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[12].preview='follow'
+2026-10-27T18:37:54.508Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[13].preview='up'
+2026-10-27T18:37:54.601Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[14].preview='_'
+2026-10-27T18:37:54.698Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[15].preview='needed'
+2026-10-27T18:37:54.789Z D/LiteRtLM [Thread-24] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=1] msg#16 rawChunkLen=2 deltaLen=2 emittedChars=50
+2026-10-27T18:37:54.790Z D/LiteRtRepository [main] stream[rid=1 msg#16] done=false deltaLen=2 outLen=50 outPreview='{"score":95,"missing_points":[],"followup_needed":' deltaPreview='":'
+2026-10-27T18:37:54.791Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[16].preview='":'
+2026-10-27T18:37:54.884Z D/AiViewModel [DefaultDispatcher-worker-1] run[1] chunk[17].preview='false'
+2026-10-27T18:37:54.978Z D/LiteRtLM [Thread-27] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523015775 lastTermAt=523015775
+2026-10-27T18:37:54.979Z D/LiteRtLM [Thread-27] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523015775 lastTermAt=523015775
+2026-10-27T18:37:54.979Z W/LiteRtLM [Thread-27] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=1 ttftMs=3246 dispatchMs=21 postDispatchTtftMs=3225 totalMs=4852 callbacks=18 outputChars=56 cancelled=false error=false requestTotalMs=4854
+2026-10-27T18:37:54.979Z I/LiteRtLM [Thread-27] LiteRT completion: runId=1 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=56 callbacks=18
+2026-10-27T18:37:54.980Z D/AiViewModel [DefaultDispatcher-worker-4] run[1] chunk[18].preview='}'
+2026-10-27T18:37:54.980Z D/LiteRtRepository [main] [1] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:37:54.981Z D/AiViewModel [DefaultDispatcher-worker-4] run[1] stats: chunks=18, chars=56, raw.len=56
+2026-10-27T18:37:54.981Z D/LiteRtRepository [main] [1] native cleanup safepoint
+2026-10-27T18:37:54.981Z D/AiViewModel [DefaultDispatcher-worker-4] run[1] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+2026-10-27T18:37:54.981Z D/AiViewModel [DefaultDispatcher-worker-4] run[1] rawVisible='{"score":95,"missing_points":[],"followup_needed":false}'
+2026-10-27T18:37:54.982Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:37:54.987Z D/LiteRtRepository [DefaultDispatcher-worker-1] [1] Conversation reset completed after safepoint
+2026-10-27T18:37:54.989Z D/LiteRtRepository [DefaultDispatcher-worker-1] [part=000] [1] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=1 model='Gemma3n4B' reason=native-terminated
+totalMs=4869 inferenceMs=4865 firstTokenMs=3250
+logicalDone=true logicalDoneAt=523015777
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=8 lastEventMsAgo=7
+chunks=18 emittedChars=56 capturedAll=true out.len=56
+=== OUTPUT (FULL) ===
+{"score":95,"missing_points":[],"followup_needed":false}
+2026-10-27T18:37:54.990Z D/AiViewModel [DefaultDispatcher-worker-4] run[1]: EVAL_JSON parsed score=95 followups=0 fu0=''
+2026-10-27T18:37:54.991Z D/AiViewModel [DefaultDispatcher-worker-4] stepHistory+ runId=1 phase=EVAL mode=EVAL_JSON raw.len=56 score=95 FU=0 FU0='<none>' timeout=false err=null
+2026-10-27T18:37:54.991Z I/AiViewModel [DefaultDispatcher-worker-4] run[1] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+2026-10-27T18:37:54.991Z I/FullTextOut [DefaultDispatcher-worker-4] [part=000] run[1]: RawTextOut
+{"score":95,"missing_points":[],"followup_needed":false}
+2026-10-27T18:37:54.993Z D/AiViewModel [DefaultDispatcher-worker-4] chain2: step2 skipped (score=95, followups=0, timedOut=false, rawPreview='{"score":95,"missing_points":[],"followup_needed":false}')
+2026-10-27T18:38:00.365Z D/SurveyVM [main] push -> Q08, navSize=3, stackSize=3
+2026-10-27T18:38:00.370Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-10-27T18:38:03.064Z D/AiScreen [main] Speech started (node=Q08 role=MAIN)
+2026-10-27T18:38:07.643Z D/AiScreen [main] Speech finished with empty/no-change (node=Q08 role=MAIN)
+2026-10-27T18:38:07.729Z D/SurveyVM [DefaultDispatcher-worker-1] addAudioRef -> q=Q08, file=2026-10-27_18-38-07_voice_SM-S931U1_5F8C58FB249A_01a17ea7-1c1d-7214-b406-5a9437a3236e_Q08.wav, sid=01a17ea7-1c1d-7214-b406-5a9437a3236e
+2026-10-27T18:38:07.729Z D/SurveyVM [DefaultDispatcher-worker-1] onVoiceExported -> q=Q08, file=2026-10-27_18-38-07_voice_SM-S931U1_5F8C58FB249A_01a17ea7-1c1d-7214-b406-5a9437a3236e_Q08.wav, replace=false
+2026-10-27T18:38:07.745Z D/AiScreen [main] Speech started (node=Q08 role=MAIN)
+2026-10-27T18:38:15.442Z D/AiScreen [main] Speech committed (node=Q08 role=MAIN len=42)
+2026-10-27T18:38:16.951Z D/SurveyVM [main] getEvalPrompt[Q08] -> len=390
+2026-10-27T18:38:16.952Z D/AiViewModel [DefaultDispatcher-worker-1] run[2]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=389, fullPrompt.len=3036, timeoutMs=120000
+2026-10-27T18:38:16.953Z D/AiViewModel [DefaultDispatcher-worker-1] run[2]: sha(prompt)=6dfe3d3969ef83b2ea2913864e727b9b5871688d35927822f3c4cda0abf57453 sha(full)=5d833700a342441877e9390d47e1293815e25bad17f9d8c809f2cd446a03e08e
+2026-10-27T18:38:16.953Z I/FullPromptReview [DefaultDispatcher-worker-1] [part=000] run[2]: phase=EVAL FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Maximum number of bags of harvest the respondent would accept to lose in order to harvest 20 days earlier.
+Question: Please listen to this example: if you could harvest your maize 20 days early, but your harvest would be smaller, how many bags of harvest would you accept to lose?
+Original answer: I would accept a loss of 10 bags per acre.
+Answered followup pairs:
+2026-10-27T18:38:16.954Z D/LiteRtRepository [DefaultDispatcher-worker-1] [2] request start model='Gemma3n4B' prompt.len=3036 sha=5d833700a3424418 gateWaitMs=1
+2026-10-27T18:38:16.955Z D/LiteRtRepository [DefaultDispatcher-worker-1] [part=000] [2] PROMPT (FULL) sha=5d833700a3424418
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Maximum number of bags of harvest the respondent would accept to lose in order to harvest 20 days earlier.
+Question: Please listen to this example: if you could harvest your maize 20 days early, but your harvest would be smaller, how many bags of harvest would you accept to lose?
+Original answer: I would accept a loss of 10 bags per acre.
+Answered followup pairs:
+2026-10-27T18:38:16.955Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:38:16.956Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:38:16.956Z D/LiteRtRepository [DefaultDispatcher-worker-1] [2] initializeIfNeeded ok initMs=1
+2026-10-27T18:38:16.956Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=3036 images=0 audio=0
+2026-10-27T18:38:16.957Z D/LiteRtLM [DefaultDispatcher-worker-5] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523037754 lastTermAt=523015775
+2026-10-27T18:38:16.957Z D/LiteRtLM [DefaultDispatcher-worker-5] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 hasText=true originalTextLen=3036 effectiveTextLen=3036 images=0 audioClips=0
+2026-10-27T18:38:16.957Z D/LiteRtLM [DefaultDispatcher-worker-5] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 len=3036 maxOutputTokens=64
+2026-10-27T18:38:16.964Z D/LiteRtLM [DefaultDispatcher-worker-5] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 dispatchMs=7
+2026-10-27T18:38:19.141Z W/LiteRtLM [Thread-28] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 ttftMs=2184 dispatchMs=7 postDispatchTtftMs=2177 requestToFirstOutputMs=2184
+2026-10-27T18:38:19.142Z D/LiteRtLM [Thread-28] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=2] msg#1 rawChunkLen=2 deltaLen=2 emittedChars=2
+2026-10-27T18:38:19.142Z D/LiteRtRepository [main] stream[rid=2 msg#1] done=false deltaLen=2 outLen=2 outPreview='{"' deltaPreview='{"'
+2026-10-27T18:38:19.142Z D/AiViewModel [DefaultDispatcher-worker-5] run[2] chunk[1].preview='{"'
+2026-10-27T18:38:19.236Z D/AiViewModel [DefaultDispatcher-worker-5] run[2] chunk[2].preview='score'
+2026-10-27T18:38:19.331Z D/AiViewModel [DefaultDispatcher-worker-5] run[2] chunk[3].preview='":'
+2026-10-27T18:38:19.423Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[4].preview='9'
+2026-10-27T18:38:19.514Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[5].preview='5'
+2026-10-27T18:38:19.606Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[6].preview=',"'
+2026-10-27T18:38:19.703Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[7].preview='missing'
+2026-10-27T18:38:19.794Z D/LiteRtRepository [main] stream[rid=2 msg#8] done=false deltaLen=1 outLen=21 outPreview='{"score":95,"missing_' deltaPreview='_'
+2026-10-27T18:38:19.794Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[8].preview='_'
+2026-10-27T18:38:19.888Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[9].preview='points'
+2026-10-27T18:38:19.980Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[10].preview='":[],'
+2026-10-27T18:38:20.073Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[11].preview='"'
+2026-10-27T18:38:20.166Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[12].preview='follow'
+2026-10-27T18:38:20.258Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[13].preview='up'
+2026-10-27T18:38:20.355Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[14].preview='_'
+2026-10-27T18:38:20.446Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[15].preview='needed'
+2026-10-27T18:38:20.537Z D/LiteRtLM [Thread-43] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=2] msg#16 rawChunkLen=2 deltaLen=2 emittedChars=50
+2026-10-27T18:38:20.538Z D/LiteRtRepository [main] stream[rid=2 msg#16] done=false deltaLen=2 outLen=50 outPreview='{"score":95,"missing_points":[],"followup_needed":' deltaPreview='":'
+2026-10-27T18:38:20.539Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[16].preview='":'
+2026-10-27T18:38:20.630Z D/AiViewModel [DefaultDispatcher-worker-5] run[2] chunk[17].preview='false'
+2026-10-27T18:38:20.722Z D/LiteRtLM [Thread-46] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523041519 lastTermAt=523041519
+2026-10-27T18:38:20.722Z D/LiteRtLM [Thread-46] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523041519 lastTermAt=523041519
+2026-10-27T18:38:20.723Z W/LiteRtLM [Thread-46] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=2 ttftMs=2184 dispatchMs=7 postDispatchTtftMs=2177 totalMs=3765 callbacks=18 outputChars=56 cancelled=false error=false requestTotalMs=3765
+2026-10-27T18:38:20.723Z I/LiteRtLM [Thread-46] LiteRT completion: runId=2 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=56 callbacks=18
+2026-10-27T18:38:20.723Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] chunk[18].preview='}'
+2026-10-27T18:38:20.723Z D/LiteRtRepository [main] [2] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:38:20.724Z D/LiteRtRepository [main] [2] native cleanup safepoint
+2026-10-27T18:38:20.724Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] stats: chunks=18, chars=56, raw.len=56
+2026-10-27T18:38:20.724Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:38:20.724Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+2026-10-27T18:38:20.724Z D/AiViewModel [DefaultDispatcher-worker-4] run[2] rawVisible='{"score":95,"missing_points":[],"followup_needed":false}'
+2026-10-27T18:38:20.726Z D/LiteRtRepository [DefaultDispatcher-worker-5] [2] Conversation reset completed after safepoint
+2026-10-27T18:38:20.727Z D/LiteRtRepository [DefaultDispatcher-worker-1] [part=000] [2] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=2 model='Gemma3n4B' reason=native-terminated
+totalMs=3773 inferenceMs=3771 firstTokenMs=2186
+logicalDone=true logicalDoneAt=523041520
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=4 lastEventMsAgo=3
+chunks=18 emittedChars=56 capturedAll=true out.len=56
+=== OUTPUT (FULL) ===
+{"score":95,"missing_points":[],"followup_needed":false}
+2026-10-27T18:38:20.728Z D/AiViewModel [DefaultDispatcher-worker-4] run[2]: EVAL_JSON parsed score=95 followups=0 fu0=''
+2026-10-27T18:38:20.729Z D/AiViewModel [DefaultDispatcher-worker-4] stepHistory+ runId=2 phase=EVAL mode=EVAL_JSON raw.len=56 score=95 FU=0 FU0='<none>' timeout=false err=null
+2026-10-27T18:38:20.729Z I/AiViewModel [DefaultDispatcher-worker-4] run[2] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+2026-10-27T18:38:20.729Z I/FullTextOut [DefaultDispatcher-worker-4] [part=000] run[2]: RawTextOut
+{"score":95,"missing_points":[],"followup_needed":false}
+2026-10-27T18:38:20.730Z D/AiViewModel [DefaultDispatcher-worker-4] chain2: step2 skipped (score=95, followups=0, timedOut=false, rawPreview='{"score":95,"missing_points":[],"followup_needed":false}')
+2026-10-27T18:38:26.214Z D/SurveyVM [main] push -> Q09, navSize=4, stackSize=4
+2026-10-27T18:38:26.221Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-10-27T18:38:33.057Z D/AiScreen [main] Speech started (node=Q09 role=MAIN)
+2026-10-27T18:38:37.045Z D/AiScreen [main] Speech finished with empty/no-change (node=Q09 role=MAIN)
+2026-10-27T18:38:37.134Z D/SurveyVM [DefaultDispatcher-worker-4] addAudioRef -> q=Q09, file=2026-10-27_18-38-37_voice_SM-S931U1_5F8C58FB249A_01a17ea7-1c1d-7214-b406-5a9437a3236e_Q09.wav, sid=01a17ea7-1c1d-7214-b406-5a9437a3236e
+2026-10-27T18:38:37.134Z D/SurveyVM [DefaultDispatcher-worker-4] onVoiceExported -> q=Q09, file=2026-10-27_18-38-37_voice_SM-S931U1_5F8C58FB249A_01a17ea7-1c1d-7214-b406-5a9437a3236e_Q09.wav, replace=false
+2026-10-27T18:38:37.157Z D/AiScreen [main] Speech started (node=Q09 role=MAIN)
+2026-10-27T18:38:44.610Z D/AiScreen [main] Speech committed (node=Q09 role=MAIN len=44)
+2026-10-27T18:39:29.923Z D/SurveyVM [main] getEvalPrompt[Q09] -> len=348
+2026-10-27T18:39:29.924Z D/AiViewModel [DefaultDispatcher-worker-4] run[3]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=347, fullPrompt.len=2994, timeoutMs=120000
+2026-10-27T18:39:29.925Z D/AiViewModel [DefaultDispatcher-worker-4] run[3]: sha(prompt)=f2619eb6e560cae8b0e43cd4dd748add3fe9ee61a29bcec0a06c3d43c04b081a sha(full)=ec3c232d496071d770cd66efec1e645e177f1b426faa41c33377a0d5c73eed51
+2026-10-27T18:39:29.925Z I/FullPromptReview [DefaultDispatcher-worker-4] [part=000] run[3]: phase=EVAL FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: The number of bags of maize lost to pests or disease that would make the respondent decide to change their seed.
+Question: If pests or diseases damage your maize, how many bags would you need to lose before deciding to change your seed?
+Original answer: If I lost five bags, I would change my seed.
+Answered followup pairs:
+2026-10-27T18:39:29.926Z D/LiteRtRepository [DefaultDispatcher-worker-4] [3] request start model='Gemma3n4B' prompt.len=2994 sha=ec3c232d496071d7 gateWaitMs=1
+2026-10-27T18:39:29.926Z D/LiteRtRepository [DefaultDispatcher-worker-4] [part=000] [3] PROMPT (FULL) sha=ec3c232d496071d7
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: The number of bags of maize lost to pests or disease that would make the respondent decide to change their seed.
+Question: If pests or diseases damage your maize, how many bags would you need to lose before deciding to change your seed?
+Original answer: If I lost five bags, I would change my seed.
+Answered followup pairs:
+2026-10-27T18:39:29.927Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:39:29.927Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:39:29.927Z D/LiteRtRepository [DefaultDispatcher-worker-4] [3] initializeIfNeeded ok initMs=0
+2026-10-27T18:39:29.927Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=2994 images=0 audio=0
+2026-10-27T18:39:29.928Z D/LiteRtLM [DefaultDispatcher-worker-4] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523110725 lastTermAt=523041519
+2026-10-27T18:39:29.928Z D/LiteRtLM [DefaultDispatcher-worker-4] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 hasText=true originalTextLen=2994 effectiveTextLen=2994 images=0 audioClips=0
+2026-10-27T18:39:29.928Z D/LiteRtLM [DefaultDispatcher-worker-4] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 len=2994 maxOutputTokens=64
+2026-10-27T18:39:29.933Z D/LiteRtLM [DefaultDispatcher-worker-4] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 dispatchMs=5
+2026-10-27T18:39:31.967Z W/LiteRtLM [Thread-47] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 ttftMs=2039 dispatchMs=5 postDispatchTtftMs=2034 requestToFirstOutputMs=2039
+2026-10-27T18:39:31.968Z D/LiteRtLM [Thread-47] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=3] msg#1 rawChunkLen=2 deltaLen=2 emittedChars=2
+2026-10-27T18:39:31.969Z D/LiteRtRepository [main] stream[rid=3 msg#1] done=false deltaLen=2 outLen=2 outPreview='{"' deltaPreview='{"'
+2026-10-27T18:39:31.969Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[1].preview='{"'
+2026-10-27T18:39:32.065Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[2].preview='score'
+2026-10-27T18:39:32.160Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[3].preview='":'
+2026-10-27T18:39:32.253Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[4].preview='9'
+2026-10-27T18:39:32.347Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[5].preview='5'
+2026-10-27T18:39:32.440Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[6].preview=',"'
+2026-10-27T18:39:32.535Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[7].preview='missing'
+2026-10-27T18:39:32.630Z D/LiteRtRepository [main] stream[rid=3 msg#8] done=false deltaLen=1 outLen=21 outPreview='{"score":95,"missing_' deltaPreview='_'
+2026-10-27T18:39:32.630Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[8].preview='_'
+2026-10-27T18:39:32.729Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[9].preview='points'
+2026-10-27T18:39:32.829Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[10].preview='":[],'
+2026-10-27T18:39:32.928Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[11].preview='"'
+2026-10-27T18:39:33.027Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[12].preview='follow'
+2026-10-27T18:39:33.121Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[13].preview='up'
+2026-10-27T18:39:33.215Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[14].preview='_'
+2026-10-27T18:39:33.313Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[15].preview='needed'
+2026-10-27T18:39:33.406Z D/LiteRtLM [Thread-62] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=3] msg#16 rawChunkLen=2 deltaLen=2 emittedChars=50
+2026-10-27T18:39:33.406Z D/LiteRtRepository [main] stream[rid=3 msg#16] done=false deltaLen=2 outLen=50 outPreview='{"score":95,"missing_points":[],"followup_needed":' deltaPreview='":'
+2026-10-27T18:39:33.406Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[16].preview='":'
+2026-10-27T18:39:33.501Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[17].preview='false'
+2026-10-27T18:39:33.594Z D/LiteRtLM [Thread-65] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523114391 lastTermAt=523114391
+2026-10-27T18:39:33.595Z D/AiViewModel [DefaultDispatcher-worker-4] run[3] chunk[18].preview='}'
+2026-10-27T18:39:33.595Z D/LiteRtLM [Thread-65] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523114391 lastTermAt=523114391
+2026-10-27T18:39:33.595Z W/LiteRtLM [Thread-65] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=3 ttftMs=2039 dispatchMs=5 postDispatchTtftMs=2034 totalMs=3666 callbacks=18 outputChars=56 cancelled=false error=false requestTotalMs=3666
+2026-10-27T18:39:33.595Z I/LiteRtLM [Thread-65] LiteRT completion: runId=3 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=56 callbacks=18
+2026-10-27T18:39:33.595Z D/LiteRtRepository [main] [3] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:39:33.595Z D/LiteRtRepository [main] [3] native cleanup safepoint
+2026-10-27T18:39:33.595Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:39:33.595Z D/AiViewModel [DefaultDispatcher-worker-2] run[3] stats: chunks=18, chars=56, raw.len=56
+2026-10-27T18:39:33.596Z D/AiViewModel [DefaultDispatcher-worker-2] run[3] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+2026-10-27T18:39:33.596Z D/AiViewModel [DefaultDispatcher-worker-2] run[3] rawVisible='{"score":95,"missing_points":[],"followup_needed":false}'
+2026-10-27T18:39:33.597Z D/LiteRtRepository [DefaultDispatcher-worker-4] [3] Conversation reset completed after safepoint
+2026-10-27T18:39:33.598Z D/LiteRtRepository [DefaultDispatcher-worker-1] [part=000] [3] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=3 model='Gemma3n4B' reason=native-terminated
+totalMs=3673 inferenceMs=3671 firstTokenMs=2042
+logicalDone=true logicalDoneAt=523114392
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=3 lastEventMsAgo=3
+chunks=18 emittedChars=56 capturedAll=true out.len=56
+=== OUTPUT (FULL) ===
+{"score":95,"missing_points":[],"followup_needed":false}
+2026-10-27T18:39:33.599Z D/AiViewModel [DefaultDispatcher-worker-2] run[3]: EVAL_JSON parsed score=95 followups=0 fu0=''
+2026-10-27T18:39:33.599Z D/AiViewModel [DefaultDispatcher-worker-2] stepHistory+ runId=3 phase=EVAL mode=EVAL_JSON raw.len=56 score=95 FU=0 FU0='<none>' timeout=false err=null
+2026-10-27T18:39:33.599Z I/AiViewModel [DefaultDispatcher-worker-2] run[3] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+2026-10-27T18:39:33.599Z I/FullTextOut [DefaultDispatcher-worker-2] [part=000] run[3]: RawTextOut
+{"score":95,"missing_points":[],"followup_needed":false}
+2026-10-27T18:39:33.599Z D/AiViewModel [DefaultDispatcher-worker-2] chain2: step2 skipped (score=95, followups=0, timedOut=false, rawPreview='{"score":95,"missing_points":[],"followup_needed":false}')
+2026-10-27T18:39:41.718Z D/SurveyVM [main] push -> Q10, navSize=5, stackSize=5
+2026-10-27T18:39:41.725Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-10-27T18:40:01.907Z D/SurveyVM [main] getEvalPrompt[Q10] -> len=378
+2026-10-27T18:40:01.911Z D/AiViewModel [DefaultDispatcher-worker-1] run[4]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=377, fullPrompt.len=3024, timeoutMs=120000
+2026-10-27T18:40:01.911Z D/AiViewModel [DefaultDispatcher-worker-1] run[4]: sha(prompt)=c5fd3e05f15293b1a062a489990a6093782dcff10351562a51a7fdcd59cc5690 sha(full)=1faf0d2ad8edeb20ba3426f2a09f30898f78fbb6c9943af15a0d51932d2d3ce4
+2026-10-27T18:40:01.912Z I/FullPromptReview [DefaultDispatcher-worker-1] [part=000] run[4]: phase=EVAL FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs:
+2026-10-27T18:40:01.913Z D/LiteRtRepository [DefaultDispatcher-worker-1] [4] request start model='Gemma3n4B' prompt.len=3024 sha=1faf0d2ad8edeb20 gateWaitMs=1
+2026-10-27T18:40:01.913Z D/LiteRtRepository [DefaultDispatcher-worker-1] [part=000] [4] PROMPT (FULL) sha=1faf0d2ad8edeb20
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs:
+2026-10-27T18:40:01.914Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:01.914Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:40:01.915Z D/LiteRtRepository [DefaultDispatcher-worker-1] [4] initializeIfNeeded ok initMs=1
+2026-10-27T18:40:01.915Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=3024 images=0 audio=0
+2026-10-27T18:40:01.916Z D/LiteRtLM [DefaultDispatcher-worker-5] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523142713 lastTermAt=523114391
+2026-10-27T18:40:01.916Z D/LiteRtLM [DefaultDispatcher-worker-5] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 hasText=true originalTextLen=3024 effectiveTextLen=3024 images=0 audioClips=0
+2026-10-27T18:40:01.916Z D/LiteRtLM [DefaultDispatcher-worker-5] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 len=3024 maxOutputTokens=64
+2026-10-27T18:40:01.923Z D/LiteRtLM [DefaultDispatcher-worker-5] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 dispatchMs=7
+2026-10-27T18:40:04.062Z W/LiteRtLM [Thread-66] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 ttftMs=2146 dispatchMs=7 postDispatchTtftMs=2139 requestToFirstOutputMs=2146
+2026-10-27T18:40:04.062Z D/LiteRtLM [Thread-66] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=4] msg#1 rawChunkLen=2 deltaLen=2 emittedChars=2
+2026-10-27T18:40:04.062Z D/LiteRtRepository [main] stream[rid=4 msg#1] done=false deltaLen=2 outLen=2 outPreview='{"' deltaPreview='{"'
+2026-10-27T18:40:04.063Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[1].preview='{"'
+2026-10-27T18:40:04.162Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[2].preview='score'
+2026-10-27T18:40:04.260Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[3].preview='":'
+2026-10-27T18:40:04.359Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[4].preview='␠'
+2026-10-27T18:40:04.456Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[5].preview='7'
+2026-10-27T18:40:04.554Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[6].preview='5'
+2026-10-27T18:40:04.654Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[7].preview=','
+2026-10-27T18:40:04.751Z D/LiteRtRepository [main] stream[rid=4 msg#8] done=false deltaLen=2 outLen=15 outPreview='{"score": 75, "' deltaPreview=' "'
+2026-10-27T18:40:04.751Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[8].preview='␠"'
+2026-10-27T18:40:04.843Z D/AiViewModel [DefaultDispatcher-worker-5] run[4] chunk[9].preview='missing'
+2026-10-27T18:40:04.936Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[10].preview='_'
+2026-10-27T18:40:05.029Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[11].preview='points'
+2026-10-27T18:40:05.122Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[12].preview='":'
+2026-10-27T18:40:05.218Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[13].preview='␠["'
+2026-10-27T18:40:05.312Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[14].preview='specific'
+2026-10-27T18:40:05.406Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[15].preview='␠drought'
+2026-10-27T18:40:05.500Z D/LiteRtLM [Thread-81] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=4] msg#16 rawChunkLen=10 deltaLen=10 emittedChars=60
+2026-10-27T18:40:05.501Z D/LiteRtRepository [main] stream[rid=4 msg#16] done=false deltaLen=10 outLen=60 outPreview='{"score": 75, "missing_points": ["specific drought tolerance' deltaPreview=' tolerance'
+2026-10-27T18:40:05.502Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[16].preview='␠tolerance'
+2026-10-27T18:40:05.594Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[17].preview='␠metric'
+2026-10-27T18:40:05.689Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[18].preview='"],'
+2026-10-27T18:40:05.782Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[19].preview='␠"'
+2026-10-27T18:40:05.876Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[20].preview='follow'
+2026-10-27T18:40:05.972Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[21].preview='up'
+2026-10-27T18:40:06.069Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[22].preview='_'
+2026-10-27T18:40:06.159Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[23].preview='needed'
+2026-10-27T18:40:06.252Z D/LiteRtRepository [main] stream[rid=4 msg#24] done=false deltaLen=2 outLen=89 outPreview='{"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed":' deltaPreview='":'
+2026-10-27T18:40:06.252Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[24].preview='":'
+2026-10-27T18:40:06.346Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[25].preview='␠true'
+2026-10-27T18:40:06.440Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] chunk[26].preview='}'
+2026-10-27T18:40:06.440Z D/LiteRtLM [Thread-92] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523147236 lastTermAt=523147237
+2026-10-27T18:40:06.440Z D/LiteRtLM [Thread-92] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523147236 lastTermAt=523147237
+2026-10-27T18:40:06.440Z W/LiteRtLM [Thread-92] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=4 ttftMs=2146 dispatchMs=7 postDispatchTtftMs=2139 totalMs=4524 callbacks=26 outputChars=95 cancelled=false error=false requestTotalMs=4524
+2026-10-27T18:40:06.440Z I/LiteRtLM [Thread-92] LiteRT completion: runId=4 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=95 callbacks=26
+2026-10-27T18:40:06.442Z D/LiteRtRepository [main] [4] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:40:06.442Z D/LiteRtRepository [main] [4] native cleanup safepoint
+2026-10-27T18:40:06.443Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] stats: chunks=26, chars=95, raw.len=95
+2026-10-27T18:40:06.443Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:06.443Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] sha(raw)=b6ef052c51e1d3362de38838b86acea9091948e451d237c056ca4168cba95201
+2026-10-27T18:40:06.443Z D/AiViewModel [DefaultDispatcher-worker-3] run[4] rawVisible='{"score":␠75,␠"missing_points":␠["specific␠drought␠tolerance␠metric"],␠"followup_needed":␠true}'
+2026-10-27T18:40:06.445Z D/LiteRtRepository [DefaultDispatcher-worker-5] [4] Conversation reset completed after safepoint
+2026-10-27T18:40:06.446Z D/LiteRtRepository [DefaultDispatcher-worker-2] [part=000] [4] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=4 model='Gemma3n4B' reason=native-terminated
+totalMs=4533 inferenceMs=4530 firstTokenMs=2148
+logicalDone=true logicalDoneAt=523147239
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=5 lastEventMsAgo=2
+chunks=26 emittedChars=95 capturedAll=true out.len=95
+=== OUTPUT (FULL) ===
+{"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:06.446Z D/AiViewModel [DefaultDispatcher-worker-3] run[4]: EVAL_JSON parsed score=75 followups=0 fu0=''
+2026-10-27T18:40:06.446Z D/AiViewModel [DefaultDispatcher-worker-3] stepHistory+ runId=4 phase=EVAL mode=EVAL_JSON raw.len=95 score=75 FU=0 FU0='<none>' timeout=false err=null
+2026-10-27T18:40:06.446Z I/AiViewModel [DefaultDispatcher-worker-3] run[4] done: phase=EVAL mode=EVAL_JSON score=75 FU0.len=0 FU0.sha16=none commit=true err=<none>
+2026-10-27T18:40:06.446Z I/FullTextOut [DefaultDispatcher-worker-3] [part=000] run[4]: RawTextOut
+{"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:06.446Z D/SurveyVM [DefaultDispatcher-worker-3] getFollowupPrompt[Q10] -> len=485 evalLen=95
+2026-10-27T18:40:06.447Z D/AiViewModel [DefaultDispatcher-worker-3] run[5]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=485, fullPrompt.len=1022, timeoutMs=120000
+2026-10-27T18:40:06.448Z D/AiViewModel [DefaultDispatcher-worker-3] run[5]: sha(prompt)=a163c546579d23c83f64ce5fbd8de9970a2c93df376e850cef2be50d15dea4cc sha(full)=ecb988b68e0cf0df22dd247d6241cb79c546041fe07657a7990b4a096dd7bfb7
+2026-10-27T18:40:06.448Z I/FullPromptReview [DefaultDispatcher-worker-3] [part=000] run[5]: phase=FOLLOWUP FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Generate exactly one short English question addressing one unresolved target-required deficiency in EVAL_JSON. Use the original target, original answer and accumulated answered followup pairs. Do not repeat an earlier question or ask for information already provided. Never add new objectives. Output only the question on one line; no JSON, score, analysis, labels, or quotes.
+Keep the question short and single-scope.
+Exactly one English question on one line.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs: 
+EVAL_JSON: {"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:06.448Z D/LiteRtRepository [DefaultDispatcher-worker-2] [5] request start model='Gemma3n4B' prompt.len=1022 sha=ecb988b68e0cf0df gateWaitMs=1
+2026-10-27T18:40:06.449Z D/LiteRtRepository [DefaultDispatcher-worker-2] [part=000] [5] PROMPT (FULL) sha=ecb988b68e0cf0df
+Evaluate only the original survey target using all supplied answers.
+Generate exactly one short English question addressing one unresolved target-required deficiency in EVAL_JSON. Use the original target, original answer and accumulated answered followup pairs. Do not repeat an earlier question or ask for information already provided. Never add new objectives. Output only the question on one line; no JSON, score, analysis, labels, or quotes.
+Keep the question short and single-scope.
+Exactly one English question on one line.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs: 
+EVAL_JSON: {"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:06.449Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:06.450Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:40:06.450Z D/LiteRtRepository [DefaultDispatcher-worker-2] [5] initializeIfNeeded ok initMs=1
+2026-10-27T18:40:06.450Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=1022 images=0 audio=0
+2026-10-27T18:40:06.451Z D/LiteRtLM [DefaultDispatcher-worker-2] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523147248 lastTermAt=523147237
+2026-10-27T18:40:06.451Z D/LiteRtLM [DefaultDispatcher-worker-2] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 hasText=true originalTextLen=1022 effectiveTextLen=1022 images=0 audioClips=0
+2026-10-27T18:40:06.451Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 len=1022 maxOutputTokens=64
+2026-10-27T18:40:06.453Z D/LiteRtLM [DefaultDispatcher-worker-2] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 dispatchMs=3
+2026-10-27T18:40:07.206Z W/LiteRtLM [Thread-93] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 ttftMs=755 dispatchMs=3 postDispatchTtftMs=752 requestToFirstOutputMs=755
+2026-10-27T18:40:07.206Z D/LiteRtLM [Thread-93] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=5] msg#1 rawChunkLen=4 deltaLen=4 emittedChars=4
+2026-10-27T18:40:07.206Z D/LiteRtRepository [main] stream[rid=5 msg#1] done=false deltaLen=4 outLen=4 outPreview='What' deltaPreview='What'
+2026-10-27T18:40:07.206Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[1].preview='What'
+2026-10-27T18:40:07.306Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[2].preview='␠specific'
+2026-10-27T18:40:07.406Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[3].preview='␠drought'
+2026-10-27T18:40:07.505Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[4].preview='␠tolerance'
+2026-10-27T18:40:07.605Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[5].preview='␠metric'
+2026-10-27T18:40:07.703Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[6].preview='␠would'
+2026-10-27T18:40:07.797Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[7].preview='␠make'
+2026-10-27T18:40:07.894Z D/LiteRtRepository [main] stream[rid=5 msg#8] done=false deltaLen=4 outLen=53 outPreview='What specific drought tolerance metric would make you' deltaPreview=' you'
+2026-10-27T18:40:07.894Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[8].preview='␠you'
+2026-10-27T18:40:07.988Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[9].preview='␠switch'
+2026-10-27T18:40:08.081Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[10].preview='␠to'
+2026-10-27T18:40:08.180Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[11].preview='␠a'
+2026-10-27T18:40:08.280Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[12].preview='␠new'
+2026-10-27T18:40:08.380Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[13].preview='␠maize'
+2026-10-27T18:40:08.485Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[14].preview='␠seed'
+2026-10-27T18:40:08.583Z D/LiteRtLM [Thread-108] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523149379 lastTermAt=523149380
+2026-10-27T18:40:08.583Z D/LiteRtLM [Thread-108] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523149379 lastTermAt=523149380
+2026-10-27T18:40:08.584Z W/LiteRtLM [Thread-108] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=5 ttftMs=755 dispatchMs=3 postDispatchTtftMs=752 totalMs=2132 callbacks=15 outputChars=81 cancelled=false error=false requestTotalMs=2132
+2026-10-27T18:40:08.584Z I/LiteRtLM [Thread-108] LiteRT completion: runId=5 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=81 callbacks=15
+2026-10-27T18:40:08.584Z D/LiteRtRepository [main] stream[rid=5 msg#16] done=true deltaLen=0 outLen=81 outPreview='What specific drought tolerance metric would make you switch to a new maize seed?' deltaPreview=''
+2026-10-27T18:40:08.584Z D/AiViewModel [DefaultDispatcher-worker-2] run[5] chunk[15].preview='?'
+2026-10-27T18:40:08.584Z D/LiteRtRepository [main] [5] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:40:08.584Z D/LiteRtRepository [main] [5] native cleanup safepoint
+2026-10-27T18:40:08.584Z D/AiViewModel [DefaultDispatcher-worker-4] run[5] stats: chunks=15, chars=81, raw.len=81
+2026-10-27T18:40:08.585Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:08.585Z D/AiViewModel [DefaultDispatcher-worker-4] run[5] sha(raw)=7c7a0a5b05d561ac7288f295a4174664c6c2179994fcb8541f575d1b8d24e579
+2026-10-27T18:40:08.585Z D/AiViewModel [DefaultDispatcher-worker-4] run[5] rawVisible='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?'
+2026-10-27T18:40:08.586Z D/AiViewModel [DefaultDispatcher-worker-4] run[5]: FOLLOWUP parse extractorQ='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?' textQ='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?' best='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?'
+2026-10-27T18:40:08.586Z D/AiViewModel [DefaultDispatcher-worker-4] stepHistory+ runId=5 phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT raw.len=81 score=null FU=1 FU0='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?' timeout=false err=null
+2026-10-27T18:40:08.586Z I/AiViewModel [DefaultDispatcher-worker-4] run[5] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=81 FU0.sha16=7c7a0a5b05d561ac commit=false err=<none>
+2026-10-27T18:40:08.586Z I/FullTextOut [DefaultDispatcher-worker-4] [part=000] run[5]: RawTextOut
+What specific drought tolerance metric would make you switch to a new maize seed?
+2026-10-27T18:40:08.587Z D/LiteRtRepository [DefaultDispatcher-worker-2] [5] Conversation reset completed after safepoint
+2026-10-27T18:40:08.587Z D/LiteRtRepository [DefaultDispatcher-worker-5] [part=000] [5] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=5 model='Gemma3n4B' reason=native-terminated
+totalMs=2139 inferenceMs=2137 firstTokenMs=756
+logicalDone=true logicalDoneAt=523149381
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=3 lastEventMsAgo=3
+chunks=15 emittedChars=81 capturedAll=true out.len=81
+=== OUTPUT (FULL) ===
+What specific drought tolerance metric would make you switch to a new maize seed?
+2026-10-27T18:40:34.589Z D/SurveyVM [main] getEvalPrompt[Q10] -> len=512
+2026-10-27T18:40:34.590Z D/AiViewModel [DefaultDispatcher-worker-4] run[6]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=512, fullPrompt.len=3159, timeoutMs=120000
+2026-10-27T18:40:34.591Z D/AiViewModel [DefaultDispatcher-worker-4] run[6]: sha(prompt)=cc36869938fdbd1691e68cdc05a452b1decf9ede66fc8532da73f534db4eec67 sha(full)=7bc527d2ae54aa19c604b50388993581e8e6baa4838896c09a4a0ff006194df9
+2026-10-27T18:40:34.591Z I/FullPromptReview [DefaultDispatcher-worker-4] [part=000] run[6]: phase=EVAL FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs: Follow-up 1: What specific drought tolerance metric would make you switch to a new maize seed?
+Answer 1: if I lose 1 less bag per acre
+2026-10-27T18:40:34.593Z D/LiteRtRepository [DefaultDispatcher-worker-4] [6] request start model='Gemma3n4B' prompt.len=3159 sha=7bc527d2ae54aa19 gateWaitMs=1
+2026-10-27T18:40:34.594Z D/LiteRtRepository [DefaultDispatcher-worker-4] [part=000] [6] PROMPT (FULL) sha=7bc527d2ae54aa19
+Evaluate only the original survey target using all supplied answers.
+Return only compact JSON {"score":N,"missing_points":[],"followup_needed":false}. N must be an integer 1-100 for relevance, completeness and accuracy against the original target. Evaluate the original answer and all answered followup pairs together. Before emitting JSON, compare every candidate missing point against the original answer and every answered follow-up pair. If an answered follow-up directly supplies that information, do not include it in missing_points. Recompute score, missing_points, and followup_needed together as one consistent final decision. Treat each independently answerable required component as a separate missing_points item; never combine independently answerable deficiencies. After every answered follow-up, recompute components independently and omit each supplied component even when another component from the same target remains missing. When a Required component catalog is present, evaluate each catalog item independently: missing_points may contain only configured component IDs. Omit IDs whose component is supplied by the original answer or answered follow-up pairs; never return component descriptions or questions as missing_points. When a Required components block is present, missing_points may contain only the exact text of unresolved configured components. Separate relevance from completeness. An answer can discuss the right topic but still be incomplete. Score 90-100 only when the respondent explicitly provides every material component requested by the Expected answer target and Question. Do not infer missing details from general knowledge, plausibility, or a bare statement that an event occurred. A concise answer may be complete. A verbose or relevant answer that omits any material requested component must score below 90. For example, saying that an event occurred without describing its requested effect is incomplete. Consistency rule: if missing_points is non-empty or followup_needed is true, score must be an integer from 1 to 89. Scores 90-100 are allowed only when missing_points=[] and followup_needed=false. Never use score 90 as a borderline value when anything is missing. For any score below 90, missing_points must contain the specific missing or ambiguous target-required information and followup_needed must be true. Otherwise missing_points is empty and followup_needed is false. Do not generate a question. Do not penalize style or request information outside the target. Write missing_points in English.
+Keep missing_points concise.
+One JSON object only; no markdown or generated question.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs: Follow-up 1: What specific drought tolerance metric would make you switch to a new maize seed?
+Answer 1: if I lose 1 less bag per acre
+2026-10-27T18:40:34.595Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:34.595Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:40:34.595Z D/LiteRtRepository [DefaultDispatcher-worker-4] [6] initializeIfNeeded ok initMs=1
+2026-10-27T18:40:34.596Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=3159 images=0 audio=0
+2026-10-27T18:40:34.596Z D/LiteRtLM [DefaultDispatcher-worker-4] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523175393 lastTermAt=523149380
+2026-10-27T18:40:34.596Z D/LiteRtLM [DefaultDispatcher-worker-4] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 hasText=true originalTextLen=3159 effectiveTextLen=3159 images=0 audioClips=0
+2026-10-27T18:40:34.596Z D/LiteRtLM [DefaultDispatcher-worker-4] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 len=3159 maxOutputTokens=64
+2026-10-27T18:40:34.602Z D/LiteRtLM [DefaultDispatcher-worker-4] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 dispatchMs=6
+2026-10-27T18:40:37.231Z W/LiteRtLM [Thread-109] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 ttftMs=2635 dispatchMs=6 postDispatchTtftMs=2629 requestToFirstOutputMs=2635
+2026-10-27T18:40:37.231Z D/LiteRtLM [Thread-109] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=6] msg#1 rawChunkLen=2 deltaLen=2 emittedChars=2
+2026-10-27T18:40:37.231Z D/LiteRtRepository [main] stream[rid=6 msg#1] done=false deltaLen=2 outLen=2 outPreview='{"' deltaPreview='{"'
+2026-10-27T18:40:37.231Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[1].preview='{"'
+2026-10-27T18:40:37.336Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[2].preview='score'
+2026-10-27T18:40:37.436Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[3].preview='":'
+2026-10-27T18:40:37.537Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[4].preview='␠'
+2026-10-27T18:40:37.640Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[5].preview='7'
+2026-10-27T18:40:37.745Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[6].preview='5'
+2026-10-27T18:40:37.851Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[7].preview=','
+2026-10-27T18:40:37.960Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[8].preview='␠"'
+2026-10-27T18:40:37.960Z D/LiteRtRepository [main] stream[rid=6 msg#8] done=false deltaLen=2 outLen=15 outPreview='{"score": 75, "' deltaPreview=' "'
+2026-10-27T18:40:38.067Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[9].preview='missing'
+2026-10-27T18:40:38.174Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[10].preview='_'
+2026-10-27T18:40:38.280Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[11].preview='points'
+2026-10-27T18:40:38.380Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[12].preview='":'
+2026-10-27T18:40:38.482Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[13].preview='␠["'
+2026-10-27T18:40:38.585Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[14].preview='specific'
+2026-10-27T18:40:38.688Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[15].preview='␠drought'
+2026-10-27T18:40:38.793Z D/LiteRtLM [Thread-124] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=6] msg#16 rawChunkLen=10 deltaLen=10 emittedChars=60
+2026-10-27T18:40:38.793Z D/LiteRtRepository [main] stream[rid=6 msg#16] done=false deltaLen=10 outLen=60 outPreview='{"score": 75, "missing_points": ["specific drought tolerance' deltaPreview=' tolerance'
+2026-10-27T18:40:38.794Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[16].preview='␠tolerance'
+2026-10-27T18:40:38.901Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[17].preview='␠metric'
+2026-10-27T18:40:39.006Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[18].preview='"],'
+2026-10-27T18:40:39.114Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[19].preview='␠"'
+2026-10-27T18:40:39.225Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[20].preview='follow'
+2026-10-27T18:40:39.326Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[21].preview='up'
+2026-10-27T18:40:39.425Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[22].preview='_'
+2026-10-27T18:40:39.526Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[23].preview='needed'
+2026-10-27T18:40:39.625Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[24].preview='":'
+2026-10-27T18:40:39.625Z D/LiteRtRepository [main] stream[rid=6 msg#24] done=false deltaLen=2 outLen=89 outPreview='{"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed":' deltaPreview='":'
+2026-10-27T18:40:39.727Z D/AiViewModel [DefaultDispatcher-worker-4] run[6] chunk[25].preview='␠true'
+2026-10-27T18:40:39.828Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] chunk[26].preview='}'
+2026-10-27T18:40:39.828Z D/LiteRtLM [Thread-135] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523180625 lastTermAt=523180625
+2026-10-27T18:40:39.828Z D/LiteRtLM [Thread-135] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523180625 lastTermAt=523180625
+2026-10-27T18:40:39.828Z W/LiteRtLM [Thread-135] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=6 ttftMs=2635 dispatchMs=6 postDispatchTtftMs=2629 totalMs=5232 callbacks=26 outputChars=95 cancelled=false error=false requestTotalMs=5232
+2026-10-27T18:40:39.828Z I/LiteRtLM [Thread-135] LiteRT completion: runId=6 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=95 callbacks=26
+2026-10-27T18:40:39.829Z D/LiteRtRepository [main] [6] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:40:39.829Z D/LiteRtRepository [main] [6] native cleanup safepoint
+2026-10-27T18:40:39.829Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:39.829Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] stats: chunks=26, chars=95, raw.len=95
+2026-10-27T18:40:39.830Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] sha(raw)=b6ef052c51e1d3362de38838b86acea9091948e451d237c056ca4168cba95201
+2026-10-27T18:40:39.830Z D/AiViewModel [DefaultDispatcher-worker-5] run[6] rawVisible='{"score":␠75,␠"missing_points":␠["specific␠drought␠tolerance␠metric"],␠"followup_needed":␠true}'
+2026-10-27T18:40:39.831Z D/LiteRtRepository [DefaultDispatcher-worker-4] [6] Conversation reset completed after safepoint
+2026-10-27T18:40:39.831Z D/LiteRtRepository [DefaultDispatcher-worker-4] [part=000] [6] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=6 model='Gemma3n4B' reason=native-terminated
+totalMs=5239 inferenceMs=5236 firstTokenMs=2636
+logicalDone=true logicalDoneAt=523180626
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=3 lastEventMsAgo=2
+chunks=26 emittedChars=95 capturedAll=true out.len=95
+=== OUTPUT (FULL) ===
+{"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:39.834Z D/AiViewModel [DefaultDispatcher-worker-5] run[6]: EVAL_JSON parsed score=75 followups=0 fu0=''
+2026-10-27T18:40:39.834Z D/AiViewModel [DefaultDispatcher-worker-5] stepHistory+ runId=6 phase=EVAL mode=EVAL_JSON raw.len=95 score=75 FU=0 FU0='<none>' timeout=false err=null
+2026-10-27T18:40:39.834Z I/AiViewModel [DefaultDispatcher-worker-5] run[6] done: phase=EVAL mode=EVAL_JSON score=75 FU0.len=0 FU0.sha16=none commit=true err=<none>
+2026-10-27T18:40:39.834Z I/FullTextOut [DefaultDispatcher-worker-5] [part=000] run[6]: RawTextOut
+{"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:39.835Z D/SurveyVM [DefaultDispatcher-worker-5] getFollowupPrompt[Q10] -> len=619 evalLen=95
+2026-10-27T18:40:39.835Z D/AiViewModel [DefaultDispatcher-worker-5] run[7]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=619, fullPrompt.len=1156, timeoutMs=120000
+2026-10-27T18:40:39.836Z D/AiViewModel [DefaultDispatcher-worker-5] run[7]: sha(prompt)=4e891fb57551fe1c149c1187c777065e0c068382c3936be0c5d8697aedfc76a7 sha(full)=c17198b506bf4b279c4030e4d5a1d1cc779f32ce01456947e8cba579653ef32a
+2026-10-27T18:40:39.836Z I/FullPromptReview [DefaultDispatcher-worker-5] [part=000] run[7]: phase=FOLLOWUP FullPrompt
+Evaluate only the original survey target using all supplied answers.
+Generate exactly one short English question addressing one unresolved target-required deficiency in EVAL_JSON. Use the original target, original answer and accumulated answered followup pairs. Do not repeat an earlier question or ask for information already provided. Never add new objectives. Output only the question on one line; no JSON, score, analysis, labels, or quotes.
+Keep the question short and single-scope.
+Exactly one English question on one line.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs: Follow-up 1: What specific drought tolerance metric would make you switch to a new maize seed?
+Answer 1: if I lose 1 less bag per acre
+EVAL_JSON: {"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:39.836Z D/LiteRtRepository [DefaultDispatcher-worker-4] [7] request start model='Gemma3n4B' prompt.len=1156 sha=c17198b506bf4b27 gateWaitMs=1
+2026-10-27T18:40:39.837Z D/LiteRtRepository [DefaultDispatcher-worker-4] [part=000] [7] PROMPT (FULL) sha=c17198b506bf4b27
+Evaluate only the original survey target using all supplied answers.
+Generate exactly one short English question addressing one unresolved target-required deficiency in EVAL_JSON. Use the original target, original answer and accumulated answered followup pairs. Do not repeat an earlier question or ask for information already provided. Never add new objectives. Output only the question on one line; no JSON, score, analysis, labels, or quotes.
+Keep the question short and single-scope.
+Exactly one English question on one line.
+INPUT:
+Expected answer target: Characteristics a new maize seed must have for the respondent to stop using their current seed and switch to it, ideally with a measurable target.
+Question: If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?
+Original answer: if it was better for drought tolerance
+Answered followup pairs: Follow-up 1: What specific drought tolerance metric would make you switch to a new maize seed?
+Answer 1: if I lose 1 less bag per acre
+EVAL_JSON: {"score": 75, "missing_points": ["specific drought tolerance metric"], "followup_needed": true}
+2026-10-27T18:40:39.837Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:39.837Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897'
+2026-10-27T18:40:39.837Z D/LiteRtRepository [DefaultDispatcher-worker-4] [7] initializeIfNeeded ok initMs=0
+2026-10-27T18:40:39.837Z D/SLM [slm-jni] runInference: model='Gemma3n4B' textLen=1156 images=0 audio=0
+2026-10-27T18:40:39.838Z D/LiteRtLM [DefaultDispatcher-worker-5] state[run:start] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 active=true terminated=false logicalDone=false cancel=false pendingCancel=false lastMsgAt=523180635 lastTermAt=523180625
+2026-10-27T18:40:39.838Z D/LiteRtLM [DefaultDispatcher-worker-5] runInference start: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 hasText=true originalTextLen=1156 effectiveTextLen=1156 images=0 audioClips=0
+2026-10-27T18:40:39.838Z D/LiteRtLM [DefaultDispatcher-worker-5] LiteRT-LM sendMessageAsync(text): key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 len=1156 maxOutputTokens=64
+2026-10-27T18:40:39.840Z D/LiteRtLM [DefaultDispatcher-worker-5] sendMessageAsync accepted: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 dispatchMs=2
+2026-10-27T18:40:40.600Z W/LiteRtLM [Thread-136] Inference first output: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 ttftMs=762 dispatchMs=2 postDispatchTtftMs=760 requestToFirstOutputMs=762
+2026-10-27T18:40:40.600Z D/LiteRtLM [Thread-136] stream[key=fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897 runId=7] msg#1 rawChunkLen=4 deltaLen=4 emittedChars=4
+2026-10-27T18:40:40.601Z D/LiteRtRepository [main] stream[rid=7 msg#1] done=false deltaLen=4 outLen=4 outPreview='What' deltaPreview='What'
+2026-10-27T18:40:40.601Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[1].preview='What'
+2026-10-27T18:40:40.700Z D/AiViewModel [DefaultDispatcher-worker-4] run[7] chunk[2].preview='␠specific'
+2026-10-27T18:40:40.801Z D/AiViewModel [DefaultDispatcher-worker-4] run[7] chunk[3].preview='␠drought'
+2026-10-27T18:40:40.902Z D/AiViewModel [DefaultDispatcher-worker-4] run[7] chunk[4].preview='␠tolerance'
+2026-10-27T18:40:41.008Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[5].preview='␠metric'
+2026-10-27T18:40:41.117Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[6].preview='␠would'
+2026-10-27T18:40:41.225Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[7].preview='␠make'
+2026-10-27T18:40:41.331Z D/LiteRtRepository [main] stream[rid=7 msg#8] done=false deltaLen=4 outLen=53 outPreview='What specific drought tolerance metric would make you' deltaPreview=' you'
+2026-10-27T18:40:41.331Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[8].preview='␠you'
+2026-10-27T18:40:41.439Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[9].preview='␠switch'
+2026-10-27T18:40:41.551Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[10].preview='␠to'
+2026-10-27T18:40:41.660Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[11].preview='␠a'
+2026-10-27T18:40:41.769Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[12].preview='␠new'
+2026-10-27T18:40:41.878Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[13].preview='␠maize'
+2026-10-27T18:40:41.988Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[14].preview='␠seed'
+2026-10-27T18:40:42.092Z D/LiteRtLM [Thread-151] state[logicalDone] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523182889 lastTermAt=523182889
+2026-10-27T18:40:42.093Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] chunk[15].preview='?'
+2026-10-27T18:40:42.093Z D/LiteRtLM [Thread-151] state[nativeDone:beforeRelease] key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 active=true terminated=true logicalDone=true cancel=false pendingCancel=false lastMsgAt=523182889 lastTermAt=523182889
+2026-10-27T18:40:42.093Z W/LiteRtLM [Thread-151] Inference timing: key='fs|dev=65121|ino=161537|size=4919541760|mtime=1793121706897' runId=7 ttftMs=762 dispatchMs=2 postDispatchTtftMs=760 totalMs=2254 callbacks=15 outputChars=81 cancelled=false error=false requestTotalMs=2254
+2026-10-27T18:40:42.093Z I/LiteRtLM [Thread-151] LiteRT completion: runId=7 terminal=normal_onDone phase=unavailable engineTokenCapacity=1024 prefillTokens=-1 decodeTokens=-1 kvTokens=-1 outputChars=81 callbacks=15
+2026-10-27T18:40:42.099Z D/LiteRtRepository [main] stream[rid=7 msg#16] done=true deltaLen=0 outLen=81 outPreview='What specific drought tolerance metric would make you switch to a new maize seed?' deltaPreview=''
+2026-10-27T18:40:42.099Z D/LiteRtRepository [main] [7] logical done=true; responseClosed=true; waiting native cleanup
+2026-10-27T18:40:42.099Z D/LiteRtRepository [main] [7] native cleanup safepoint
+2026-10-27T18:40:42.099Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] stats: chunks=15, chars=81, raw.len=81
+2026-10-27T18:40:42.099Z D/SLM [slm-jni] resetConversationAndWait: model='Gemma3n4B' image=false audio=false
+2026-10-27T18:40:42.100Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] sha(raw)=7c7a0a5b05d561ac7288f295a4174664c6c2179994fcb8541f575d1b8d24e579
+2026-10-27T18:40:42.100Z D/AiViewModel [DefaultDispatcher-worker-5] run[7] rawVisible='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?'
+2026-10-27T18:40:42.101Z D/AiViewModel [DefaultDispatcher-worker-5] run[7]: FOLLOWUP parse extractorQ='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?' textQ='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?' best='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?'
+2026-10-27T18:40:42.101Z D/AiViewModel [DefaultDispatcher-worker-5] stepHistory+ runId=7 phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT raw.len=81 score=null FU=1 FU0='What␠specific␠drought␠tolerance␠metric␠would␠make␠you␠switch␠to␠a␠new␠maize␠seed?' timeout=false err=null
+2026-10-27T18:40:42.101Z I/AiViewModel [DefaultDispatcher-worker-5] run[7] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=81 FU0.sha16=7c7a0a5b05d561ac commit=false err=<none>
+2026-10-27T18:40:42.101Z I/FullTextOut [DefaultDispatcher-worker-5] [part=000] run[7]: RawTextOut
+What specific drought tolerance metric would make you switch to a new maize seed?
+2026-10-27T18:40:42.101Z D/LiteRtRepository [DefaultDispatcher-worker-4] [7] Conversation reset completed after safepoint
+2026-10-27T18:40:42.102Z D/LiteRtRepository [DefaultDispatcher-worker-7] [part=000] [7] FINALIZE: native-terminated
+=== AI TRACE STATS (LiteRtRepository) ===
+rid=7 model='Gemma3n4B' reason=native-terminated
+totalMs=2266 inferenceMs=2265 firstTokenMs=764
+logicalDone=true logicalDoneAt=523182896
+nativeTerminated=true cancelTag='null'
+lastDeltaMsAgo=9 lastEventMsAgo=3
+chunks=15 emittedChars=81 capturedAll=true out.len=81
+=== OUTPUT (FULL) ===
+What specific drought tolerance metric would make you switch to a new maize seed?
+2026-10-27T18:40:48.816Z D/SurveyVM [main] push -> Q11, navSize=6, stackSize=6
+2026-10-27T18:40:48.825Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-10-27T18:40:52.183Z D/SurveyVM [main] backToPrevious -> Q10 (runActive=true, uiLen=24, runLen=24, draftLen=0)
+2026-10-27T18:40:52.190Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-10-27T18:41:04.220Z D/SurveyVM [main] push -> Q11, navSize=6, stackSize=6
+2026-10-27T18:41:04.228Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-10-27T18:41:41.493Z D/SurveyVM [main] push -> Q12, navSize=7, stackSize=7
+2026-10-27T18:41:41.501Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-10-27T18:41:42.202Z D/SurveyVM [main] push -> Q13, navSize=8, stackSize=8
+2026-10-27T18:41:42.210Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-27T18:41:43.195Z D/SurveyVM [main] push -> Q14a, navSize=9, stackSize=9
+2026-10-27T18:41:43.201Z D/SurveyVM [main] hasTwoStepPrompt[Q14a] -> false (eval=0, fu=0)
+2026-10-27T18:41:43.636Z D/SurveyVM [main] push -> Q15, navSize=10, stackSize=10
+2026-10-27T18:41:43.643Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-27T18:41:44.993Z D/SurveyVM [main] push -> Q16, navSize=11, stackSize=11
+2026-10-27T18:41:45.001Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-27T18:41:46.110Z D/SurveyVM [main] push -> Q17, navSize=12, stackSize=12
+2026-10-27T18:41:46.117Z D/SurveyVM [main] hasTwoStepPrompt[Q17] -> false (eval=0, fu=0)
+2026-10-27T18:41:47.617Z D/SurveyVM [main] push -> Pre1, navSize=13, stackSize=13
+2026-10-27T18:41:51.057Z D/SurveyVM [main] push -> Pre2, navSize=14, stackSize=14
+2026-10-27T18:41:51.823Z D/SurveyVM [main] push -> Pre3, navSize=15, stackSize=15
+2026-10-27T18:41:52.390Z D/SurveyVM [main] push -> Pre4, navSize=16, stackSize=16
+2026-10-27T18:41:54.964Z D/SurveyVM [main] push -> Pre5, navSize=17, stackSize=17
+2026-10-27T18:41:56.905Z D/SurveyVM [main] push -> Q00, navSize=18, stackSize=18
+2026-10-27T18:41:59.438Z D/SurveyVM [main] push -> Q01, navSize=19, stackSize=19
+2026-10-27T18:42:01.054Z D/SurveyVM [main] push -> Q02, navSize=20, stackSize=20
+2026-10-27T18:42:02.546Z D/SurveyVM [main] push -> Q03, navSize=21, stackSize=21
+2026-10-27T18:42:04.229Z D/SurveyVM [main] push -> Q04, navSize=22, stackSize=22
+2026-10-27T18:42:06.786Z D/SurveyVM [main] push -> Q05, navSize=23, stackSize=23
+2026-10-27T18:42:09.902Z D/SurveyVM [main] push -> Q06, navSize=24, stackSize=24
+2026-10-27T18:42:11.794Z D/SurveyVM [main] push -> Review, navSize=25, stackSize=25
+2026-10-27T18:42:14.671Z D/SurveyVM [main] push -> Done, navSize=26, stackSize=26
