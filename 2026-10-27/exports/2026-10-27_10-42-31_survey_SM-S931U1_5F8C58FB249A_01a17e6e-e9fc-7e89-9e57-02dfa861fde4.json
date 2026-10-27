@@ -1,0 +1,229 @@
+{
+  "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+  "build": "e53c1cf",
+  "exported_at": "2026-10-27_10-42-31",
+  "meta": {
+    "session_free_text": "memory test"
+  },
+  "answers": {
+    "Pre1": {
+      "question": "Observer Name",
+      "answer": ""
+    },
+    "Pre2": {
+      "question": "Interviewer Name",
+      "answer": ""
+    },
+    "Pre3": {
+      "question": "Respondent Name",
+      "answer": ""
+    },
+    "Pre4": {
+      "question": "Respondent ID",
+      "answer": ""
+    },
+    "Pre5": {
+      "question": "Please select your phone",
+      "answer": "Phone 1"
+    },
+    "Q00": {
+      "question": "Hallo. Thank you for making time for us today.\n\nI work with CIMMYT, an organization that conducts research to improve the production of maize, wheat, and other crops in different countries across Africa, Asia, and Latin America.\n\nWe are carrying out this study to learn about farmers’ experiences, challenges, and preferences when growing white maize. The information you share will help researchers better understand farmers’ needs and support the development of better maize varieties in the future.\n\nDuring the interview, we will use a mobile phone to help record and organize your responses. This will help us capture your answers accurately and make sure we do not miss any important information.\n\nYour participation is voluntary. You may choose not to answer any question or stop the interview at any time. The information you provide will be kept private and used only for research purposes. There are no right or wrong answers—we simply want to hear about your real experiences and views.\n\nThe interview will take about 45 minutes.\n\nThank you very much for taking part in this study.\n\nThe study is led by Dr. Mercy Mbugua. If you have any questions or concerns about the study, you can contact her on +254 724 740 197.\n\nDo you agree to participate?",
+      "answer": "Yes, and proceed"
+    },
+    "Q01": {
+      "question": "Which sub-county and ward do you live in?",
+      "answer": "Gatundu South – Ndarugu"
+    },
+    "Q02": {
+      "question": "Respondent Gender",
+      "answer": "Male"
+    },
+    "Q03": {
+      "question": "What is your age?",
+      "answer": "62"
+    },
+    "Q04": {
+      "question": "Which crops do you grow?",
+      "answer": "curb"
+    },
+    "Q05": {
+      "question": "Which livestock do you keep?",
+      "answer": "budgeting"
+    },
+    "Q06": {
+      "question": "How many years have you been growing white maize?",
+      "answer": "62"
+    },
+    "Q07": {
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "I lost 20% of my crop to fall armyworm over the last three years.",
+      "audio": [
+        { "file": "2026-10-27_17-37-26_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q07.wav" }
+      ]
+    },
+    "Q08": {
+      "question": "Please listen to this example: if you could harvest your maize 20 days early, but your harvest would be smaller, how many bags of harvest would you accept to lose?",
+      "answer": "would be willing to lose five bags.",
+      "audio": [
+        { "file": "2026-10-27_17-37-46_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q08.wav" }
+      ]
+    },
+    "Q09": {
+      "question": "If pests or diseases damage your maize, how many bags would you need to lose before deciding to change your seed?",
+      "answer": "10 bags.",
+      "audio": [
+        { "file": "2026-10-27_17-38-04_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q09.wav" }
+      ]
+    },
+    "Q10": {
+      "question": "If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?",
+      "answer": "Drought resistance",
+      "audio": [
+        { "file": "2026-10-27_17-38-24_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q10.wav" },
+        { "file": "2026-10-27_17-38-36_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q10.wav" }
+      ]
+    },
+    "Q11": {
+      "question": "If you and other farmers in your area harvested very little maize, below how many bags would you decide to change your seed?",
+      "answer": "Below 10 bags I would have to find a new crop to plant.",
+      "audio": [
+        { "file": "2026-10-27_17-39-06_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q11.wav" }
+      ]
+    },
+    "Q12": {
+      "question": "When does drought damage your maize the most: when the plants are young, when they are flowering, when they have started producing cobs, or at what other time?",
+      "answer": "Drought damages my maze the most when the plants are young.\n If it doesn't rain, then they never get to full size.",
+      "audio": [
+        { "file": "2026-10-27_17-39-36_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q12.wav" }
+      ]
+    },
+    "Q13": {
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": "My family and I eat half of our crop and the other half we use to feed our farm animals.",
+      "audio": [
+        { "file": "2026-10-27_17-40-09_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q13.wav" }
+      ]
+    },
+    "Q14a": {
+      "question": "Do you use white maize to feed animals?",
+      "answer": "Yes"
+    },
+    "Q14b": {
+      "question": "Which animals do you feed white maize, and how often?",
+      "answer": "I feed my goats every week.",
+      "audio": [
+        { "file": "2026-10-27_17-40-40_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q14b.wav" }
+      ]
+    },
+    "Q15": {
+      "question": "Where do you usually get your white maize seed, and why do you like getting it from there?",
+      "answer": "I get my seed from the local agricultural dealer because he talks to me about the advantages of different seeds.",
+      "audio": [
+        { "file": "2026-10-27_17-41-09_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q15.wav" }
+      ]
+    },
+    "Q16": {
+      "question": "Where do you usually sell your maize after harvesting, and why do you choose to sell there?",
+      "answer": "I sell my crop at the local market on Sundays because it is easy for me to get my crop to the market.",
+      "audio": [
+        { "file": "2026-10-27_17-41-44_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q16.wav" }
+      ]
+    },
+    "Q17": {
+      "question": "Thank you very much for taking your time to answer these questions.",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Add any general notes and press Start.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {"Q07":"achieved","Q08":"achieved","Q09":"achieved","Q11":"achieved","Q12":"achieved","Q14b":"achieved","Q15":"achieved","Q16":"failure"},
+  "followups": {
+    "Q10": [
+      { "question": "Besides drought resistance, what other characteristic would make you switch to a new maize seed?", "answer": "" }
+    ],
+    "Q13": [
+      { "question": "How do you determine the proportion of your maize crop allocated for sale versus other uses besides food and animal feed?", "answer": "" }
+    ]
+  },
+  "voice_files": [
+    {
+      "file": "2026-10-27_17-37-26_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q07.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q07",
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "I lost 20% of my crop to fall armyworm over the last three years."
+    },
+    {
+      "file": "2026-10-27_17-37-46_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q08.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q08",
+      "question": "Please listen to this example: if you could harvest your maize 20 days early, but your harvest would be smaller, how many bags of harvest would you accept to lose?",
+      "answer": "would be willing to lose five bags."
+    },
+    {
+      "file": "2026-10-27_17-38-04_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q09.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q09",
+      "question": "If pests or diseases damage your maize, how many bags would you need to lose before deciding to change your seed?",
+      "answer": "10 bags."
+    },
+    {
+      "file": "2026-10-27_17-38-24_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q10.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q10",
+      "question": "If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?",
+      "answer": "Drought resistance"
+    },
+    {
+      "file": "2026-10-27_17-38-36_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q10.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q10",
+      "question": "If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?",
+      "answer": "Drought resistance"
+    },
+    {
+      "file": "2026-10-27_17-39-06_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q11.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q11",
+      "question": "If you and other farmers in your area harvested very little maize, below how many bags would you decide to change your seed?",
+      "answer": "Below 10 bags I would have to find a new crop to plant."
+    },
+    {
+      "file": "2026-10-27_17-39-36_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q12.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q12",
+      "question": "When does drought damage your maize the most: when the plants are young, when they are flowering, when they have started producing cobs, or at what other time?",
+      "answer": "Drought damages my maze the most when the plants are young.\n If it doesn't rain, then they never get to full size."
+    },
+    {
+      "file": "2026-10-27_17-40-09_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q13.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q13",
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": "My family and I eat half of our crop and the other half we use to feed our farm animals."
+    },
+    {
+      "file": "2026-10-27_17-40-40_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q14b.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q14b",
+      "question": "Which animals do you feed white maize, and how often?",
+      "answer": "I feed my goats every week."
+    },
+    {
+      "file": "2026-10-27_17-41-09_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q15.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q15",
+      "question": "Where do you usually get your white maize seed, and why do you like getting it from there?",
+      "answer": "I get my seed from the local agricultural dealer because he talks to me about the advantages of different seeds."
+    },
+    {
+      "file": "2026-10-27_17-41-44_voice_SM-S931U1_5F8C58FB249A_01a17e6e-e9fc-7e89-9e57-02dfa861fde4_Q16.wav",
+      "survey_id": "01a17e6e-e9fc-7e89-9e57-02dfa861fde4",
+      "question_id": "Q16",
+      "question": "Where do you usually sell your maize after harvesting, and why do you choose to sell there?",
+      "answer": "I sell my crop at the local market on Sundays because it is easy for me to get my crop to the market."
+    }
+  ]
+}
