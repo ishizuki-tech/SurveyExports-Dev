@@ -1,0 +1,142 @@
+=== RuntimeLogStore Header ===
+ts=2026-10-29T17:02:06.033Z
+fileNameFormat=LEGACY
+appId=com.negi.survey
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S931U1
+sdk=37
+pid=28849
+==============================
+2026-10-29T17:02:06.033Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:receiver_boot_completed) ---
+2026-10-29T17:02:06.218Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-10-29T17:02:06.220Z I/SurveyApp [main] GitHub upload mode: production
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: available
+2026-10-29T17:02:06.220Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-10-29T17:02:06.222Z D/SurveyApp [main] Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+2026-10-29T17:02:06.224Z D/SurveyApp [main] Startup runtime logs: enqueue requested (immediate).
+2026-10-29T17:02:06.224Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-10-29T17:02:06.225Z D/SurveyApp [main] Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+2026-10-29T17:02:06.226Z D/SurveyApp [main] Startup ring logs: enqueue requested (immediate).
+2026-10-29T17:02:06.226Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-10-29T17:02:06.227Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-10-29T17:02:06.227Z W/SurveyApp [main] Deferred startup enqueues done: took=8ms
+2026-10-29T17:02:06.228Z D/SurveyApp [DefaultDispatcher-worker-4] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-10-29T17:02:06.232Z D/SurveyApp [DefaultDispatcher-worker-4] Startup survey recovery complete: discovered=0 attempted=0 submitted=0 active=0 trackerUnconfirmed=0 uploaded=0 deferred=0 invalid=0 operationalFailures=0 duplicates=0 unclassified=0
+2026-10-29T17:02:14.961Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-10-29T17:02:14.977Z D/LiteRtLM [DefaultDispatcher-worker-1] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65099|ino=131506|size=4919541760|mtime=1793289710838'
+2026-10-29T17:02:14.978Z D/LiteRtLM [DefaultDispatcher-worker-1] Capabilities: image=false audio=false
+2026-10-29T17:02:14.978Z D/LiteRtLM [DefaultDispatcher-worker-1] Backend=com.google.ai.edge.litertlm.Backend$GPU@7ab9368 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-10-29T17:02:14.978Z D/LiteRtLM [DefaultDispatcher-worker-1] Model path='/data/user/0/com.negi.survey/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1793289710838
+2026-10-29T17:02:14.978Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-10-29T17:02:14.979Z D/LiteRtLM [DefaultDispatcher-worker-1] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-10-29T17:02:14.980Z D/LiteRtLM [DefaultDispatcher-worker-1] Engine cacheDir resolved: key='fs|dev=65099|ino=131506|size=4919541760|mtime=1793289710838' backend=com.google.ai.edge.litertlm.Backend$GPU@7ab9368 path='/data/user/0/com.negi.survey/no_backup/litertlm_cache/69b5ad2e8adda45d135601a2c041819f5397520e' filesBefore=2
+2026-10-29T17:02:30.216Z W/LiteRtLM [DefaultDispatcher-worker-1] Engine.initialize completed: key='fs|dev=65099|ino=131506|size=4919541760|mtime=1793289710838' backend=com.google.ai.edge.litertlm.Backend$GPU@7ab9368 took=15235ms cacheFilesAfter=2
+2026-10-29T17:02:30.223Z D/LiteRtLM [DefaultDispatcher-worker-1] createConversation completed: key='fs|dev=65099|ino=131506|size=4919541760|mtime=1793289710838' took=6ms
+2026-10-29T17:02:30.223Z D/LiteRtLM [DefaultDispatcher-worker-1] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65099|ino=131506|size=4919541760|mtime=1793289710838' engineMs=15235 conversationMs=6 totalMs=15247
+2026-10-29T17:02:30.231Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-10-29T17:02:30.238Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1889c-f55a-7dbc-8348-14e07a74d9af, navSize=1, graphSize=28
+2026-10-29T17:02:30.246Z D/SurveyVM [main] config.validate -> issues=0
+2026-10-29T17:02:30.246Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-10-29T17:02:30.246Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14b, Q15, Q16], eval=[], follow=[]
+2026-10-29T17:02:30.246Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-10-29T17:02:30.246Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-10-29T17:02:30.246Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-10-29T17:02:30.246Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-10-29T17:02:30.246Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-10-29T17:02:30.246Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-10-29T17:02:30.247Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-10-29T17:02:30.247Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-10-29T17:02:30.247Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-10-29T17:02:30.247Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-10-29T17:02:30.247Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-10-29T17:02:30.361Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-10-29T17:02:30.362Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65099|ino=131506|size=4919541760|mtime=1793289710838'
+2026-10-29T17:02:30.363Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=2
+2026-10-29T17:02:30.363Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=3
+2026-10-29T17:02:36.164Z D/SurveyVM [main] setRunFreeText(draft) -> len=1
+2026-10-29T17:02:36.343Z D/SurveyVM [main] setRunFreeText(draft) -> len=2
+2026-10-29T17:02:36.626Z D/SurveyVM [main] setRunFreeText(draft) -> len=3
+2026-10-29T17:02:36.851Z D/SurveyVM [main] setRunFreeText(draft) -> len=4
+2026-10-29T17:02:39.069Z D/SurveyVM [main] setRunFreeText(draft) -> len=3
+2026-10-29T17:02:39.228Z D/SurveyVM [main] setRunFreeText(draft) -> len=2
+2026-10-29T17:02:39.378Z D/SurveyVM [main] setRunFreeText(draft) -> len=1
+2026-10-29T17:02:40.300Z D/SurveyVM [main] setRunFreeText(draft) -> len=2
+2026-10-29T17:02:40.549Z D/SurveyVM [main] setRunFreeText(draft) -> len=3
+2026-10-29T17:02:40.732Z D/SurveyVM [main] setRunFreeText(draft) -> len=4
+2026-10-29T17:02:41.133Z D/SurveyVM [main] setRunFreeText(draft) -> len=5
+2026-10-29T17:02:41.441Z D/SurveyVM [main] setRunFreeText(draft) -> len=6
+2026-10-29T17:02:41.691Z D/SurveyVM [main] setRunFreeText(draft) -> len=7
+2026-10-29T17:02:41.899Z D/SurveyVM [main] setRunFreeText(draft) -> len=8
+2026-10-29T17:02:42.125Z D/SurveyVM [main] setRunFreeText(draft) -> len=9
+2026-10-29T17:02:42.441Z D/SurveyVM [main] setRunFreeText(draft) -> len=10
+2026-10-29T17:02:42.774Z D/SurveyVM [main] setRunFreeText(draft) -> len=11
+2026-10-29T17:02:43.157Z D/SurveyVM [main] setRunFreeText(draft) -> len=12
+2026-10-29T17:02:43.554Z D/SurveyVM [main] setRunFreeText(draft) -> len=13
+2026-10-29T17:02:43.891Z D/SurveyVM [main] setRunFreeText(draft) -> len=14
+2026-10-29T17:02:44.107Z D/SurveyVM [main] setRunFreeText(draft) -> len=15
+2026-10-29T17:02:45.061Z D/SurveyVM [main] setRunFreeText(draft) -> len=16
+2026-10-29T17:02:45.456Z D/SurveyVM [main] setRunFreeText(draft) -> len=17
+2026-10-29T17:02:45.832Z D/SurveyVM [main] setRunFreeText(draft) -> len=18
+2026-10-29T17:02:46.299Z D/SurveyVM [main] setRunFreeText(draft) -> len=19
+2026-10-29T17:02:47.223Z D/SurveyVM [main] setRunFreeText(draft) -> len=18
+2026-10-29T17:02:47.393Z D/SurveyVM [main] setRunFreeText(draft) -> len=17
+2026-10-29T17:02:48.262Z D/SurveyVM [main] setRunFreeText(draft) -> len=18
+2026-10-29T17:02:48.547Z D/SurveyVM [main] setRunFreeText(draft) -> len=19
+2026-10-29T17:02:51.876Z D/SurveyVM [main] setRunFreeText(draft) -> len=20
+2026-10-29T17:02:52.475Z D/SurveyVM [main] setRunFreeText(draft) -> len=21
+2026-10-29T17:02:53.173Z D/SurveyVM [main] setRunFreeText(draft) -> len=22
+2026-10-29T17:02:53.771Z D/SurveyVM [main] setRunFreeText(draft) -> len=23
+2026-10-29T17:02:54.340Z D/SurveyVM [main] setRunFreeText(draft) -> len=24
+2026-10-29T17:02:55.516Z D/SurveyVM [main] setRunFreeText(draft) -> len=25
+2026-10-29T17:02:55.896Z D/SurveyVM [main] setRunFreeText(draft) -> len=26
+2026-10-29T17:02:57.613Z D/SurveyVM [main] setRunFreeText(draft) -> len=27
+2026-10-29T17:02:58.604Z D/SurveyVM [main] setRunFreeText(draft) -> len=28
+2026-10-29T17:02:58.779Z D/SurveyVM [main] setRunFreeText(draft) -> len=29
+2026-10-29T17:02:59.179Z D/SurveyVM [main] setRunFreeText(draft) -> len=30
+2026-10-29T17:02:59.437Z D/SurveyVM [main] setRunFreeText(draft) -> len=31
+2026-10-29T17:02:59.704Z D/SurveyVM [main] setRunFreeText(draft) -> len=32
+2026-10-29T17:03:00.111Z D/SurveyVM [main] setRunFreeText(draft) -> len=33
+2026-10-29T17:03:00.587Z D/SurveyVM [main] setRunFreeText(draft) -> len=34
+2026-10-29T17:03:00.846Z D/SurveyVM [main] setRunFreeText(draft) -> len=35
+2026-10-29T17:03:01.195Z D/SurveyVM [main] setRunFreeText(draft) -> len=36
+2026-10-29T17:03:01.344Z D/SurveyVM [main] setRunFreeText(draft) -> len=37
+2026-10-29T17:03:02.378Z D/SurveyVM [main] setRunFreeText(draft) -> len=38
+2026-10-29T17:03:02.569Z D/SurveyVM [main] setRunFreeText(draft) -> len=39
+2026-10-29T17:03:02.810Z D/SurveyVM [main] setRunFreeText(draft) -> len=40
+2026-10-29T17:03:03.036Z D/SurveyVM [main] setRunFreeText(draft) -> len=41
+2026-10-29T17:03:03.243Z D/SurveyVM [main] setRunFreeText(draft) -> len=42
+2026-10-29T17:03:03.452Z D/SurveyVM [main] setRunFreeText(draft) -> len=43
+2026-10-29T17:03:03.612Z D/SurveyVM [main] setRunFreeText(draft) -> len=44
+2026-10-29T17:03:05.295Z D/SurveyVM [main] setRunFreeText(draft) -> len=43
+2026-10-29T17:03:05.446Z D/SurveyVM [main] setRunFreeText(draft) -> len=42
+2026-10-29T17:03:05.621Z D/SurveyVM [main] setRunFreeText(draft) -> len=41
+2026-10-29T17:03:05.762Z D/SurveyVM [main] setRunFreeText(draft) -> len=40
+2026-10-29T17:03:05.930Z D/SurveyVM [main] setRunFreeText(draft) -> len=39
+2026-10-29T17:03:06.079Z D/SurveyVM [main] setRunFreeText(draft) -> len=38
+2026-10-29T17:03:06.220Z D/SurveyVM [main] setRunFreeText(draft) -> len=37
+2026-10-29T17:03:07.094Z D/SurveyVM [main] setRunFreeText(draft) -> len=38
+2026-10-29T17:03:07.659Z D/SurveyVM [main] setRunFreeText(draft) -> len=39
+2026-10-29T17:03:07.851Z D/SurveyVM [main] setRunFreeText(draft) -> len=40
+2026-10-29T17:03:08.126Z D/SurveyVM [main] setRunFreeText(draft) -> len=41
+2026-10-29T17:03:08.417Z D/SurveyVM [main] setRunFreeText(draft) -> len=42
+2026-10-29T17:03:08.667Z D/SurveyVM [main] setRunFreeText(draft) -> len=43
+2026-10-29T17:03:08.900Z D/SurveyVM [main] setRunFreeText(draft) -> len=44
+2026-10-29T17:03:09.076Z D/SurveyVM [main] setRunFreeText(draft) -> len=45
+2026-10-29T17:03:09.394Z D/SurveyVM [main] setRunFreeText(draft) -> len=46
+2026-10-29T17:03:10.564Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-10-29T17:03:10.564Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@e52ef2e, navSize=1
+2026-10-29T17:03:10.564Z D/SurveyVM [main] resetToStart -> Start, session=1, uuid=01a1889d-92e2-7e7d-8942-af30d25a9520, preserveDraft=true, draftLen=46
+2026-10-29T17:03:10.564Z D/SurveyVM [main] setRunFreeText(draft) -> len=46
+2026-10-29T17:03:10.564Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=46, draftCleared=true, uuid=01a1889d-92e2-7e7d-8942-af30d25a9520
+2026-10-29T17:03:10.565Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-10-29T17:03:12.984Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-29T17:03:16.248Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=46, runLen=46, draftLen=0)
+2026-10-29T17:03:19.014Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-10-29T17:03:28.876Z D/SurveyVM [main] backToPrevious -> Pre1 (runActive=true, uiLen=46, runLen=46, draftLen=0)
+2026-10-29T17:03:40.787Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=46, runLen=46, draftLen=0)
+2026-10-29T17:03:44.052Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
