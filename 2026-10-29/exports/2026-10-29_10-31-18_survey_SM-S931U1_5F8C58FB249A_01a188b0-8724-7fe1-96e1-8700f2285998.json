@@ -1,0 +1,229 @@
+{
+  "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+  "build": "dd692cc",
+  "exported_at": "2026-10-29_10-31-18",
+  "meta": {
+    "session_free_text": "frank testing swahili. starting at 10:23am"
+  },
+  "answers": {
+    "Pre1": {
+      "question": "Jina la Mwangalizi",
+      "answer": ""
+    },
+    "Pre2": {
+      "question": "Jina la Mhoji",
+      "answer": "frank"
+    },
+    "Pre3": {
+      "question": "Jina la Mhojiwa",
+      "answer": ""
+    },
+    "Pre4": {
+      "question": "Kitambulisho cha Mhojiwa",
+      "answer": ""
+    },
+    "Pre5": {
+      "question": "Please select your phone",
+      "answer": "Phone 3"
+    },
+    "Q00": {
+      "question": "Habari yako leo? Asante kwa kutupatia muda wako leo.\n\nMimi ninafanya kazi na CIMMYT. Ni shirika linalofanya utafiti wa kuboresha kilimo cha mahindi, ngano na mazao mengine katika nchi mbalimbali.\n\nLeo tunafanya utafiti kuhusu mahindi meupe. Tungependa kusikia kuhusu uzoefu wako wa kulima mahindi, changamoto unazokutana nazo, na aina ya mahindi unayopendelea.\n\nWakati wa mahojiano, tutatumia simu ya mkononi kusaidia kurekodi na kupanga majibu yako. Hii itatusaidia kuhakikisha kwamba tunapata taarifa zako vizuri na hakuna jambo muhimu tunalosahau.\n\nKushiriki ni kwa hiari. Unaweza kuamua kutokujibu swali lolote, au kusimamisha mahojiano wakati wowote. Taarifa utakazotupatia zitawekwa kwa siri na zitatumika kwa utafiti pekee.\n\nPia, hakuna jibu sahihi au lisilo sahihi. Tunataka tu kusikia maoni yako na uzoefu wako halisi.\n\nMahojiano yatachukua takribani dakika 45.\n\nAsante sana kwa kutenga muda wako na kushiriki nasi leo.\n\nUtafiti huu unaongozwa na Daktari Mercy Mbugua. Kama una swali lolote kuhusu utafiti huu, unaweza kumpigia simu kwa +254 724 740 197.\n\nJe, Kabla tuanze, uko tayari kuendelea na mahojiano?",
+      "answer": "Ndiyo, nakubali kushiriki"
+    },
+    "Q01": {
+      "question": "Unaishi sub-county na ward gani?",
+      "answer": "Other / Nyingine: nairobi"
+    },
+    "Q02": {
+      "question": "Jinsia ya Mhojiwa",
+      "answer": "Mwanaume"
+    },
+    "Q03": {
+      "question": "Una umri wa miaka mingapi?",
+      "answer": "62"
+    },
+    "Q04": {
+      "question": "Unalima mimea gani?",
+      "answer": "corn"
+    },
+    "Q05": {
+      "question": "Unafuga mifugo au wanyama gani?",
+      "answer": "goat and cattle"
+    },
+    "Q06": {
+      "question": "Umekuwa ukilima mahindi meupe kwa miaka mingapi?",
+      "answer": "62"
+    },
+    "Q07": {
+      "question": "Je, wadudu wanaoitwa Fall Armyworm wamewahi kushambulia mahindi yako? Kama ndiyo, ulipata hasara gani?",
+      "answer": "nilipoteza asilimia hamsini ya mazao yangu kwa sababu ya viwavi jeshi vamizi katika miaka mitatu iliyopita",
+      "audio": [
+        { "file": "2026-10-29_17-25-21_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q07.wav" }
+      ]
+    },
+    "Q08": {
+      "question": "Tafadhali sikiza mfano huu: ikiwa ungeweza kuvuna mahindi siku 20 mapema, lakini mavuno yatapungua kidogo, ungekubali kupoteza magunia mangapi ya mavuno?",
+      "answer": "ningekuwa tayari kupoteza magunia matano ya mavuno ili kuvuna siku ishirini mapema",
+      "audio": [
+        { "file": "2026-10-29_17-25-48_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q08.wav" }
+      ]
+    },
+    "Q09": {
+      "question": "Kama wadudu au magonjwa wanaharibu mahindi yako, ukipoteza magunia mangapi ndipo utaamua kubadilisha mbegu?",
+      "answer": "ningehitaji kupoteza mabunia mengi",
+      "audio": [
+        { "file": "2026-10-29_17-26-13_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q09.wav" },
+        { "file": "2026-10-29_17-26-42_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q09.wav" }
+      ]
+    },
+    "Q10": {
+      "question": "Kama kuna mbegu mpya ya mahindi, ingekuwa na mambo gani ili uache mbegu unayotumia sasa na utumie hiyo mpya?",
+      "answer": "ustahimilivu bora wa ukame",
+      "audio": [
+        { "file": "2026-10-29_17-27-13_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q10.wav" }
+      ]
+    },
+    "Q11": {
+      "question": "Kama wewe na wakulima wengine eneo lenu mmevuna mahindi kidogo sana, ukivuna chini ya magunia mangapi ndio utaamua kubadilisha mbegu?",
+      "answer": "chini ya magunia kumi kwa ekari kungenifanya nibadilishe mbegu",
+      "audio": [
+        { "file": "2026-10-29_17-27-45_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q11.wav" }
+      ]
+    },
+    "Q12": {
+      "question": "Ukame huharibu mahindi yako zaidi wakati gani? Kwa mfano, yakiwa madogo, yakitoa maua, yakianza kuzaa, au wakati gani mwingine?",
+      "answer": "ukame unaotokea mimea ikiwa imeanza kutoa magunzi ndio husababisha hasara kubwa zaidi",
+      "audio": [
+        { "file": "2026-10-29_17-28-16_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q12.wav" }
+      ]
+    },
+    "Q13": {
+      "question": "Baada ya kuvuna, unagawanya mahindi yako vipi? Kwa mfano unaamuaje kiasi cha kutumia kwa chakula, mifugo, kuuza, au matumizi mengine?",
+      "answer": "mimi na familia yamu tunakula nusu ya mavuno yetu na yaliyobaki tunawalisha mifugo yetu",
+      "audio": [
+        { "file": "2026-10-29_17-28-50_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q13.wav" }
+      ]
+    },
+    "Q14a": {
+      "question": "Je, unatumia mahindi meupe kulisha wanyama?",
+      "answer": "Ndiyo"
+    },
+    "Q14b": {
+      "question": "Ni wanyama gani unawalisha mahindi meupe, na mara ngapi?",
+      "answer": "kuna walishambuzi wetu mara moja kila wiki",
+      "audio": [
+        { "file": "2026-10-29_17-29-30_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q14b.wav" }
+      ]
+    },
+    "Q15": {
+      "question": "Kwa kawaida unapata mbegu za mahindi meupe wapi, na kwa nini unapenda kupata mbegu hapo?",
+      "answer": "ninapata mbeguzambu kutoka duka la pembejeo za kilimo lililo karibu",
+      "audio": [
+        { "file": "2026-10-29_17-30-06_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q15.wav" }
+      ]
+    },
+    "Q16": {
+      "question": "Kwa kawaida unauza mahindi yako wapi baada ya kuvuna, na kwa nini unachagua kuuza hapo?",
+      "answer": "nina ya uza katika soko lililo karibu",
+      "audio": [
+        { "file": "2026-10-29_17-30-43_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q16.wav" }
+      ]
+    },
+    "Q17": {
+      "question": "Asante sana kwa kutenga muda wako na kujibu maswali haya.",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Andika maelezo yoyote ya jumla kisha bonyeza Anza.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {"Q07":"achieved","Q08":"achieved","Q09":"failure","Q10":"achieved","Q11":"achieved","Q12":"achieved","Q13":"failure","Q14b":"achieved","Q15":"achieved"},
+  "followups": {
+    "Q09": [
+      { "question": "Ukipoteza magunia mangapi ya mahindi kutakuwa na sababu ya kubadilisha mbegu?", "answer": "magunia matano yangetosha" }
+    ],
+    "Q16": [
+      { "question": "Kwa nini unalia mahindi yako katika soko lililo karibu?", "answer": "" }
+    ]
+  },
+  "voice_files": [
+    {
+      "file": "2026-10-29_17-25-21_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q07.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q07",
+      "question": "Je, wadudu wanaoitwa Fall Armyworm wamewahi kushambulia mahindi yako? Kama ndiyo, ulipata hasara gani?",
+      "answer": "nilipoteza asilimia hamsini ya mazao yangu kwa sababu ya viwavi jeshi vamizi katika miaka mitatu iliyopita"
+    },
+    {
+      "file": "2026-10-29_17-25-48_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q08.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q08",
+      "question": "Tafadhali sikiza mfano huu: ikiwa ungeweza kuvuna mahindi siku 20 mapema, lakini mavuno yatapungua kidogo, ungekubali kupoteza magunia mangapi ya mavuno?",
+      "answer": "ningekuwa tayari kupoteza magunia matano ya mavuno ili kuvuna siku ishirini mapema"
+    },
+    {
+      "file": "2026-10-29_17-26-13_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q09.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q09",
+      "question": "Kama wadudu au magonjwa wanaharibu mahindi yako, ukipoteza magunia mangapi ndipo utaamua kubadilisha mbegu?",
+      "answer": "ningehitaji kupoteza mabunia mengi"
+    },
+    {
+      "file": "2026-10-29_17-26-42_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q09.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q09",
+      "question": "Ukipoteza magunia mangapi ya mahindi kutakuwa na sababu ya kubadilisha mbegu?",
+      "answer": "magunia matano yangetosha"
+    },
+    {
+      "file": "2026-10-29_17-27-13_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q10.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q10",
+      "question": "Kama kuna mbegu mpya ya mahindi, ingekuwa na mambo gani ili uache mbegu unayotumia sasa na utumie hiyo mpya?",
+      "answer": "ustahimilivu bora wa ukame"
+    },
+    {
+      "file": "2026-10-29_17-27-45_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q11.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q11",
+      "question": "Kama wewe na wakulima wengine eneo lenu mmevuna mahindi kidogo sana, ukivuna chini ya magunia mangapi ndio utaamua kubadilisha mbegu?",
+      "answer": "chini ya magunia kumi kwa ekari kungenifanya nibadilishe mbegu"
+    },
+    {
+      "file": "2026-10-29_17-28-16_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q12.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q12",
+      "question": "Ukame huharibu mahindi yako zaidi wakati gani? Kwa mfano, yakiwa madogo, yakitoa maua, yakianza kuzaa, au wakati gani mwingine?",
+      "answer": "ukame unaotokea mimea ikiwa imeanza kutoa magunzi ndio husababisha hasara kubwa zaidi"
+    },
+    {
+      "file": "2026-10-29_17-28-50_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q13.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q13",
+      "question": "Baada ya kuvuna, unagawanya mahindi yako vipi? Kwa mfano unaamuaje kiasi cha kutumia kwa chakula, mifugo, kuuza, au matumizi mengine?",
+      "answer": "mimi na familia yamu tunakula nusu ya mavuno yetu na yaliyobaki tunawalisha mifugo yetu"
+    },
+    {
+      "file": "2026-10-29_17-29-30_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q14b.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q14b",
+      "question": "Ni wanyama gani unawalisha mahindi meupe, na mara ngapi?",
+      "answer": "kuna walishambuzi wetu mara moja kila wiki"
+    },
+    {
+      "file": "2026-10-29_17-30-06_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q15.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q15",
+      "question": "Kwa kawaida unapata mbegu za mahindi meupe wapi, na kwa nini unapenda kupata mbegu hapo?",
+      "answer": "ninapata mbeguzambu kutoka duka la pembejeo za kilimo lililo karibu"
+    },
+    {
+      "file": "2026-10-29_17-30-43_voice_SM-S931U1_5F8C58FB249A_01a188b0-8724-7fe1-96e1-8700f2285998_Q16.wav",
+      "survey_id": "01a188b0-8724-7fe1-96e1-8700f2285998",
+      "question_id": "Q16",
+      "question": "Kwa kawaida unauza mahindi yako wapi baada ya kuvuna, na kwa nini unachagua kuuza hapo?",
+      "answer": "nina ya uza katika soko lililo karibu"
+    }
+  ]
+}
