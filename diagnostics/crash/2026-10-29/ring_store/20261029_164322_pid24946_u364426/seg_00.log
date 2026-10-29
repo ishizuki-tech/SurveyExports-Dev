@@ -1,0 +1,307 @@
+20261029_160112 I/AppRingLogStore pid=12465 tid=12465 uptimeMs=62834865 msg=install: pid=12465 timeUtc=20261029_160112 uptimeMs=62834865
+20261029_160112 D/SurveyApp pid=12465 tid=12465 uptimeMs=62834866 msg=attachBaseContext: pid=12465 process=com.negi.survey isMain=true sdk=37
+20261029_160112 D/SurveyApp pid=12465 tid=12465 uptimeMs=62834875 msg=onCreate: pid=12465 process=com.negi.survey isMain=true sdk=37
+20261029_160206 D/AiTrace pid=12465 tid=12465 uptimeMs=62888241 msg=Installed (enabled=true ringEnabled=true)
+20261029_160206 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=62888276 msg=warmUp init ok initMs=1 gateWaitMs=0
+20261029_160206 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=62888277 msg=warmUp Engine ready representativeInference=false totalMs=1
+20261029_160303 D/AiViewModel pid=12465 tid=12501 uptimeMs=62945112 msg=run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=355, fullPrompt.len=3002, timeoutMs=120000
+20261029_160303 D/AiViewModel pid=12465 tid=12501 uptimeMs=62945113 msg=run[1]: sha(prompt)=2bfcca33223183a23a3e40d0b8ca6e1f0aadebdd8f677ab01b9e5f2d52707a42 sha(full)=606f2db612fbd10509630608fd780c80cf2630ea695dd0b6178789260b346ce0
+20261029_160303 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=62945118 msg=[1] start model='Gemma3n4B' prompt.len=3002 sha=606f2db612fbd105 gateWaitMs=4
+20261029_160303 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=62945164 msg=[1] init ok initMs=46
+20261029_160307 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=62948993 msg=[1] logicalDone=true
+20261029_160307 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=62948993 msg=[1] native cleanup safepoint
+20261029_160307 D/AiViewModel pid=12465 tid=12503 uptimeMs=62948993 msg=run[1] stats: chunks=18, chars=56, raw.len=56
+20261029_160307 D/AiViewModel pid=12465 tid=12503 uptimeMs=62948994 msg=run[1] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_160307 I/AiViewModel pid=12465 tid=12503 uptimeMs=62949000 msg=run[1] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_160307 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=62949005 msg=[1] Conversation reset completed after safepoint
+20261029_160307 I/LiteRtRepository pid=12465 tid=12501 uptimeMs=62949006 msg=[1] finalize reason='native-terminated' totalMs=3889 inferenceMs=3842 firstTokenMs=2471 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=14 lastEventMsAgo=13
+20261029_160344 D/AiViewModel pid=12465 tid=12501 uptimeMs=62986349 msg=run[2]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=378, fullPrompt.len=3025, timeoutMs=120000
+20261029_160344 D/AiViewModel pid=12465 tid=12501 uptimeMs=62986350 msg=run[2]: sha(prompt)=779750f6c04c300578af3c1e1e8742344a756b74921b98ba904fe3f39678f3da sha(full)=0660c2855bda869eeed09d21ceb505119d2b162e25914b771a08de3a37fcdb5e
+20261029_160344 D/LiteRtRepository pid=12465 tid=14522 uptimeMs=62986351 msg=[2] start model='Gemma3n4B' prompt.len=3025 sha=0660c2855bda869e gateWaitMs=1
+20261029_160344 D/LiteRtRepository pid=12465 tid=14522 uptimeMs=62986388 msg=[2] init ok initMs=37
+20261029_160347 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=62989476 msg=[2] logicalDone=true
+20261029_160347 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=62989476 msg=[2] native cleanup safepoint
+20261029_160347 D/AiViewModel pid=12465 tid=12502 uptimeMs=62989476 msg=run[2] stats: chunks=19, chars=57, raw.len=57
+20261029_160347 D/AiViewModel pid=12465 tid=12502 uptimeMs=62989477 msg=run[2] sha(raw)=ab14b55001d2beb69ad04631415bb763a2b057d9ad93175f37b561b905266cd3
+20261029_160347 I/AiViewModel pid=12465 tid=12502 uptimeMs=62989479 msg=run[2] done: phase=EVAL mode=EVAL_JSON score=100 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_160347 D/LiteRtRepository pid=12465 tid=12515 uptimeMs=62989479 msg=[2] Conversation reset completed after safepoint
+20261029_160347 I/LiteRtRepository pid=12465 tid=12515 uptimeMs=62989480 msg=[2] finalize reason='native-terminated' totalMs=3129 inferenceMs=3091 firstTokenMs=1608 chunks=19 emittedChars=57 out.len=57 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=3
+20261029_160503 D/AiViewModel pid=12465 tid=12515 uptimeMs=63065362 msg=run[3]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=345, fullPrompt.len=2992, timeoutMs=120000
+20261029_160503 D/AiViewModel pid=12465 tid=12515 uptimeMs=63065362 msg=run[3]: sha(prompt)=605c0fc23f469cce11cba8d07007c97aaada7af4d3041a0b3c1a4e1d3b0ea771 sha(full)=4f3f563d5e41a6992f106554ef64f4937ebc97523d58aa1d5ee8b483b9a1359e
+20261029_160503 D/LiteRtRepository pid=12465 tid=12502 uptimeMs=63065363 msg=[3] start model='Gemma3n4B' prompt.len=2992 sha=4f3f563d5e41a699 gateWaitMs=0
+20261029_160503 D/LiteRtRepository pid=12465 tid=12502 uptimeMs=63065403 msg=[3] init ok initMs=39
+20261029_160506 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63068320 msg=[3] logicalDone=true
+20261029_160506 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63068320 msg=[3] native cleanup safepoint
+20261029_160506 D/AiViewModel pid=12465 tid=12515 uptimeMs=63068320 msg=run[3] stats: chunks=18, chars=56, raw.len=56
+20261029_160506 D/AiViewModel pid=12465 tid=12515 uptimeMs=63068320 msg=run[3] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_160506 I/AiViewModel pid=12465 tid=12515 uptimeMs=63068322 msg=run[3] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_160506 D/LiteRtRepository pid=12465 tid=14522 uptimeMs=63068322 msg=[3] Conversation reset completed after safepoint
+20261029_160506 I/LiteRtRepository pid=12465 tid=14522 uptimeMs=63068323 msg=[3] finalize reason='native-terminated' totalMs=2960 inferenceMs=2920 firstTokenMs=1532 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=3
+20261029_160528 D/AiViewModel pid=12465 tid=12501 uptimeMs=63090332 msg=run[4]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=364, fullPrompt.len=3011, timeoutMs=120000
+20261029_160528 D/AiViewModel pid=12465 tid=12501 uptimeMs=63090333 msg=run[4]: sha(prompt)=7d1cd75d6ae6d0f573913bfedd48352ab80494d608751d2afc5fc0da2ff412ee sha(full)=52077f2384fddd4a3f35fdb8c695840202fa82149e52647886b3488cb5418e33
+20261029_160528 D/LiteRtRepository pid=12465 tid=12515 uptimeMs=63090334 msg=[4] start model='Gemma3n4B' prompt.len=3011 sha=52077f2384fddd4a gateWaitMs=1
+20261029_160528 D/LiteRtRepository pid=12465 tid=12515 uptimeMs=63090375 msg=[4] init ok initMs=41
+20261029_160531 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63093763 msg=[4] logicalDone=true
+20261029_160531 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63093763 msg=[4] native cleanup safepoint
+20261029_160531 D/AiViewModel pid=12465 tid=12501 uptimeMs=63093763 msg=run[4] stats: chunks=24, chars=99, raw.len=99
+20261029_160531 D/AiViewModel pid=12465 tid=12501 uptimeMs=63093763 msg=run[4] sha(raw)=bd85cae9b4554440ede45670eec3ea766ed7892ef8f4b2bd4363b4335d763c30
+20261029_160531 D/LiteRtRepository pid=12465 tid=14654 uptimeMs=63093765 msg=[4] Conversation reset completed after safepoint
+20261029_160531 I/LiteRtRepository pid=12465 tid=12502 uptimeMs=63093766 msg=[4] finalize reason='native-terminated' totalMs=3432 inferenceMs=3390 firstTokenMs=1528 chunks=24 emittedChars=99 out.len=99 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=3 lastEventMsAgo=2
+20261029_160531 I/AiViewModel pid=12465 tid=12501 uptimeMs=63093766 msg=run[4] done: phase=EVAL mode=EVAL_JSON score=75 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_160531 D/AiViewModel pid=12465 tid=12501 uptimeMs=63093768 msg=run[5]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=476, fullPrompt.len=1013, timeoutMs=120000
+20261029_160531 D/AiViewModel pid=12465 tid=12501 uptimeMs=63093768 msg=run[5]: sha(prompt)=cd13f89755bd23de1b2a5f9abf486a7342cdadf23d5f6ab079654cc2d6da46a2 sha(full)=d7a947ac875e37f7ba30fef366c2a28b8339a079c88c7457393fc6461ec334a6
+20261029_160531 D/LiteRtRepository pid=12465 tid=12502 uptimeMs=63093769 msg=[5] start model='Gemma3n4B' prompt.len=1013 sha=d7a947ac875e37f7 gateWaitMs=0
+20261029_160531 D/LiteRtRepository pid=12465 tid=12502 uptimeMs=63093770 msg=[5] init ok initMs=1
+20261029_160533 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63095567 msg=[5] logicalDone=true
+20261029_160533 D/AiViewModel pid=12465 tid=14654 uptimeMs=63095568 msg=run[5] stats: chunks=16, chars=81, raw.len=81
+20261029_160533 D/AiViewModel pid=12465 tid=14654 uptimeMs=63095569 msg=run[5] sha(raw)=5ad73cedef18a7196a9c2fef3a9b4c8df865fb85fab9e8dc04cff073c4d383ce
+20261029_160533 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63095569 msg=[5] native cleanup safepoint
+20261029_160533 I/AiViewModel pid=12465 tid=14654 uptimeMs=63095570 msg=run[5] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=81 FU0.sha16=5ad73cedef18a719 commit=false err=<none>
+20261029_160533 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=63095572 msg=[5] Conversation reset completed after safepoint
+20261029_160533 I/LiteRtRepository pid=12465 tid=12501 uptimeMs=63095572 msg=[5] finalize reason='native-terminated' totalMs=1803 inferenceMs=1802 firstTokenMs=594 chunks=16 emittedChars=81 out.len=81 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=6 lastEventMsAgo=3
+20261029_160556 D/AiViewModel pid=12465 tid=12502 uptimeMs=63117926 msg=run[6]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=521, fullPrompt.len=3168, timeoutMs=120000
+20261029_160556 D/AiViewModel pid=12465 tid=12502 uptimeMs=63117926 msg=run[6]: sha(prompt)=d0c8894db995ba92a810f43fec5278026fe9f79b6efb1be9c4828671158f7c60 sha(full)=ad396a58a92c1ebda19ff96990593bce2ce35eb872a03a2ebd3ed3bca52c0be7
+20261029_160556 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=63117928 msg=[6] start model='Gemma3n4B' prompt.len=3168 sha=ad396a58a92c1ebd gateWaitMs=0
+20261029_160556 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=63117977 msg=[6] init ok initMs=49
+20261029_160559 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63121854 msg=[6] logicalDone=true
+20261029_160559 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63121854 msg=[6] native cleanup safepoint
+20261029_160559 D/AiViewModel pid=12465 tid=12503 uptimeMs=63121855 msg=run[6] stats: chunks=27, chars=103, raw.len=103
+20261029_160559 D/AiViewModel pid=12465 tid=12503 uptimeMs=63121855 msg=run[6] sha(raw)=5cab8cbbc80853ecf26681de987f8885ab249c79b09cbe8dcd5b464d4bbc0636
+20261029_160559 D/LiteRtRepository pid=12465 tid=12501 uptimeMs=63121856 msg=[6] Conversation reset completed after safepoint
+20261029_160559 I/LiteRtRepository pid=12465 tid=12502 uptimeMs=63121856 msg=[6] finalize reason='native-terminated' totalMs=3929 inferenceMs=3879 firstTokenMs=1698 chunks=27 emittedChars=103 out.len=103 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=2 lastEventMsAgo=2
+20261029_160559 I/AiViewModel pid=12465 tid=12503 uptimeMs=63121857 msg=run[6] done: phase=EVAL mode=EVAL_JSON score=65 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_160559 D/AiViewModel pid=12465 tid=12503 uptimeMs=63121858 msg=run[7]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=636, fullPrompt.len=1173, timeoutMs=120000
+20261029_160559 D/AiViewModel pid=12465 tid=12503 uptimeMs=63121858 msg=run[7]: sha(prompt)=35bf69fbca1a3cc32d75722bbc9444debac54cfd45175c16fe37368e1da27f29 sha(full)=cf7b454115f08780c604161165da4867dc49fec13edf3dcea5a769fb2ba2b316
+20261029_160559 D/LiteRtRepository pid=12465 tid=12502 uptimeMs=63121859 msg=[7] start model='Gemma3n4B' prompt.len=1173 sha=cf7b454115f08780 gateWaitMs=1
+20261029_160559 D/LiteRtRepository pid=12465 tid=14522 uptimeMs=63121859 msg=[7] init ok initMs=0
+20261029_160601 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63123730 msg=[7] logicalDone=true
+20261029_160601 D/LiteRtRepository pid=12465 tid=12465 uptimeMs=63123730 msg=[7] native cleanup safepoint
+20261029_160601 D/AiViewModel pid=12465 tid=14522 uptimeMs=63123730 msg=run[7] stats: chunks=15, chars=84, raw.len=84
+20261029_160601 D/AiViewModel pid=12465 tid=14522 uptimeMs=63123730 msg=run[7] sha(raw)=5d029185e69323f8cbe611605032f85da0fe3811747b1734ae6a3b8296edb8e2
+20261029_160601 I/AiViewModel pid=12465 tid=14522 uptimeMs=63123731 msg=run[7] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=84 FU0.sha16=5d029185e69323f8 commit=false err=<none>
+20261029_160601 D/LiteRtRepository pid=12465 tid=12502 uptimeMs=63123731 msg=[7] Conversation reset completed after safepoint
+20261029_160601 I/LiteRtRepository pid=12465 tid=14654 uptimeMs=63123732 msg=[7] finalize reason='native-terminated' totalMs=1873 inferenceMs=1872 firstTokenMs=686 chunks=15 emittedChars=84 out.len=84 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=2 lastEventMsAgo=1
+20261029_161137 I/AppRingLogStore pid=16673 tid=16673 uptimeMs=63459383 msg=install: pid=16673 timeUtc=20261029_161137 uptimeMs=63459383
+20261029_161137 D/SurveyApp pid=16673 tid=16673 uptimeMs=63459384 msg=attachBaseContext: pid=16673 process=com.negi.survey isMain=true sdk=37
+20261029_161137 D/SurveyApp pid=16673 tid=16673 uptimeMs=63459394 msg=onCreate: pid=16673 process=com.negi.survey isMain=true sdk=37
+20261029_161156 D/AiTrace pid=16673 tid=16673 uptimeMs=63478018 msg=Installed (enabled=true ringEnabled=true)
+20261029_161156 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63478123 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261029_161156 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63478123 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261029_161320 D/AiViewModel pid=16673 tid=16755 uptimeMs=63561914 msg=run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=356, fullPrompt.len=3003, timeoutMs=120000
+20261029_161320 D/AiViewModel pid=16673 tid=16755 uptimeMs=63561915 msg=run[1]: sha(prompt)=21fe44997ff36eb4465e53554d8567ce439aea0cbc414c70ca0a4158add5a434 sha(full)=86d131878b6823fb5dcf63e80abc551f5bfa0da5828b34b3da67bb93db471b3e
+20261029_161320 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63561918 msg=[1] start model='Gemma3n4B' prompt.len=3003 sha=86d131878b6823fb gateWaitMs=3
+20261029_161320 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63561955 msg=[1] init ok initMs=37
+20261029_161323 W/LiteRtRepository pid=16673 tid=16755 uptimeMs=63565378 msg=[1] cancel requested tag='collector-cancelled'
+20261029_161323 W/LiteRtRepository pid=16673 tid=16755 uptimeMs=63565379 msg=[1] FORCE_REINIT=true reason='collector-cancelled'
+20261029_161323 W/AiViewModel pid=16673 tid=16755 uptimeMs=63565380 msg=run[1]: cancelled
+20261029_161323 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63565460 msg=[1] native cleanup safepoint
+20261029_161324 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63565912 msg=[1] full runtime teardown completed after safepoint
+20261029_161324 I/LiteRtRepository pid=16673 tid=16755 uptimeMs=63565913 msg=[1] finalize reason='native-terminated' totalMs=3995 inferenceMs=3957 firstTokenMs=2418 chunks=13 emittedChars=41 out.len=41 capturedAll=true logicalDone=false nativeTerminated=true cancelTag='collector-cancelled' lastDeltaMsAgo=541 lastEventMsAgo=452
+20261029_161436 D/AiViewModel pid=16673 tid=16694 uptimeMs=63638824 msg=run[2]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=410, fullPrompt.len=3057, timeoutMs=120000
+20261029_161436 D/AiViewModel pid=16673 tid=16694 uptimeMs=63638824 msg=run[2]: sha(prompt)=fa7769502904d141ca1584ff36b42ae5d50a7ef9a9cfc3299d6e09ef3c867cbf sha(full)=17b14813a3d288d245899b359915c18aec74bc2abbaf1af9ed80e78a668608bd
+20261029_161436 D/LiteRtRepository pid=16673 tid=16694 uptimeMs=63638825 msg=[2] start model='Gemma3n4B' prompt.len=3057 sha=17b14813a3d288d2 gateWaitMs=0
+20261029_161445 D/LiteRtRepository pid=16673 tid=16694 uptimeMs=63647262 msg=[2] init ok initMs=8437
+20261029_161448 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63650697 msg=[2] logicalDone=true
+20261029_161448 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63650697 msg=[2] native cleanup safepoint
+20261029_161448 D/AiViewModel pid=16673 tid=16693 uptimeMs=63650697 msg=run[2] stats: chunks=18, chars=56, raw.len=56
+20261029_161448 D/AiViewModel pid=16673 tid=16693 uptimeMs=63650698 msg=run[2] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_161448 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63650705 msg=[2] Conversation reset completed after safepoint
+20261029_161448 I/AiViewModel pid=16673 tid=16693 uptimeMs=63650705 msg=run[2] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_161448 I/LiteRtRepository pid=16673 tid=16757 uptimeMs=63650706 msg=[2] finalize reason='native-terminated' totalMs=11880 inferenceMs=3443 firstTokenMs=2001 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=9 lastEventMsAgo=8
+20261029_161511 D/AiViewModel pid=16673 tid=16757 uptimeMs=63673375 msg=run[3]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=315, fullPrompt.len=2962, timeoutMs=120000
+20261029_161511 D/AiViewModel pid=16673 tid=16757 uptimeMs=63673375 msg=run[3]: sha(prompt)=ab50082e3463e6a0adadfab79bb001c3bb949d1f9a53a8718f86135cfa29f5e7 sha(full)=e1062a902837181fbaed6f096971c665f17e07c3871ee5315cdfedaa1e6b5df6
+20261029_161511 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63673376 msg=[3] start model='Gemma3n4B' prompt.len=2962 sha=e1062a902837181f gateWaitMs=0
+20261029_161511 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63673417 msg=[3] init ok initMs=40
+20261029_161514 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63676370 msg=[3] logicalDone=true
+20261029_161514 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63676370 msg=[3] native cleanup safepoint
+20261029_161514 D/AiViewModel pid=16673 tid=16693 uptimeMs=63676371 msg=run[3] stats: chunks=17, chars=58, raw.len=58
+20261029_161514 D/AiViewModel pid=16673 tid=16693 uptimeMs=63676371 msg=run[3] sha(raw)=a0f1107c8b220374f0bdd628731d8fc26495eb054839fabab2a72401561e2ca1
+20261029_161514 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63676372 msg=[3] Conversation reset completed after safepoint
+20261029_161514 I/LiteRtRepository pid=16673 tid=16695 uptimeMs=63676372 msg=[3] finalize reason='native-terminated' totalMs=2996 inferenceMs=2955 firstTokenMs=1599 chunks=17 emittedChars=58 out.len=58 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=3 lastEventMsAgo=2
+20261029_161514 I/AiViewModel pid=16673 tid=16693 uptimeMs=63676374 msg=run[3] done: phase=EVAL mode=EVAL_JSON score=null FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_161542 D/AiViewModel pid=16673 tid=16693 uptimeMs=63704155 msg=run[4]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=393, fullPrompt.len=3040, timeoutMs=120000
+20261029_161542 D/AiViewModel pid=16673 tid=16693 uptimeMs=63704155 msg=run[4]: sha(prompt)=83717635b0cce98dc819852a7b6b84d93b7dc676e868686c98942c802a8dfe53 sha(full)=2882c2f8633dda440db4db45cae72afe29045861016eed329c15899e316b4f77
+20261029_161542 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63704157 msg=[4] start model='Gemma3n4B' prompt.len=3040 sha=2882c2f8633dda44 gateWaitMs=0
+20261029_161542 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63704195 msg=[4] init ok initMs=38
+20261029_161545 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63707813 msg=[4] logicalDone=true
+20261029_161545 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63707814 msg=[4] native cleanup safepoint
+20261029_161545 D/AiViewModel pid=16673 tid=16693 uptimeMs=63707814 msg=run[4] stats: chunks=18, chars=56, raw.len=56
+20261029_161545 D/AiViewModel pid=16673 tid=16693 uptimeMs=63707814 msg=run[4] sha(raw)=dcd0c5a373a7fdfb4ff5ba981e14b999696c186ccc8b7f8c34146f132431b088
+20261029_161545 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63707816 msg=[4] Conversation reset completed after safepoint
+20261029_161545 I/LiteRtRepository pid=16673 tid=16757 uptimeMs=63707816 msg=[4] finalize reason='native-terminated' totalMs=3660 inferenceMs=3621 firstTokenMs=2048 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=3
+20261029_161545 I/AiViewModel pid=16673 tid=16693 uptimeMs=63707818 msg=run[4] done: phase=EVAL mode=EVAL_JSON score=90 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_161614 D/AiViewModel pid=16673 tid=16757 uptimeMs=63736672 msg=run[5]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=423, fullPrompt.len=3070, timeoutMs=120000
+20261029_161614 D/AiViewModel pid=16673 tid=16757 uptimeMs=63736672 msg=run[5]: sha(prompt)=1d23613135ea925048bb569c38f7db8fb2b1295ebe65e57f8c8d905d25de44b3 sha(full)=adaf21f67ab3b626c1884bf8fc2fda18b647c45e235279fa952d36954add71fd
+20261029_161614 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63736673 msg=[5] start model='Gemma3n4B' prompt.len=3070 sha=adaf21f67ab3b626 gateWaitMs=0
+20261029_161614 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63736713 msg=[5] init ok initMs=40
+20261029_161618 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63740446 msg=[5] logicalDone=true
+20261029_161618 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63740446 msg=[5] native cleanup safepoint
+20261029_161618 D/AiViewModel pid=16673 tid=16757 uptimeMs=63740447 msg=run[5] stats: chunks=18, chars=56, raw.len=56
+20261029_161618 D/AiViewModel pid=16673 tid=16757 uptimeMs=63740447 msg=run[5] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_161618 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63740449 msg=[5] Conversation reset completed after safepoint
+20261029_161618 I/LiteRtRepository pid=16673 tid=16695 uptimeMs=63740449 msg=[5] finalize reason='native-terminated' totalMs=3776 inferenceMs=3736 firstTokenMs=2147 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=3 lastEventMsAgo=3
+20261029_161618 I/AiViewModel pid=16673 tid=16757 uptimeMs=63740450 msg=run[5] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_161641 D/AiViewModel pid=16673 tid=16694 uptimeMs=63763117 msg=run[6]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=399, fullPrompt.len=3046, timeoutMs=120000
+20261029_161641 D/AiViewModel pid=16673 tid=16694 uptimeMs=63763118 msg=run[6]: sha(prompt)=de2cde612e7d57705683ad8962cecadb498584ed92955218747bde273f94d8cc sha(full)=db6342295d0173f48cc5dba5d2b65bea431ee51c62fef2773d07ffb8ecd8b235
+20261029_161641 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63763120 msg=[6] start model='Gemma3n4B' prompt.len=3046 sha=db6342295d0173f4 gateWaitMs=0
+20261029_161641 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63763159 msg=[6] init ok initMs=39
+20261029_161645 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63767874 msg=[6] logicalDone=true
+20261029_161645 D/AiViewModel pid=16673 tid=16694 uptimeMs=63767874 msg=run[6] stats: chunks=28, chars=88, raw.len=88
+20261029_161645 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63767874 msg=[6] native cleanup safepoint
+20261029_161645 D/AiViewModel pid=16673 tid=16694 uptimeMs=63767874 msg=run[6] sha(raw)=e3ca37a6a15529f59311ee21672aa94e0a0da67c5e2e67fb508f46cf66d2dc00
+20261029_161645 I/AiViewModel pid=16673 tid=16694 uptimeMs=63767878 msg=run[6] done: phase=EVAL mode=EVAL_JSON score=70 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_161645 D/LiteRtRepository pid=16673 tid=16727 uptimeMs=63767878 msg=[6] Conversation reset completed after safepoint
+20261029_161645 I/LiteRtRepository pid=16673 tid=16727 uptimeMs=63767879 msg=[6] finalize reason='native-terminated' totalMs=4759 inferenceMs=4719 firstTokenMs=2173 chunks=28 emittedChars=88 out.len=88 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=5 lastEventMsAgo=4
+20261029_161645 D/AiViewModel pid=16673 tid=16694 uptimeMs=63767879 msg=run[7]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=500, fullPrompt.len=1037, timeoutMs=120000
+20261029_161645 D/AiViewModel pid=16673 tid=16694 uptimeMs=63767880 msg=run[7]: sha(prompt)=c2074284250a04cd3534e4256bafe7dc289b82852459a7b0ff08681b1afca3fe sha(full)=f38005594c190c3bbd2821ecf583a18cb772da95eeb389d0874cb0d5bfbf3bc7
+20261029_161645 D/LiteRtRepository pid=16673 tid=16727 uptimeMs=63767880 msg=[7] start model='Gemma3n4B' prompt.len=1037 sha=f38005594c190c3b gateWaitMs=0
+20261029_161645 D/LiteRtRepository pid=16673 tid=16727 uptimeMs=63767881 msg=[7] init ok initMs=0
+20261029_161648 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63770649 msg=[7] logicalDone=true
+20261029_161648 D/AiViewModel pid=16673 tid=16757 uptimeMs=63770650 msg=run[7] stats: chunks=22, chars=114, raw.len=114
+20261029_161648 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63770650 msg=[7] native cleanup safepoint
+20261029_161648 D/AiViewModel pid=16673 tid=16757 uptimeMs=63770651 msg=run[7] sha(raw)=82f2b68db66da37aec245b3c6ef84fccd4e70a30ce0db55a086ae5d958183f73
+20261029_161648 I/AiViewModel pid=16673 tid=16757 uptimeMs=63770654 msg=run[7] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=114 FU0.sha16=82f2b68db66da37a commit=false err=<none>
+20261029_161648 D/LiteRtRepository pid=16673 tid=16693 uptimeMs=63770654 msg=[7] Conversation reset completed after safepoint
+20261029_161648 I/LiteRtRepository pid=16673 tid=16693 uptimeMs=63770654 msg=[7] finalize reason='native-terminated' totalMs=2774 inferenceMs=2773 firstTokenMs=760 chunks=22 emittedChars=114 out.len=114 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=5 lastEventMsAgo=5
+20261029_161742 D/AiViewModel pid=16673 tid=16694 uptimeMs=63824157 msg=run[8]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=400, fullPrompt.len=3047, timeoutMs=120000
+20261029_161742 D/AiViewModel pid=16673 tid=16694 uptimeMs=63824157 msg=run[8]: sha(prompt)=7ac70c6db2c29611ea9cc6684ffa8a1df0a7329f6ada9ac932ae98b209d55f0d sha(full)=8061fd79aa0835b7ddd63ef6c83f43f922e10d271951016175078b49aab454bc
+20261029_161742 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63824158 msg=[8] start model='Gemma3n4B' prompt.len=3047 sha=8061fd79aa0835b7 gateWaitMs=0
+20261029_161742 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63824200 msg=[8] init ok initMs=41
+20261029_161751 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63833761 msg=[8] logicalDone=true
+20261029_161751 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63833761 msg=[8] native cleanup safepoint
+20261029_161751 D/AiViewModel pid=16673 tid=16757 uptimeMs=63833761 msg=run[8] stats: chunks=16, chars=52, raw.len=52
+20261029_161751 D/AiViewModel pid=16673 tid=16757 uptimeMs=63833762 msg=run[8] sha(raw)=7b1b8d46e264e0112d7a8ac9a082c2c602ac1052e04d5ea1c2ca1a0506df7d57
+20261029_161751 D/LiteRtRepository pid=16673 tid=16727 uptimeMs=63833764 msg=[8] Conversation reset completed after safepoint
+20261029_161751 I/LiteRtRepository pid=16673 tid=16695 uptimeMs=63833764 msg=[8] finalize reason='native-terminated' totalMs=9606 inferenceMs=9564 firstTokenMs=5181 chunks=16 emittedChars=52 out.len=52 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=7 lastEventMsAgo=3
+20261029_161751 I/AiViewModel pid=16673 tid=16757 uptimeMs=63833764 msg=run[8] done: phase=EVAL mode=EVAL_JSON score=65 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_161751 D/AiViewModel pid=16673 tid=16757 uptimeMs=63833765 msg=run[9]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=464, fullPrompt.len=1001, timeoutMs=120000
+20261029_161751 D/AiViewModel pid=16673 tid=16757 uptimeMs=63833767 msg=run[9]: sha(prompt)=f678823417fdaca83962a564f352291fda6f21735244d3b2982ff12e1f246c22 sha(full)=0ec03d933f2167c0422f71e1898a5254243abd12be315b3e4dc377a4d99aab84
+20261029_161751 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63833767 msg=[9] start model='Gemma3n4B' prompt.len=1001 sha=0ec03d933f2167c0 gateWaitMs=0
+20261029_161751 D/LiteRtRepository pid=16673 tid=16757 uptimeMs=63833768 msg=[9] init ok initMs=0
+20261029_161757 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63838963 msg=[9] logicalDone=true
+20261029_161757 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63838963 msg=[9] native cleanup safepoint
+20261029_161757 D/AiViewModel pid=16673 tid=16755 uptimeMs=63838966 msg=run[9] stats: chunks=22, chars=116, raw.len=116
+20261029_161757 D/LiteRtRepository pid=16673 tid=16727 uptimeMs=63838967 msg=[9] Conversation reset completed after safepoint
+20261029_161757 D/AiViewModel pid=16673 tid=16755 uptimeMs=63838967 msg=run[9] sha(raw)=8f08fde625ac7053c9b7a4d021c64c61ac8559b6b1d7605b0ee83c864626edd8
+20261029_161757 I/LiteRtRepository pid=16673 tid=16693 uptimeMs=63838968 msg=[9] finalize reason='native-terminated' totalMs=5200 inferenceMs=5199 firstTokenMs=1488 chunks=22 emittedChars=116 out.len=116 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=5 lastEventMsAgo=4
+20261029_161757 I/AiViewModel pid=16673 tid=16755 uptimeMs=63838969 msg=run[9] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=116 FU0.sha16=8f08fde625ac7053 commit=false err=<none>
+20261029_161854 D/AiViewModel pid=16673 tid=16693 uptimeMs=63896495 msg=run[10]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=416, fullPrompt.len=3063, timeoutMs=120000
+20261029_161854 D/AiViewModel pid=16673 tid=16693 uptimeMs=63896495 msg=run[10]: sha(prompt)=453faacbe579c9ec348e05c32817817a8ed156d2620ef7860781c9561c571478 sha(full)=87ede9e32a5bec06f8da692b0f383e6a313ab8e1ded0b68392bb526b95cfe055
+20261029_161854 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63896497 msg=[10] start model='Gemma3n4B' prompt.len=3063 sha=87ede9e32a5bec06 gateWaitMs=1
+20261029_161854 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63896538 msg=[10] init ok initMs=41
+20261029_161908 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63910058 msg=[10] logicalDone=true
+20261029_161908 D/LiteRtRepository pid=16673 tid=16673 uptimeMs=63910058 msg=[10] native cleanup safepoint
+20261029_161908 D/AiViewModel pid=16673 tid=16727 uptimeMs=63910059 msg=run[10] stats: chunks=25, chars=97, raw.len=97
+20261029_161908 D/AiViewModel pid=16673 tid=16727 uptimeMs=63910059 msg=run[10] sha(raw)=9344864e07b82d71883ce918a9146eb9165e95bd382cb426a787677a7ca894ec
+20261029_161908 D/LiteRtRepository pid=16673 tid=16695 uptimeMs=63910061 msg=[10] Conversation reset completed after safepoint
+20261029_161908 I/LiteRtRepository pid=16673 tid=16695 uptimeMs=63910063 msg=[10] finalize reason='native-terminated' totalMs=13567 inferenceMs=13525 firstTokenMs=6497 chunks=25 emittedChars=97 out.len=97 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=6 lastEventMsAgo=5
+20261029_161908 I/AiViewModel pid=16673 tid=16727 uptimeMs=63910063 msg=run[10] done: phase=EVAL mode=EVAL_JSON score=75 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_162225 I/AppRingLogStore pid=19878 tid=19878 uptimeMs=64107749 msg=install: pid=19878 timeUtc=20261029_162225 uptimeMs=64107749
+20261029_162225 D/SurveyApp pid=19878 tid=19878 uptimeMs=64107750 msg=attachBaseContext: pid=19878 process=com.negi.survey isMain=true sdk=37
+20261029_162225 D/SurveyApp pid=19878 tid=19878 uptimeMs=64107760 msg=onCreate: pid=19878 process=com.negi.survey isMain=true sdk=37
+20261029_162250 I/AppRingLogStore pid=20117 tid=20117 uptimeMs=64131997 msg=install: pid=20117 timeUtc=20261029_162250 uptimeMs=64131996
+20261029_162250 D/SurveyApp pid=20117 tid=20117 uptimeMs=64131997 msg=attachBaseContext: pid=20117 process=com.negi.survey isMain=true sdk=37
+20261029_162250 D/SurveyApp pid=20117 tid=20117 uptimeMs=64132007 msg=onCreate: pid=20117 process=com.negi.survey isMain=true sdk=37
+20261029_162315 D/AiTrace pid=20117 tid=20117 uptimeMs=64157631 msg=Installed (enabled=true ringEnabled=true)
+20261029_162315 D/LiteRtRepository pid=20117 tid=20117 uptimeMs=64157739 msg=warmUp init ok initMs=2 gateWaitMs=0
+20261029_162315 D/LiteRtRepository pid=20117 tid=20117 uptimeMs=64157739 msg=warmUp Engine ready representativeInference=false totalMs=2
+20261029_162351 D/AiViewModel pid=20117 tid=20139 uptimeMs=64193724 msg=run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=327, fullPrompt.len=2974, timeoutMs=120000
+20261029_162351 D/AiViewModel pid=20117 tid=20139 uptimeMs=64193724 msg=run[1]: sha(prompt)=cdb2d77cc5585b3e21dd9af6735cfd6203312e7032755a25d65d5a45fff43d16 sha(full)=d06d8efa430fd13fae5ab183896cd063dffa4705d7fd727acf799336229360e3
+20261029_162351 D/LiteRtRepository pid=20117 tid=20139 uptimeMs=64193729 msg=[1] start model='Gemma3n4B' prompt.len=2974 sha=d06d8efa430fd13f gateWaitMs=3
+20261029_162351 D/LiteRtRepository pid=20117 tid=20139 uptimeMs=64193758 msg=[1] init ok initMs=28
+20261029_162356 D/LiteRtRepository pid=20117 tid=20117 uptimeMs=64198186 msg=[1] logicalDone=true
+20261029_162356 D/LiteRtRepository pid=20117 tid=20117 uptimeMs=64198186 msg=[1] native cleanup safepoint
+20261029_162356 D/AiViewModel pid=20117 tid=20199 uptimeMs=64198186 msg=run[1] stats: chunks=19, chars=57, raw.len=57
+20261029_162356 D/AiViewModel pid=20117 tid=20199 uptimeMs=64198187 msg=run[1] sha(raw)=ab14b55001d2beb69ad04631415bb763a2b057d9ad93175f37b561b905266cd3
+20261029_162356 D/LiteRtRepository pid=20117 tid=20163 uptimeMs=64198193 msg=[1] Conversation reset completed after safepoint
+20261029_162356 I/AiViewModel pid=20117 tid=20199 uptimeMs=64198194 msg=run[1] done: phase=EVAL mode=EVAL_JSON score=100 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_162356 I/LiteRtRepository pid=20117 tid=20139 uptimeMs=64198194 msg=[1] finalize reason='native-terminated' totalMs=4466 inferenceMs=4435 firstTokenMs=2744 chunks=19 emittedChars=57 out.len=57 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=10 lastEventMsAgo=7
+20261029_162729 I/AppRingLogStore pid=20982 tid=20982 uptimeMs=64411329 msg=install: pid=20982 timeUtc=20261029_162729 uptimeMs=64411327
+20261029_162729 D/SurveyApp pid=20982 tid=20982 uptimeMs=64411329 msg=attachBaseContext: pid=20982 process=com.negi.survey isMain=true sdk=37
+20261029_162729 D/SurveyApp pid=20982 tid=20982 uptimeMs=64411344 msg=onCreate: pid=20982 process=com.negi.survey isMain=true sdk=37
+20261029_162741 D/AiTrace pid=20982 tid=20982 uptimeMs=64423328 msg=Installed (enabled=true ringEnabled=true)
+20261029_162741 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64423435 msg=warmUp init ok initMs=3 gateWaitMs=0
+20261029_162741 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64423435 msg=warmUp Engine ready representativeInference=false totalMs=3
+20261029_162835 D/AiViewModel pid=20982 tid=21087 uptimeMs=64477821 msg=run[1]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=312, fullPrompt.len=2959, timeoutMs=120000
+20261029_162835 D/AiViewModel pid=20982 tid=21087 uptimeMs=64477822 msg=run[1]: sha(prompt)=34d8f3066ae25f7d2898097f1c1efd26891e82b2beea01cfda87f3c28b7856f2 sha(full)=7835395593a452121e58e785efbd42beafcb3eff5be941bfed3bc4a8d1f6283b
+20261029_162835 D/LiteRtRepository pid=20982 tid=21081 uptimeMs=64477827 msg=[1] start model='Gemma3n4B' prompt.len=2959 sha=7835395593a45212 gateWaitMs=4
+20261029_162835 D/LiteRtRepository pid=20982 tid=21081 uptimeMs=64477874 msg=[1] init ok initMs=47
+20261029_162843 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64485452 msg=[1] logicalDone=true
+20261029_162843 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64485452 msg=[1] native cleanup safepoint
+20261029_162843 D/AiViewModel pid=20982 tid=21038 uptimeMs=64485453 msg=run[1] stats: chunks=19, chars=57, raw.len=57
+20261029_162843 D/AiViewModel pid=20982 tid=21038 uptimeMs=64485455 msg=run[1] sha(raw)=8d3bc1ac184ede55a7fda7341213618173536394a0dc1ee9002781dd5f3f75be
+20261029_162843 D/LiteRtRepository pid=20982 tid=21081 uptimeMs=64485457 msg=[1] Conversation reset completed after safepoint
+20261029_162843 I/LiteRtRepository pid=20982 tid=21004 uptimeMs=64485458 msg=[1] finalize reason='native-terminated' totalMs=7632 inferenceMs=7584 firstTokenMs=4178 chunks=19 emittedChars=57 out.len=57 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=8 lastEventMsAgo=6
+20261029_162843 I/AiViewModel pid=20982 tid=21038 uptimeMs=64485465 msg=run[1] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_162916 D/AiViewModel pid=20982 tid=21038 uptimeMs=64518524 msg=run[2]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=412, fullPrompt.len=3059, timeoutMs=120000
+20261029_162916 D/AiViewModel pid=20982 tid=21038 uptimeMs=64518525 msg=run[2]: sha(prompt)=6d9fdc4d0acb7e5137e96357cf9a035f1713d55ae8770d9d49bac66fb158f889 sha(full)=5e36c0ae0951f7adc7a658644018615c817abcf305eb9b4325d2018f6ea2bbb9
+20261029_162916 D/LiteRtRepository pid=20982 tid=21004 uptimeMs=64518526 msg=[2] start model='Gemma3n4B' prompt.len=3059 sha=5e36c0ae0951f7ad gateWaitMs=0
+20261029_162916 D/LiteRtRepository pid=20982 tid=21004 uptimeMs=64518572 msg=[2] init ok initMs=46
+20261029_162927 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64528914 msg=[2] logicalDone=true
+20261029_162927 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64528914 msg=[2] native cleanup safepoint
+20261029_162927 D/AiViewModel pid=20982 tid=21003 uptimeMs=64528916 msg=run[2] stats: chunks=18, chars=56, raw.len=56
+20261029_162927 D/AiViewModel pid=20982 tid=21003 uptimeMs=64528917 msg=run[2] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_162927 D/LiteRtRepository pid=20982 tid=21004 uptimeMs=64528918 msg=[2] Conversation reset completed after safepoint
+20261029_162927 I/LiteRtRepository pid=20982 tid=21087 uptimeMs=64528918 msg=[2] finalize reason='native-terminated' totalMs=10392 inferenceMs=10346 firstTokenMs=5891 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=5 lastEventMsAgo=4
+20261029_162927 I/AiViewModel pid=20982 tid=21003 uptimeMs=64528920 msg=run[2] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_163011 D/AiViewModel pid=20982 tid=21038 uptimeMs=64573287 msg=run[3]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=351, fullPrompt.len=2998, timeoutMs=120000
+20261029_163011 D/AiViewModel pid=20982 tid=21038 uptimeMs=64573287 msg=run[3]: sha(prompt)=a12f03ddb5597e5d5c755032aa39ab970cc7037ca8915203992c30172d78d44e sha(full)=234cd5374d9ca8711d5f6bbd7b452e3bbd4626f774f0cdcf916e8c69f993761a
+20261029_163011 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64573289 msg=[3] start model='Gemma3n4B' prompt.len=2998 sha=234cd5374d9ca871 gateWaitMs=1
+20261029_163011 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64573335 msg=[3] init ok initMs=46
+20261029_163017 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64579212 msg=[3] logicalDone=true
+20261029_163017 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64579212 msg=[3] native cleanup safepoint
+20261029_163017 D/AiViewModel pid=20982 tid=21003 uptimeMs=64579212 msg=run[3] stats: chunks=18, chars=56, raw.len=56
+20261029_163017 D/AiViewModel pid=20982 tid=21003 uptimeMs=64579213 msg=run[3] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_163017 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64579214 msg=[3] Conversation reset completed after safepoint
+20261029_163017 I/LiteRtRepository pid=20982 tid=21081 uptimeMs=64579215 msg=[3] finalize reason='native-terminated' totalMs=5926 inferenceMs=5879 firstTokenMs=3336 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=3 lastEventMsAgo=2
+20261029_163017 I/AiViewModel pid=20982 tid=21003 uptimeMs=64579216 msg=run[3] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_163104 D/AiViewModel pid=20982 tid=21081 uptimeMs=64626246 msg=run[4]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=500, fullPrompt.len=3147, timeoutMs=120000
+20261029_163104 D/AiViewModel pid=20982 tid=21081 uptimeMs=64626247 msg=run[4]: sha(prompt)=009a9aeb6288d7cf92530e8571c34d54a9b471e957eea1debbb74d7df54c2145 sha(full)=3262099ac15eb38509faa5a8a044de886c6fab1e53a0258e0cea14c316887b96
+20261029_163104 D/LiteRtRepository pid=20982 tid=21081 uptimeMs=64626248 msg=[4] start model='Gemma3n4B' prompt.len=3147 sha=3262099ac15eb385 gateWaitMs=1
+20261029_163104 D/LiteRtRepository pid=20982 tid=21081 uptimeMs=64626302 msg=[4] init ok initMs=53
+20261029_163117 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64639096 msg=[4] logicalDone=true
+20261029_163117 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64639096 msg=[4] native cleanup safepoint
+20261029_163117 D/AiViewModel pid=20982 tid=21003 uptimeMs=64639097 msg=run[4] stats: chunks=18, chars=56, raw.len=56
+20261029_163117 D/AiViewModel pid=20982 tid=21003 uptimeMs=64639097 msg=run[4] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_163117 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64639100 msg=[4] Conversation reset completed after safepoint
+20261029_163117 I/LiteRtRepository pid=20982 tid=21038 uptimeMs=64639100 msg=[4] finalize reason='native-terminated' totalMs=12852 inferenceMs=12798 firstTokenMs=8582 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=4
+20261029_163117 I/AiViewModel pid=20982 tid=21003 uptimeMs=64639101 msg=run[4] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_163146 D/AiViewModel pid=20982 tid=21004 uptimeMs=64668250 msg=run[5]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=388, fullPrompt.len=3035, timeoutMs=120000
+20261029_163146 D/AiViewModel pid=20982 tid=21004 uptimeMs=64668251 msg=run[5]: sha(prompt)=bdd9d5d71016d17bf14e3df738cc12ef697aaa8f24bed75cb0427c84a62e4c33 sha(full)=f4ebb79ee2b77b51a93a6728dfe1bfc7c9cf7bc0483b3d3320ccb9f358bba4d6
+20261029_163146 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64668252 msg=[5] start model='Gemma3n4B' prompt.len=3035 sha=f4ebb79ee2b77b51 gateWaitMs=1
+20261029_163146 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64668297 msg=[5] init ok initMs=45
+20261029_163200 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64682095 msg=[5] logicalDone=true
+20261029_163200 D/AiViewModel pid=20982 tid=21004 uptimeMs=64682095 msg=run[5] stats: chunks=26, chars=81, raw.len=81
+20261029_163200 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64682095 msg=[5] native cleanup safepoint
+20261029_163200 D/AiViewModel pid=20982 tid=21004 uptimeMs=64682095 msg=run[5] sha(raw)=7656219bdd10d97a12593a9afab4e5f353b3becaf7bce0e99ee6c96119ae67b9
+20261029_163200 D/LiteRtRepository pid=20982 tid=21081 uptimeMs=64682097 msg=[5] Conversation reset completed after safepoint
+20261029_163200 I/LiteRtRepository pid=20982 tid=21038 uptimeMs=64682098 msg=[5] finalize reason='native-terminated' totalMs=13846 inferenceMs=13800 firstTokenMs=5784 chunks=26 emittedChars=81 out.len=81 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=2
+20261029_163200 I/AiViewModel pid=20982 tid=21004 uptimeMs=64682098 msg=run[5] done: phase=EVAL mode=EVAL_JSON score=65 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_163200 D/AiViewModel pid=20982 tid=21004 uptimeMs=64682101 msg=run[6]: mode=FOLLOWUP_JSON_OR_TEXT phase=FOLLOWUP commit=false prompt.len=482, fullPrompt.len=1019, timeoutMs=120000
+20261029_163200 D/AiViewModel pid=20982 tid=21004 uptimeMs=64682101 msg=run[6]: sha(prompt)=ae30a67cc84651d546387d27bb1ac622226849b8007b9983709992297f30de3f sha(full)=f379e5db1b5beca16da3836e4a4913bf2eb1a9ac760edb0cd5cc2d79082fea5f
+20261029_163200 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64682102 msg=[6] start model='Gemma3n4B' prompt.len=1019 sha=f379e5db1b5beca1 gateWaitMs=0
+20261029_163200 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64682103 msg=[6] init ok initMs=1
+20261029_163206 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64687935 msg=[6] logicalDone=true
+20261029_163206 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64687935 msg=[6] native cleanup safepoint
+20261029_163206 D/AiViewModel pid=20982 tid=21081 uptimeMs=64687936 msg=run[6] stats: chunks=24, chars=123, raw.len=123
+20261029_163206 D/AiViewModel pid=20982 tid=21081 uptimeMs=64687936 msg=run[6] sha(raw)=90128db396894889457cf53fd087ab8e20d6a20ba751912c77514cbd3569a116
+20261029_163206 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64687938 msg=[6] Conversation reset completed after safepoint
+20261029_163206 I/LiteRtRepository pid=20982 tid=21038 uptimeMs=64687938 msg=[6] finalize reason='native-terminated' totalMs=5836 inferenceMs=5835 firstTokenMs=1531 chunks=24 emittedChars=123 out.len=123 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=4 lastEventMsAgo=3
+20261029_163206 I/AiViewModel pid=20982 tid=21081 uptimeMs=64687938 msg=run[6] done: phase=FOLLOWUP mode=FOLLOWUP_JSON_OR_TEXT score=null FU0.len=123 FU0.sha16=90128db396894889 commit=false err=<none>
+20261029_163229 D/AiViewModel pid=20982 tid=21003 uptimeMs=64711490 msg=run[7]: mode=EVAL_JSON phase=EVAL commit=true prompt.len=587, fullPrompt.len=3234, timeoutMs=120000
+20261029_163229 D/AiViewModel pid=20982 tid=21003 uptimeMs=64711490 msg=run[7]: sha(prompt)=33cff5c1e422791e90df86c819e102cdbf0b22edd8e34426cd12fa87adf9bd8c sha(full)=6f5a11e20cd01a725ef68b8e767d251281425e5357c1b6169d9c57b925e5d4b0
+20261029_163229 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64711492 msg=[7] start model='Gemma3n4B' prompt.len=3234 sha=6f5a11e20cd01a72 gateWaitMs=1
+20261029_163229 D/LiteRtRepository pid=20982 tid=21038 uptimeMs=64711539 msg=[7] init ok initMs=46
+20261029_163240 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64722895 msg=[7] logicalDone=true
+20261029_163240 D/LiteRtRepository pid=20982 tid=20982 uptimeMs=64722895 msg=[7] native cleanup safepoint
+20261029_163240 D/AiViewModel pid=20982 tid=21003 uptimeMs=64722895 msg=run[7] stats: chunks=18, chars=56, raw.len=56
+20261029_163240 D/AiViewModel pid=20982 tid=21003 uptimeMs=64722896 msg=run[7] sha(raw)=d582f4f94d38ce300b82f3aeedbda2d18275f3f88b20e7a1ca4fadec505e90e3
+20261029_163241 D/LiteRtRepository pid=20982 tid=21087 uptimeMs=64722900 msg=[7] Conversation reset completed after safepoint
+20261029_163241 I/LiteRtRepository pid=20982 tid=21081 uptimeMs=64722900 msg=[7] finalize reason='native-terminated' totalMs=11409 inferenceMs=11361 firstTokenMs=5180 chunks=18 emittedChars=56 out.len=56 capturedAll=true logicalDone=true nativeTerminated=true cancelTag='null' lastDeltaMsAgo=6 lastEventMsAgo=5
+20261029_163241 I/AiViewModel pid=20982 tid=21003 uptimeMs=64722901 msg=run[7] done: phase=EVAL mode=EVAL_JSON score=95 FU0.len=0 FU0.sha16=none commit=true err=<none>
+20261029_163952 I/AppRingLogStore pid=23951 tid=23951 uptimeMs=65153910 msg=install: pid=23951 timeUtc=20261029_163952 uptimeMs=65153909
+20261029_163952 D/SurveyApp pid=23951 tid=23951 uptimeMs=65153910 msg=attachBaseContext: pid=23951 process=com.negi.survey isMain=true sdk=37
+20261029_163952 D/SurveyApp pid=23951 tid=23951 uptimeMs=65153920 msg=onCreate: pid=23951 process=com.negi.survey isMain=true sdk=37
+20261029_164319 I/AppRingLogStore pid=24946 tid=24946 uptimeMs=65361752 msg=install: pid=24946 timeUtc=20261029_164319 uptimeMs=65361751
+20261029_164319 D/SurveyApp pid=24946 tid=24946 uptimeMs=65361752 msg=attachBaseContext: pid=24946 process=com.negi.survey isMain=true sdk=37
+20261029_164319 D/SurveyApp pid=24946 tid=24946 uptimeMs=65361761 msg=onCreate: pid=24946 process=com.negi.survey isMain=true sdk=37
