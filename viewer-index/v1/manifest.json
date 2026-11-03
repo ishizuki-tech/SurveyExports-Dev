@@ -1,15 +1,20 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T10:15:09-07:00",
+  "generated_at": "2026-11-03T10:42:00-08:00",
   "source": "development",
   "repository": "ishizuki-tech/SurveyExports-Dev",
-  "commit_sha": "e2f490acb37bfb150fdec463468af15ec326f902",
+  "commit_sha": "f3b3182f886cf796e17504841267401c70029909",
   "malformed_export_count": 0,
   "months": [
     {
+      "month": "2026-11",
+      "file": "2026-11.json",
+      "count": 2
+    },
+    {
       "month": "2026-10",
       "file": "2026-10.json",
-      "count": 49
+      "count": 50
     }
   ]
 }

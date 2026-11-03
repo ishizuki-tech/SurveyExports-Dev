@@ -1,0 +1,44 @@
+[
+  {
+    "source": "development",
+    "path": "2026-11-03/exports/2026-11-03_09-43-44_survey_SM-S931U1_5F8C58FB249A_01a1a281-fd6a-736b-abe4-2df979caea4c.json",
+    "github_blob_url": "https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/2026-11-03/exports/2026-11-03_09-43-44_survey_SM-S931U1_5F8C58FB249A_01a1a281-fd6a-736b-abe4-2df979caea4c.json",
+    "raw_json_url": "https://raw.githubusercontent.com/ishizuki-tech/SurveyExports-Dev/main/2026-11-03/exports/2026-11-03_09-43-44_survey_SM-S931U1_5F8C58FB249A_01a1a281-fd6a-736b-abe4-2df979caea4c.json",
+    "uploader_date": "2026-11-03",
+    "exported_at": "2026-11-03_09-43-44",
+    "survey_id": "01a1a281-fd6a-736b-abe4-2df979caea4c",
+    "device_tag": "SM-S931U1_5F8C58FB249A",
+    "build": "ef48b6d",
+    "question_count": 24,
+    "answer_count": 8,
+    "followup_count": 0,
+    "audio_reference_count": 0,
+    "availability": {
+      "build": true,
+      "ai_outcomes": true,
+      "followups": true,
+      "audio_references": false
+    }
+  },
+  {
+    "source": "development",
+    "path": "2026-11-03/exports/2026-11-03_10-03-58_survey_SM-S931U1_5F8C58FB249A_01a1a292-06d2-7f12-a32a-ccdb2dcb91b5.json",
+    "github_blob_url": "https://github.com/ishizuki-tech/SurveyExports-Dev/blob/main/2026-11-03/exports/2026-11-03_10-03-58_survey_SM-S931U1_5F8C58FB249A_01a1a292-06d2-7f12-a32a-ccdb2dcb91b5.json",
+    "raw_json_url": "https://raw.githubusercontent.com/ishizuki-tech/SurveyExports-Dev/main/2026-11-03/exports/2026-11-03_10-03-58_survey_SM-S931U1_5F8C58FB249A_01a1a292-06d2-7f12-a32a-ccdb2dcb91b5.json",
+    "uploader_date": "2026-11-03",
+    "exported_at": "2026-11-03_10-03-58",
+    "survey_id": "01a1a292-06d2-7f12-a32a-ccdb2dcb91b5",
+    "device_tag": "SM-S931U1_5F8C58FB249A",
+    "build": "60616ed",
+    "question_count": 24,
+    "answer_count": 9,
+    "followup_count": 0,
+    "audio_reference_count": 0,
+    "availability": {
+      "build": true,
+      "ai_outcomes": true,
+      "followups": true,
+      "audio_references": false
+    }
+  }
+]
