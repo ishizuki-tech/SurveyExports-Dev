@@ -1,0 +1,180 @@
+{
+  "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+  "build": "c75ad81",
+  "exported_at": "2026-11-04_09-15-03",
+  "meta": {},
+  "answers": {
+    "Pre1": {
+      "question": "Observer Name",
+      "answer": ""
+    },
+    "Pre2": {
+      "question": "Interviewer Name",
+      "answer": ""
+    },
+    "Pre3": {
+      "question": "Respondent Name",
+      "answer": ""
+    },
+    "Pre4": {
+      "question": "Respondent ID",
+      "answer": ""
+    },
+    "Pre5": {
+      "question": "Please select your phone",
+      "answer": "Phone 3"
+    },
+    "Q00": {
+      "question": "Hallo. Thank you for making time for us today.\n\nI work with CIMMYT, an organization that conducts research to improve the production of maize, wheat, and other crops in different countries across Africa, Asia, and Latin America.\n\nWe are carrying out this study to learn about farmers’ experiences, challenges, and preferences when growing white maize. The information you share will help researchers better understand farmers’ needs and support the development of better maize varieties in the future.\n\nDuring the interview, we will use a mobile phone to help record and organize your responses. This will help us capture your answers accurately and make sure we do not miss any important information.\n\nYour participation is voluntary. You may choose not to answer any question or stop the interview at any time. The information you provide will be kept private and used only for research purposes. There are no right or wrong answers—we simply want to hear about your real experiences and views.\n\nThe interview will take about 45 minutes.\n\nThank you very much for taking part in this study.\n\nThe study is led by Dr. Mercy Mbugua. If you have any questions or concerns about the study, you can contact her on +254 724 740 197.\n\nDo you agree to participate?",
+      "answer": "Yes, and proceed"
+    },
+    "Q01": {
+      "question": "Which sub-county and ward do you live in?",
+      "answer": "Githunguri – Githunguri"
+    },
+    "Q02": {
+      "question": "Respondent Gender",
+      "answer": "Male"
+    },
+    "Q03": {
+      "question": "What is your age?",
+      "answer": "25"
+    },
+    "Q04": {
+      "question": "Which crops do you grow?",
+      "answer": ""
+    },
+    "Q05": {
+      "question": "Which livestock do you keep?",
+      "answer": ""
+    },
+    "Q06": {
+      "question": "How many years have you been growing white maize?",
+      "answer": "5"
+    },
+    "Q07": {
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "So this is the second time you do this.",
+      "audio": [
+        { "file": "2026-11-04_16-57-44_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q07.wav" },
+        { "file": "2026-11-04_16-58-11_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q07.wav" }
+      ]
+    },
+    "Q08": {
+      "question": "Please listen to this example: if you could harvest your maize 20 days early, but your harvest would be smaller, how many bags of harvest would you accept to lose?",
+      "answer": ""
+    },
+    "Q09": {
+      "question": "If pests or diseases damage your maize, how many bags would you need to lose before deciding to change your seed?",
+      "answer": ""
+    },
+    "Q10": {
+      "question": "If there is a new maize seed, what characteristics would make you stop using your current seed and use the new one?",
+      "answer": ""
+    },
+    "Q11": {
+      "question": "If you and other farmers in your area harvested very little maize, below how many bags would you decide to change your seed?",
+      "answer": ""
+    },
+    "Q12": {
+      "question": "When does drought damage your maize the most: when the plants are young, when they are flowering, when they have started producing cobs, or at what other time?",
+      "answer": ""
+    },
+    "Q13": {
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": "I give 50% of my crop to my family,",
+      "audio": [
+        { "file": "2026-11-04_17-06-42_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q13.wav" },
+        { "file": "2026-11-04_17-07-14_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q13.wav" },
+        { "file": "2026-11-04_17-10-18_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q13.wav" }
+      ]
+    },
+    "Q14a": {
+      "question": "Do you use white maize to feed animals?",
+      "answer": "No"
+    },
+    "Q15": {
+      "question": "Where do you usually get your white maize seed, and why do you like getting it from there?",
+      "answer": "I like to get my white maize from the agricultural dealer because he's nearby\n and I really like him and he helps me a lot with picking out crop seeds that\n will benefit my family the most and this whole dictation is taking less than 20\n seconds. Good God they talk so much.",
+      "audio": [
+        { "file": "2026-11-04_17-12-45_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q15.wav" }
+      ]
+    },
+    "Q16": {
+      "question": "Where do you usually sell your maize after harvesting, and why do you choose to sell there?",
+      "answer": "If you keep recording like this, how long it's going to be? There's no limit?\n There's no limit. Right? There wasn't a limit before.\n Right. Right. Now you just have an idea of how long you're recording.\n How long it has been recording?\n Right, because I figure that way at least you can, we can tell Susan, you know, try to keep them to\n under a minute.\n Right. Maybe 30 seconds. If you can, if you can tell the surveyors to keep the farmer talking for\n 30 or 45 seconds because they can now see this, that might be helpful.",
+      "audio": [
+        { "file": "2026-11-04_17-14-20_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q16.wav" }
+      ]
+    },
+    "Q17": {
+      "question": "Thank you very much for taking your time to answer these questions.",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Add any general notes and press Start.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {"Q13":"limit_reached","Q15":"failure"},
+  "followups": {
+    "Q13": [
+      { "question": "How do you determine the maize allocation for livestock feed, sale, and other uses besides feeding your family?", "answer": "We eat half of the crop and the other half we feed to our animals." },
+      { "question": "How do you decide the maize allocation for sale and other uses besides feeding your family and livestock?", "answer": "So it now counts up and it just gives you an idea of how long the farmer is\n talking for. It doesn't do anything else, there is no limit to the timing. The\n farmers can talk for their entire lunch break and we will never know the\n difference." }
+    ],
+    "Q16": [
+      { "question": "Where do you usually sell your maize after harvesting, and why do you choose to sell there?", "answer": "" }
+    ]
+  },
+  "voice_files": [
+    {
+      "file": "2026-11-04_16-57-44_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q07.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q07",
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "So this is the second time you do this."
+    },
+    {
+      "file": "2026-11-04_16-58-11_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q07.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q07",
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "So this is the second time you do this."
+    },
+    {
+      "file": "2026-11-04_17-06-42_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q13.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q13",
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": "I give 50% of my crop to my family,"
+    },
+    {
+      "file": "2026-11-04_17-07-14_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q13.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q13",
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": "I give 50% of my crop to my family,"
+    },
+    {
+      "file": "2026-11-04_17-10-18_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q13.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q13",
+      "question": "After harvest, how do you divide your maize? How do you decide the amount for each use, for example food, animals, selling, or other uses?",
+      "answer": "I give 50% of my crop to my family,"
+    },
+    {
+      "file": "2026-11-04_17-12-45_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q15.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q15",
+      "question": "Where do you usually get your white maize seed, and why do you like getting it from there?",
+      "answer": "I like to get my white maize from the agricultural dealer because he's nearby\n and I really like him and he helps me a lot with picking out crop seeds that\n will benefit my family the most and this whole dictation is taking less than 20\n seconds. Good God they talk so much."
+    },
+    {
+      "file": "2026-11-04_17-14-20_voice_SM-S931U1_5F8C58FB249A_01a1a77d-4471-7d7d-a16b-aaf6d69c6d16_Q16.wav",
+      "survey_id": "01a1a77d-4471-7d7d-a16b-aaf6d69c6d16",
+      "question_id": "Q16",
+      "question": "Where do you usually sell your maize after harvesting, and why do you choose to sell there?",
+      "answer": "If you keep recording like this, how long it's going to be? There's no limit?\n There's no limit. Right? There wasn't a limit before.\n Right. Right. Now you just have an idea of how long you're recording.\n How long it has been recording?\n Right, because I figure that way at least you can, we can tell Susan, you know, try to keep them to\n under a minute.\n Right. Maybe 30 seconds. If you can, if you can tell the surveyors to keep the farmer talking for\n 30 or 45 seconds because they can now see this, that might be helpful."
+    }
+  ]
+}
