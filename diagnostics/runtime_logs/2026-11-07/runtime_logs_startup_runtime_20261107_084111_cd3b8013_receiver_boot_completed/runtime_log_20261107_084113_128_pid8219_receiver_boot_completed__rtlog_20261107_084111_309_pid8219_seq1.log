@@ -1,0 +1,35 @@
+=== RuntimeLogStore Header ===
+ts=2026-11-07T08:41:11.328Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=8219
+==============================
+2026-11-07T08:41:11.328Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-11-07T08:41:11.318Z D/SurveyApp [main] attachBaseContext: pid=8219 process=com.negi.survey.local isMain=true sdk=37
+2026-11-07T08:41:11.319Z D/SurveyApp [main] bootTiming: attachBaseContext total=69ms
+2026-11-07T08:41:11.319Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-11-07T08:41:11.321Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-11-07T08:41:11.336Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-11-07T08:41:11.336Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-11-07T08:41:11.336Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-11-07T08:41:11.336Z D/SurveyApp [main] onCreate: pid=8219 process=com.negi.survey.local isMain=true sdk=37
+2026-11-07T08:41:11.341Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-11-07T08:41:11.341Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-11-07T08:41:11.341Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-11-07T08:41:11.341Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-11-07T08:41:11.341Z D/SurveyApp [main] bootTiming: onCreate total=5ms
+2026-11-07T08:41:11.491Z I/RuntimeLogStore [DefaultDispatcher-worker-1] start repair: ctx/dir refreshed
+2026-11-07T08:41:12.938Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-11-07T08:41:12.954Z D/LiteRtLM [DefaultDispatcher-worker-4] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65119|ino=82600|size=4919541760|mtime=1793989268781'
+2026-11-07T08:41:12.954Z D/LiteRtLM [DefaultDispatcher-worker-4] Capabilities: image=false audio=false
+2026-11-07T08:41:12.954Z D/LiteRtLM [DefaultDispatcher-worker-4] Backend=com.google.ai.edge.litertlm.Backend$GPU@e1dd9c8 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-11-07T08:41:12.954Z D/LiteRtLM [DefaultDispatcher-worker-4] Model path='/data/user/0/com.negi.survey.local/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1793989268781
+2026-11-07T08:41:12.954Z D/LiteRtLM [DefaultDispatcher-worker-4] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-11-07T08:41:12.955Z D/LiteRtLM [DefaultDispatcher-worker-4] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-11-07T08:41:12.957Z D/LiteRtLM [DefaultDispatcher-worker-4] Engine cacheDir resolved: key='fs|dev=65119|ino=82600|size=4919541760|mtime=1793989268781' backend=com.google.ai.edge.litertlm.Backend$GPU@e1dd9c8 path='/data/user/0/com.negi.survey.local/no_backup/litertlm_cache/dfe8478c1dbf68402d0f62677293d5a8c523e147' filesBefore=2
+2026-11-07T08:41:13.121Z I/RuntimeLogStore [DefaultDispatcher-worker-1] start repair: ctx/dir refreshed
