@@ -1,0 +1,24 @@
+{
+  "survey_id": "01a1b89f-051b-7227-8262-bd0beafa69c9",
+  "status": "incomplete",
+  "build": "e1c6001",
+  "exported_at": "2026-11-07_16-47-30",
+  "meta": {
+    "session_free_text": "du rs ufi"
+  },
+  "answers": {
+    "Pre1": {
+      "question": "Observer Name",
+      "answer": ""
+    },
+    "Start": {
+      "question": "Add any general notes and press Start.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+  ]
+}
