@@ -1,0 +1,61 @@
+=== RuntimeLogStore Header ===
+ts=2026-11-08T00:54:45.761Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=25784
+==============================
+2026-11-08T00:54:45.761Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-11-08T00:54:45.756Z D/SurveyApp [main] attachBaseContext: pid=25784 process=com.negi.survey.local isMain=true sdk=37
+2026-11-08T00:54:45.757Z D/SurveyApp [main] bootTiming: attachBaseContext total=58ms
+2026-11-08T00:54:45.757Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-11-08T00:54:45.760Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-11-08T00:54:45.780Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-11-08T00:54:45.781Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-11-08T00:54:45.781Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-11-08T00:54:45.781Z D/SurveyApp [main] onCreate: pid=25784 process=com.negi.survey.local isMain=true sdk=37
+2026-11-08T00:54:45.787Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-11-08T00:54:45.788Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-11-08T00:54:45.788Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-11-08T00:54:45.789Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-11-08T00:54:45.789Z D/SurveyApp [main] bootTiming: onCreate total=9ms
+2026-11-08T00:54:48.289Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-11-08T00:54:48.296Z I/SurveyApp [main] GitHub upload mode: local
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: unavailable
+2026-11-08T00:54:48.296Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-11-08T00:54:48.299Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (immediate).
+2026-11-08T00:54:48.299Z W/SurveyApp [main] Startup runtime logs: scheduling one retry; reason=config
+2026-11-08T00:54:48.299Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-11-08T00:54:48.302Z D/SurveyApp [main] Startup ring logs: GitHub config not available (immediate).
+2026-11-08T00:54:48.302Z W/SurveyApp [main] Startup ring logs: scheduling one retry; reason=config
+2026-11-08T00:54:48.302Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-11-08T00:54:48.303Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-11-08T00:54:48.303Z W/SurveyApp [main] Deferred startup enqueues done: took=14ms
+2026-11-08T00:54:48.303Z D/SurveyApp [DefaultDispatcher-worker-3] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-11-08T00:54:48.306Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: GitHub config unavailable (initial).
+2026-11-08T00:54:48.306Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: scheduling one retry; reason=config delay=1600ms
+2026-11-08T00:54:49.543Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-11-08T00:54:49.561Z D/LiteRtLM [DefaultDispatcher-worker-2] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65119|ino=82600|size=4919541760|mtime=1793989268781'
+2026-11-08T00:54:49.561Z D/LiteRtLM [DefaultDispatcher-worker-2] Capabilities: image=false audio=false
+2026-11-08T00:54:49.562Z D/LiteRtLM [DefaultDispatcher-worker-2] Backend=com.google.ai.edge.litertlm.Backend$GPU@3fcb6c maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-11-08T00:54:49.562Z D/LiteRtLM [DefaultDispatcher-worker-2] Model path='/data/user/0/com.negi.survey.local/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1793989268781
+2026-11-08T00:54:49.562Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-11-08T00:54:49.562Z D/LiteRtLM [DefaultDispatcher-worker-2] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-11-08T00:54:49.563Z D/LiteRtLM [DefaultDispatcher-worker-2] Engine cacheDir resolved: key='fs|dev=65119|ino=82600|size=4919541760|mtime=1793989268781' backend=com.google.ai.edge.litertlm.Backend$GPU@3fcb6c path='/data/user/0/com.negi.survey.local/no_backup/litertlm_cache/dfe8478c1dbf68402d0f62677293d5a8c523e147' filesBefore=2
+2026-11-08T00:54:49.900Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(delayed) took=0ms
+2026-11-08T00:54:49.907Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (delayed).
+2026-11-08T00:54:49.907Z D/SurveyApp [main] Startup runtime logs: retry already scheduled; reason=config
+2026-11-08T00:54:49.911Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(delayed) took=0ms
+2026-11-08T00:54:49.913Z D/SurveyApp [main] Startup ring logs: GitHub config not available (delayed).
+2026-11-08T00:54:49.913Z D/SurveyApp [main] Startup ring logs: retry already scheduled; reason=config
+2026-11-08T00:54:49.914Z D/SurveyApp [DefaultDispatcher-worker-3] Survey recovery WorkManager available. where=startupSurveyUploads(delayed) took=0ms
+2026-11-08T00:54:49.916Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: GitHub config unavailable (delayed).
+2026-11-08T00:54:49.916Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: retry exhausted; reason=config
+2026-11-08T00:55:00.150Z W/LiteRtLM [DefaultDispatcher-worker-2] Engine.initialize completed: key='fs|dev=65119|ino=82600|size=4919541760|mtime=1793989268781' backend=com.google.ai.edge.litertlm.Backend$GPU@3fcb6c took=10583ms cacheFilesAfter=2
