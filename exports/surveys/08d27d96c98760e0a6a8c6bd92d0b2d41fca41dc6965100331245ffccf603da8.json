@@ -1,0 +1,50 @@
+{
+  "survey_id": "01a1b8f2-7332-74ca-8d06-1130ab3c4745",
+  "status": "incomplete",
+  "build": "9070380",
+  "exported_at": "2026-11-07_18-18-09",
+  "meta": {
+    "session_free_text": "(speaking in foreign language)\nTest, test, test, test.\nThis door."
+  },
+  "answers": {
+    "Start": {
+      "question": "Add any general notes and press Next.",
+      "answer": ""
+    },
+    "__home_free_text__": {
+      "question": "",
+      "answer": "",
+      "audio": [
+        { "file": "2026-11-08_02-17-43_voice_SM-S731U_4BA1AB0C475C_01a1b8f2-7332-74ca-8d06-1130ab3c4745_home_free_text.wav" },
+        { "file": "2026-11-08_02-17-58_voice_SM-S731U_4BA1AB0C475C_01a1b8f2-7332-74ca-8d06-1130ab3c4745_home_free_text.wav" },
+        { "file": "2026-11-08_02-18-04_voice_SM-S731U_4BA1AB0C475C_01a1b8f2-7332-74ca-8d06-1130ab3c4745_home_free_text.wav" }
+      ]
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+    {
+      "file": "2026-11-08_02-17-43_voice_SM-S731U_4BA1AB0C475C_01a1b8f2-7332-74ca-8d06-1130ab3c4745_home_free_text.wav",
+      "survey_id": "01a1b8f2-7332-74ca-8d06-1130ab3c4745",
+      "question_id": "__home_free_text__",
+      "question": "",
+      "answer": ""
+    },
+    {
+      "file": "2026-11-08_02-17-58_voice_SM-S731U_4BA1AB0C475C_01a1b8f2-7332-74ca-8d06-1130ab3c4745_home_free_text.wav",
+      "survey_id": "01a1b8f2-7332-74ca-8d06-1130ab3c4745",
+      "question_id": "__home_free_text__",
+      "question": "",
+      "answer": ""
+    },
+    {
+      "file": "2026-11-08_02-18-04_voice_SM-S731U_4BA1AB0C475C_01a1b8f2-7332-74ca-8d06-1130ab3c4745_home_free_text.wav",
+      "survey_id": "01a1b8f2-7332-74ca-8d06-1130ab3c4745",
+      "question_id": "__home_free_text__",
+      "question": "",
+      "answer": ""
+    }
+  ]
+}
