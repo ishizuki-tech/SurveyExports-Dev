@@ -1,0 +1,18 @@
+{
+  "survey_id": "01a1b89e-f130-70bf-b7fc-a602e1506875",
+  "status": "incomplete",
+  "build": "e1c6001",
+  "exported_at": "2026-11-07_16-46-28",
+  "meta": {},
+  "answers": {
+    "Start": {
+      "question": "Add any general notes and press Start.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+  ]
+}
