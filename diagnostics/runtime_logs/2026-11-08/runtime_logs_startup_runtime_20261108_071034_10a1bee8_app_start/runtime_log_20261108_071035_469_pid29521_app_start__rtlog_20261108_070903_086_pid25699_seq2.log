@@ -1,0 +1,76 @@
+=== RuntimeLogStore Header ===
+ts=2026-11-08T07:09:03.087Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=25699
+==============================
+2026-11-08T07:09:03.087Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:app_start) ---
+2026-11-08T07:09:10.972Z W/LiteRtLM [DefaultDispatcher-worker-2] Engine.initialize completed: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' backend=com.google.ai.edge.litertlm.Backend$GPU@c70c60d took=11654ms cacheFilesAfter=2
+2026-11-08T07:09:10.995Z D/LiteRtLM [DefaultDispatcher-worker-2] createConversation completed: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' took=22ms
+2026-11-08T07:09:10.997Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' engineMs=11654 conversationMs=22 totalMs=11684
+2026-11-08T07:09:11.041Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-11-08T07:09:11.056Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@26bc051, navSize=1
+2026-11-08T07:09:11.057Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1b9fd-5a05-7c55-b661-baa1314dd622, navSize=1, graphSize=28
+2026-11-08T07:09:11.068Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-08T07:09:11.068Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-11-08T07:09:11.068Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14b, Q15, Q16], eval=[], follow=[]
+2026-11-08T07:09:11.068Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-11-08T07:09:11.069Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-11-08T07:09:11.070Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-11-08T07:09:11.070Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-11-08T07:09:11.070Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-11-08T07:09:11.357Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-11-08T07:09:11.358Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094'
+2026-11-08T07:09:11.362Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=6
+2026-11-08T07:09:11.362Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=6
+2026-11-08T07:09:22.281Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-11-08T07:09:22.282Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@26bc051, navSize=1
+2026-11-08T07:09:22.282Z D/SurveyVM [main] resetToStart -> Start, session=1, uuid=01a1b9fd-85e4-7ed2-b937-7ff8fa795ec3, preserveDraft=true, draftLen=0
+2026-11-08T07:09:22.283Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=0, draftCleared=true, uuid=01a1b9fd-85e4-7ed2-b937-7ff8fa795ec3
+2026-11-08T07:09:22.283Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-11-08T07:09:24.385Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=0, runLen=0, draftLen=0)
+2026-11-08T07:09:26.820Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-11-08T07:09:35.563Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-11-08T07:09:35.576Z D/LiteRtLM [DefaultDispatcher-worker-2] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094'
+2026-11-08T07:09:35.576Z D/LiteRtLM [DefaultDispatcher-worker-2] Capabilities: image=false audio=false
+2026-11-08T07:09:35.576Z D/LiteRtLM [DefaultDispatcher-worker-2] Backend=com.google.ai.edge.litertlm.Backend$GPU@80fc18b maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-11-08T07:09:35.576Z D/LiteRtLM [DefaultDispatcher-worker-2] Model path='/data/user/0/com.negi.survey.local/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1794120958094
+2026-11-08T07:09:35.576Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-11-08T07:09:35.576Z D/LiteRtLM [DefaultDispatcher-worker-2] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-11-08T07:09:35.579Z D/LiteRtLM [DefaultDispatcher-worker-2] Engine cacheDir resolved: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' backend=com.google.ai.edge.litertlm.Backend$GPU@80fc18b path='/data/user/0/com.negi.survey.local/no_backup/litertlm_cache/9e461b8b0ed5e633ecaed28453587585274bcf94' filesBefore=2
+2026-11-08T07:09:45.303Z W/LiteRtLM [DefaultDispatcher-worker-2] Engine.initialize completed: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' backend=com.google.ai.edge.litertlm.Backend$GPU@80fc18b took=9719ms cacheFilesAfter=2
+2026-11-08T07:09:45.313Z D/LiteRtLM [DefaultDispatcher-worker-2] createConversation completed: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' took=8ms
+2026-11-08T07:09:45.314Z D/LiteRtLM [DefaultDispatcher-worker-2] LiteRT-LM initialization succeeded: model='Gemma3n4B', key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' engineMs=9719 conversationMs=8 totalMs=9738
+2026-11-08T07:09:45.323Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-11-08T07:09:45.339Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1b9fd-dfee-7f28-804b-e0a725e6841b, navSize=1, graphSize=28
+2026-11-08T07:09:45.355Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-08T07:09:45.355Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-11-08T07:09:45.355Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14b, Q15, Q16], eval=[], follow=[]
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-11-08T07:09:45.356Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-11-08T07:09:45.357Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-11-08T07:09:45.496Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-11-08T07:09:45.497Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094'
+2026-11-08T07:09:45.499Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=4
+2026-11-08T07:09:45.499Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=5
+2026-11-08T07:09:48.377Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-11-08T07:09:50.396Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
