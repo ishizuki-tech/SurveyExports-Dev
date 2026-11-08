@@ -1,0 +1,27 @@
+=== Previous Session Logcat ===
+captured_time_utc=20261108_004605
+captured_time_local=20261107_164605
+marker=2026-11-07 16:45:14.382
+preferred_prev_pid=19960
+note=best-effort; buffers may be overwritten before next start
+sdk=37
+device=samsung SM-S731U
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+
+=== Logcat (since marker) ===
+--------- beginning of main
+11-07 16:45:14.382 19960 20482 D CrashCapture: Staged prev session logcat: /data/user/0/com.negi.survey.local/files/diagnostics/crash/prevlog_20261108_004514_pid19960.log bytes=201807 marker=2026-11-07 15:35:09.574 pid=-1
+11-07 16:45:14.386 19960 20482 D CrashCapture: Persisted logcat marker for next run: 2026-11-07 16:45:14.382
+11-07 16:45:14.392 19960 20482 D CrashCapture: No upload config found; crash artifacts will remain local. where=SurveyApp:enqueuePending(immediate):bg
+11-07 16:45:15.625 19960 19960 D SurveyApp: WorkManager available. where=startupRtLogs(delayed) took=0ms
+11-07 16:45:15.633 19960 19960 D SurveyApp: Startup runtime logs: GitHub config not available (delayed).
+11-07 16:45:15.634 19960 19960 D SurveyApp: Startup runtime logs: retry already scheduled; reason=config
+11-07 16:45:15.637 19960 19960 D SurveyApp: WorkManager available. where=startupRingLogs(delayed) took=0ms
+11-07 16:45:15.646 19960 19960 D SurveyApp: Startup ring logs: GitHub config not available (delayed).
+11-07 16:45:15.647 19960 19960 D SurveyApp: Startup ring logs: retry already scheduled; reason=config
+11-07 16:45:15.655 19960 20485 D SurveyApp: Survey recovery WorkManager available. where=startupSurveyUploads(delayed) took=0ms
+11-07 16:45:15.667 19960 20485 W SurveyApp: Startup survey recovery: GitHub config unavailable (delayed).
+11-07 16:45:15.668 19960 20485 W SurveyApp: Startup survey recovery: retry exhausted; reason=config
+11-07 16:45:16.873 19960 21029 D ProfileInstaller: Installing profile for com.negi.survey.local
