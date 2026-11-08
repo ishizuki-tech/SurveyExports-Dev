@@ -1,0 +1,51 @@
+=== RuntimeLogStore Header ===
+ts=2026-11-08T07:10:31.558Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=29521
+==============================
+2026-11-08T07:10:31.559Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-11-08T07:10:31.555Z D/SurveyApp [main] attachBaseContext: pid=29521 process=com.negi.survey.local isMain=true sdk=37
+2026-11-08T07:10:31.556Z D/SurveyApp [main] bootTiming: attachBaseContext total=35ms
+2026-11-08T07:10:31.556Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-11-08T07:10:31.557Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-11-08T07:10:31.568Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-11-08T07:10:31.568Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-11-08T07:10:31.569Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-11-08T07:10:31.569Z D/SurveyApp [main] onCreate: pid=29521 process=com.negi.survey.local isMain=true sdk=37
+2026-11-08T07:10:31.572Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-11-08T07:10:31.572Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-11-08T07:10:31.572Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-11-08T07:10:31.573Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-11-08T07:10:31.573Z D/SurveyApp [main] bootTiming: onCreate total=5ms
+2026-11-08T07:10:32.881Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-11-08T07:10:32.913Z D/LiteRtLM [DefaultDispatcher-worker-3] Initializing LiteRT-LM: model='Gemma3n4B', key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094'
+2026-11-08T07:10:32.914Z D/LiteRtLM [DefaultDispatcher-worker-3] Capabilities: image=false audio=false
+2026-11-08T07:10:32.914Z D/LiteRtLM [DefaultDispatcher-worker-3] Backend=com.google.ai.edge.litertlm.Backend$GPU@28b8a4 maxNumTokens=1024 (raw=1024) topK=1 topP=0.0 temp=0.0
+2026-11-08T07:10:32.914Z D/LiteRtLM [DefaultDispatcher-worker-3] Model path='/data/user/0/com.negi.survey.local/files/gemma-3n-E4B-it-int4.litertlm' sizeBytes=4919541760 lastModified=1794120958094
+2026-11-08T07:10:32.914Z D/LiteRtLM [DefaultDispatcher-worker-3] LiteRT-LM native benchmark policy: enabled=false emulator=false
+2026-11-08T07:10:32.915Z D/LiteRtLM [DefaultDispatcher-worker-3] Speculative decoding / MTP policy: enabled=false runtimeFlagUpdated=true model='Gemma3n4B'
+2026-11-08T07:10:32.918Z D/LiteRtLM [DefaultDispatcher-worker-3] Engine cacheDir resolved: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094' backend=com.google.ai.edge.litertlm.Backend$GPU@28b8a4 path='/data/user/0/com.negi.survey.local/no_backup/litertlm_cache/9e461b8b0ed5e633ecaed28453587585274bcf94' filesBefore=2
+2026-11-08T07:10:34.077Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-11-08T07:10:34.081Z I/SurveyApp [main] GitHub upload mode: local
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: available
+2026-11-08T07:10:34.081Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=0ms
+2026-11-08T07:10:34.083Z D/SurveyApp [main] Startup runtime logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/runtime_logs'
+2026-11-08T07:10:34.094Z D/SurveyApp [main] Startup runtime logs: enqueue requested (immediate).
+2026-11-08T07:10:34.094Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-11-08T07:10:34.095Z D/SurveyApp [main] Startup ring logs target -> owner=ishizuki-tech repo=SurveyExports-Dev branch=main base='/diagnostics/applog_ring'
+2026-11-08T07:10:34.096Z D/SurveyApp [main] Startup ring logs: enqueue requested (immediate).
+2026-11-08T07:10:34.096Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-11-08T07:10:34.097Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-11-08T07:10:34.097Z W/SurveyApp [main] Deferred startup enqueues done: took=20ms
+2026-11-08T07:10:34.098Z D/SurveyApp [DefaultDispatcher-worker-2] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-11-08T07:10:34.100Z D/SurveyApp [DefaultDispatcher-worker-2] Startup survey recovery complete: discovered=0 attempted=0 submitted=0 active=0 trackerUnconfirmed=0 uploaded=0 deferred=0 invalid=0 operationalFailures=0 duplicates=0 unclassified=0
+2026-11-08T07:10:35.463Z I/RuntimeLogStore [DefaultDispatcher-worker-9] start repair: ctx/dir refreshed
