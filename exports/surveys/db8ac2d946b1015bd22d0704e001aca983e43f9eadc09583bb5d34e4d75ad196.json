@@ -1,0 +1,18 @@
+{
+  "survey_id": "01a1b8a7-12df-725a-b664-21b18fdbeb8f",
+  "status": "incomplete",
+  "build": "e1c6001",
+  "exported_at": "2026-11-07_16-57-31",
+  "meta": {},
+  "answers": {
+    "Start": {
+      "question": "Andika maelezo yoyote ya jumla kisha bonyeza kitufe cha Next.",
+      "answer": ""
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+  ]
+}
