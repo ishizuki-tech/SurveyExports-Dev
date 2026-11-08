@@ -1,0 +1,81 @@
+=== RuntimeLogStore Header ===
+ts=2026-11-07T23:34:37.381Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=13071
+==============================
+2026-11-07T23:34:37.382Z I/RuntimeLogStore [rtlog-io] start: actor launched (fileNameFormat=LEGACY)
+2026-11-07T23:34:37.371Z D/SurveyApp [main] attachBaseContext: pid=13071 process=com.negi.survey.local isMain=true sdk=37
+2026-11-07T23:34:37.372Z D/SurveyApp [main] bootTiming: attachBaseContext total=29ms
+2026-11-07T23:34:37.372Z D/SurveyApp [main] Skipping WorkManager init in attachBaseContext; will init lazily on first enqueue.
+2026-11-07T23:34:37.373Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:attachBaseContext
+2026-11-07T23:34:37.387Z I/RuntimeLogStore [main] start repair: ctx/dir refreshed
+2026-11-07T23:34:37.388Z D/SurveyApp [main] bootTiming: RuntimeLogStore.start took=0ms
+2026-11-07T23:34:37.388Z D/SurveyApp [main] bootTiming: AppRingLogStore.install took=0ms
+2026-11-07T23:34:37.388Z D/SurveyApp [main] onCreate: pid=13071 process=com.negi.survey.local isMain=true sdk=37
+2026-11-07T23:34:37.391Z D/SurveyApp [main] CrashCapture installed: where=SurveyApp:onCreate(rewrap)
+2026-11-07T23:34:37.391Z D/SurveyApp [main] CrashCapture self-healing registered.
+2026-11-07T23:34:37.391Z W/SurveyApp [main] Startup enqueues deferred: delay=2500ms (to reduce init contention)
+2026-11-07T23:34:37.391Z D/SurveyApp [main] Startup survey recovery deferred: delay=2500ms
+2026-11-07T23:34:37.392Z D/SurveyApp [main] bootTiming: onCreate total=4ms
+2026-11-07T23:34:38.721Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1b85d-3580-7309-92b2-c198baf4732b, navSize=1, graphSize=4
+2026-11-07T23:34:38.723Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-07T23:34:38.723Z D/SurveyVM [main] promptSources -> legacy=0, eval=0, follow=0
+2026-11-07T23:34:38.723Z D/SurveyVM [main] promptSources.preview -> legacy=[], eval=[], follow=[]
+2026-11-07T23:34:39.010Z D/SurveyVM [main] setRunFreeText(draft) -> len=16
+2026-11-07T23:34:39.149Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-11-07T23:34:39.242Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1b85d-378a-7b4e-ae7b-224ac4eab089, navSize=1, graphSize=4
+2026-11-07T23:34:39.243Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-07T23:34:39.243Z D/SurveyVM [main] promptSources -> legacy=0, eval=0, follow=0
+2026-11-07T23:34:39.244Z D/SurveyVM [main] promptSources.preview -> legacy=[], eval=[], follow=[]
+2026-11-07T23:34:39.895Z W/SurveyApp [main] Deferred startup enqueues begin...
+2026-11-07T23:34:39.899Z I/SurveyApp [main] GitHub upload mode: local
+GitHub upload target: ishizuki-tech/SurveyExports-Dev
+GitHub upload branch: main
+GitHub upload path prefix: (none)
+GitHub credentials: unavailable
+2026-11-07T23:34:39.916Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(immediate) took=17ms
+2026-11-07T23:34:39.917Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (immediate).
+2026-11-07T23:34:39.917Z W/SurveyApp [main] Startup runtime logs: scheduling one retry; reason=config
+2026-11-07T23:34:39.917Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(immediate) took=0ms
+2026-11-07T23:34:39.918Z D/SurveyApp [main] Startup ring logs: GitHub config not available (immediate).
+2026-11-07T23:34:39.918Z W/SurveyApp [main] Startup ring logs: scheduling one retry; reason=config
+2026-11-07T23:34:39.918Z D/SurveyApp [main] WorkManager available. where=enqueuePending(immediate) took=0ms
+2026-11-07T23:34:39.919Z D/SurveyApp [main] CrashCapture pending uploads requested (immediate).
+2026-11-07T23:34:39.919Z W/SurveyApp [main] Deferred startup enqueues done: took=24ms
+2026-11-07T23:34:39.919Z D/SurveyApp [DefaultDispatcher-worker-1] Survey recovery WorkManager available. where=startupSurveyUploads(initial) took=0ms
+2026-11-07T23:34:39.921Z W/SurveyApp [DefaultDispatcher-worker-1] Startup survey recovery: GitHub config unavailable (initial).
+2026-11-07T23:34:39.921Z W/SurveyApp [DefaultDispatcher-worker-1] Startup survey recovery: scheduling one retry; reason=config delay=1600ms
+2026-11-07T23:34:40.797Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1b85d-3d9d-7141-9184-2994dde164c9, navSize=1, graphSize=4
+2026-11-07T23:34:40.800Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-07T23:34:40.800Z D/SurveyVM [main] promptSources -> legacy=0, eval=0, follow=0
+2026-11-07T23:34:40.800Z D/SurveyVM [main] promptSources.preview -> legacy=[], eval=[], follow=[]
+2026-11-07T23:34:41.051Z D/SurveyVM [main] setRunFreeText(draft) -> len=8
+2026-11-07T23:34:41.192Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Q1) -> runNoteLen=8, draftCleared=true, uuid=01a1b85d-3d9d-7141-9184-2994dde164c9
+2026-11-07T23:34:41.192Z D/SurveyVM [main] push -> Q1, navSize=2, stackSize=2
+2026-11-07T23:34:41.518Z D/SurveyApp [main] WorkManager available. where=startupRtLogs(delayed) took=0ms
+2026-11-07T23:34:41.520Z D/SurveyApp [main] Startup runtime logs: GitHub config not available (delayed).
+2026-11-07T23:34:41.520Z D/SurveyApp [main] Startup runtime logs: retry already scheduled; reason=config
+2026-11-07T23:34:41.520Z D/SurveyApp [main] WorkManager available. where=startupRingLogs(delayed) took=0ms
+2026-11-07T23:34:41.521Z D/SurveyApp [main] Startup ring logs: GitHub config not available (delayed).
+2026-11-07T23:34:41.521Z D/SurveyApp [main] Startup ring logs: retry already scheduled; reason=config
+2026-11-07T23:34:41.522Z D/SurveyApp [DefaultDispatcher-worker-3] Survey recovery WorkManager available. where=startupSurveyUploads(delayed) took=0ms
+2026-11-07T23:34:41.527Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: GitHub config unavailable (delayed).
+2026-11-07T23:34:41.528Z W/SurveyApp [DefaultDispatcher-worker-3] Startup survey recovery: retry exhausted; reason=config
+2026-11-07T23:34:41.532Z D/SurveyVM [main] push -> Review, navSize=3, stackSize=3
+2026-11-07T23:34:41.739Z D/SurveyVM [main] push -> Done, navSize=4, stackSize=4
+2026-11-07T23:34:43.061Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1b85d-4674-7de1-8969-f0fa0c947762, navSize=1, graphSize=4
+2026-11-07T23:34:43.064Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-07T23:34:43.064Z D/SurveyVM [main] promptSources -> legacy=0, eval=0, follow=0
+2026-11-07T23:34:43.064Z D/SurveyVM [main] promptSources.preview -> legacy=[], eval=[], follow=[]
+2026-11-07T23:34:43.319Z D/SurveyVM [main] setRunFreeText(draft) -> len=13
+2026-11-07T23:34:43.365Z D/SurveyVM [main] addAudioRef -> q=__home_free_text__, file=home-note.wav, sid=01a1b85d-4674-7de1-8969-f0fa0c947762
+2026-11-07T23:34:43.484Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Q1) -> runNoteLen=13, draftCleared=true, uuid=01a1b85d-4674-7de1-8969-f0fa0c947762
+2026-11-07T23:34:43.484Z D/SurveyVM [main] push -> Q1, navSize=2, stackSize=2
+2026-11-07T23:34:43.806Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=13, runLen=13, draftLen=0)
+2026-11-07T23:34:44.070Z D/SurveyVM [main] setRunFreeText(run) -> len=12
