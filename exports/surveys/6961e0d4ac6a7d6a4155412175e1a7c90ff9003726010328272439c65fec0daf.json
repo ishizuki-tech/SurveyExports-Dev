@@ -1,0 +1,120 @@
+{
+  "survey_id": "01a1b8ef-d6db-766f-bc94-b2fcc02ca907",
+  "status": "incomplete",
+  "build": "9070380",
+  "exported_at": "2026-11-07_18-17-34",
+  "meta": {
+    "session_free_text": "(speaking in foreign language)\nTest, test, test, test."
+  },
+  "answers": {
+    "Pre1": {
+      "question": "Observer Name",
+      "answer": ""
+    },
+    "Pre2": {
+      "question": "Interviewer Name",
+      "answer": ""
+    },
+    "Pre3": {
+      "question": "Respondent Name",
+      "answer": ""
+    },
+    "Pre4": {
+      "question": "Respondent ID",
+      "answer": ""
+    },
+    "Pre5": {
+      "question": "Please select your phone",
+      "answer": "Phone 1"
+    },
+    "Q00": {
+      "question": "Hallo. Thank you for making time for us today.\n\nI work with CIMMYT, an organization that conducts research to improve the production of maize, wheat, and other crops in different countries across Africa, Asia, and Latin America.\n\nWe are carrying out this study to learn about farmers’ experiences, challenges, and preferences when growing white maize. The information you share will help researchers better understand farmers’ needs and support the development of better maize varieties in the future.\n\nDuring the interview, we will use a mobile phone to help record and organize your responses. This will help us capture your answers accurately and make sure we do not miss any important information.\n\nYour participation is voluntary. You may choose not to answer any question or stop the interview at any time. The information you provide will be kept private and used only for research purposes. There are no right or wrong answers—we simply want to hear about your real experiences and views.\n\nThe interview will take about 45 minutes.\n\nThank you very much for taking part in this study.\n\nThe study is led by Dr. Mercy Mbugua. If you have any questions or concerns about the study, you can contact her on +254 724 740 197.\n\nDo you agree to participate?",
+      "answer": "Yes, and proceed"
+    },
+    "Q01": {
+      "question": "Which sub-county and ward do you live in?",
+      "answer": "Githunguri – Githunguri"
+    },
+    "Q02": {
+      "question": "Respondent Gender",
+      "answer": "Male"
+    },
+    "Q03": {
+      "question": "What is your age?",
+      "answer": "25"
+    },
+    "Q04": {
+      "question": "Which crops do you grow?",
+      "answer": ""
+    },
+    "Q05": {
+      "question": "Which livestock do you keep?",
+      "answer": ""
+    },
+    "Q06": {
+      "question": "How many years have you been growing white maize?",
+      "answer": "5"
+    },
+    "Q07": {
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "One, two, three, four, five, six, seven.",
+      "audio": [
+        { "file": "2026-11-08_02-15-40_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_Q07.wav" },
+        { "file": "2026-11-08_02-16-09_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_Q07.wav" }
+      ]
+    },
+    "Start": {
+      "question": "Add any general notes and press Next.",
+      "answer": ""
+    },
+    "__home_free_text__": {
+      "question": "",
+      "answer": "",
+      "audio": [
+        { "file": "2026-11-08_02-16-50_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_home_free_text.wav" },
+        { "file": "2026-11-08_02-17-10_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_home_free_text.wav" },
+        { "file": "2026-11-08_02-17-30_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_home_free_text.wav" }
+      ]
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+    {
+      "file": "2026-11-08_02-15-40_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_Q07.wav",
+      "survey_id": "01a1b8ef-d6db-766f-bc94-b2fcc02ca907",
+      "question_id": "Q07",
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "One, two, three, four, five, six, seven."
+    },
+    {
+      "file": "2026-11-08_02-16-09_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_Q07.wav",
+      "survey_id": "01a1b8ef-d6db-766f-bc94-b2fcc02ca907",
+      "question_id": "Q07",
+      "question": "Has fall armyworm ever attacked your maize? If yes, what loss did you get?",
+      "answer": "One, two, three, four, five, six, seven."
+    },
+    {
+      "file": "2026-11-08_02-16-50_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_home_free_text.wav",
+      "survey_id": "01a1b8ef-d6db-766f-bc94-b2fcc02ca907",
+      "question_id": "__home_free_text__",
+      "question": "",
+      "answer": ""
+    },
+    {
+      "file": "2026-11-08_02-17-10_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_home_free_text.wav",
+      "survey_id": "01a1b8ef-d6db-766f-bc94-b2fcc02ca907",
+      "question_id": "__home_free_text__",
+      "question": "",
+      "answer": ""
+    },
+    {
+      "file": "2026-11-08_02-17-30_voice_SM-S731U_4BA1AB0C475C_01a1b8ef-d6db-766f-bc94-b2fcc02ca907_home_free_text.wav",
+      "survey_id": "01a1b8ef-d6db-766f-bc94-b2fcc02ca907",
+      "question_id": "__home_free_text__",
+      "question": "",
+      "answer": ""
+    }
+  ]
+}
