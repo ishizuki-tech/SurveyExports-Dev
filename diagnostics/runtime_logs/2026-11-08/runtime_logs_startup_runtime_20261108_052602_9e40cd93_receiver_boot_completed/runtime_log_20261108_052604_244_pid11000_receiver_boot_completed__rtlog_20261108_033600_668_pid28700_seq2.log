@@ -1,0 +1,13 @@
+=== RuntimeLogStore Header ===
+ts=2026-11-08T03:36:00.668Z
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=28700
+==============================
+2026-11-08T03:36:00.668Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:app_start) ---
+2026-11-08T03:36:08.670Z W/LiteRtLM [DefaultDispatcher-worker-1] Engine.initialize completed: key='fs|dev=65119|ino=82600|size=4919541760|mtime=1793989268781' backend=com.google.ai.edge.litertlm.Backend$GPU@814b214 took=10450ms cacheFilesAfter=2
