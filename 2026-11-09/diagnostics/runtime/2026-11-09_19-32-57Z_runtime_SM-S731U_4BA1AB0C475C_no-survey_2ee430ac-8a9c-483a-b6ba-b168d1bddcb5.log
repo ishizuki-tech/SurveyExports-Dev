@@ -1,0 +1,7 @@
+event_utc=2026-11-09T19:32:57.695468Z
+capture_start_utc=2026-11-09T19:32:57.695468Z
+capture_end_utc=2026-11-09T19:32:57.695468Z
+collection_scope=synthetic_standalone
+collector_process_session=49894af4-c193-422c-b670-d5f5092492b1
+collector_process_pid=4706
+SYNTHETIC ISSUE 155 RUNTIME fixture (standalone)
