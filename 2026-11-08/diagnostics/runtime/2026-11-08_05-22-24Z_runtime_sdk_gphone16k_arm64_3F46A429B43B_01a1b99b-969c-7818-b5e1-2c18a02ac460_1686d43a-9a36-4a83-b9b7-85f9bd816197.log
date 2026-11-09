@@ -1,0 +1,12 @@
+event_utc=2026-11-09T05:22:24.093624Z
+capture_start_utc=2026-11-09T05:22:24.093624Z
+capture_end_utc=2026-11-09T05:22:24.093624Z
+collection_scope=synthetic_exclusive
+collector_process_session=123fc631-99c1-454b-8a32-cbe72d27e589
+collector_process_pid=7008
+survey_id=01a1b99b-969c-7818-b5e1-2c18a02ac460
+survey_active_start_utc=2026-11-09T05:22:24.093Z
+survey_active_end_utc=active at capture
+survey_process_session=123fc631-99c1-454b-8a32-cbe72d27e589
+survey_process_pid=7008
+SYNTHETIC ISSUE 155 RUNTIME fixture (survey-bound)
