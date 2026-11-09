@@ -1,0 +1,28 @@
+{
+  "survey_id": "01a1bea7-fdf9-74b9-a320-1f9e5275d189",
+  "status": "completed",
+  "build": "d2d9042",
+  "exported_at": "2026-11-09_04-54-03",
+  "meta": {},
+  "answers": {
+    "Q8": {
+      "question": "Synthetic Issue 155 fixture",
+      "answer": "SYNTHETIC TEST ONLY",
+      "audio": [
+        { "file": "2026-11-09_04-54-03Z_voice_sdk_gphone16k_arm64_9B4C8F819C4E_01a1bea7-fdf9-74b9-a320-1f9e5275d189_Q8_8c7414d7-d00a-4944-9cf5-c3bf59e2628d.wav" }
+      ]
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+    {
+      "file": "2026-11-09_04-54-03Z_voice_sdk_gphone16k_arm64_9B4C8F819C4E_01a1bea7-fdf9-74b9-a320-1f9e5275d189_Q8_8c7414d7-d00a-4944-9cf5-c3bf59e2628d.wav",
+      "survey_id": "01a1bea7-fdf9-74b9-a320-1f9e5275d189",
+      "question_id": "Q8",
+      "question": "Synthetic Issue 155 fixture",
+      "answer": "SYNTHETIC TEST ONLY"
+    }
+  ]
+}
