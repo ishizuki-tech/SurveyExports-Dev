@@ -1,0 +1,12 @@
+event_utc=2026-11-09T19:32:57.695468Z
+capture_start_utc=2026-11-09T19:32:57.695468Z
+capture_end_utc=2026-11-09T19:32:57.695468Z
+collection_scope=synthetic_exclusive
+collector_process_session=49894af4-c193-422c-b670-d5f5092492b1
+collector_process_pid=4706
+survey_id=01a1bca6-4b82-7ca5-9417-653c24566e56
+survey_active_start_utc=2026-11-09T19:32:57.693Z
+survey_active_end_utc=active at capture
+survey_process_session=49894af4-c193-422c-b670-d5f5092492b1
+survey_process_pid=4706
+SYNTHETIC ISSUE 155 CRASH fixture (survey-bound)
