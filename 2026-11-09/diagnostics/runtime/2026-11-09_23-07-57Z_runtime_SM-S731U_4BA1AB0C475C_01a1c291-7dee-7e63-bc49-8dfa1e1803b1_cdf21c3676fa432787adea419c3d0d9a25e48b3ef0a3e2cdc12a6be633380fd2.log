@@ -1,0 +1,63 @@
+event_utc=2026-11-09T23:07:58.395783Z
+capture_start_utc=2026-11-09T23:07:58.344Z
+capture_end_utc=2026-11-09T23:08:36.182095Z
+collection_scope=process_runtime_segment
+collector_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+collector_process_pid=26051
+survey_id=01a1c291-7dee-7e63-bc49-8dfa1e1803b1
+survey_active_start_utc=2026-11-09T23:07:58.344Z
+survey_active_end_utc=active at capture
+survey_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+survey_process_pid=26051
+=== RuntimeLogStore Header ===
+ts=2026-11-09T23:07:58.395783Z
+v2_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+v2_profile=DEVELOPMENT
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=26051
+==============================
+2026-11-09T23:07:58.396Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=survey_started) ---
+2026-11-09T23:07:58.344Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=0, draftCleared=true, uuid=01a1c291-7dee-7e63-bc49-8dfa1e1803b1
+2026-11-09T23:07:58.344Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-11-09T23:07:59.521Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-11-09T23:08:00.218Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-11-09T23:08:01.095Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-11-09T23:08:01.688Z D/SurveyVM [main] push -> Pre5, navSize=6, stackSize=6
+2026-11-09T23:08:04.162Z D/SurveyVM [main] push -> Q00, navSize=7, stackSize=7
+2026-11-09T23:08:07.263Z D/SurveyVM [main] push -> Q01, navSize=8, stackSize=8
+2026-11-09T23:08:09.756Z D/SurveyVM [main] push -> Q02, navSize=9, stackSize=9
+2026-11-09T23:08:11.671Z D/SurveyVM [main] push -> Q03, navSize=10, stackSize=10
+2026-11-09T23:08:14.355Z D/SurveyVM [main] push -> Q04, navSize=11, stackSize=11
+2026-11-09T23:08:15.834Z D/SurveyVM [main] push -> Q05, navSize=12, stackSize=12
+2026-11-09T23:08:16.747Z D/SurveyVM [main] push -> Q06, navSize=13, stackSize=13
+2026-11-09T23:08:18.941Z D/SurveyVM [main] push -> Q07, navSize=14, stackSize=14
+2026-11-09T23:08:18.999Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-11-09T23:08:21.803Z D/SurveyVM [main] push -> Q08, navSize=15, stackSize=15
+2026-11-09T23:08:21.814Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-11-09T23:08:22.742Z D/SurveyVM [main] push -> Q09, navSize=16, stackSize=16
+2026-11-09T23:08:22.755Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-11-09T23:08:23.210Z D/SurveyVM [main] push -> Q10, navSize=17, stackSize=17
+2026-11-09T23:08:23.220Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-11-09T23:08:23.535Z D/SurveyVM [main] push -> Q11, navSize=18, stackSize=18
+2026-11-09T23:08:23.547Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-11-09T23:08:24.067Z D/SurveyVM [main] push -> Q12, navSize=19, stackSize=19
+2026-11-09T23:08:24.076Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-11-09T23:08:24.576Z D/SurveyVM [main] push -> Q13, navSize=20, stackSize=20
+2026-11-09T23:08:24.585Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-11-09T23:08:25.147Z D/SurveyVM [main] push -> Q14a, navSize=21, stackSize=21
+2026-11-09T23:08:25.160Z D/SurveyVM [main] hasTwoStepPrompt[Q14a] -> false (eval=0, fu=0)
+2026-11-09T23:08:27.271Z D/SurveyVM [main] push -> Q14b, navSize=22, stackSize=22
+2026-11-09T23:08:27.311Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-11-09T23:08:29.276Z D/SurveyVM [main] push -> Q15, navSize=23, stackSize=23
+2026-11-09T23:08:29.290Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-11-09T23:08:30.199Z D/SurveyVM [main] push -> Q16, navSize=24, stackSize=24
+2026-11-09T23:08:30.212Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-11-09T23:08:31.018Z D/SurveyVM [main] push -> Q17, navSize=25, stackSize=25
+2026-11-09T23:08:31.034Z D/SurveyVM [main] hasTwoStepPrompt[Q17] -> false (eval=0, fu=0)
+2026-11-09T23:08:32.778Z D/SurveyVM [main] push -> Review, navSize=26, stackSize=26
