@@ -1,0 +1,20 @@
+event_utc=2026-11-09T23:12:28.893500Z
+capture_start_utc=2026-11-09T23:12:28.893500Z
+capture_end_utc=2026-11-09T23:12:28.893500Z
+collection_scope=previous_process_runtime_segment
+collector_process_session=f70e11f8-332e-4ac9-9c73-e2afbb3e4097
+collector_process_pid=28995
+=== RuntimeLogStore Header ===
+ts=2026-11-09T23:12:28.893500Z
+v2_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+v2_profile=DEVELOPMENT
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=26051
+==============================
+2026-11-09T23:12:28.894Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:survey_finalized) ---
