@@ -1,0 +1,28 @@
+event_utc=2026-11-09T23:07:51.116368Z
+capture_start_utc=2026-11-09T23:07:50.988Z
+capture_end_utc=2026-11-09T23:07:55.054581Z
+collection_scope=process_runtime_segment
+collector_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+collector_process_pid=26051
+survey_id=01a1c291-0851-70d0-8834-cc0a45156ecd
+survey_active_start_utc=2026-11-09T23:07:50.987Z
+survey_active_end_utc=active at capture
+survey_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+survey_process_pid=26051
+=== RuntimeLogStore Header ===
+ts=2026-11-09T23:07:51.116368Z
+v2_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+v2_profile=DEVELOPMENT
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=26051
+==============================
+2026-11-09T23:07:51.116Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=survey_started) ---
+2026-11-09T23:07:50.988Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=0, draftCleared=true, uuid=01a1c291-0851-70d0-8834-cc0a45156ecd
+2026-11-09T23:07:50.988Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-11-09T23:07:52.807Z D/SurveyVM [main] backToPrevious -> Start (runActive=true, uiLen=0, runLen=0, draftLen=0)
