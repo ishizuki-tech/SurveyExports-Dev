@@ -1,0 +1,7 @@
+event_utc=2026-11-09T05:22:24.093624Z
+capture_start_utc=2026-11-09T05:22:24.093624Z
+capture_end_utc=2026-11-09T05:22:24.093624Z
+collection_scope=synthetic_standalone
+collector_process_session=123fc631-99c1-454b-8a32-cbe72d27e589
+collector_process_pid=7008
+SYNTHETIC ISSUE 155 CRASH fixture (standalone)
