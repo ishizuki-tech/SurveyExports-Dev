@@ -1,0 +1,36 @@
+{
+  "survey_id": "01a1bca6-4b82-7ca5-9417-653c24566e56",
+  "status": "completed",
+  "build": "d2d9042",
+  "exported_at": "2026-11-09_19-32-57",
+  "meta": {},
+  "answers": {
+    "Q8": {
+      "question": "Synthetic Issue 155 fixture",
+      "answer": "SYNTHETIC TEST ONLY",
+      "audio": [
+        { "file": "2026-11-08_19-32-57Z_voice_SM-S731U_4BA1AB0C475C_01a1bca6-4b82-7ca5-9417-653c24566e56_Q8_143a93a9-1b76-44ac-8533-18fb65ab3578.wav" },
+        { "file": "2026-11-08_19-32-57Z_voice_SM-S731U_4BA1AB0C475C_01a1bca6-4b82-7ca5-9417-653c24566e56_Q8_12d3f381-9377-4f58-ac45-998410dcf6af.wav" }
+      ]
+    }
+  },
+  "ai_outcomes": {},
+  "followups": {
+  },
+  "voice_files": [
+    {
+      "file": "2026-11-08_19-32-57Z_voice_SM-S731U_4BA1AB0C475C_01a1bca6-4b82-7ca5-9417-653c24566e56_Q8_143a93a9-1b76-44ac-8533-18fb65ab3578.wav",
+      "survey_id": "01a1bca6-4b82-7ca5-9417-653c24566e56",
+      "question_id": "Q8",
+      "question": "Synthetic Issue 155 fixture",
+      "answer": "SYNTHETIC TEST ONLY"
+    },
+    {
+      "file": "2026-11-08_19-32-57Z_voice_SM-S731U_4BA1AB0C475C_01a1bca6-4b82-7ca5-9417-653c24566e56_Q8_12d3f381-9377-4f58-ac45-998410dcf6af.wav",
+      "survey_id": "01a1bca6-4b82-7ca5-9417-653c24566e56",
+      "question_id": "Q8",
+      "question": "Synthetic Issue 155 fixture",
+      "answer": "SYNTHETIC TEST ONLY"
+    }
+  ]
+}
