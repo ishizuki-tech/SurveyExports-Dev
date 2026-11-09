@@ -1,0 +1,47 @@
+event_utc=2026-11-09T23:08:36.252938Z
+capture_start_utc=2026-11-09T23:08:36.252938Z
+capture_end_utc=2026-11-09T23:12:19.778298Z
+collection_scope=process_runtime_segment
+collector_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+collector_process_pid=26051
+=== RuntimeLogStore Header ===
+ts=2026-11-09T23:08:36.252938Z
+v2_process_session=a5e9a7e3-c0a3-4600-9be5-419f8064405b
+v2_profile=DEVELOPMENT
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=26051
+==============================
+2026-11-09T23:08:36.253Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=plain_snapshot:survey_finalized) ---
+2026-11-09T23:08:36.957Z D/SurveyVM [main] push -> Done, navSize=27, stackSize=27
+2026-11-09T23:12:16.269Z D/SurveyVM [main] resetAudioRefs -> cleared
+2026-11-09T23:12:16.271Z D/SurveyVM [main] resetNavToStart -> key=com.negi.survey.vm.FlowHome@1ddf56, navSize=1
+2026-11-09T23:12:16.272Z D/SurveyVM [main] resetToStart -> Start, session=1, uuid=01a1c295-7184-7494-8d0e-ede4aad37de9, preserveDraft=false, draftLen=0
+2026-11-09T23:12:16.272Z I/AiViewModel [main] onCleared: ViewModel is being cleared -> stopCurrentRunInternal()
+2026-11-09T23:12:17.925Z D/SLM [main] buildModelConfig: accel=GPU maxTokens=1024 topK=1 topP=0.0 temperature=0.0
+2026-11-09T23:12:17.929Z D/LiteRtLM [DefaultDispatcher-worker-2] initializeIfNeeded: warm runtime already ready: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094'
+2026-11-09T23:12:17.934Z D/AiTrace [main] Installed (enabled=true ringEnabled=true)
+2026-11-09T23:12:17.938Z D/SurveyVM [main] init -> Start, session=0, uuid=01a1c295-780e-7eca-9b20-894d6807cbe1, navSize=1, graphSize=28
+2026-11-09T23:12:17.949Z D/SurveyVM [main] config.validate -> issues=0
+2026-11-09T23:12:17.949Z D/SurveyVM [main] promptSources -> legacy=10, eval=0, follow=0
+2026-11-09T23:12:17.949Z D/SurveyVM [main] promptSources.preview -> legacy=[Q07, Q08, Q09, Q10, Q11, Q12, Q13, Q14b, Q15, Q16], eval=[], follow=[]
+2026-11-09T23:12:17.949Z D/SurveyVM [main] hasTwoStepPrompt[Q07] -> true (eval=248, fu=273)
+2026-11-09T23:12:17.949Z D/SurveyVM [main] hasTwoStepPrompt[Q08] -> true (eval=218, fu=243)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q09] -> true (eval=224, fu=249)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q10] -> true (eval=258, fu=283)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q11] -> true (eval=266, fu=291)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q12] -> true (eval=248, fu=273)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q13] -> true (eval=221, fu=246)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q14b] -> true (eval=160, fu=185)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q15] -> true (eval=185, fu=210)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] hasTwoStepPrompt[Q16] -> true (eval=200, fu=225)
+2026-11-09T23:12:17.950Z D/SurveyVM [main] AI prompt coverage OK (aiCount=10)
+2026-11-09T23:12:17.997Z D/SLM [slm-jni] initializeIfNeeded: model='Gemma3n4B' image=false audio=false
+2026-11-09T23:12:17.998Z D/LiteRtLM [slm-jni] initializeIfNeeded: warm runtime already ready: key='fs|dev=65104|ino=78853|size=4919541760|mtime=1794120958094'
+2026-11-09T23:12:18.000Z D/LiteRtRepository [main] warmUp: initializeIfNeeded ok gateWaitMs=0 initMs=4
+2026-11-09T23:12:18.000Z D/LiteRtRepository [main] warmUp: Engine ready; representative inference disabled totalMs=4
