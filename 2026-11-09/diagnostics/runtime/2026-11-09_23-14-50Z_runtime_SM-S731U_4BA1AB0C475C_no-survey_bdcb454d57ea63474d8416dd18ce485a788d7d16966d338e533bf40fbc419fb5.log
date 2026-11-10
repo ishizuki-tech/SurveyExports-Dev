@@ -1,0 +1,29 @@
+event_utc=2026-11-09T23:14:50.743830Z
+capture_start_utc=2026-11-09T23:14:50.743830Z
+capture_end_utc=2026-11-09T23:15:02.098Z
+collection_scope=previous_process_runtime_segment
+collector_process_session=c63b1fae-c6d7-4c11-bbc7-b33d47100ad5
+collector_process_pid=8236
+=== RuntimeLogStore Header ===
+ts=2026-11-09T23:14:50.743830Z
+v2_process_session=f70e11f8-332e-4ac9-9c73-e2afbb3e4097
+v2_profile=DEVELOPMENT
+fileNameFormat=LEGACY
+appId=com.negi.survey.local
+versionName=0.0.1
+versionCode=1
+debug=true
+device=samsung SM-S731U
+sdk=37
+pid=28995
+==============================
+2026-11-09T23:14:50.744Z I/RuntimeLogStore [rtlog-io] --- rotated (reason=survey_started) ---
+2026-11-09T23:14:50.711Z D/SurveyVM [main] activateRunIfNeeded(advanceToNext:Pre1) -> runNoteLen=0, draftCleared=true, uuid=01a1c297-c769-73e9-96d7-828502ce7c61
+2026-11-09T23:14:50.712Z D/SurveyVM [main] push -> Pre1, navSize=2, stackSize=2
+2026-11-09T23:14:52.055Z D/SurveyVM [main] push -> Pre2, navSize=3, stackSize=3
+2026-11-09T23:14:52.429Z D/SurveyVM [main] push -> Pre3, navSize=4, stackSize=4
+2026-11-09T23:14:52.739Z D/SurveyVM [main] push -> Pre4, navSize=5, stackSize=5
+2026-11-09T23:14:53.051Z D/SurveyVM [main] push -> Pre5, navSize=6, stackSize=6
+2026-11-09T23:14:55.610Z D/SurveyVM [main] push -> Q00, navSize=7, stackSize=7
+2026-11-09T23:14:59.477Z D/SurveyVM [main] push -> Q01, navSize=8, stackSize=8
+2026-11-09T23:15:02.102Z D/SurveyVM [main] push -> Q02, navSize=9, stackSize=9
